@@ -75,13 +75,13 @@ Nuestra propuesta de valor se materializa en SafeRoute, una plataforma web de mo
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                         Foto                         | Apellidos y Nombres            |    Código     | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| :--------------------------------------------------: | :----------------------------- | :-----------: | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                       ![foto]                        | [Apellido 1], [Nombre 1]       | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|     ![Renzo Revilla](./assets/images/renzo.png)      | Revilla Quispe, Renzo Zamir    |  U201717085   | Ingeniería de Software | Soy Renzo Revilla, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas, con experiencia en desarrollo web y movil. Me destaco por mis habilidades en comunicacion efectiva y trabajo en equipo, lo que facilita la coordinación y el cumplimiento de objetivos dentro del grupo. Disfruto de la natacion y del aprendizaje continuo. Mi aporte al equipo se centra en el desarrollo tecnico y en la gestion del proyecto, contribuyendo a mantener un trabajo organizado y eficiente. |
-|          ![foto](assets/images/FrankFT.png)          | Quispe Serrano, Julio Frank    | [U20241D922]  | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.                                                                                                       |
-|                       ![foto]                        | [Apellido 4], [Nombre 4]       | [U20XXXXXXXX] | Ingeniería de Software | [Descripción de conocimientos técnicos y habilidades que aporta al equipo]                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ![José Ortega](./assets/images/Team/JoseOrtega.jpeg) | Ortega Quintana, Jose Zacarias | [U202316852]  | Ingeniería de Software | Soy Jose Ortega, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas. Actualmente con 21 años disfruto de los pequeños momentos de tranquilidad para aprovechra en meditar, dibujar o practicar. Deseo apoyar a mi equipo lo mejor posible para poder afrontar cualquier adversidad o contratiempo en este trabajo.                                                                                                                                                                   |
+|                  Foto                   | Apellidos y Nombres         |    Código     | Carrera                | Resumen                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| :-------------------------------------: | :-------------------------- | :-----------: | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|               ![Christofer Costa](./assets/images/christofer.jpeg)                 | Costa Morales, Christofer William   | [U202315968] | Ingeniería de Software | Estudiante de Ingeniería de Software de la UPC. Posee experiencia con los lenguajes de programación: C++, Python, JavaScript, HTML y CSS. En lo personal, capacitado para ayudar y contribuir activamente en el desarrollo técnico de este equipo.                                                                                                                                                                                                                                                                                                                                                                            |
+|              ![Renzo Revilla](./assets/images/renzo.png)              | Revilla Quispe, Renzo Zamir   | U201717085 | Ingeniería de Software | Soy Renzo Revilla, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas, con experiencia en desarrollo web y movil. Me destaco por mis habilidades en comunicacion efectiva y trabajo en equipo, lo que facilita la coordinación y el cumplimiento de objetivos dentro del grupo. Disfruto de la natacion y del aprendizaje continuo. Mi aporte al equipo se centra en el desarrollo tecnico y en la gestion del proyecto, contribuyendo a mantener un trabajo organizado y eficiente.  |
+| ![foto](./assets/images/Team/frankFT.png) | Quispe Serrano, Julio Frank | [U20241D922]  | Ingeniería de Software | Soy Julio Frank Quispe Serrano, alumno de 5to ciclo de Ingeniería de Software en la UPC. Cuento con una marcada inclinación hacia la programación y la gestión eficiente del tiempo. Mi aporte principal a este grupo de trabajo será la resolución de conflictos técnicos y operativos, aportando una visión pragmática que permita superar eventuales estancamientos en las fases de elaboración del proyecto.|
+|              ![foto](assets/images/Team/MathiasFt.jpg)               | De la Cruz De los Santos, Mathias Marcelo    | [U202424059] | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software y actualmente me encuentro cursando el 5to ciclo de la carrera en la Universidad Peruana de Ciencias Aplicadas. Me considero un fanático de la programación, del futbol y los videojuegos. Considero que puedo aportar al equipo y al proyecto mis conocimientos técnicos, además de considerarme una persona disciplinada, responsable y que valora el trabajo en equipo.                                                                                                                                                                                                                                        |
+|              ![Jose Ortega](./assets/images/Team/JoseOrtega.jpeg)               | Ortega Quintana, Jose Zacarias    | [U202316852] | Ingeniería de Software | Soy Jose Ortega, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas. Actualmente con 21 años disfruto de los pequeños momentos de tranquilidad para aprovechra en meditar, dibujar o practicar. Deseo apoyar a mi equipo lo mejor posible para poder afrontar cualquier adversidad o contratiempo en este trabajo.
 
 ### 1.2. Solution Profile
 
@@ -351,15 +351,15 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 
 ### Entrevista 1: Arturo Núñez
 
-| Campo                      | Detalle                                                                                                                                                     |
-| :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Nombre y Apellidos         | Arturo Núñez                                                                                                                                                |
-| Edad                       | 28 años                                                                                                                                                     |
-| Distrito / Zona de trabajo | San Miguel y Miraflores, Lima                                                                                                                               |
-| Segmento                   | Conductor de Transporte Escolar                                                                                                                             |
-| Inicio en video            | 00:15                                                                                                                                                       |
-| Duración                   | 07:19                                                                                                                                                       |
-| URL del video              | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| Campo | Detalle |
+| :--- | :--- |
+| Nombre y Apellidos | Arturo Núñez |
+| Edad | 28 años |
+| Distrito / Zona de trabajo | San Miguel y Miraflores, Lima |
+| Segmento | Conductor de Transporte Escolar |
+| Inicio en video | 00:15 |
+| Duración | 07:19 |
+| URL del video | [[https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
 
 #### Screenshot
 
@@ -420,15 +420,15 @@ La entrevista confirma que el segmento conductor necesita reducir carga operativ
 
 ### Entrevista 2: Carla Peláez
 
-| Campo                             | Detalle                                                                                                                                                     |
-| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombre y Apellidos**            | Carla Peláez                                                                                                                                                |
-| **Edad**                          | 38 años                                                                                                                                                     |
-| **Distrito / Zona de residencia** | Santiago de Surco, Lima                                                                                                                                     |
-| **Segmento**                      | Padre de Familia                                                                                                                                            |
-| **Inicio en video**               | 07:42                                                                                                                                                       |
-| **Duración**                      | 04:80                                                                                                                                                       |
-| **URL del video**                 | [[Youtube](https://youtu.be/V0uneeO5sFQ)][[MicrosoftStream](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Carla Peláez |
+| **Edad** | 38 años |
+| **Distrito / Zona de residencia** | Santiago de Surco, Lima |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 07:42 |
+| **Duración** | 04:80 |
+| **URL del video** | [https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
 
 #### **Screenshot**
 
@@ -504,21 +504,124 @@ Para Carla, el atributo más importante para sentirse tranquila es:
 
 A partir de sus respuestas, se identifica un perfil:
 
-- Protector y orientado al bienestar familiar
-- Preventivo frente a riesgos externos
-- Receptivo a herramientas digitales útiles
-- Sensible a la falta de información
-- Altamente motivado por la seguridad de sus hijos
+* Protector y orientado al bienestar familiar  
+* Preventivo frente a riesgos externos  
+* Receptivo a herramientas digitales útiles  
+* Sensible a la falta de información  
+* Altamente motivado por la seguridad de sus hijos  
+
+### **Validación del Arquetipo**
+Los datos recolectados en esta entrevista validan los supuestos definidos para el segmento Padre de Familia dentro del proyecto SafeRoute. Se confirma que este segmento prioriza:
+
+* Seguridad del estudiante  
+* Monitoreo en tiempo real  
+* Alertas automáticas  
+* Comunicación confiable  
+* Reducción de ansiedad durante el traslado escolar  
+
+Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
+
+---
+
+### Entrevista 3: Marío Villarreyes
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Marío Villarreyes |
+| **Edad** | 49 años |
+| **Distrito / Zona de residencia** | Pueblo Libre, Lima |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 00:09 |
+| **Duración** | 07:33 |
+| **URL del video** | [[Youtube](https://youtu.be/NhtjkSpnv3k?si=tg0VZ5xNxyN6yhRy)][[MicrosoftStream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315968_upc_edu_pe/IQCFcKSMHqnMRpxySd5Z7SzwAebsgh4yqTjlfgDpPLZLbx0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1n8JEB)] |
+
+#### **Screenshot**
+![SegmentoObjetivo2](assets/images/MarioVillarreyes-SegmentoObjetivo2.png)
+
+
+#### **Resumen Descriptivo de la Entrevista**
+
+### **Características Objetivas y Entorno**
+
+Marío Villarreyes es una madre de familia de 49 años residente en el distrito de Pueblo Libre. Vive con su esposa y sus dos hijos, los dos utilizan transporte escolar para regresar a su casa. Representa a las familias urbanas con alta responsabilidad logística diaria, donde el traslado escolar cumple un rol clave para mantener una mejor organización de horarios familiares, laborales y educativos.
+
+El transporte escolar forma parte importante de su rutina diaria, ya que permite asegurar la asistencia puntual de sus hijos al centro educativo. Sin que se vea perjudicado en su trabajo.
+
+### **Perfil Tecnológico y Hábitos Digitales**
+
+La entrevistada demuestra una actitud positiva y proactiva frente al uso de tecnología y asocia las herramientas digitales con mayor seguridad,tranquilidad y confianza. Está acostumbrada a recibir información mediante canales digitales, institucionales y mensajería móvil.
+
+Actualmente utiliza:
+
+* Teléfono móvil como principal dispositivo de comunicación  
+* Laptop como dispositivo laboral principal y tambien de comunicación secundario
+* WhatsApp para contacto con responsables del transporte   
+
+Esto evidencia un perfil digital Avanzado, con apertura a nuevas soluciones tecnológicas siempre que sean comprensibles, confiables y rapidas.
+
+### **Proceso Actual y Canales de Interacción**
+
+Para confirmar que sus hijos llegaron correctamente a destino, Marío depende de dos mecanismos externos:
+
+* Confirmación verbal o escrita de la responsable de la movilidad escolar  
+* Confirmación de salida enviada por el colegio mediante su sistema interna  
+
+Cuando existe demora o falta de confirmación, se comunica directamente con el colegio para validar la llegada de sus hijos.
+
+Actualmente la comunicación con el conductor o responsable se realiza principalmente por:
+
+* Llamadas telefónicas  
+* WhatsApp  
+
+
+### **Pain Points (Problemas Detectados)**
+
+Durante la entrevista se identificaron preocupaciones relevantes:
+
+* Ansiedad cuando no llega la confirmación del colegio  
+* Falta de visibilidad en tiempo real durante el trayecto  
+* Dependencia de terceros para validar información del conductor y vehiculo 
+* Percepción de inseguridad en el contexto actual de transporte urbano e inseguridad en la pista 
+* Menor confianza cuando la movilidad no pertenece directamente al colegio  
+
+Estos puntos reflejan una necesidad clara de monitoreao, confianza y comunicación inmediata.
+
+
+### **Necesidades y Oportunidades Detectadas**
+
+Marío mostró alta aceptación hacia una plataforma digital que le permita:
+
+* Ver la ruta del vehículo en tiempo real  
+* Conocer si ocurrió algún inconveniente durante el trayecto  
+* Saber la información del vehiculo
+* Verificar las credenciales del conductor
+* Saber la ubicación permanente de sus hijos  
+* Reducir ansiedad e incertidumbre diaria  
+* Incrementar confianza en el servicio contratado  
+
+Para Marío, el atributo más importante para sentirse tranquila es:
+
+“Qué el transporte tenga todas las seguridades”.
+
+### **Características Subjetivas y Personalidad**
+
+A partir de sus respuestas, se identifica un perfil:
+
+* Protector y orientado al bienestar familiar  
+* Preventivo frente a riesgos externos  
+* Apoyo a las herramientas digitales   
+* Sensible y temeroso ante la falta de información  
+* Altamente motivado por la seguridad de sus hijos
 
 ### **Validación del Arquetipo**
 
 Los datos recolectados en esta entrevista validan los supuestos definidos para el segmento Padre de Familia dentro del proyecto SafeRoute. Se confirma que este segmento prioriza:
 
-- Seguridad del estudiante
-- Monitoreo en tiempo real
-- Alertas automáticas
-- Comunicación confiable
-- Reducción de ansiedad durante el traslado escolar
+* Seguridad del estudiante  
+* Monitoreo en tiempo real  
+* Alertas automáticas 
+* Comunicación confiable  
+* Reducción de ansiedad durante el traslado escolar  
 
 Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
 
@@ -734,8 +837,7 @@ En esta sección, se presenta el desarrollo y los resultados de la sesión de Bi
 A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
 
 ![BigPictureEventStorming](./assets/images/EventStorming.jpg)
-
-- **URL:** [[https://miro.com/](https://miro.com/app/board/uXjVGhc-MhA=/)]
+* **URL:** [[https://miro.com/app/board/uXjVGhc-MhA=/](https://miro.com/app/board/uXjVGhc-MhA=/)]
 
 ### 2.5. Ubiquitous Language
 
@@ -2183,7 +2285,7 @@ Como suscriptor, quiero poder acceder a mi cuenta de la aplicación.
 
 El usuario ingresa a la pantalla de inicio de sesión e introduce sus credenciales (correo y contraseña). Si los datos son correctos, el sistema valida la información y redirige al usuario a la sección principal "Inicio" junto con el menú lateral habilitado. En caso de no contar con una cuenta, el usuario puede dirigirse a la sección de registro, completar el formulario con sus datos personales y guardar el nuevo usuario para luego iniciar sesión.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 1_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 2:
 
@@ -2192,7 +2294,7 @@ Como suscriptor, quiero poder cambiar mi contraseña para mantener mi cuenta ase
 
 Desde la pantalla de inicio de sesión, el usuario selecciona la opción "Cambio de Contraseña". El sistema muestra un formulario donde el usuario ingresa su correo registrado y la nueva contraseña. Al confirmar, el sistema actualiza las credenciales y permite al usuario ingresar nuevamente con la nueva contraseña. Esto garantiza el acceso continuo incluso si se olvidó la contraseña anterior.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 2_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 3:
 
@@ -2201,7 +2303,7 @@ Como administrador, quiero ingresar nuevos conductores y crear sus nuevas rutas.
 
 Tras iniciar sesión, el administrador accede al módulo de "Registro de Conductor" e ingresa los datos del personal operativo. Luego navega a la sección "Creación de Rutas", donde traza los puntos de parada, asigna tiempos estimados y vincula la ruta al conductor registrado. El sistema confirma el guardado y refleja los cambios en el panel de gestión.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 3_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 4:
 
@@ -2210,7 +2312,7 @@ Como administrador, quiero organizar los roles y rutas de manera centralizada.
 
 Desde el panel principal, el administrador accede a "Asignación de Roles" para configurar los permisos de cada miembro del equipo, habilitando accesos de edición o solo lectura según corresponda. Posteriormente, puede revisar y reasignar rutas desde la vista centralizada, asegurando que cada conductor tenga su ruta correctamente vinculada.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 4_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 5:
 
@@ -2219,7 +2321,7 @@ Como administrador, quiero mejorar las características de la aplicación con un
 
 El administrador navega a la sección de "Contratación del Plan" y visualiza las opciones de suscripción disponibles según el tamaño de su flota. Al seleccionar un plan, es redirigido a la pasarela de pagos donde ingresa su información financiera y confirma la contratación. Una vez procesado el pago, el sistema actualiza los beneficios disponibles y el administrador puede consultar el balance de costos en "Consulta de Precios".
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 5_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 6:
 
@@ -2228,7 +2330,7 @@ Como conductor, quiero tener un control claro de los alumnos durante la ruta.
 
 El conductor inicia sesión y desde su panel principal selecciona la ruta asignada. Presiona "Iniciar Trayecto" para activar la transmisión GPS. El sistema carga automáticamente la lista de alumnos correspondiente a esa ruta. En cada parada, el conductor localiza al estudiante y registra su abordaje pulsando "Marcación de Abordaje". Al llegar al destino, presiona "Finalización de Ruta" para cerrar el trayecto.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 6_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 7:
 
@@ -2237,7 +2339,7 @@ Como conductor, quiero brindar un servicio más profesional y confiable.
 
 El conductor accede a su "Bitácora de Viajes" para revisar el historial completo de sus trayectos anteriores, incluyendo horarios, estudiantes transportados e incidencias registradas. Esta información le permite identificar patrones, mejorar su puntualidad y contar con un registro formal de su desempeño ante el administrador.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 7_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 8:
 
@@ -2246,7 +2348,7 @@ Como conductor, quiero comunicar alguna incidencia u avance de la ruta durante e
 
 Durante una ruta activa, el conductor detecta un imprevisto y accede al módulo de seguridad del Dashboard. Selecciona una categoría predefinida dentro de "Reporte de Incidencias" (retraso, desvío, obstáculo, etc.) y envía la notificación. El sistema propaga el aviso al administrador y a los padres afectados en tiempo real.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 8_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 9:
 
@@ -2255,7 +2357,7 @@ Como conductor, quiero una manera inmediata de informar una emergencia.
 
 Ante una situación de peligro inminente durante la ruta, el conductor mantiene presionado el "Botón de Pánico" por 2 segundos. El sistema dispara de forma automática una alerta roja hacia los servicios de emergencia, el administrador y los padres de familia de todos los alumnos a bordo. Tras la resolución del incidente, el conductor puede revisar el evento registrado en su Bitácora de Viajes.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 9_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 10:
 
@@ -2264,7 +2366,7 @@ Como padre de familia, quiero estar informado de la ubicación y situación en t
 
 El padre inicia sesión y accede al seguimiento del bus asignado a su hijo. El sistema renderiza el mapa con la ubicación en tiempo real del vehículo. El usuario puede activar el switch de "Acceso a la Cámara" para visualizar la transmisión de video en vivo del interior de la unidad. Al acercarse al radio de 500 metros del destino, el sistema emite automáticamente una "Alerta de Proximidad".
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 10_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 11:
 
@@ -2273,7 +2375,7 @@ Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
 
 El padre recibe notificaciones automáticas del sistema en distintos momentos del trayecto: cuando el bus inicia la ruta, cuando se aproxima a su parada y ante cualquier incidencia reportada por el conductor. Estas alertas llegan sin necesidad de que el padre esté activamente consultando la aplicación, manteniéndolo informado de forma pasiva y continua.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 11_MockUp.png" width="400px" alt="attendance-history">
 
 #### Mobile User Flow 12:
 
@@ -2282,9 +2384,28 @@ Como padre de familia, quiero saber si mi hijo abordó el transporte y quedó re
 
 Una vez que el conductor marca el abordaje del estudiante, el padre recibe en pantalla una "Confirmación de Llegada" con la hora exacta del registro. El sistema almacena este evento en el "Historial de Asistencia", donde el padre puede seleccionar un rango de fechas para auditar los horarios de recogida y entrega, generando un reporte visual de la puntualidad del servicio.
 
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/.png" width="400px" alt="attendance-history">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Mobile/UserGoal 12_MockUp.png" width="400px" alt="attendance-history">
 
 ## 4.5. Web Applications Prototyping
+
+Las decisiones de interacción se basaron en principios fundamentales de diseño como el contraste para resaltar elementos críticos como el Botón de Pánico y las alertas de proximidad, la repetición para garantizar consistencia visual en los paneles de conductores, administradores y padres de familia, la alineación para lograr una navegación clara y profesional, y la proximidad para mejorar la agrupación lógica de contenidos relacionados como la lista de alumnos y sus estados de abordaje. Estos principios se aplicaron de forma integral en todo el sistema, priorizando una experiencia de usuario funcional, accesible y alineada a la misión de facilitar la gestión segura del transporte escolar.
+
+Desde el punto de vista de arquitectura de información, SafeRoute utiliza un sistema de navegación jerárquica en su dashboard, combinado con organizadores secuenciales en flujos de acciones clave como el inicio de trayecto, la marcación de abordaje y el reporte de incidencias. Además, se establecieron sistemas de etiquetado claros, categorizaciones específicas por tipo de usuario, y herramientas de seguimiento y notificación en tiempo real que permiten una interacción eficiente y dirigida.
+
+En cada caso, se han implementado interacciones responsivas (hover, active), validaciones visuales en formularios, retroalimentaciones de acción, y patrones de navegación adaptados al perfil de usuario (Administrador, Conductor o Padre de Familia). Esto garantiza que tanto el acceso a la información como la ejecución de tareas sea coherente, accesible y orientada a la seguridad y tranquilidad de todos los involucrados en el servicio de transporte escolar.
+A continuación, se incluirá un screenshot extraído de un video por cada tipo de aplicación(Desktop y Mobile), en donde se demuestran y explican los principales flujos de interacción que cubren los prototipos desarrollados.
+
+#### Web Applications Mobile:
+
+[Mobile Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202424059_upc_edu_pe/IQCDqzq68kRMRogrt6F6iHPZAZkNB9gRKAXanMCpVvneuY0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hMciwr)
+
+<img src="assets/images/prototype.png" width="900px" alt="Protoype">
+
+#### Web Applications Desktop:
+
+[Desktop Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202424059_upc_edu_pe/IQDD8jX45qD1TLdrlv1viH8AAe4MI-VfTCxWpwzvXAHEW78?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AMYnCI)
+
+<img src="assets/images/prototype2.png" width="900px" alt="Protoype">
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -3197,12 +3318,11 @@ Lenguaje de programación que se utilizara en el desarrollo del backend de la ap
 Servicio utilizado para el despliegue de la landing page del proyecto.
 
 ###### Vercel
+Plataforma utilizada para el despliegue del frontend desarrollado en Angular, permitiendo una integración continua y despliegue automatizado.
 
-Plataforma utilizada para el despliegue del frontend desarrollado en Vue.js, permitiendo una integración continua y despliegue automatizado.
+###### Swagger
+Plataforma utilizada para el despliegue de servicios backend y APIs, facilitando la conexión entre frontend y backend en un entorno accesible.
 
-###### Railway
-
-Plataforma utilizada para el despliegue de servicios backend y APIs, facilitando la conexión entre frontend y backend en un entorno accesible en la nube.
 
 #### 5.1.2. Source Code Management
 
@@ -3314,26 +3434,24 @@ Asegurar que el archivo principal se denomine index.html y se encuentre en la ra
 Acceder a la sección Settings > Pages del repositorio.
 Seleccionar la rama main (o master) y la carpeta raíz (/) como fuente.
 GitHub generará automáticamente una URL pública para acceder a la landing page.
-URL desplegada: Pendiente
+URL desplegada: [Landing Page](https://fivetech-nrc11896.github.io/saferoute-website/)
 
 ##### Despliegue de Frontend Web Application
-
-El frontend de la aplicación, desarrollado con Vue.js, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
+El frontend de la aplicación, desarrollado con Angular.ts, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
 
 Pasos de despliegue
 Crear o seleccionar el repositorio del frontend en GitHub.
 Vincular el repositorio con la plataforma Vercel.
-Configurar el entorno de despliegue (framework Vue.js).
+Configurar el entorno de despliegue (framework Angular.ts).
 Ejecutar el despliegue automático desde Vercel.
 Obtener la URL pública generada para el acceso a la aplicación.
 URL desplegada: Pendiente
 
 ##### Despliegue de Backend Services
-
-El backend del sistema, desarrollado en C#, será desplegado utilizando Railway, una plataforma que permite exponer servicios y APIs en la nube.
+El backend del sistema, desarrollado en C#, será desplegado utilizando Swagger, una plataforma que permite exponer servicios y APIs en la nube.
 Pasos de despliegue:
 Crear el repositorio del backend en GitHub.
-Vincular el repositorio con Railway.
+Vincular el repositorio con Swagger.
 Configurar las variables de entorno necesarias para la ejecución del backend.
 Configurar el servicio para exponer endpoints API.
 Desplegar el servicio y obtener la URL pública del backend.
