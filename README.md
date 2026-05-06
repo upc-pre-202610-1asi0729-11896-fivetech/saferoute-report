@@ -84,7 +84,6 @@ Nuestra propuesta de valor se materializa en SafeRoute, una plataforma web de mo
 |              ![Jose Ortega](./assets/images/Team/JoseOrtega.jpeg)               | Ortega Quintana, Jose Zacarias    | [U202316852] | Ingeniería de Software | Soy Jose Ortega, estudiante de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas. Actualmente con 21 años disfruto de los pequeños momentos de tranquilidad para aprovechra en meditar, dibujar o practicar. Deseo apoyar a mi equipo lo mejor posible para poder afrontar cualquier adversidad o contratiempo en este trabajo.
 
 ### 1.2. Solution Profile
-
 #### 1.2.1 Antecedentes y problemática
 
 Who (¿Quiénes son los afectados?)
@@ -112,16 +111,23 @@ Este panorama se ve agravado por una reducción en la oferta formal del servicio
 Respecto a la seguridad, la Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías (SUTRAN, 2024) ejecutó campañas de sensibilización que alcanzaron a más de 47,000 escolares, evidenciando que la seguridad en el transporte escolar continúa siendo una preocupación activa para las autoridades. Sin embargo, no se dispone públicamente de cifras desagregadas de incidentes específicos en este sector entre 2022 y 2025.
 
 **Figura 1** Distribución de estudiantes de Educación Inicial y Primaria en instituciones privadas y zonas urbanas en el Perú
-![CensoEstudiantil](/assets/images/CensoEstudiantil.png)
+![CensoEstudiantil](./assets/images/ChapterI/CensoEstudiantil.png)
 _Nota._ Adaptado de Resultados del Censo Educativo 2022 (p. 12), por Ministerio de Educación, 2023.
 
 #### 1.2.2 Lean UX Process
-
 ##### 1.2.2.1. Lean UX Problem Statements
 
-El transporte escolar privado en el Perú opera mayoritariamente de forma informal, coordinándose mediante llamadas telefónicas, mensajes de WhatsApp y registros manuales en hojas privadas. En este contexto, tanto los padres de familia como los transportistas escolares enfrentan dificultades que comprometen la seguridad y eficiencia del servicio.
-Hemos observado un factor crítico que afecta a este ecosistema, los padres de familia no cuentan con visibilidad sobre el trayecto de sus hijos, mientras que los transportistas carecen de herramientas digitales para gestionar rutas, alumnos e incidencias de forma estructurada. Estas dos necesidades son interdependientes, mientras que por un lado los padres necesitan visibilidad, y por el otro los transportistas no tienen los medios para proporcionársela.
-¿Cómo podemos desarrollar una plataforma que permita a los transportistas escolares gestionar su operación de forma digital, mientras ofrece simultáneamente a los padres de familia la visibilidad y tranquilidad que necesitan sobre el traslado de sus hijos?
+El transporte escolar privado en el Perú opera mayoritariamente de forma informal, coordinándose mediante
+llamadas telefónicas, mensajes de WhatsApp y registros manuales en hojas privadas. En este contexto, tanto
+los padres de familia como los transportistas escolares enfrentan dificultades que comprometen la seguridad
+y eficiencia del servicio. Hemos observado un factor crítico que afecta a este ecosistema, los padres de familia
+no cuentan con visibilidad sobre el trayecto de sus hijos, mientras que los transportistas carecen de
+herramientas digitales para gestionar rutas, alumnos e incidencias de forma estructurada. Estas dos
+necesidades son interdependientes, mientras que por un lado los padres necesitan visibilidad, y por el otro los
+transportistas no tienen los medios para proporcionársela. ¿Cómo podemos desarrollar una plataforma que
+permita a los transportistas escolares gestionar su operación de forma digital, mientras ofrece
+simultáneamente a los padres de familia la visibilidad y tranquilidad que necesitan sobre el traslado de sus
+hijos?
 
 ##### 1.2.2.2. Lean UX Assumptions
 
@@ -151,15 +157,17 @@ Hemos observado un factor crítico que afecta a este ecosistema, los padres de f
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
-- Hipótesis 1: "Creemos que lograremos que los padres de familia reduzcan su incertidumbre durante el traslado escolar si ofrecemos a los padres registrados en SafeRoute una vista del estado del trayecto con marcación de abordaje por alumno y visualización de paradas.
-  Sabremos que esto es verdad cuando veamos que al menos el 70% de los padres activos consulten el estado del trayecto al menos una vez por día durante las primeras 4 semanas de uso."
+- Hipótesis 1: "Creemos que los padres de familia reducirán su incertidumbre durante el traslado escolar mediante el uso de una vista del estado del trayecto con marcación de abordaje por alumno y visualización de paradas.
+Sabremos que esto es verdad cuando al menos el 70% de los padres activos consulten el estado del trayecto al menos una vez por día durante las primeras 4 semanas de uso."
 
-- Hipótesis 2: "Creemos que lograremos que los transportistas gestionen el trayecto con menos errores y menor carga operativa si ofrecemos a los conductores registrados en SafeRoute una interfaz operativa simple para marcar abordajes, seguir paradas y reportar incidencias durante el viaje.
-  Sabremos que esto es verdad cuando veamos que el 80% de los trayectos registrados incluyan el check-list de abordaje completado durante las primeras 4 semanas de operación."
+- Hipótesis 2: "Creemos que los transportistas gestionarán el trayecto con menos errores y menor carga operativa mediante el uso de una interfaz operativa simple para marcar abordajes, seguir paradas y reportar incidencias durante el viaje.
+Sabremos que esto es verdad cuando el 80% de los trayectos registrados incluyan el check-list de abordaje completado durante las primeras 4 semanas de operación."
 
-- Hipótesis 3: "Creemos que lograremos que los administradores centralicen la gestión de su servicio en SafeRoute si ofrecemos a los administradores del plan Básico un panel único para registrar usuarios, conductores, hijos, asignaciones y rutas. Sabremos que esto es verdad cuando veamos que al menos el 75% de los administradores registren la totalidad de sus usuarios y rutas dentro de los primeros 15 días tras el onboarding."
+- Hipótesis 3: "Creemos que los administradores centralizarán la gestión de su servicio mediante el uso de un panel único para registrar usuarios, conductores, hijos, asignaciones y rutas.
+Sabremos que esto es verdad cuando al menos el 75% de los administradores registren la totalidad de sus usuarios y rutas dentro de los primeros 15 días tras el onboarding."
 
-- Hipótesis 4: "Creemos que lograremos que los administradores escalen su plan de suscripción si demostramos a los administradores de los planes inferiores que las funcionalidades de los plan superiores reducen significativamente el tiempo de coordinación del servicio. Sabremos que esto es verdad cuando veamos que al menos el 20% de los administradores de los planes Básico o Intermedio actualicen al algun plan superior dentro de los primeros 3 meses de uso."
+- Hipótesis 4: "Creemos que los administradores incrementarán su nivel de suscripción al percibir que las funcionalidades de los planes superiores reducen significativamente el tiempo de coordinación del servicio.
+Sabremos que esto es verdad cuando al menos el 20% de los administradores de los planes Básico o Intermedio actualicen a un plan superior dentro de los primeros 3 meses de uso."
 
 ##### 1.2.2.4. Lean UX Canvas
 
@@ -170,7 +178,10 @@ Hemos observado un factor crítico que afecta a este ecosistema, los padres de f
 | 3. Users                                                                                 | Los segmentos que interactúan con SafeRoute son los padres de familia con hijos en nivel inicial, kínder y primaria que utilizan un servicio de transporte escolar ya contratado, y los transportistas escolares conductores independientes o responsables de pequeñas empresas que operan ese servicio. Cualquiera de estos puede asumir además el rol de Administrador dentro de la plataforma.                                                                                                                                               |
 | 4. User Outcomes & Benefits                                                              | Los padres buscan reducir su incertidumbre sobre el trayecto de sus hijos, pudiendo monitorear el estado del viaje sin necesidad de interrumpir al conductor. Los transportistas buscan gestionar rutas, alumnos e incidencias de forma digital, reduciendo errores operativos y proyectando mayor profesionalismo frente a las familias. Quienes asumen el rol de administrador buscan centralizar toda la operación del servicio en un solo panel, eliminando la coordinación manual y el uso de herramientas desconectadas.                  |
 | 5. Solution Ideas                                                                        | Ofrecemos un panel de administración de usuarios, conductores, hijos y rutas. Tambien, Check-list de abordaje digital por conductor. Vista de paradas y estado del trayecto para padres. Registro de incidencias por ruta. Historial de trayectos por comunidad de ruta. Seguimiento GPS en tiempo real (plan Completo). Apertura a integración IoT futura.                                                                                                                                                                                     |
-| 6. Hypotheses                                                                            | - Si ofrecemos a los padres una vista de estado del trayecto, al menos el 70% la consultará diariamente en las primeras 4 semanas.<br> - Si ofrecemos al conductor una interfaz operativa simple, el 80% de los trayectos tendrán el check-list completado en las primeras 4 semanas.<br> - Si ofrecemos al administrador un panel único de gestión, el 75% completará su registro en los primeros 15 días.<br> - Si demostramos el valor del plan Intermedio, el 20% de administradores del plan Básico harán upgrade en los primeros 3 meses. |
+| 6. Hypotheses                                                                            | Los padres consultan la vista del estado del trayecto al menos una vez al día en un 70% durante las primeras 4 semanas.<br>
+Los conductores completan el check-list de abordaje en el 80% de los trayectos durante las primeras 4 semanas mediante el uso de una interfaz operativa simple.<br>
+Los administradores completan el registro de su operación en un 75% dentro de los primeros 15 días mediante el uso de un panel único de gestión.<br>
+Los administradores de planes Básico o Intermedio realizan upgrade en un 20% dentro de los primeros 3 meses al percibir el valor de las funcionalidades superiores. |
 | 7. What's the most important thing we need to learn first?                               | ¿El administrador del servicio percibe suficiente valor en SafeRoute como para abandonar los métodos informales actuales y pagar una suscripción mensual?                                                                                                                                                                                                                                                                                                                                                                                       |
 | 8. What's the least amount of work we need to do to learn the next most important thing? | Realizar entrevistas con 3 a 5 administradores de servicios de transporte escolar (padres representantes o transportistas independientes) para validar su disposición al cambio y las funcionalidades que consideran imprescindibles antes de desarrollar el MVP.                                                                                                                                                                                                                                                                               |
 
