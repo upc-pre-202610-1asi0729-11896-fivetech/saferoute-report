@@ -960,6 +960,8 @@ Segmento Objetivo 2: Rosita Nery, padre de familia
 ![ImpactMapping2](./assets/images/ImpactMap2.png)
 ### 3.3. Product Backlog
 # Product Backlog - SafeRoute
+El equipo gestionó el Product Backlog mediante una herramienta Scrum digital, organizando User Stories y Technical Stories
+![Product Backlog](./assets/images/product-backlog-scrum.png)
 
 | Orden | Tipo | ID | Título | Descripción | Story Points |
 |------:|------|------|--------|-------------|-------------|
