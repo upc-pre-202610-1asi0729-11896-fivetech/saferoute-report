@@ -2680,7 +2680,7 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   Muestra la arquitectura interna de 4 capas del módulo encargado de la monetización en el cliente. Detalla el flujo desde la Subscriptions View que presenta los planes disponibles, el Signal Store que mantiene el estado del plan activo y sus cuotas, hasta el Subscription Service que se comunica con el Web Service para gestionar el ciclo de vida del pago
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
 
-  Presentation shared:
+  Presentation subscription:
 
   ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Subscription-dark%20(1).png)
 
