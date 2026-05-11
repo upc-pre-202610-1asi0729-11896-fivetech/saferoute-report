@@ -2603,33 +2603,66 @@ Aquí se detallan las unidades de despliegue principales del sistema. El diagram
 ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
 La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
 
-- Identity & Access Management:
-  Desglosa el módulo de identidad del frontend en sus 4 capas internas. Ilustra cómo la Identity View gestiona los formularios de login y registro, el Signal Store administra el estado de sesión y rol del usuario activo, y el IAM Service despacha las peticiones de autenticación hacia el Web Service adjuntando y almacenando el token JWT.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark%20(1).png)
+- Trip Execution & Monitoring:
+  Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark%20(1).png)
 
-- Subscription & Plan Management:
-  Muestra la arquitectura interna de 4 capas del módulo encargado de la monetización en el cliente. Detalla el flujo desde la Subscriptions View que presenta los planes disponibles, el Signal Store que mantiene el estado del plan activo y sus cuotas, hasta el Subscription Service que se comunica con el Web Service para gestionar el ciclo de vida del pago
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
+  Presentation trip:
 
-- Stakeholder & Asset Management:
-  Representa las 4 capas del módulo que administra la información core del negocio en el frontend. Gestiona las vistas de creación y vinculación de perfiles para conductores, padres, estudiantes y vehículos, con un Signal Store que centraliza el estado de los grupos y asignaciones por organización.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark%20(1).png)
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Trip-dark%20(1).png)
+  
 
 - Route Planning & Execution:
   Detalla las 4 capas del módulo encargado de la logística previa al viaje en el cliente. Maneja la configuración visual de rutas y paraderos con coordenadas GPS, la asignación de vehículos y conductores, y la definición de horarios, con el Route Signal Store sincronizando el estado de configuración hacia el Web Service.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark%20(1).png)
 
-- Notifications & Communication:
+  Presentation Route:
+
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Route-dark%20(1).png)
+   
+
+- Stakeholder & Asset Management:
+  Representa las 4 capas del módulo que administra la información core del negocio en el frontend. Gestiona las vistas de creación y vinculación de perfiles para conductores, padres, estudiantes y vehículos, con un Signal Store que centraliza el estado de los grupos y asignaciones por organización.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark%20(1).png)
+
+  Presentation stakeholder:
+
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Stakeholder-dark%20(1).png)
+
+
+  - Notifications & Communication:
   Describe el módulo dedicado a la comunicación hacia el usuario en sus 4 capas. La Notifications View presenta alertas, confirmaciones de abordaje y anuncios en tiempo real, mientras el Signal Store administra el conteo de no leídos y el Notification Service consulta periódicamente el Web Service para mantener el estado actualizado.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark%20(1).png)
 
-- Trip Execution & Monitoring:
-  Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark%20(1).png)
+  Presentation trip:
+
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Notification-dark%20(1).png)
 
 - Shared Kernel:
   Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los DTOs e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
+  
+  Presentation shared:
+
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Shared-dark.png)
+
+
+  - Identity & Access Management:
+  Desglosa el módulo de identidad del frontend en sus 4 capas internas. Ilustra cómo la Identity View gestiona los formularios de login y registro, el Signal Store administra el estado de sesión y rol del usuario activo, y el IAM Service despacha las peticiones de autenticación hacia el Web Service adjuntando y almacenando el token JWT.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark%20(1).png)
+
+  Presentation IAM:
+
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_IAM-dark%20(1).png)
+
+
+- Subscription & Plan Management:
+  Muestra la arquitectura interna de 4 capas del módulo encargado de la monetización en el cliente. Detalla el flujo desde la Subscriptions View que presenta los planes disponibles, el Signal Store que mantiene el estado del plan activo y sus cuotas, hasta el Subscription Service que se comunica con el Web Service para gestionar el ciclo de vida del pago
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
+
+  Presentation shared:
+
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Subscription-dark%20(1).png)
 
 
 **BackEnd**
@@ -2639,34 +2672,33 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
 Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
 
 
-- Identity & Access Management:
+- Trip Execution & Monitoring:
+  Ilustra el núcleo operativo del sistema en sus 4 capas. Muestra cómo se procesa la lógica en tiempo real durante la ejecución del viaje, gestionando el registro de abordajes por estudiante, el log de incidentes y la emisión de eventos de dominio internos que activan el contexto de Notificaciones.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
+
+- Route Planning & Execution:
+  Detalla la arquitectura modular (Controller, Service, Domain, Repository) encargada de la logística previa al viaje. Maneja la definición de paraderos con coordenadas GPS de alta precisión, la asignación de vehículos y conductores, y la configuración de horarios y días de servicio por ruta.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark.png)
+
+- Stakeholder & Asset Management:
+  Representa las capas internas del dominio que administra la información core del negocio: la creación y vinculación de perfiles para conductores, padres de familia, estudiantes y la gestión de la flota de vehículos disponibles por organización.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark.png)
+
+- Notifications & Communication:
+  Describe el módulo dedicado a la comunicación asíncrona en sus 4 capas. Orquesta la recepción de eventos internos emitidos por el contexto de Trip y utiliza su capa de infraestructura para despachar alertas de pánico, notificaciones de abordaje y comunicados de difusión general mediante el proveedor externo Resend.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
+
+- Shared Kernel:
+  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
+  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
+
+  - Identity & Access Management:
   Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la asignación de roles de forma aislada, con Spring Security gestionando la emisión de tokens JWT en la capa de infraestructura.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
 
 - Subscription & Plan Management:
   Muestra la estructura interna de 4 capas del contexto encargado de la monetización. Detalla el flujo desde el controlador REST hasta la infraestructura que se integra con PayPal para gestionar el ciclo de vida de los planes y pagos de suscripción.
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
-
-- Stakeholder & Asset Management:
-  Representa las capas internas del dominio que administra la información core del negocio: la creación y vinculación de perfiles para conductores, padres de familia, estudiantes y la gestión de la flota de vehículos disponibles por organización.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark.png)
-
-- Route Planning & Execution:
-  Detalla la arquitectura modular (Controller, Service, Domain, Repository) encargada de la logística previa al viaje. Maneja la definición de paraderos con coordenadas GPS de alta precisión, la asignación de vehículos y conductores, y la configuración de horarios y días de servicio por ruta.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark.png)
-
-- Notifications & Communication:
-  Describe el módulo dedicado a la comunicación asíncrona en sus 4 capas. Orquesta la recepción de eventos internos emitidos por el contexto de Trip y utiliza su capa de infraestructura para despachar alertas de pánico, notificaciones de abordaje y comunicados de difusión general mediante el proveedor externo Resend.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
-
-- Trip Execution & Monitoring:
-  Ilustra el núcleo operativo del sistema en sus 4 capas. Muestra cómo se procesa la lógica en tiempo real durante la ejecución del viaje, gestionando el registro de abordajes por estudiante, el log de incidentes y la emisión de eventos de dominio internos que activan el contexto de Notificaciones.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
-
-- Shared Kernel:
-  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
-
 
 
 #### 4.7.1. Class Diagrams
