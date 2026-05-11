@@ -2721,7 +2721,6 @@ Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito d
   ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
 
 
-
 #### 4.7.1. Class Diagrams
 
 **BackEnd**
