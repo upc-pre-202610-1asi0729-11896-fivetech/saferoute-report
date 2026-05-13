@@ -2561,7 +2561,7 @@ Route (Raíz): Coordina la definición logística del recorrido, incluyendo la c
 Trip (Raíz): Controla la ejecución operativa en tiempo real, registrando el inicio del trayecto, los cambios en el estado de abordaje de los estudiantes y el log de incidentes generados durante el viaje.
 
 10. Bounded Contexts
-    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.jpg)
+    ![BoundedContexts](./assets/images/ChapterIV/EventStorming/eventstorming1.jpg)
 
 Los contextos delimitados organizan los agregados en dominios de negocio independientes, permitiendo que cada uno evolucione de manera autónoma para facilitar la escalabilidad del sistema:
 
@@ -2579,13 +2579,13 @@ Los contextos delimitados organizan los agregados en dominios de negocio indepen
 
 El diagrama de contexto presenta a SafeRoute como el sistema central, rodeado por sus tres tipos de usuarios y los sistemas externos con los que interactúa. El Administrador gestiona la plataforma configurando rutas, registrando actores y administrando suscripciones. El Conductor accede para ejecutar viajes, registrar el abordaje de estudiantes y emitir alertas de pánico. El Padre/Tutor monitorea en tiempo real el estado de la ruta de su hijo y recibe notificaciones. SafeRoute se integra con PayPal para el procesamiento de pagos, Leaflet + OpenRouteService para la visualización de mapas y cálculo de rutas escolares, y Resend como proveedor de correo transaccional para el despacho de alertas y notificaciones.
 
-![ContextDiagram](/assets/images/ChapterIV/C4/SystemContext-dark.png)
+![ContextDiagram](./assets/images/ChapterIV/C4/SystemContext-dark.png)
 
 #### 4.6.3. Software Architecture Container Diagrams
 
 Aquí se detallan las unidades de despliegue principales del sistema. El diagrama muestra cómo SafeRoute se divide en una Landing Page estática (HTML5, CSS3, JavaScript), una aplicación web interactiva en el cliente desarrollada en Angular con Angular Material, una API backend modularizada construida con Spring Boot y Java, un Shared Kernel como librería Java de tipos compartidos entre contextos, y un repositorio persistente central en MySQL.
 
-![ContainerDiagram](/assets/images/ChapterIV/C4/ContainerDiagram-dark.png)
+![ContainerDiagram](./assets/images/ChapterIV/C4/ContainerDiagram-dark.png)
 
 ### 4.6.4. Software Architecture Components Diagrams
 
@@ -2593,51 +2593,51 @@ Aquí se detallan las unidades de despliegue principales del sistema. El diagram
 
 - Single Page 
 
-![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
+![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
 La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
 
 - Trip Execution & Monitoring:
   Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark%20(1).png)
 
   Presentation trip:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Trip-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Trip-dark%20(1).png)
   
 
 - Route Planning & Execution:
   Detalla las 4 capas del módulo encargado de la logística previa al viaje en el cliente. Maneja la configuración visual de rutas y paraderos con coordenadas GPS, la asignación de vehículos y conductores, y la definición de horarios, con el Route Signal Store sincronizando el estado de configuración hacia el Web Service.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Route-dark%20(1).png)
 
   Presentation Route:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Route-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Route-dark%20(1).png)
    
 
 - Stakeholder & Asset Management:
   Representa las 4 capas del módulo que administra la información core del negocio en el frontend. Gestiona las vistas de creación y vinculación de perfiles para conductores, padres, estudiantes y vehículos, con un Signal Store que centraliza el estado de los grupos y asignaciones por organización.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark%20(1).png)
 
   Presentation stakeholder:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Stakeholder-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Stakeholder-dark%20(1).png)
 
 
   - Notifications & Communication:
   Describe el módulo dedicado a la comunicación hacia el usuario en sus 4 capas. La Notifications View presenta alertas, confirmaciones de abordaje y anuncios en tiempo real, mientras el Signal Store administra el conteo de no leídos y el Notification Service consulta periódicamente el Web Service para mantener el estado actualizado.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark%20(1).png)
 
   Presentation trip:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Notification-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Notification-dark%20(1).png)
 
 - Shared Kernel:
   Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los DTOs e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
   
   Presentation shared:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Shared-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Shared-dark.png)
 
 
   - Identity & Access Management:
@@ -2646,52 +2646,52 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
 
   Presentation IAM:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_IAM-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_IAM-dark%20(1).png)
 
 
 - Subscription & Plan Management:
   Muestra la arquitectura interna de 4 capas del módulo encargado de la monetización en el cliente. Detalla el flujo desde la Subscriptions View que presenta los planes disponibles, el Signal Store que mantiene el estado del plan activo y sus cuotas, hasta el Subscription Service que se comunica con el Web Service para gestionar el ciclo de vida del pago
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark%20(1).png)
 
   Presentation subscription:
 
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Subscription-dark%20(1).png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Subscription-dark%20(1).png)
 
 
 **BackEnd**
 
 - Web Services:
-![WebServices](/assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
+![WebServices](./assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
 Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
 
 
 - Trip Execution & Monitoring:
   Ilustra el núcleo operativo del sistema en sus 4 capas. Muestra cómo se procesa la lógica en tiempo real durante la ejecución del viaje, gestionando el registro de abordajes por estudiante, el log de incidentes y la emisión de eventos de dominio internos que activan el contexto de Notificaciones.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
 
 - Route Planning & Execution:
   Detalla la arquitectura modular (Controller, Service, Domain, Repository) encargada de la logística previa al viaje. Maneja la definición de paraderos con coordenadas GPS de alta precisión, la asignación de vehículos y conductores, y la configuración de horarios y días de servicio por ruta.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Route-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Route-dark.png)
 
 - Stakeholder & Asset Management:
   Representa las capas internas del dominio que administra la información core del negocio: la creación y vinculación de perfiles para conductores, padres de familia, estudiantes y la gestión de la flota de vehículos disponibles por organización.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Stakeholder-dark.png)
 
 - Notifications & Communication:
   Describe el módulo dedicado a la comunicación asíncrona en sus 4 capas. Orquesta la recepción de eventos internos emitidos por el contexto de Trip y utiliza su capa de infraestructura para despachar alertas de pánico, notificaciones de abordaje y comunicados de difusión general mediante el proveedor externo Resend.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
 
 - Shared Kernel:
   Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
 
   - Identity & Access Management:
   Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la asignación de roles de forma aislada, con Spring Security gestionando la emisión de tokens JWT en la capa de infraestructura.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
 
 - Subscription & Plan Management:
   Muestra la estructura interna de 4 capas del contexto encargado de la monetización. Detalla el flujo desde el controlador REST hasta la infraestructura que se integra con PayPal para gestionar el ciclo de vida de los planes y pagos de suscripción.
-  ![WebServices](/assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
 
 
 #### 4.7.1. Class Diagrams
@@ -2759,12 +2759,12 @@ Contiene exclusivamente Value Objects inmutables que sirven como identificadores
 
 **FrontEnd**
 
-En todos los diagramas, el componente raíz App actúa como contenedor principal: tiene composición (composes) con los componentes de cada bounded context. El manejo del estado se realiza mediante clases *Store (usando Signal<T>) , las cuales se comunican con clases *Api para las peticiones HTTP. Las clases *Assembler transforman los recursos (*Resource) de la API en modelos de dominio puro.
+En todos los diagramas, el componente raíz App actúa como contenedor principal: tiene composición (composes) con los componentes de cada bounded context. El manejo del estado se realiza mediante clases *Store (usando Signal<T>), las cuales se comunican con clases *Api para las peticiones HTTP. Las clases *Assembler transforman los recursos (*Resource) de la API en modelos de dominio puro.
 
 - Identity and Access Management:
 
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-iam-domain.puml)
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-iam-infrastructure.puml)
+![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-iam-domain.puml)
+![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-iam-infrastructure.puml)
 
 Gestiona la autenticación de usuarios y la configuración de la organización.
 
@@ -2774,8 +2774,8 @@ Application & Infrastructure: IamStore centraliza el estado con currentUserSigna
 
 - Subscription & Plan Management:
 
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-subscription-domain.puml)
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-subscription-infrastructure.puml)
+![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-subscription-domain.puml)
+![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-subscription-infrastructure.puml)
 
 Maneja la visualización y selección de planes para la organización.
 
@@ -2785,8 +2785,8 @@ Application & Infrastructure: SubscriptionStore maneja subscriptionSignal y plan
 
 - Stakeholder & Asset Management:
 
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-stakeholder-domain.puml)
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-stakeholder-infrastructure.puml)
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-stakeholder-domain.puml)
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-stakeholder-infrastructure.puml)
 
 Controla las vistas de listado y gestión de los actores del sistema.
 
@@ -2796,8 +2796,9 @@ Application & Infrastructure: StakeholderStore maneja el estado de estas listas 
 
 - Fleet & Route Planning:
 
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-fleet-domain.puml)
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-fleet-infrastructure.puml)
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-fleet-domain.puml)
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-fleet-infrastructure.puml)
+
 Interfaz para armar la logística de rutas, vehículos y asignaciones.
 
 Presentation & Domain: App compone RouteForm (creación de rutas), StopList (gestión de paradas), VehicleList (visualización de vehículos) y AssignmentForm (asignación de conductores y niños). La interfaz gráfica se alimenta estrictamente de las entidades del dominio (Route, Stop, Vehicle, Assignment) para garantizar que la vista esté alineada con las reglas del negocio logístico.
@@ -2806,8 +2807,8 @@ Application & Infrastructure: FleetStore orquesta el estado de rutas, paradas, v
 
 - Trip Execution & Monitoring:
 
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-trip-domain.puml)
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-trip-infrastructure.puml)
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-trip-domain.puml)
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-trip-infrastructure.puml)
 
 Pantallas operativas para el control en tiempo real de los viajes.
 
@@ -2817,8 +2818,8 @@ Application & Infrastructure: TripStore centraliza el viaje actual, las asistenc
 
 - Notifications & Communication:
 
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-notifications-domain.puml)
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/refs/heads/main/SafeRoute/docs/angular-saferoute-notifications-infrastructure.puml)
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-notifications-domain.puml)
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-notifications-infrastructure.puml)
 
 Centraliza la visualización y envío de notificaciones y alertas.
 
@@ -3245,13 +3246,13 @@ Este bounded context es el núcleo operativo del servicio. La tabla `trips` regi
 #### 4.8.1. Database Diagrams
 
 Esta sección presenta y explica los Database Diagrams para cada bounded context de SafeRoute. Los diagramas modelan la persistencia relacional del sistema, especificando tablas, columnas, tipos de dato, constraints (PK, FK, NOT NULL, UNIQUE) y las relaciones entre tablas con su cardinalidad. Todos los identificadores primarios utilizan `CHAR(36)` para soportar UUIDs, a excepción de catálogos fijos como `roles` y `plans` que usan `INT`. Las relaciones entre bounded contexts se materializan mediante columnas FK que referencian los IDs del contexto origen.
-![DataBase](/assets/images/ChapterIV/DataBase/SafeRoute-DataBase.png)
+![DataBase](./assets/images/ChapterIV/DataBase/SafeRoute-DataBase.png)
 
 **Identity and Access Management**
 
 El bounded context de IAM persiste las entidades centrales de identidad y acceso. La tabla `organizations` actúa como raíz del sistema, siendo referenciada por prácticamente todos los demás contextos. `users` centraliza las credenciales de autenticación (`email` UNIQUE, `password_hash`) y se vincula a `organizations` y `roles` mediante FK. `roles` es una tabla de catálogo con clave `INT` que define los niveles de acceso disponibles en el sistema.
 
-![DataBase](/assets/images/ChapterIV/DataBase/DbIAM.png)
+![DataBase](./assets/images/ChapterIV/DataBase/DbIAM.png)
 
 ---
 
@@ -3259,7 +3260,7 @@ El bounded context de IAM persiste las entidades centrales de identidad y acceso
 
 Este contexto gestiona los planes comerciales y el estado de suscripción de cada organización. La tabla `plans` es un catálogo con `INT` PK que define los tiers disponibles y sus cuotas (`max_routes`, `max_drivers`, `price`). `subscriptions` vincula una organización a un plan mediante FK y registra el ciclo de vida de la suscripción a través de `state`, `start_date` y `end_date` (nullable, ya que una suscripción activa no tiene fecha de fin definida).
 
-![DataBase](/assets/images/ChapterIV/DataBase/DbSubscription.png)
+![DataBase](./assets/images/ChapterIV/DataBase/DbSubscription.png)
 
 ---
 
@@ -3267,7 +3268,7 @@ Este contexto gestiona los planes comerciales y el estado de suscripción de cad
 
 Este contexto persiste los actores humanos del sistema. `parents` y `drivers` referencian tanto `organization_id` como `user_id` (FK hacia IAM), separando los datos de perfil de las credenciales de acceso. `children` pertenece exclusivamente a un padre mediante `parent_id` FK. `student_groups` agrupa referencias lógicas a hijos a través de la tabla de unión `student_group_children`, que resuelve la relación muchos a muchos entre grupos y niños con `student_group_id` + `child_id` como clave compuesta.
 
-![DataBase](/assets/images/ChapterIV/DataBase/DbStakeHolder.png)
+![DataBase](./assets/images/ChapterIV/DataBase/DbStakeHolder.png)
 
 ---
 
@@ -3275,7 +3276,7 @@ Este contexto persiste los actores humanos del sistema. `parents` y `drivers` re
 
 Este contexto modela la infraestructura operativa de transporte. `vehicles` pertenece a una organización y se asigna a rutas mediante FK en `routes`. `routes` almacena `departure_time` como `TIME` y `service_days` como `VARCHAR` serializado. `stops` define los puntos geográficos de cada ruta con coordenadas decimales de alta precisión (`DECIMAL(10,8)` y `DECIMAL(11,8)`) y un `stop_order` para secuenciamiento. `assignments` relaciona una ruta con un conductor en cardinalidad 1:1, y `assignment_children` resuelve la relación muchos a muchos entre asignaciones y niños.
 
-![DataBase](/assets/images/ChapterIV/DataBase/DbFleet.png)
+![DataBase](./assets/images/ChapterIV/DataBase/DbFleet.png)
 
 ---
 
@@ -3283,7 +3284,7 @@ Este contexto modela la infraestructura operativa de transporte. `vehicles` pert
 
 Este contexto registra la ejecución operativa de cada viaje. `trips` referencia `organization_id`, `route_id` y `driver_id` como FK, con `start_time` y `end_time` nullable dado que el viaje puede estar en curso. `attendances` registra el estado de embarque de cada niño por viaje (`trip_id` + `child_id`), con `boarded_at` nullable para casos de ausencia. `incidents` referencia tanto `trip_id` como `route_id`, permitiendo trazabilidad del incidente tanto al viaje específico como a la ruta afectada.
 
-![DataBase](/assets/images/ChapterIV/DataBase/DbTrip.png)
+![DataBase](./assets/images/ChapterIV/DataBase/DbTrip.png)
 
 ---
 
@@ -3291,7 +3292,7 @@ Este contexto registra la ejecución operativa de cada viaje. `trips` referencia
 
 Este contexto gestiona la comunicación hacia los padres. `notifications` referencia `organization_id`, `parent_id` y `trip_id`, registrando `category`, `delivery_state` y `message` con `sent_at` obligatorio. `alerts` pertenece a una notificación mediante `notification_id` FK y registra el momento exacto del disparo. `announcements` extiende la notificación con una referencia adicional a `route_id`, permitiendo comunicados asociados a una ruta específica con su propio `message` y `published_at`.
 
-![DataBase](/assets/images/ChapterIV/DataBase/DbNotifications.png)
+![DataBase](./assets/images/ChapterIV/DataBase/DbNotifications.png)
 
 ---
 
