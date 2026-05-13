@@ -361,8 +361,8 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 | Distrito / Zona de trabajo | San Miguel y Miraflores, Lima |
 | Segmento | Conductor de Transporte Escolar |
 | Inicio en video | 00:15 |
-| Duración | 07:19 |
-| URL del video | [[https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| Final de la entrevista | 07:33 |
+| URL del video | [https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
 
 #### Screenshot
 ![SegmentoObjetivo1](./assets/images/ArturoNunez-SegmentoObjetivo1.png)
@@ -427,8 +427,8 @@ La entrevista confirma que el segmento conductor necesita reducir carga operativ
 | **Distrito / Zona de residencia** | Santiago de Surco, Lima |
 | **Segmento** | Padre de Familia |
 | **Inicio en video** | 07:42 |
-| **Duración** | 04:80 |
-| **URL del video** | [https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| **Final de la entrevista** | 12:27 |
+| **URL del video** | [https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
 
 #### **Screenshot**
 ![SegmentoObjetivo2](./assets/images/CarlaPelaez-SegmentoObjetivo2.png)
@@ -532,9 +532,9 @@ Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tra
 | **Edad** | 49 años |
 | **Distrito / Zona de residencia** | Pueblo Libre, Lima |
 | **Segmento** | Padre de Familia |
-| **Inicio en video** | 00:09 |
-| **Duración** | 07:33 |
-| **URL del video** | [[Youtube](https://youtu.be/NhtjkSpnv3k?si=tg0VZ5xNxyN6yhRy)][[MicrosoftStream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315968_upc_edu_pe/IQCFcKSMHqnMRpxySd5Z7SzwAebsgh4yqTjlfgDpPLZLbx0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1n8JEB)] |
+| **Inicio en video** | 12:31 |
+| **Final de la entrevista** | 20:00 |
+| **URL del video** | [https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
 
 #### **Screenshot**
 ![SegmentoObjetivo2](assets/images/MarioVillarreyes-SegmentoObjetivo2.png)
@@ -627,6 +627,124 @@ Los datos recolectados en esta entrevista validan los supuestos definidos para e
 Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
 
 ---
+
+## Entrevista 4: Máximo Quevedo
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Máximo Quevedo |
+| **Edad** | 25 años |
+| **Distrito / Zona de residencia** | Callería, Pucallpa |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 20:03 |
+| **Final de la entrevista** | 28:54 |
+| **URL del video** | [[[https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
+
+#### **Screenshot**
+![SegmentoObjetivo2](./assets/images/MaximoQuevedo-SegmentoObjetivo2.png)
+
+
+---
+
+## Resumen Descriptivo de la Entrevista
+
+### Características Objetivas y Entorno
+
+Máximo Quevedo es un padre de familia de 25 años residente en el distrito de Callería, ciudad de Pucallpa. Tiene hijos de 6 y 7 años que utilizan transporte escolar institucional brindado por el colegio mediante rutas establecidas.
+
+Para él, el transporte escolar cumple principalmente una función de **seguridad, organización y ahorro de tiempo**, ya que permite asegurar el traslado diario de sus hijos mientras la familia mantiene sus actividades cotidianas.
+
+Actualmente el servicio es administrado por la institución educativa, y la comunicación relacionada con el transporte se realiza principalmente mediante directivos o responsables del colegio.
+
+---
+
+### Herramientas y Proceso Actual
+
+En la actualidad, el entrevistado no cuenta con herramientas digitales específicas para monitorear el trayecto del transporte escolar. El seguimiento se basa en mecanismos tradicionales:
+
+- Llamadas telefónicas al director o encargado del colegio  
+- Espera pasiva de confirmación de llegada  
+- Confianza en la institución educativa  
+- Comunicación indirecta con el conductor  
+
+No existe visibilidad en tiempo real del recorrido, ni acceso directo a información del vehículo o conductor.
+
+---
+
+### Problemas Detectados (Pain Points)
+
+Máximo identifica varios problemas relevantes en el servicio actual:
+
+- Falta de seguimiento en tiempo real del bus escolar  
+- Incertidumbre sobre la llegada segura de sus hijos  
+- Demora o ausencia de respuesta por parte de directivos  
+- Escasa información sobre conductor y unidad vehicular  
+- Ansiedad cuando no recibe confirmaciones oportunas  
+- Dependencia total del colegio como intermediario de comunicación  
+
+Además, expresa preocupación por riesgos potenciales como accidentes o emergencias durante el trayecto.
+
+---
+
+### Necesidades y Oportunidades
+
+El entrevistado muestra una percepción altamente positiva hacia una solución digital especializada para transporte escolar. Considera valioso que la plataforma incluya:
+
+- Seguimiento GPS en tiempo real  
+- Identificación del bus asignado  
+- Datos visibles del conductor responsable  
+- Confirmaciones automáticas de llegada  
+- Canal rápido ante emergencias  
+- Comunicación directa y ordenada con responsables  
+
+También menciona que una herramienta así podría reducir ansiedad familiar y aumentar la confianza en el servicio.
+
+---
+
+### Aspectos Subjetivos y Comportamiento
+
+Máximo presenta un perfil orientado a la protección familiar. Sus decisiones están fuertemente influenciadas por la seguridad de sus hijos y la tranquilidad emocional del hogar.
+
+Valora:
+
+- Seguridad por encima del precio o comodidad  
+- Transparencia en la información  
+- Rapidez de respuesta ante incidentes  
+- Control preventivo del trayecto  
+- Bienestar emocional de sus hijos durante el viaje  
+
+Su reacción ante nuevas tecnologías es positiva, siempre que sean confiables y precisas.
+
+---
+
+### Tecnología y Riesgos Percibidos
+
+Aunque muestra aceptación hacia herramientas digitales, también expresa una preocupación clara: que el sistema falle o entregue información errónea.
+
+Esto evidencia que para este segmento no basta con innovar, sino que la solución debe transmitir:
+
+- Precisión de datos  
+- Estabilidad técnica  
+- Buena conectividad  
+- Información actualizada en tiempo real  
+- Confianza operacional  
+
+---
+
+### Validación del Arquetipo
+
+Los hallazgos obtenidos validan el arquetipo del segmento **Padre de Familia Protector y Ansioso por la Seguridad**, definido previamente en la investigación.
+
+Se confirma que este segmento necesita una solución digital enfocada en:
+
+- Seguridad infantil  
+- Monitoreo en tiempo real  
+- Reducción de incertidumbre  
+- Comunicación confiable  
+- Transparencia del servicio escolar  
+
+Esto respalda directamente las User Stories relacionadas con rastreo GPS, alertas automáticas, confirmación de llegada y acceso a información del trayecto dentro de SafeRoute.
+
 
 #### 2.2.3. Análisis de entrevistas
 
