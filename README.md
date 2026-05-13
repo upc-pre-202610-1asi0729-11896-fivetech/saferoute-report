@@ -2434,7 +2434,7 @@ Plantilla de colores:
 ![Plantilla](assets/images/ChapterIV/EventStorming/ColorPosit.png)
 
 1. Unstructured Exploration
-   ![BigPicture](assets/images/ChapterIV/EventStorming/BigPicture.png)
+   ![BigPicture](assets/images/ChapterIV/EventStorming/event.png)
 
 En esta fase inicial, identificamos los eventos de dominio fundamentales para la movilidad escolar. El objetivo es capturar los hitos de negocio que permiten la interacción segura entre padres, conductores y administradores sin priorizar aún la cronología. Los eventos se organizan en seis ejes principales:
 
@@ -2449,7 +2449,7 @@ En esta fase inicial, identificamos los eventos de dominio fundamentales para la
 - Ejecución y Monitoreo de Viajes: Es el núcleo operativo en tiempo real. Captura el inicio del trayecto por el conductor (TripStarted), el registro del estado de abordaje de cada estudiante (StudentStatus) y la consulta activa de la información de la ruta durante el recorrido.
 
 2. Timelines
-   ![TimeLines](assets/images/ChapterIV/EventStorming/Timelines.png)
+   ![TimeLines](assets/images/ChapterIV/EventStorming/timeline.png)
 
 En este paso, los eventos se organizan en secuencias cronológicas para comprender el flujo natural de los procesos de negocio. Las líneas de tiempo clave incluyen:
 
@@ -2468,7 +2468,7 @@ En este paso, los eventos se organizan en secuencias cronológicas para comprend
 Estas líneas de tiempo revelan las dependencias temporales y la naturaleza secuencial de las operaciones dentro del sistema, asegurando que el flujo de información viaje correctamente desde la base de datos hasta las notificaciones en el dispositivo del padre.
 
 3. Pain Points
-   ![PainPoints](assets/images/ChapterIV/EventStorming/PainPoints.png)
+   ![PainPoints](assets/images/ChapterIV/EventStorming/painpoint.png)
 
 En esta etapa, se identifican las situaiciones en las que se generan los puntos de fricción, cuellos de botella y ciertos problemas que surgen durante los procesos operativos y administrativos. Los pain points detectados incluyen:
 
@@ -2487,7 +2487,7 @@ En esta etapa, se identifican las situaiciones en las que se generan los puntos 
 Identificar estos puntos críticos permite al equipo de SafeRoute priorizar el desarrollo de mecanismos de redundancia y mejorar la experiencia de usuario, asegurando que la comunicación entre el transporte y el hogar sea infalible.
 
 4. Pivotal Points
-   ![PivotalPoints](assets/images/ChapterIV/EventStorming/PivotalPoints.png)
+   ![PivotalPoints](assets/images/ChapterIV/EventStorming/pivotal.png)
 
 Los puntos pivotales son eventos determinantes que marcan transiciones críticas en el ciclo de vida del servicio. Estos incluyen:
 
@@ -2506,7 +2506,7 @@ Completación de Viaje: Marca el fin de la responsabilidad operativa del conduct
 Estos puntos son determinantes para la continuidad y el éxito de la movilidad escolar, ya que aseguran que cada fase del proceso se cumpla antes de pasar a la siguiente.
 
 5. Commands
-   ![Commands](assets/images/ChapterIV/EventStorming/Commands.png)
+   ![Commands](assets/images/ChapterIV/EventStorming/comand.png)
 
 Los comandos representan las acciones o intenciones de los usuarios que desencadenan eventos en el sistema. Los principales comandos identificados son:
 
@@ -2523,7 +2523,7 @@ Los comandos representan las acciones o intenciones de los usuarios que desencad
 - Comunicación y Notificaciones: Preparar notificación push, despachar alerta a padres, publicar mensaje de difusión (broadcast), mostrar mensaje en línea de tiempo.
 
 6. Policies
-   ![Policies](assets/images/ChapterIV/EventStorming/Polices.png)
+   ![Policies](assets/images/ChapterIV/EventStorming/policy.png)
 
 Las políticas automatizan la lógica de negocio y aseguran la coherencia del sistema ante eventos críticos. Las políticas clave incluyen:
 
@@ -2542,7 +2542,7 @@ Las políticas automatizan la lógica de negocio y aseguran la coherencia del si
 - Cuando falla el registro de un stakeholder → Enviar una notificación de error con los detalles de validación al administrador.
 
 7. Read Models
-   ![ReadModels](assets/images/ChapterIV/EventStorming/ReadModels.png)
+   ![ReadModels](assets/images/ChapterIV/EventStorming/readmodel.png)
 
 Los principales modelos de lectura identificados para garantizar la visibilidad del sistema son:
 
@@ -2561,7 +2561,7 @@ Los principales modelos de lectura identificados para garantizar la visibilidad 
 - Directorio de Stakeholders: Lista completa de perfiles de usuarios (padres, conductores y administradores) con sus respectivos roles y privilegios de acceso.
 
 8. External Systems
-   ![ExternalSystems](assets/images/ChapterIV/EventStorming/ExternalSystems.png)
+   ![ExternalSystems](assets/images/ChapterIV/EventStorming/externalsystem.png)
 
 Las integraciones identificadas para la solución incluyen:
 
@@ -2574,7 +2574,7 @@ Las integraciones identificadas para la solución incluyen:
 - MySQL (Gestión de Base de Datos): Actúa como el sistema externo de persistencia relacional encargado de almacenar y organizar toda la estructura de usuarios, rutas, vehículos y registros operativos.
 
 9. Aggregates
-   ![Aggregates](assets/images/ChapterIV/EventStorming/Aggregates.png)
+   ![Aggregates](assets/images/ChapterIV/EventStorming/aggregate.png)
 
 Basado en los dominios operativos identificados, los agregados son:
 
@@ -2593,7 +2593,7 @@ Route (Raíz): Coordina la definición logística del recorrido, incluyendo la c
 Trip (Raíz): Controla la ejecución operativa en tiempo real, registrando el inicio del trayecto, los cambios en el estado de abordaje de los estudiantes y el log de incidentes generados durante el viaje.
 
 10. Bounded Contexts
-    ![BoundedContexts](assets/images/ChapterIV/EventStorming/BoundedContexts.png)
+    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.png)
 
 Los contextos delimitados organizan los agregados en dominios de negocio independientes, permitiendo que cada uno evolucione de manera autónoma para facilitar la escalabilidad del sistema:
 
