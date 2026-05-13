@@ -2468,7 +2468,7 @@ En este paso, los eventos se organizan en secuencias cronológicas para comprend
 Estas líneas de tiempo revelan las dependencias temporales y la naturaleza secuencial de las operaciones dentro del sistema, asegurando que el flujo de información viaje correctamente desde la base de datos hasta las notificaciones en el dispositivo del padre.
 
 3. Pain Points
-   ![PainPoints](assets/images/ChapterIV/EventStorming/painpoints.png)
+   ![PainPoints](assets/images/ChapterIV/EventStorming/paintpoints.png)
 
 En esta etapa, se identifican las situaiciones en las que se generan los puntos de fricción, cuellos de botella y ciertos problemas que surgen durante los procesos operativos y administrativos. Los pain points detectados incluyen:
 
@@ -2593,7 +2593,7 @@ Route (Raíz): Coordina la definición logística del recorrido, incluyendo la c
 Trip (Raíz): Controla la ejecución operativa en tiempo real, registrando el inicio del trayecto, los cambios en el estado de abordaje de los estudiantes y el log de incidentes generados durante el viaje.
 
 10. Bounded Contexts
-    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.jng)
+    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.jpg)
 
 Los contextos delimitados organizan los agregados en dominios de negocio independientes, permitiendo que cada uno evolucione de manera autónoma para facilitar la escalabilidad del sistema:
 
