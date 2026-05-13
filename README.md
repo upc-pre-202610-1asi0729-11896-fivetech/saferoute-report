@@ -33,6 +33,20 @@
 
 ---
 
+## Project Report Collaboration Insights
+
+El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTech-NRC11896/SafeRoute-report](https://github.com/FiveTech-NRC11896/SafeRoute-report)
+
+### Sprint 1
+
+![Contributors](./assets/images/contributors.png)
+
+### Sprint 2
+
+![Contributors](./assets/images/web-app/contributors-webapp.png)
+
+---
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
