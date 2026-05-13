@@ -829,7 +829,7 @@ En esta sección, se presenta el desarrollo y los resultados de la sesión de Bi
 
 A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
 
-![BigPictureEventStorming](./assets/images/EventStorming.jpg)
+![Policies](assets/images/ChapterIV/EventStorming/eventstorming.png)
 * **URL:** [[https://miro.com/app/board/uXjVGhc-MhA=/](https://miro.com/app/board/uXjVGhc-MhA=/)]
 
 ### 2.5. Ubiquitous Language
@@ -2449,7 +2449,7 @@ En esta fase inicial, identificamos los eventos de dominio fundamentales para la
 - Ejecución y Monitoreo de Viajes: Es el núcleo operativo en tiempo real. Captura el inicio del trayecto por el conductor (TripStarted), el registro del estado de abordaje de cada estudiante (StudentStatus) y la consulta activa de la información de la ruta durante el recorrido.
 
 2. Timelines
-   ![TimeLines](assets/images/ChapterIV/EventStorming/timeline.png)
+   ![TimeLines](assets/images/ChapterIV/EventStorming/timelines.png)
 
 En este paso, los eventos se organizan en secuencias cronológicas para comprender el flujo natural de los procesos de negocio. Las líneas de tiempo clave incluyen:
 
@@ -2468,7 +2468,7 @@ En este paso, los eventos se organizan en secuencias cronológicas para comprend
 Estas líneas de tiempo revelan las dependencias temporales y la naturaleza secuencial de las operaciones dentro del sistema, asegurando que el flujo de información viaje correctamente desde la base de datos hasta las notificaciones en el dispositivo del padre.
 
 3. Pain Points
-   ![PainPoints](assets/images/ChapterIV/EventStorming/painpoint.png)
+   ![PainPoints](assets/images/ChapterIV/EventStorming/painpoints.png)
 
 En esta etapa, se identifican las situaiciones en las que se generan los puntos de fricción, cuellos de botella y ciertos problemas que surgen durante los procesos operativos y administrativos. Los pain points detectados incluyen:
 
@@ -2593,7 +2593,7 @@ Route (Raíz): Coordina la definición logística del recorrido, incluyendo la c
 Trip (Raíz): Controla la ejecución operativa en tiempo real, registrando el inicio del trayecto, los cambios en el estado de abordaje de los estudiantes y el log de incidentes generados durante el viaje.
 
 10. Bounded Contexts
-    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.png)
+    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.jng)
 
 Los contextos delimitados organizan los agregados en dominios de negocio independientes, permitiendo que cada uno evolucione de manera autónoma para facilitar la escalabilidad del sistema:
 
