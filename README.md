@@ -2431,7 +2431,7 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 ## 4.6. Domain-Driven Software Architecture
 
 Plantilla de colores:
-![Plantilla](assets/images/ChapterIV/EventStorming/ColorPosit.png)
+![Plantilla](assets/images/ChapterIV/EventStorming/colors.png)
 
 1. Unstructured Exploration
    ![BigPicture](assets/images/ChapterIV/EventStorming/event.png)
