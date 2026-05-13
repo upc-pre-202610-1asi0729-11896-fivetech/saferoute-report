@@ -3909,23 +3909,23 @@ Como resultado, el Landing Page se encuentra disponible para su acceso y validac
 
 A continuación, se presentan capturas del proceso y resultado del despliegue:
 
-![Pulse](./assets/images/pulse-webapp.png)
+![Pulse](./assets/images/web-app/pulse-webapp.png)
 
 *Nota. Panel de actividad y analíticos del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
 
-![Network Graph](./assets/images/network-webapp.png)
+![Network Graph](./assets/images/web-app/network-webapp.png)
 
 *Nota. Gráfico de red que evidencia el flujo de trabajo colaborativo basado en ramas feature integradas en develop para la Web Application. Elaboración propia.*
 
-![Contributors](./assets/images/contributors-webapp.png)
+![Contributors](./assets/images/web-app/contributors-webapp.png)
 
 *Nota. Analíticos de contribución por integrante dentro del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
 
-![Commits](./assets/images/commits-webapp.png)
+![Commits](./assets/images/web-app/commits-webapp.png)
 
 *Nota. Historial de commits realizados por los integrantes del equipo durante el desarrollo del Sprint 2. Elaboración propia.*
 
-![Feature Branches](./assets/images/branches-webapp.png)
+![Feature Branches](./assets/images/web-app/branches-webapp.png)
 
 *Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia.*
 
