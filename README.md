@@ -2824,6 +2824,11 @@ URL desplegada: Pendiente
 | US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
 | US20 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
 | US20 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
+| TRANSVERSAL | Deployment & Publication | CT01 | Configurar GitHub Pages | Configuración del entorno de despliegue y publicación del Landing Page en GitHub Pages | 4 | Renzo | Done |
+| TRANSVERSAL | Deployment & Publication | CT02 | Configurar assets y rutas | Validación y ajuste de rutas relativas, assets y estructura de publicación web | 4 | Christofer | Done |
+| TRANSVERSAL | Deployment & Publication | CT03 | Validar despliegue responsive | Pruebas de visualización responsive del Landing Page en entorno productivo | 4 | Mathias | Done |
+| TRANSVERSAL | Deployment & Publication | CT04 | Configurar acceso público | Verificación de acceso público y disponibilidad del Landing Page desplegado | 4 | Julio | Done |
+| TRANSVERSAL | Deployment & Publication | CT05 | Validar compatibilidad de navegadores | Pruebas de compatibilidad del Landing Page en navegadores modernos | 4 | Jose | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
