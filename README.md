@@ -322,8 +322,8 @@ En base al análisis competitivo y SWOT realizado, SafeRoute plantea las siguien
 | Distrito / Zona de trabajo | San Miguel y Miraflores, Lima |
 | Segmento | Conductor de Transporte Escolar |
 | Inicio en video | 00:15 |
-| Duración | 07:19 |
-| URL del video | [[https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| Final de la entrevista | 07:33 |
+| URL del video | [https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
 
 #### Screenshot
 ![SegmentoObjetivo1](./assets/images/ArturoNunez-SegmentoObjetivo1.png)
@@ -388,8 +388,8 @@ La entrevista confirma que el segmento conductor necesita reducir carga operativ
 | **Distrito / Zona de residencia** | Santiago de Surco, Lima |
 | **Segmento** | Padre de Familia |
 | **Inicio en video** | 07:42 |
-| **Duración** | 04:80 |
-| **URL del video** | [https://youtu.be/V0uneeO5sFQ](https://youtu.be/V0uneeO5sFQ)][[https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW](https://1drv.ms/v/c/f647ccc757f760c7/IQAVffXPiVroSJbblZ6_3uoTAetjl1xIO23c6V_l0aviUGg?e=KJhdzW)] |
+| **Final de la entrevista** | 12:27 |
+| **URL del video** | [https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
 
 #### **Screenshot**
 ![SegmentoObjetivo2](./assets/images/CarlaPelaez-SegmentoObjetivo2.png)
@@ -493,9 +493,9 @@ Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tra
 | **Edad** | 49 años |
 | **Distrito / Zona de residencia** | Pueblo Libre, Lima |
 | **Segmento** | Padre de Familia |
-| **Inicio en video** | 00:09 |
-| **Duración** | 07:33 |
-| **URL del video** | [[Youtube](https://youtu.be/NhtjkSpnv3k?si=tg0VZ5xNxyN6yhRy)][[MicrosoftStream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315968_upc_edu_pe/IQCFcKSMHqnMRpxySd5Z7SzwAebsgh4yqTjlfgDpPLZLbx0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1n8JEB)] |
+| **Inicio en video** | 12:31 |
+| **Final de la entrevista** | 20:00 |
+| **URL del video** | [https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
 
 #### **Screenshot**
 ![SegmentoObjetivo2](assets/images/MarioVillarreyes-SegmentoObjetivo2.png)
@@ -588,6 +588,124 @@ Los datos recolectados en esta entrevista validan los supuestos definidos para e
 Asimismo, respalda los objetivos del Impact Mapping relacionados con generar tranquilidad, confianza y visibilidad operacional para las familias usuarias.
 
 ---
+
+## Entrevista 4: Máximo Quevedo
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Nombre y Apellidos** | Máximo Quevedo |
+| **Edad** | 25 años |
+| **Distrito / Zona de residencia** | Callería, Pucallpa |
+| **Segmento** | Padre de Familia |
+| **Inicio en video** | 20:03 |
+| **Final de la entrevista** | 28:54 |
+| **URL del video** | [[[https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h](https://1drv.ms/v/c/f647ccc757f760c7/IQBpmAWWCOusSLuP0uLD_z7NAe5clO5HVvyL8gi5oJuddj8?e=9qIP9h)] |
+
+#### **Screenshot**
+![SegmentoObjetivo2](./assets/images/MaximoQuevedo-SegmentoObjetivo2.png)
+
+
+---
+
+## Resumen Descriptivo de la Entrevista
+
+### Características Objetivas y Entorno
+
+Máximo Quevedo es un padre de familia de 25 años residente en el distrito de Callería, ciudad de Pucallpa. Tiene hijos de 6 y 7 años que utilizan transporte escolar institucional brindado por el colegio mediante rutas establecidas.
+
+Para él, el transporte escolar cumple principalmente una función de **seguridad, organización y ahorro de tiempo**, ya que permite asegurar el traslado diario de sus hijos mientras la familia mantiene sus actividades cotidianas.
+
+Actualmente el servicio es administrado por la institución educativa, y la comunicación relacionada con el transporte se realiza principalmente mediante directivos o responsables del colegio.
+
+---
+
+### Herramientas y Proceso Actual
+
+En la actualidad, el entrevistado no cuenta con herramientas digitales específicas para monitorear el trayecto del transporte escolar. El seguimiento se basa en mecanismos tradicionales:
+
+- Llamadas telefónicas al director o encargado del colegio  
+- Espera pasiva de confirmación de llegada  
+- Confianza en la institución educativa  
+- Comunicación indirecta con el conductor  
+
+No existe visibilidad en tiempo real del recorrido, ni acceso directo a información del vehículo o conductor.
+
+---
+
+### Problemas Detectados (Pain Points)
+
+Máximo identifica varios problemas relevantes en el servicio actual:
+
+- Falta de seguimiento en tiempo real del bus escolar  
+- Incertidumbre sobre la llegada segura de sus hijos  
+- Demora o ausencia de respuesta por parte de directivos  
+- Escasa información sobre conductor y unidad vehicular  
+- Ansiedad cuando no recibe confirmaciones oportunas  
+- Dependencia total del colegio como intermediario de comunicación  
+
+Además, expresa preocupación por riesgos potenciales como accidentes o emergencias durante el trayecto.
+
+---
+
+### Necesidades y Oportunidades
+
+El entrevistado muestra una percepción altamente positiva hacia una solución digital especializada para transporte escolar. Considera valioso que la plataforma incluya:
+
+- Seguimiento GPS en tiempo real  
+- Identificación del bus asignado  
+- Datos visibles del conductor responsable  
+- Confirmaciones automáticas de llegada  
+- Canal rápido ante emergencias  
+- Comunicación directa y ordenada con responsables  
+
+También menciona que una herramienta así podría reducir ansiedad familiar y aumentar la confianza en el servicio.
+
+---
+
+### Aspectos Subjetivos y Comportamiento
+
+Máximo presenta un perfil orientado a la protección familiar. Sus decisiones están fuertemente influenciadas por la seguridad de sus hijos y la tranquilidad emocional del hogar.
+
+Valora:
+
+- Seguridad por encima del precio o comodidad  
+- Transparencia en la información  
+- Rapidez de respuesta ante incidentes  
+- Control preventivo del trayecto  
+- Bienestar emocional de sus hijos durante el viaje  
+
+Su reacción ante nuevas tecnologías es positiva, siempre que sean confiables y precisas.
+
+---
+
+### Tecnología y Riesgos Percibidos
+
+Aunque muestra aceptación hacia herramientas digitales, también expresa una preocupación clara: que el sistema falle o entregue información errónea.
+
+Esto evidencia que para este segmento no basta con innovar, sino que la solución debe transmitir:
+
+- Precisión de datos  
+- Estabilidad técnica  
+- Buena conectividad  
+- Información actualizada en tiempo real  
+- Confianza operacional  
+
+---
+
+### Validación del Arquetipo
+
+Los hallazgos obtenidos validan el arquetipo del segmento **Padre de Familia Protector y Ansioso por la Seguridad**, definido previamente en la investigación.
+
+Se confirma que este segmento necesita una solución digital enfocada en:
+
+- Seguridad infantil  
+- Monitoreo en tiempo real  
+- Reducción de incertidumbre  
+- Comunicación confiable  
+- Transparencia del servicio escolar  
+
+Esto respalda directamente las User Stories relacionadas con rastreo GPS, alertas automáticas, confirmación de llegada y acceso a información del trayecto dentro de SafeRoute.
+
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -790,8 +908,8 @@ En esta sección, se presenta el desarrollo y los resultados de la sesión de Bi
 
 A través de esta dinámica, se logró plasmar los eventos significativos y sus interrelaciones, construyendo una primera aproximación visual de alto nivel que explora el landscape completo del negocio.
 
-![BigPictureEventStorming](./assets/images/EventStorming.jpg)
-* **URL:** [[https://miro.com/app/board/uXjVGhc-MhA=/](https://miro.com/app/board/uXjVGhc-MhA=/)]
+![Policies](assets/images/ChapterIV/EventStorming/eventstorming.png)
+* **URL:** [https://miro.com/welcomeonboard/Q0xsbTlRVkpDQmlwdWJLUHl6dVBWSHQ4NnJQTVVCSUpTUWwzZHBncHAzM0taZWJDYngzTFYrQmdyY1crZS9mWWJ2K0NOTzlHbzd2V3BPdDB4SnpVR2owTTNCZkpZeDBCYWM1ZndITktNNjVhNWYvc1JESUkzenhtRE51ODV1cXdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=806628004318](https://miro.com/welcomeonboard/Q0xsbTlRVkpDQmlwdWJLUHl6dVBWSHQ4NnJQTVVCSUpTUWwzZHBncHAzM0taZWJDYngzTFYrQmdyY1crZS9mWWJ2K0NOTzlHbzd2V3BPdDB4SnpVR2owTTNCZkpZeDBCYWM1ZndITktNNjVhNWYvc1JESUkzenhtRE51ODV1cXdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=806628004318)]
 
 ### 2.5. Ubiquitous Language
 En esta sección se presenta el glosario de términos de negocio utilizados dentro del dominio de SafeRoute. 
@@ -2392,10 +2510,10 @@ A continuación, se incluirá un screenshot extraído de un video por cada tipo 
 ## 4.6. Domain-Driven Software Architecture
 
 Plantilla de colores:
-![Plantilla](assets/images/ChapterIV/EventStorming/ColorPosit.png)
+![Plantilla](assets/images/ChapterIV/EventStorming/colors.png)
 
 1. Unstructured Exploration
-   ![BigPicture](assets/images/ChapterIV/EventStorming/BigPicture.png)
+   ![BigPicture](assets/images/ChapterIV/EventStorming/event.png)
 
 En esta fase inicial, identificamos los eventos de dominio fundamentales para la movilidad escolar. El objetivo es capturar los hitos de negocio que permiten la interacción segura entre padres, conductores y administradores sin priorizar aún la cronología. Los eventos se organizan en seis ejes principales:
 
@@ -2410,7 +2528,7 @@ En esta fase inicial, identificamos los eventos de dominio fundamentales para la
 - Ejecución y Monitoreo de Viajes: Es el núcleo operativo en tiempo real. Captura el inicio del trayecto por el conductor (TripStarted), el registro del estado de abordaje de cada estudiante (StudentStatus) y la consulta activa de la información de la ruta durante el recorrido.
 
 2. Timelines
-   ![TimeLines](assets/images/ChapterIV/EventStorming/Timelines.png)
+   ![TimeLines](assets/images/ChapterIV/EventStorming/timelines.png)
 
 En este paso, los eventos se organizan en secuencias cronológicas para comprender el flujo natural de los procesos de negocio. Las líneas de tiempo clave incluyen:
 
@@ -2429,7 +2547,7 @@ En este paso, los eventos se organizan en secuencias cronológicas para comprend
 Estas líneas de tiempo revelan las dependencias temporales y la naturaleza secuencial de las operaciones dentro del sistema, asegurando que el flujo de información viaje correctamente desde la base de datos hasta las notificaciones en el dispositivo del padre.
 
 3. Pain Points
-   ![PainPoints](assets/images/ChapterIV/EventStorming/PainPoints.png)
+   ![PainPoints](assets/images/ChapterIV/EventStorming/paintpoints.png)
 
 En esta etapa, se identifican las situaiciones en las que se generan los puntos de fricción, cuellos de botella y ciertos problemas que surgen durante los procesos operativos y administrativos. Los pain points detectados incluyen:
 
@@ -2448,7 +2566,7 @@ En esta etapa, se identifican las situaiciones en las que se generan los puntos 
 Identificar estos puntos críticos permite al equipo de SafeRoute priorizar el desarrollo de mecanismos de redundancia y mejorar la experiencia de usuario, asegurando que la comunicación entre el transporte y el hogar sea infalible.
 
 4. Pivotal Points
-   ![PivotalPoints](assets/images/ChapterIV/EventStorming/PivotalPoints.png)
+   ![PivotalPoints](assets/images/ChapterIV/EventStorming/pivotal.png)
 
 Los puntos pivotales son eventos determinantes que marcan transiciones críticas en el ciclo de vida del servicio. Estos incluyen:
 
@@ -2467,7 +2585,7 @@ Completación de Viaje: Marca el fin de la responsabilidad operativa del conduct
 Estos puntos son determinantes para la continuidad y el éxito de la movilidad escolar, ya que aseguran que cada fase del proceso se cumpla antes de pasar a la siguiente.
 
 5. Commands
-   ![Commands](assets/images/ChapterIV/EventStorming/Commands.png)
+   ![Commands](assets/images/ChapterIV/EventStorming/comand.png)
 
 Los comandos representan las acciones o intenciones de los usuarios que desencadenan eventos en el sistema. Los principales comandos identificados son:
 
@@ -2484,7 +2602,7 @@ Los comandos representan las acciones o intenciones de los usuarios que desencad
 - Comunicación y Notificaciones: Preparar notificación push, despachar alerta a padres, publicar mensaje de difusión (broadcast), mostrar mensaje en línea de tiempo.
 
 6. Policies
-   ![Policies](assets/images/ChapterIV/EventStorming/Polices.png)
+   ![Policies](assets/images/ChapterIV/EventStorming/policy.png)
 
 Las políticas automatizan la lógica de negocio y aseguran la coherencia del sistema ante eventos críticos. Las políticas clave incluyen:
 
@@ -2503,7 +2621,7 @@ Las políticas automatizan la lógica de negocio y aseguran la coherencia del si
 - Cuando falla el registro de un stakeholder → Enviar una notificación de error con los detalles de validación al administrador.
 
 7. Read Models
-   ![ReadModels](assets/images/ChapterIV/EventStorming/ReadModels.png)
+   ![ReadModels](assets/images/ChapterIV/EventStorming/readmodel.png)
 
 Los principales modelos de lectura identificados para garantizar la visibilidad del sistema son:
 
@@ -2522,7 +2640,7 @@ Los principales modelos de lectura identificados para garantizar la visibilidad 
 - Directorio de Stakeholders: Lista completa de perfiles de usuarios (padres, conductores y administradores) con sus respectivos roles y privilegios de acceso.
 
 8. External Systems
-   ![ExternalSystems](assets/images/ChapterIV/EventStorming/ExternalSystems.png)
+   ![ExternalSystems](assets/images/ChapterIV/EventStorming/externalsystem.png)
 
 Las integraciones identificadas para la solución incluyen:
 
@@ -2535,7 +2653,7 @@ Las integraciones identificadas para la solución incluyen:
 - MySQL (Gestión de Base de Datos): Actúa como el sistema externo de persistencia relacional encargado de almacenar y organizar toda la estructura de usuarios, rutas, vehículos y registros operativos.
 
 9. Aggregates
-   ![Aggregates](assets/images/ChapterIV/EventStorming/Aggregates.png)
+   ![Aggregates](assets/images/ChapterIV/EventStorming/aggregate.png)
 
 Basado en los dominios operativos identificados, los agregados son:
 
@@ -2554,7 +2672,7 @@ Route (Raíz): Coordina la definición logística del recorrido, incluyendo la c
 Trip (Raíz): Controla la ejecución operativa en tiempo real, registrando el inicio del trayecto, los cambios en el estado de abordaje de los estudiantes y el log de incidentes generados durante el viaje.
 
 10. Bounded Contexts
-    ![BoundedContexts](assets/images/ChapterIV/EventStorming/BoundedContexts.png)
+    ![BoundedContexts](assets/images/ChapterIV/EventStorming/eventstorming1.jpg)
 
 Los contextos delimitados organizan los agregados en dominios de negocio independientes, permitiendo que cada uno evolucione de manera autónoma para facilitar la escalabilidad del sistema:
 
@@ -3518,6 +3636,11 @@ URL desplegada: Pendiente
 | US26 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
 | US26 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
 | US26 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
+| TRANSVERSAL | Deployment & Publication | CT01 | Configurar GitHub Pages | Configuración del entorno de despliegue y publicación del Landing Page en GitHub Pages | 4 | Renzo | Done |
+| TRANSVERSAL | Deployment & Publication | CT02 | Configurar assets y rutas | Validación y ajuste de rutas relativas, assets y estructura de publicación web | 4 | Christofer | Done |
+| TRANSVERSAL | Deployment & Publication | CT03 | Validar despliegue responsive | Pruebas de visualización responsive del Landing Page en entorno productivo | 4 | Mathias | Done |
+| TRANSVERSAL | Deployment & Publication | CT04 | Configurar acceso público | Verificación de acceso público y disponibilidad del Landing Page desplegado | 4 | Julio | Done |
+| TRANSVERSAL | Deployment & Publication | CT05 | Validar compatibilidad de navegadores | Pruebas de compatibilidad del Landing Page en navegadores modernos | 4 | Jose | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -3627,11 +3750,216 @@ A continuación, se presentan capturas que evidencian la actividad del equipo du
 
 *Nota. Evidencia del uso de ramas feature dentro del flujo de trabajo GitFlow, mostrando el desarrollo independiente de funcionalidades. Elaboración propia.*
 
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|----------|---------|
+| **Sprint Planning Background** | |
+| Date | 2026-05-13 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| Sprint 1 Review Summary | Durante el Sprint 1 se logró desarrollar y desplegar la primera versión funcional del Landing Page de SafeRoute. Se implementaron las principales secciones informativas del producto, incluyendo Hero, precios, testimonios, formulario de contacto y explicación general del servicio. Además, se configuró el entorno de desarrollo, repositorio GitHub y flujo de trabajo colaborativo mediante ramas feature y develop. |
+| Sprint 1 Retrospective Summary | El equipo identificó mejoras necesarias en la organización de tareas y trazabilidad entre User Stories, Product Backlog y Sprint Backlog. Asimismo, se concluyó que el uso de ramas feature permitió reducir conflictos de integración y mejorar el trabajo colaborativo. Como oportunidad de mejora, se acordó optimizar la estimación de tareas y fortalecer la validación responsive antes del despliegue. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Nuestro enfoque es permitir que los administradores, conductores y padres de familia interactúen con la primera versión funcional del frontend de SafeRoute mediante interfaces operativas y flujos básicos de navegación. Creemos que esto aporta una mejor validación de la experiencia de usuario y permite visualizar el funcionamiento general de la plataforma. Esto se validará cuando los usuarios puedan navegar entre las principales vistas del sistema y ejecutar funcionalidades básicas relacionadas con la gestión del transporte escolar. |
+| Sprint 2 Velocity | 25 Story Points |
+| Sum of Story Points | 24 Story Points |
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Architecture Leader (L) / Collaborator (C) | UI Components Leader (L) / Collaborator (C) | Responsive Design Leader (L) / Collaborator (C) | Routing & Navigation Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) |
+| - | - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | L | C | C | L | L |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | L | L | C | C |
+| Costa Morales, Christofer William | miniChorri | C | C | L | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | C | C | C | L | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | C | C | L | C | C |
+
+##### 5.2.2.3. Sprint Backlog 2
+
+| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| US02 | Registro de Conductores | T01 | Implementar Driver Form | Desarrollo del formulario de registro y visualización de conductores | 4 | Renzo | Done |
+| US04 | Gestión de Alumnos | T02 | Implementar Students Module | Desarrollo de tabla y formulario de gestión de alumnos | 6 | Julio | Done |
+| US05 | Gestión de Rutas | T03 | Implementar Routes Management | Desarrollo de interfaz de gestión y visualización de rutas | 8 | Christofer | Done |
+| US10 | Inicio de Trayecto | T04 | Implementar Trip Start Flow | Desarrollo del flujo de inicio de trayecto y estado del recorrido | 4 | Mathias | Done |
+| US11 | Control de Abordaje | T05 | Implementar Boarding Checklist | Desarrollo de lista de abordaje y control de estudiantes | 6 | José | Done |
+| US14 | Finalización de Ruta | T06 | Implementar Trip End Flow | Desarrollo del flujo de finalización de trayecto | 4 | Mathias | Done |
+| US18 | Rastreo en Tiempo Real | T07 | Implementar Tracking Map | Integración visual de mapa mock para seguimiento de unidades | 8 | Renzo | Done |
+| US20 | Confirmación de Llegada | T08 | Implementar Arrival Notifications | Desarrollo de alertas y confirmación visual de llegada | 4 | Julio | Done |
+| US05 | Gestión de Rutas | T09 | Implementar Sidebar Navigation | Desarrollo de sidebar y navegación entre módulos del sistema | 6 | Christofer | Done |
+| US18 | Rastreo en Tiempo Real | T10 | Implementar Dashboard Components | Desarrollo visual de widgets y componentes del dashboard | 5 | Renzo | Done |
+| US04 | Gestión de Alumnos | T11 | Implementar Form Validations | Desarrollo de validaciones visuales y mensajes de error | 4 | Julio | Done |
+| US02 | Registro de Conductores | T12 | Implementar Responsive Design | Adaptación responsive de formularios y módulos principales | 5 | José | Done |
+| TRANSVERSAL | Deployment & Integration | CT01 | Configurar Frontend Deployment | Configuración y publicación del frontend en entorno público | 6 | Renzo | Done |
+| TRANSVERSAL | Deployment & Integration | CT02 | Configurar JSON Server | Configuración de mock API mediante JSON Server para pruebas frontend | 5 | Christofer | Done |
+| TRANSVERSAL | Deployment & Integration | CT03 | Validar navegación y rutas | Validación de rutas, lazy loading y navegación entre módulos | 4 | Mathias | Done |
+| TRANSVERSAL | Deployment & Integration | CT04 | Validar despliegue responsive | Pruebas responsive del frontend en distintos dispositivos | 4 | José | Done |
+| TRANSVERSAL | Deployment & Integration | CT05 | Validar compatibilidad frontend | Validación de funcionamiento en navegadores modernos | 4 | Julio | Done |
+
+![Sprint 2 Trello Board](./assets/images/web-app/trello.png)
+*Nota. Sprint Board del Sprint 2 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo del frontend web de SafeRoute mediante Trello. Elaboración propia.*
+
+**URL del Board:**  
+https://trello.com/b/6aNk32RV/saferoute-webapp
+
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo desarrolló la primera versión funcional del frontend web de SafeRoute utilizando Angular y una arquitectura modular basada en bounded contexts. Se implementaron módulos relacionados con autenticación, gestión de comunidad, rutas, monitoreo de viajes, suscripciones, alertas y perfil de usuario. Asimismo, se realizaron configuraciones de infraestructura frontend, integración de mock APIs mediante JSON Server y validaciones de navegación y despliegue responsive.
+
+A continuación, se presentan los principales commits relacionados con el desarrollo e implementación del Sprint 2.
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|-----------|--------|----------|----------------|---------------------|--------------------|
+| saferoute-webapp | main | 962ce21 | Initial commit | Initial repository creation and base configuration | 2026-04-20 |
+| saferoute-webapp | feature/documentation | 213c1be | Add: Object-Oriented Design | Added object-oriented design documentation and diagrams | 2026-04-20 |
+| saferoute-webapp | feature/documentation | d960327 | change: Diagrams | Updated system diagrams and project documentation | 2026-04-21 |
+| saferoute-webapp | feature/webapp-structure | 97f2855 | feat: initial repository | Initial repository setup and Angular project initialization | 2026-05-07 |
+| saferoute-webapp | feature/webapp-structure | eaf2cdb | chore: initial struct webapp | Initial frontend web application structure using Angular | 2026-05-08 |
+| saferoute-webapp | feature/shared | c098027 | chore: initial project | Base project configuration and shared module setup | 2026-05-13 |
+| saferoute-webapp | feature/shared | 5d6b074 | chore: add infrastructure and presentation | Added infrastructure and presentation layers following modular architecture | 2026-05-13 |
+| saferoute-webapp | feature/notifications | 1ef7f26 | chore: add bounded notifications | Added notifications bounded context and routing configuration | 2026-05-13 |
+| saferoute-webapp | feature/deployment | 2ca7475 | fix: remove deploy yml | Removed conflicting deployment workflow configuration | 2026-05-13 |
+| saferoute-webapp | feature/stakeholder | f58288a | feat: add feature stakeholder | Added stakeholder bounded context and related frontend modules | 2026-05-13 |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo logró desarrollar la primera versión funcional del frontend web de SafeRoute utilizando Angular y una arquitectura modular basada en bounded contexts. Se implementaron las principales interfaces relacionadas con la gestión de rutas, estudiantes, conductores, notificaciones y monitoreo del sistema, permitiendo validar la navegación y experiencia de usuario dentro de la plataforma.
+
+Asimismo, se integraron funcionalidades relacionadas con routing, lazy loading, diseño responsive y mock APIs mediante JSON Server para simular el comportamiento inicial del backend durante las pruebas del frontend.
+
+A continuación, se presentan evidencias de las principales vistas implementadas durante el Sprint 2:
+
+![Authentication Module](./assets/images/web-app/auth.png)
+
+*Nota. Vista de autenticación implementada para el acceso de padres, conductores y administradores dentro del frontend web de SafeRoute. Elaboración propia.*
+
+![Dashboard View](./assets/images/web-app/dashboard.png)
+
+*Nota. Dashboard principal del frontend web desarrollado para mostrar métricas generales y accesos rápidos a los principales módulos del sistema. Elaboración propia.*
+
+![Community Management](./assets/images/web-app/community.png)
+
+*Nota. Vista de gestión de comunidad implementada para la administración de padres, alumnos y logística escolar. Elaboración propia.*
+
+![Routes Management](./assets/images/web-app/routes.png)
+
+*Nota. Módulo de gestión de rutas desarrollado para la administración y configuración de trayectos escolares mediante visualización en mapa. Elaboración propia.*
+
+![Trip Monitor](./assets/images/web-app/trip.png)
+
+*Nota. Vista de monitoreo de viajes implementada para el seguimiento visual y supervisión de rutas activas en tiempo real. Elaboración propia.*
+
+![Subscription Module](./assets/images/web-app/plans.png)
+
+*Nota. Módulo de suscripciones implementado para la visualización y selección de planes del sistema SafeRoute. Elaboración propia.*
+
+![Alerts Center](./assets/images/web-app/alerts.png)
+
+*Nota. Centro de alertas desarrollado para la gestión y visualización de incidencias y notificaciones relacionadas al transporte escolar. Elaboración propia.*
+
+![User Profile Module](./assets/images/web-app/profile.png)
+
+*Nota. Vista de perfil de usuario implementada para la gestión de información personal, configuración y seguridad de la cuenta. Elaboración propia.*
+
+Link de video: https://drive.google.com/file/d/1iRpfAo1zkURxUDPMhxPrdXcRv_aauN3-/view?usp=sharing
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo realizó la documentación inicial de servicios y estructuras mock utilizadas para las pruebas del frontend web de SafeRoute. Debido a que el enfoque principal del Sprint estuvo orientado al desarrollo de la Web Application y validación de interfaces frontend, se utilizaron servicios simulados mediante JSON Server para representar el comportamiento inicial de los endpoints REST.
+
+La documentación permitió validar la integración de módulos frontend relacionados con autenticación, rutas, comunidad, monitoreo de viajes, suscripciones y alertas. Asimismo, se realizaron pruebas locales de navegación y consumo de datos mock utilizando peticiones HTTP tipo GET.
+
+A continuación, se presentan algunos de los endpoints mock utilizados durante el Sprint 2.
+
+| Endpoint | HTTP Method | Description | Parameters | Example Response |
+|----------|-------------|-------------|-------------|------------------|
+| `/plans` | GET | Obtiene la lista de planes de suscripción disponibles en SafeRoute | No requiere parámetros | Lista de planes con precios y características |
+| `/routes` | GET | Obtiene las rutas registradas en el sistema | No requiere parámetros | Lista de rutas escolares |
+| `/notifications` | GET | Obtiene notificaciones e incidencias registradas | No requiere parámetros | Lista de alertas y eventos |
+| `/stakeholders` | GET | Obtiene usuarios registrados en la plataforma | No requiere parámetros | Lista de padres, alumnos y conductores |
+| `/trips` | GET | Obtiene información de viajes activos o registrados | No requiere parámetros | Lista de trayectos monitoreados |
+
+**Endpoints:**  
+https://saferoute-db.azurewebsites.net/
+
+**Herramienta utilizada para Mock APIs:**  
+JSON Server
+
+**Ejemplo de URL local utilizada durante pruebas:**  
+
+```javascript
+http://localhost:3000/plans
+http://localhost:3000/routes
+http://localhost:3000/notifications
+http://localhost:3000/stakeholders
+http://localhost:3000/trips
+```
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El proceso de despliegue consistió en la configuración del repositorio en GitHub, habilitando la opción de GitHub Pages y estableciendo la rama principal como fuente de publicación. Esto permitió que cada cambio realizado en el repositorio se refleje automáticamente en el entorno de producción.
+
+Como resultado, el Landing Page se encuentra disponible para su acceso y validación por parte de los usuarios, cumpliendo con el objetivo de presentar la propuesta de valor del producto en un entorno real.
+
+A continuación, se presentan capturas del proceso y resultado del despliegue:
+
+![GitHub Pages Config](./assets/images/github-pages.png)
+*Nota. Captura de la configuración de GitHub Pages en el repositorio del proyecto. Elaboración propia.*
+
+El Landing Page desplegado se encuentra disponible en el siguiente enlace:
+
+https://fivetech-nrc11896.github.io/saferoute-landing-page/
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 2, el equipo implementó un flujo de trabajo colaborativo basado en GitFlow para organizar el desarrollo de la Web Application del proyecto SafeRoute. Este enfoque permitió distribuir responsabilidades entre los integrantes y mantener un control adecuado sobre la integración de funcionalidades desarrolladas en paralelo.
+
+El proceso de colaboración se estructuró de la siguiente manera:
+
+- Cada integrante trabajó sobre ramas independientes de tipo **feature**, enfocadas en módulos específicos del sistema como autenticación, gestión de comunidad, rutas, monitoreo de viajes, suscripciones, alertas y perfil de usuario.
+- Las funcionalidades desarrolladas fueron integradas progresivamente en la rama **develop**, utilizada como entorno de consolidación y pruebas del frontend.
+- Finalmente, las implementaciones validadas fueron preparadas para su integración hacia la rama **main**, manteniendo una versión estable del proyecto.
+
+Este flujo de trabajo permitió:
+
+- Desarrollar módulos de manera paralela sin afectar el trabajo de otros integrantes
+- Mantener trazabilidad sobre los cambios implementados
+- Facilitar la integración continua de funcionalidades frontend
+- Organizar la colaboración del equipo mediante commits y ramas específicas
+
+A continuación, se presentan capturas que evidencian la colaboración del equipo durante el Sprint 2:
+
+![Pulse](./assets/images/web-app/pulse-webapp.png)
+
+*Nota. Panel de actividad y analíticos del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
+
+![Network Graph](./assets/images/web-app/network-webapp.png)
+
+*Nota. Gráfico de red que evidencia el flujo de trabajo colaborativo basado en ramas feature integradas en develop para la Web Application. Elaboración propia.*
+
+![Contributors](./assets/images/web-app/contributors-webapp.png)
+
+*Nota. Analíticos de contribución por integrante dentro del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
+
+![Commits](./assets/images/web-app/commits-webapp.png)
+
+*Nota. Historial de commits realizados por los integrantes del equipo durante el desarrollo del Sprint 2. Elaboración propia.*
+
+![Feature Branches](./assets/images/web-app/branches-webapp.png)
+
+*Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia.*
+
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
 
-El equipo logró desarrollar el Landing Page de SafeRoute cumpliendo con los objetivos del Sprint, estructurando adecuadamente la propuesta de valor en secciones clave como Hero, Features, Roles, Planes y How It Works. A partir de los Problem Statements y assumptions, se priorizó una comunicación clara y una navegación intuitiva, alineadas a las necesidades del usuario. Asimismo, se aplicó correctamente el enfoque Lean UX mediante un desarrollo incremental y colaborativo, evidenciado en el uso de Git con ramas feature integradas en develop y posteriormente en main.
+Durante el Sprint 2, el equipo logró avanzar en el desarrollo de la Web Application de SafeRoute, implementando módulos funcionales relacionados con autenticación, gestión de comunidad, rutas, monitoreo de viajes, suscripciones, alertas y perfil de usuario. Estos avances permitieron consolidar una arquitectura frontend organizada y una navegación modular orientada a mejorar la experiencia de uso del sistema. A partir de los Problem Statements y assumptions definidos previamente, se priorizó la construcción de interfaces intuitivas, navegación clara y visualización centralizada de información relevante para administradores y padres de familia. Asimismo, se aplicó el enfoque Lean UX mediante iteraciones progresivas, validación visual de funcionalidades y trabajo colaborativo utilizando GitFlow para la gestión de ramas y control de versiones.
 
 ### Video About-the-Team
 
