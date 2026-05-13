@@ -3909,8 +3909,25 @@ Como resultado, el Landing Page se encuentra disponible para su acceso y validac
 
 A continuación, se presentan capturas del proceso y resultado del despliegue:
 
-![GitHub Pages Config](./assets/images/github-pages.png)
-*Nota. Captura de la configuración de GitHub Pages en el repositorio del proyecto. Elaboración propia.*
+![Pulse](./assets/images/pulse-webapp.png)
+
+*Nota. Panel de actividad y analíticos del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
+
+![Network Graph](./assets/images/network-webapp.png)
+
+*Nota. Gráfico de red que evidencia el flujo de trabajo colaborativo basado en ramas feature integradas en develop para la Web Application. Elaboración propia.*
+
+![Contributors](./assets/images/contributors-webapp.png)
+
+*Nota. Analíticos de contribución por integrante dentro del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
+
+![Commits](./assets/images/commits-webapp.png)
+
+*Nota. Historial de commits realizados por los integrantes del equipo durante el desarrollo del Sprint 2. Elaboración propia.*
+
+![Feature Branches](./assets/images/branches-webapp.png)
+
+*Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia.*
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
