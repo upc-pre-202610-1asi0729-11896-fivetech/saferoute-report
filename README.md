@@ -2815,24 +2815,38 @@ URL desplegada: Pendiente
 
 ##### 5.2.1.3. Sprint Backlog 1
 
-| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| US19 | Visualización de Hero | T01 | Implementar Hero Section | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3 | Julio | Done |
-| US22 | Consulta de Precios | T05 | Implementar Plans Section | Creación de sección de planes de suscripción con características comparativas | 3 | Julio | Done |
-| US20 | Navegación de Funciones | T02 | Implementar Navbar | Creación de barra de navegación con enlaces a secciones del Landing Page | 2 | José | Done |
-| US19 | Visualización de Hero | T07 | Implementar CTA y Footer | Desarrollo de llamadas a la acción y pie de página del sitio | 2 | José | Done |
-| US20 | Navegación de Funciones | T03 | Implementar Features Section | Desarrollo de sección de funcionalidades principales del sistema | 3 | Mathias | Done |
-| US21 | Detalle de Roles | T04 | Implementar Roles Section | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre) | 3 | Mathias | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section | Desarrollo del flujo explicativo del funcionamiento del sistema | 2 | Christofer | Done |
-| US23 | ¿Cómo funciona? | T06 | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works" | 2 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design | Adaptación del Landing Page para diferentes dispositivos | 3 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (i18n) | Implementación de archivos de traducción para múltiples idiomas | 2 | Christofer | Done |
-| US20 | Navegación de Funciones | T08 | Implementar Responsive Design (Script) | Desarrollo de script para comportamiento responsive y cambio de idioma | 2 | Christofer | Done |
-| TRANSVERSAL | Deployment & Publication | CT01 | Configurar GitHub Pages | Configuración del entorno de despliegue y publicación del Landing Page en GitHub Pages | 4 | Renzo | Done |
-| TRANSVERSAL | Deployment & Publication | CT02 | Configurar assets y rutas | Validación y ajuste de rutas relativas, assets y estructura de publicación web | 4 | Christofer | Done |
-| TRANSVERSAL | Deployment & Publication | CT03 | Validar despliegue responsive | Pruebas de visualización responsive del Landing Page en entorno productivo | 4 | Mathias | Done |
-| TRANSVERSAL | Deployment & Publication | CT04 | Configurar acceso público | Verificación de acceso público y disponibilidad del Landing Page desplegado | 4 | Julio | Done |
-| TRANSVERSAL | Deployment & Publication | CT05 | Validar compatibilidad de navegadores | Pruebas de compatibilidad del Landing Page en navegadores modernos | 4 | Jose | Done |
+| User Story ID | User Story Title          | Task ID | Task Title                                   | Description                                                        | Estimation (Hours) | Assigned To | Status |
+| ------------- | ------------------------- | ------- | -------------------------------------------- | ------------------------------------------------------------------ | ------------------ | ----------- | ------ |
+| US25          | Visualización de Hero     | T01     | Diseñar estructura Hero                      | Diseño inicial de la sección principal del Landing Page            | 2                  | Julio       | Done   |
+| US25          | Visualización de Hero     | T02     | Implementar contenido Hero                   | Desarrollo del mensaje principal y propuesta de valor de SafeRoute | 2                  | Julio       | Done   |
+| US25          | Visualización de Hero     | T03     | Implementar botones CTA                      | Desarrollo de botones de llamada a la acción y navegación          | 1                  | José        | Done   |
+| US25          | Visualización de Hero     | T04     | Aplicar estilos Hero                         | Desarrollo de estilos visuales y adaptación responsive             | 2                  | José        | Done   |
+| US26          | Navegación de Funciones   | T05     | Diseñar Navbar                               | Diseño de estructura de navegación y secciones principales         | 1                  | José        | Done   |
+| US26          | Navegación de Funciones   | T06     | Implementar Navbar                           | Desarrollo funcional de barra de navegación                        | 2                  | José        | Done   |
+| US26          | Navegación de Funciones   | T07     | Configurar navegación entre secciones        | Implementación de scroll y navegación interna del sitio            | 2                  | José        | Done   |
+| US26          | Navegación de Funciones   | T08     | Implementar Features Section                 | Desarrollo de sección de funcionalidades principales del sistema   | 3                  | Mathias     | Done   |
+| US26          | Navegación de Funciones   | T09     | Validar experiencia responsive Features      | Validación visual y responsive de sección de funcionalidades       | 2                  | Mathias     | Done   |
+| US27          | Detalle de Roles          | T10     | Diseñar sección Roles                        | Diseño visual de perfiles de usuario del sistema                   | 1                  | Mathias     | Done   |
+| US27          | Detalle de Roles          | T11     | Implementar Roles Section                    | Desarrollo de sección de Administrador, Conductor y Padre          | 3                  | Mathias     | Done   |
+| US27          | Detalle de Roles          | T12     | Implementar interacción visual Roles         | Configuración de interacción y distribución visual de roles        | 2                  | Christofer  | Done   |
+| US28          | Consulta de Precios       | T13     | Diseñar sección Plans                        | Diseño de estructura comparativa de planes                         | 1                  | Julio       | Done   |
+| US28          | Consulta de Precios       | T14     | Implementar Plans Section                    | Desarrollo de sección de planes y precios                          | 3                  | Julio       | Done   |
+| US28          | Consulta de Precios       | T15     | Configurar tarjetas comparativas             | Implementación de comparación visual de beneficios entre planes    | 2                  | Julio       | Done   |
+| US28          | Consulta de Precios       | T16     | Adaptar sección Plans a dispositivos móviles | Optimización responsive de la sección de precios                   | 2                  | Christofer  | Done   |
+| US29          | Sección "¿Cómo funciona?" | T17     | Diseñar flujo explicativo                    | Diseño visual del flujo de funcionamiento del sistema              | 1                  | Christofer  | Done   |
+| US29          | Sección "¿Cómo funciona?" | T18     | Implementar How it Works Section             | Desarrollo de sección explicativa del servicio                     | 2                  | Christofer  | Done   |
+| US29          | Sección "¿Cómo funciona?" | T19     | Aplicar estilos y animaciones                | Implementación visual y animaciones de apoyo para el flujo         | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T20     | Configurar archivos de traducción            | Creación de archivos de idioma español e inglés                    | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T21     | Implementar selector de idioma               | Desarrollo de funcionalidad de cambio de idioma                    | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T22     | Traducir contenido Landing Page              | Adaptación del contenido textual a ambos idiomas                   | 3                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T23     | Ajustar responsive para textos largos        | Optimización visual para textos traducidos en móvil                | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T24     | Validar consistencia multilenguaje           | Verificación funcional y visual del sistema i18n                   | 1                  | José        | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT01    | Configurar GitHub Pages                      | Configuración de entorno de despliegue y publicación               | 4                  | Renzo       | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT02    | Configurar assets y rutas                    | Validación de rutas relativas y estructura web                     | 4                  | Christofer  | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT03    | Validar despliegue responsive                | Pruebas de visualización responsive en producción                  | 4                  | Mathias     | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT04    | Configurar acceso público                    | Verificación de disponibilidad pública del Landing Page            | 4                  | Julio       | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT05    | Validar compatibilidad de navegadores        | Validación del funcionamiento en navegadores modernos              | 4                  | José        | Done   |
+
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -2973,25 +2987,42 @@ A continuación, se presentan capturas que evidencian la actividad del equipo du
 
 ##### 5.2.2.3. Sprint Backlog 2
 
-| User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|---------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| US02 | Registro de Conductores | T01 | Implementar Driver Form | Desarrollo del formulario de registro y visualización de conductores | 4 | Renzo | Done |
-| US04 | Gestión de Alumnos | T02 | Implementar Students Module | Desarrollo de tabla y formulario de gestión de alumnos | 6 | Julio | Done |
-| US05 | Gestión de Rutas | T03 | Implementar Routes Management | Desarrollo de interfaz de gestión y visualización de rutas | 8 | Christofer | Done |
-| US10 | Inicio de Trayecto | T04 | Implementar Trip Start Flow | Desarrollo del flujo de inicio de trayecto y estado del recorrido | 4 | Mathias | Done |
-| US11 | Control de Abordaje | T05 | Implementar Boarding Checklist | Desarrollo de lista de abordaje y control de estudiantes | 6 | José | Done |
-| US14 | Finalización de Ruta | T06 | Implementar Trip End Flow | Desarrollo del flujo de finalización de trayecto | 4 | Mathias | Done |
-| US18 | Rastreo en Tiempo Real | T07 | Implementar Tracking Map | Integración visual de mapa mock para seguimiento de unidades | 8 | Renzo | Done |
-| US20 | Confirmación de Llegada | T08 | Implementar Arrival Notifications | Desarrollo de alertas y confirmación visual de llegada | 4 | Julio | Done |
-| US05 | Gestión de Rutas | T09 | Implementar Sidebar Navigation | Desarrollo de sidebar y navegación entre módulos del sistema | 6 | Christofer | Done |
-| US18 | Rastreo en Tiempo Real | T10 | Implementar Dashboard Components | Desarrollo visual de widgets y componentes del dashboard | 5 | Renzo | Done |
-| US04 | Gestión de Alumnos | T11 | Implementar Form Validations | Desarrollo de validaciones visuales y mensajes de error | 4 | Julio | Done |
-| US02 | Registro de Conductores | T12 | Implementar Responsive Design | Adaptación responsive de formularios y módulos principales | 5 | José | Done |
-| TRANSVERSAL | Deployment & Integration | CT01 | Configurar Frontend Deployment | Configuración y publicación del frontend en entorno público | 6 | Renzo | Done |
-| TRANSVERSAL | Deployment & Integration | CT02 | Configurar JSON Server | Configuración de mock API mediante JSON Server para pruebas frontend | 5 | Christofer | Done |
-| TRANSVERSAL | Deployment & Integration | CT03 | Validar navegación y rutas | Validación de rutas, lazy loading y navegación entre módulos | 4 | Mathias | Done |
-| TRANSVERSAL | Deployment & Integration | CT04 | Validar despliegue responsive | Pruebas responsive del frontend en distintos dispositivos | 4 | José | Done |
-| TRANSVERSAL | Deployment & Integration | CT05 | Validar compatibilidad frontend | Validación de funcionamiento en navegadores modernos | 4 | Julio | Done |
+| User Story ID | User Story Title         | Task ID | Task Title                              | Description                                                    | Estimation (Hours) | Assigned To | Status |
+| ------------- | ------------------------ | ------- | --------------------------------------- | -------------------------------------------------------------- | ------------------ | ----------- | ------ |
+| US02          | Registro de Conductores  | T01     | Diseñar formulario de conductores       | Diseño visual del formulario de registro de conductores        | 2                  | Renzo       | Done   |
+| US02          | Registro de Conductores  | T02     | Implementar Driver Form                 | Desarrollo funcional del formulario de registro de conductores | 4                  | Renzo       | Done   |
+| US02          | Registro de Conductores  | T03     | Implementar validaciones de conductores | Desarrollo de validaciones visuales y mensajes de error        | 2                  | José        | Done   |
+| US02          | Registro de Conductores  | T04     | Adaptar formulario responsive           | Optimización responsive del módulo de conductores              | 2                  | José        | Done   |
+| US04          | Alta de Alumnos          | T05     | Diseñar módulo de alumnos               | Diseño visual del módulo de gestión de alumnos                 | 2                  | Julio       | Done   |
+| US04          | Alta de Alumnos          | T06     | Implementar tabla de alumnos            | Desarrollo de tabla de visualización de estudiantes            | 3                  | Julio       | Done   |
+| US04          | Alta de Alumnos          | T07     | Implementar formulario de alumnos       | Desarrollo de formulario de registro de alumnos                | 3                  | Julio       | Done   |
+| US04          | Alta de Alumnos          | T08     | Implementar validaciones de alumnos     | Desarrollo de validaciones y mensajes de error                 | 2                  | Julio       | Done   |
+| US05          | Creación de Rutas        | T09     | Diseñar interfaz de rutas               | Diseño de interfaz de gestión y visualización de rutas         | 2                  | Christofer  | Done   |
+| US05          | Creación de Rutas        | T10     | Implementar gestión de rutas            | Desarrollo funcional del módulo de rutas                       | 4                  | Christofer  | Done   |
+| US05          | Creación de Rutas        | T11     | Implementar visualización de rutas      | Desarrollo visual de rutas y paradas en interfaz               | 3                  | Christofer  | Done   |
+| US05          | Creación de Rutas        | T12     | Implementar Sidebar Navigation          | Desarrollo de sidebar y navegación entre módulos               | 3                  | Christofer  | Done   |
+| US10          | Inicio de Trayecto       | T13     | Diseñar flujo de inicio de trayecto     | Diseño del flujo operativo de inicio de recorrido              | 1                  | Mathias     | Done   |
+| US10          | Inicio de Trayecto       | T14     | Implementar Trip Start Flow             | Desarrollo del flujo de inicio y cambio de estado del trayecto | 4                  | Mathias     | Done   |
+| US10          | Inicio de Trayecto       | T15     | Validar estados de recorrido            | Verificación visual y funcional de estados del trayecto        | 2                  | Mathias     | Done   |
+| US11          | Marcación de Abordaje    | T16     | Diseñar checklist de abordaje           | Diseño visual de lista de control de abordaje                  | 1                  | José        | Done   |
+| US11          | Marcación de Abordaje    | T17     | Implementar Boarding Checklist          | Desarrollo funcional de control de abordaje de estudiantes     | 4                  | José        | Done   |
+| US11          | Marcación de Abordaje    | T18     | Implementar validaciones de abordaje    | Desarrollo de validaciones de estudiantes y paradas            | 2                  | José        | Done   |
+| US14          | Finalización de Ruta     | T19     | Diseñar flujo de finalización           | Diseño del flujo de cierre de trayecto                         | 1                  | Mathias     | Done   |
+| US14          | Finalización de Ruta     | T20     | Implementar Trip End Flow               | Desarrollo funcional de finalización de recorrido              | 3                  | Mathias     | Done   |
+| US14          | Finalización de Ruta     | T21     | Validar cierre de trayecto              | Verificación funcional de estados de cierre de ruta            | 2                  | Mathias     | Done   |
+| US18          | Rastreo en Tiempo Real   | T22     | Diseñar interfaz de tracking            | Diseño visual del mapa y seguimiento de unidades               | 2                  | Renzo       | Done   |
+| US18          | Rastreo en Tiempo Real   | T23     | Implementar Tracking Map                | Desarrollo de integración visual de mapa mock                  | 4                  | Renzo       | Done   |
+| US18          | Rastreo en Tiempo Real   | T24     | Implementar Dashboard Components        | Desarrollo visual de widgets y dashboard de monitoreo          | 3                  | Renzo       | Done   |
+| US18          | Rastreo en Tiempo Real   | T25     | Validar experiencia de tracking         | Verificación visual y responsive del módulo de rastreo         | 2                  | Renzo       | Done   |
+| US20          | Confirmación de Llegada  | T26     | Diseñar alertas de llegada              | Diseño visual de alertas y confirmaciones                      | 1                  | Julio       | Done   |
+| US20          | Confirmación de Llegada  | T27     | Implementar Arrival Notifications       | Desarrollo funcional de notificaciones de llegada              | 3                  | Julio       | Done   |
+| US20          | Confirmación de Llegada  | T28     | Validar flujo de confirmación           | Verificación funcional de alertas y mensajes visuales          | 2                  | Julio       | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT01    | Configurar Frontend Deployment          | Configuración y publicación del frontend en entorno público    | 6                  | Renzo       | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT02    | Configurar JSON Server                  | Configuración de mock API mediante JSON Server                 | 5                  | Christofer  | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT03    | Validar navegación y rutas              | Verificación de navegación y rutas entre módulos               | 4                  | Mathias     | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT04    | Validar despliegue responsive           | Pruebas responsive en distintos dispositivos                   | 4                  | José        | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT05    | Validar compatibilidad frontend         | Validación del frontend en navegadores modernos                | 4                  | Julio       | Done   |
+
 
 ![Sprint 2 Trello Board](./assets/images/web-app/trello.png)
 *Nota. Sprint Board del Sprint 2 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo del frontend web de SafeRoute mediante Trello. Elaboración propia.*
