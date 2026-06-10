@@ -2799,7 +2799,7 @@ URL desplegada: Pendiente
 | Prepared By | Renzo Revilla |
 | Attendees (to planning meeting) | Todo el equipo |
 | **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Nuestro enfoque es permitir que los nuevos usuarios comprendan la propuesta de valor de SafeRoute mediante una primera versión del landing page. Creemos que esto aporta claridad y genera confianza inicial en los potenciales usuarios de la plataforma. Esto se validará cuando los usuarios puedan acceder al landing page e identificar claramente sus funcionalidades principales y su propósito. |
+| Sprint 1 Goal | Nuestro enfoque es permitir que los potenciales usuarios de SafeRoute comprendan cómo la plataforma mejora la seguridad y organización del transporte escolar mediante una experiencia web clara e informativa. Creemos que esto aporta mayor confianza y visibilidad tanto a padres de familia como a transportistas escolares que buscan un servicio más organizado y seguro. Esto se validará cuando los usuarios puedan identificar claramente las funcionalidades principales y beneficios de SafeRoute a través del Landing Page. |
 | Sprint 1 Velocity | 15 Story Points |
 | Sum of Story Points | 13 Story Points |
 
@@ -2957,7 +2957,7 @@ A continuación, se presentan capturas que evidencian la actividad del equipo du
 | Sprint 1 Review Summary | Durante el Sprint 1 se logró desarrollar y desplegar la primera versión funcional del Landing Page de SafeRoute. Se implementaron las principales secciones informativas del producto, incluyendo Hero, precios, testimonios, formulario de contacto y explicación general del servicio. Además, se configuró el entorno de desarrollo, repositorio GitHub y flujo de trabajo colaborativo mediante ramas feature y develop. |
 | Sprint 1 Retrospective Summary | El equipo identificó mejoras necesarias en la organización de tareas y trazabilidad entre User Stories, Product Backlog y Sprint Backlog. Asimismo, se concluyó que el uso de ramas feature permitió reducir conflictos de integración y mejorar el trabajo colaborativo. Como oportunidad de mejora, se acordó optimizar la estimación de tareas y fortalecer la validación responsive antes del despliegue. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | Nuestro enfoque es permitir que los administradores, conductores y padres de familia interactúen con la primera versión funcional del frontend de SafeRoute mediante interfaces operativas y flujos básicos de navegación. Creemos que esto aporta una mejor validación de la experiencia de usuario y permite visualizar el funcionamiento general de la plataforma. Esto se validará cuando los usuarios puedan navegar entre las principales vistas del sistema y ejecutar funcionalidades básicas relacionadas con la gestión del transporte escolar. |
+| Sprint 2 Goal | Nuestro enfoque es permitir que administradores, conductores y padres de familia experimenten las funcionalidades esenciales de gestión y monitoreo del transporte escolar de SafeRoute mediante flujos operativos básicos de la plataforma. Creemos que esto aporta una mejor organización, mayor visibilidad del servicio y una comunicación más eficiente entre los usuarios involucrados en el traslado escolar. Esto se validará cuando los usuarios puedan interactuar correctamente con las principales funcionalidades relacionadas con rutas, alumnos y monitoreo del servicio durante las pruebas de usabilidad. |
 | Sprint 2 Velocity | 25 Story Points |
 | Sum of Story Points | 24 Story Points |
 
