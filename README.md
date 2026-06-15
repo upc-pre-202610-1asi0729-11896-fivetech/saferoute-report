@@ -3560,20 +3560,18 @@ URL desplegada: Pendiente
 
 ##### 5.2.1.1. Sprint Planning 1
 
-| Sprint #                        | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**  |
-| Date                            | 2026-04-24                                                                                                                                                                                                                                                                                                                                                                                              |
-| Time                            | 07:00 PM                                                                                                                                                                                                                                                                                                                                                                                                |
-| Location                        | Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                         |
-| Prepared By                     | Renzo Revilla                                                                                                                                                                                                                                                                                                                                                                                           |
-| Attendees (to planning meeting) | Todo el equipo                                                                                                                                                                                                                                                                                                                                                                                          |
-| Sprint 0 Review Summary         | Al tratarse del inicio del proyecto, no se cuenta con un sprint previo. Sin embargo, se definieron las bases del proyecto, incluyendo la configuración inicial del entorno y la estructura del repositorio.                                                                                                                                                                                             |
-| Sprint 0 Retrospective Summary  | El equipo identificó la importancia de una correcta organización y distribución de tareas desde el inicio del proyecto. Se acordó mejorar la comunicación y planificación para optimizar el desarrollo en los siguientes sprints.                                                                                                                                                                       |
-| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Sprint 1 Goal                   | Nuestro enfoque es permitir que los nuevos usuarios comprendan la propuesta de valor de SafeRoute mediante una primera versión del landing page. Creemos que esto aporta claridad y genera confianza inicial en los potenciales usuarios de la plataforma. Esto se validará cuando los usuarios puedan acceder al landing page e identificar claramente sus funcionalidades principales y su propósito. |
-| Sprint 1 Velocity               | 15 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
-| Sum of Story Points             | 13 Story Points                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **Sprint Planning Background** |
+| Date | 2026-04-24 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Nuestro enfoque es permitir que los potenciales usuarios de SafeRoute comprendan cómo la plataforma mejora la seguridad y organización del transporte escolar mediante una experiencia web clara e informativa. Creemos que esto aporta mayor confianza y visibilidad tanto a padres de familia como a transportistas escolares que buscan un servicio más organizado y seguro. Esto se validará cuando los usuarios puedan identificar claramente las funcionalidades principales y beneficios de SafeRoute a través del Landing Page. |
+| Sprint 1 Velocity | 15 Story Points |
+| Sum of Story Points | 13 Story Points |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -3587,24 +3585,38 @@ URL desplegada: Pendiente
 
 ##### 5.2.1.3. Sprint Backlog 1
 
-| User Story ID | User Story Title         | Task ID | Task Title                                | Description                                                                              | Estimation (Hours) | Assigned To | Status |
-| ------------- | ------------------------ | ------- | ----------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------ | ----------- | ------ |
-| US25          | Visualización de Hero    | T01     | Implementar Hero Section                  | Desarrollo de la sección principal con propuesta de valor y mensaje inicial del producto | 3                  | Julio       | Done   |
-| US28          | Consulta de Precios      | T05     | Implementar Plans Section                 | Creación de sección de planes de suscripción con características comparativas            | 3                  | Julio       | Done   |
-| US26          | Navegación de Funciones  | T02     | Implementar Navbar                        | Creación de barra de navegación con enlaces a secciones del Landing Page                 | 2                  | José        | Done   |
-| US25          | Visualización de Hero    | T07     | Implementar CTA y Footer                  | Desarrollo de llamadas a la acción y pie de página del sitio                             | 2                  | José        | Done   |
-| US26          | Navegación de Funciones  | T03     | Implementar Features Section              | Desarrollo de sección de funcionalidades principales del sistema                         | 3                  | Mathias     | Done   |
-| US27          | Detalle de Roles         | T04     | Implementar Roles Section                 | Desarrollo de sección que describe los tipos de usuarios (Admin, Conductor, Padre)       | 3                  | Mathias     | Done   |
-| US29          | ¿Cómo funciona?          | T06     | Implementar How it Works Section          | Desarrollo del flujo explicativo del funcionamiento del sistema                          | 2                  | Christofer  | Done   |
-| US29          | ¿Cómo funciona?          | T06     | Implementar How it Works Section (Styles) | Aplicación de estilos visuales a la sección "How it Works"                               | 2                  | Christofer  | Done   |
-| US26          | Navegación de Funciones  | T08     | Implementar Responsive Design             | Adaptación del Landing Page para diferentes dispositivos                                 | 3                  | Christofer  | Done   |
-| US26          | Navegación de Funciones  | T08     | Implementar Responsive Design (i18n)      | Implementación de archivos de traducción para múltiples idiomas                          | 2                  | Christofer  | Done   |
-| US26          | Navegación de Funciones  | T08     | Implementar Responsive Design (Script)    | Desarrollo de script para comportamiento responsive y cambio de idioma                   | 2                  | Christofer  | Done   |
-| TRANSVERSAL   | Deployment & Publication | CT01    | Configurar GitHub Pages                   | Configuración del entorno de despliegue y publicación del Landing Page en GitHub Pages   | 4                  | Renzo       | Done   |
-| TRANSVERSAL   | Deployment & Publication | CT02    | Configurar assets y rutas                 | Validación y ajuste de rutas relativas, assets y estructura de publicación web           | 4                  | Christofer  | Done   |
-| TRANSVERSAL   | Deployment & Publication | CT03    | Validar despliegue responsive             | Pruebas de visualización responsive del Landing Page en entorno productivo               | 4                  | Mathias     | Done   |
-| TRANSVERSAL   | Deployment & Publication | CT04    | Configurar acceso público                 | Verificación de acceso público y disponibilidad del Landing Page desplegado              | 4                  | Julio       | Done   |
-| TRANSVERSAL   | Deployment & Publication | CT05    | Validar compatibilidad de navegadores     | Pruebas de compatibilidad del Landing Page en navegadores modernos                       | 4                  | Jose        | Done   |
+| User Story ID | User Story Title          | Task ID | Task Title                                   | Description                                                        | Estimation (Hours) | Assigned To | Status |
+| ------------- | ------------------------- | ------- | -------------------------------------------- | ------------------------------------------------------------------ | ------------------ | ----------- | ------ |
+| US25          | Visualización de Hero     | T01     | Diseñar estructura Hero                      | Diseño inicial de la sección principal del Landing Page            | 2                  | Julio       | Done   |
+| US25          | Visualización de Hero     | T02     | Implementar contenido Hero                   | Desarrollo del mensaje principal y propuesta de valor de SafeRoute | 2                  | Julio       | Done   |
+| US25          | Visualización de Hero     | T03     | Implementar botones CTA                      | Desarrollo de botones de llamada a la acción y navegación          | 1                  | José        | Done   |
+| US25          | Visualización de Hero     | T04     | Aplicar estilos Hero                         | Desarrollo de estilos visuales y adaptación responsive             | 2                  | José        | Done   |
+| US26          | Navegación de Funciones   | T05     | Diseñar Navbar                               | Diseño de estructura de navegación y secciones principales         | 1                  | José        | Done   |
+| US26          | Navegación de Funciones   | T06     | Implementar Navbar                           | Desarrollo funcional de barra de navegación                        | 2                  | José        | Done   |
+| US26          | Navegación de Funciones   | T07     | Configurar navegación entre secciones        | Implementación de scroll y navegación interna del sitio            | 2                  | José        | Done   |
+| US26          | Navegación de Funciones   | T08     | Implementar Features Section                 | Desarrollo de sección de funcionalidades principales del sistema   | 3                  | Mathias     | Done   |
+| US26          | Navegación de Funciones   | T09     | Validar experiencia responsive Features      | Validación visual y responsive de sección de funcionalidades       | 2                  | Mathias     | Done   |
+| US27          | Detalle de Roles          | T10     | Diseñar sección Roles                        | Diseño visual de perfiles de usuario del sistema                   | 1                  | Mathias     | Done   |
+| US27          | Detalle de Roles          | T11     | Implementar Roles Section                    | Desarrollo de sección de Administrador, Conductor y Padre          | 3                  | Mathias     | Done   |
+| US27          | Detalle de Roles          | T12     | Implementar interacción visual Roles         | Configuración de interacción y distribución visual de roles        | 2                  | Christofer  | Done   |
+| US28          | Consulta de Precios       | T13     | Diseñar sección Plans                        | Diseño de estructura comparativa de planes                         | 1                  | Julio       | Done   |
+| US28          | Consulta de Precios       | T14     | Implementar Plans Section                    | Desarrollo de sección de planes y precios                          | 3                  | Julio       | Done   |
+| US28          | Consulta de Precios       | T15     | Configurar tarjetas comparativas             | Implementación de comparación visual de beneficios entre planes    | 2                  | Julio       | Done   |
+| US28          | Consulta de Precios       | T16     | Adaptar sección Plans a dispositivos móviles | Optimización responsive de la sección de precios                   | 2                  | Christofer  | Done   |
+| US29          | Sección "¿Cómo funciona?" | T17     | Diseñar flujo explicativo                    | Diseño visual del flujo de funcionamiento del sistema              | 1                  | Christofer  | Done   |
+| US29          | Sección "¿Cómo funciona?" | T18     | Implementar How it Works Section             | Desarrollo de sección explicativa del servicio                     | 2                  | Christofer  | Done   |
+| US29          | Sección "¿Cómo funciona?" | T19     | Aplicar estilos y animaciones                | Implementación visual y animaciones de apoyo para el flujo         | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T20     | Configurar archivos de traducción            | Creación de archivos de idioma español e inglés                    | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T21     | Implementar selector de idioma               | Desarrollo de funcionalidad de cambio de idioma                    | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T22     | Traducir contenido Landing Page              | Adaptación del contenido textual a ambos idiomas                   | 3                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T23     | Ajustar responsive para textos largos        | Optimización visual para textos traducidos en móvil                | 2                  | Christofer  | Done   |
+| US30          | Implementación i18n       | T24     | Validar consistencia multilenguaje           | Verificación funcional y visual del sistema i18n                   | 1                  | José        | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT01    | Configurar GitHub Pages                      | Configuración de entorno de despliegue y publicación               | 4                  | Renzo       | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT02    | Configurar assets y rutas                    | Validación de rutas relativas y estructura web                     | 4                  | Christofer  | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT03    | Validar despliegue responsive                | Pruebas de visualización responsive en producción                  | 4                  | Mathias     | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT04    | Configurar acceso público                    | Verificación de disponibilidad pública del Landing Page            | 4                  | Julio       | Done   |
+| TRANSVERSAL   | Deployment & Publication  | CT05    | Validar compatibilidad de navegadores        | Validación del funcionamiento en navegadores modernos              | 4                  | José        | Done   |
+
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -3718,20 +3730,20 @@ _Nota. Evidencia del uso de ramas feature dentro del flujo de trabajo GitFlow, m
 
 ##### 5.2.2.1. Sprint Planning 2
 
-| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Date                            | 2026-05-13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Time                            | 07:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Location                        | Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Prepared By                     | Renzo Revilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Attendees (to planning meeting) | Todo el equipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Sprint 1 Review Summary         | Durante el Sprint 1 se logró desarrollar y desplegar la primera versión funcional del Landing Page de SafeRoute. Se implementaron las principales secciones informativas del producto, incluyendo Hero, precios, testimonios, formulario de contacto y explicación general del servicio. Además, se configuró el entorno de desarrollo, repositorio GitHub y flujo de trabajo colaborativo mediante ramas feature y develop.                                                                                                                              |
-| Sprint 1 Retrospective Summary  | El equipo identificó mejoras necesarias en la organización de tareas y trazabilidad entre User Stories, Product Backlog y Sprint Backlog. Asimismo, se concluyó que el uso de ramas feature permitió reducir conflictos de integración y mejorar el trabajo colaborativo. Como oportunidad de mejora, se acordó optimizar la estimación de tareas y fortalecer la validación responsive antes del despliegue.                                                                                                                                             |
-| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Sprint 2 Goal                   | Nuestro enfoque es permitir que los administradores, conductores y padres de familia interactúen con la primera versión funcional del frontend de SafeRoute mediante interfaces operativas y flujos básicos de navegación. Creemos que esto aporta una mejor validación de la experiencia de usuario y permite visualizar el funcionamiento general de la plataforma. Esto se validará cuando los usuarios puedan navegar entre las principales vistas del sistema y ejecutar funcionalidades básicas relacionadas con la gestión del transporte escolar. |
-| Sprint 2 Velocity               | 25 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Sum of Story Points             | 24 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint # | Sprint 2 |
+|----------|---------|
+| **Sprint Planning Background** | |
+| Date | 2026-05-13 |
+| Time | 07:00 PM |
+| Location | Microsoft Teams |
+| Prepared By | Renzo Revilla |
+| Attendees (to planning meeting) | Todo el equipo |
+| Sprint 1 Review Summary | Durante el Sprint 1 se logró desarrollar y desplegar la primera versión funcional del Landing Page de SafeRoute. Se implementaron las principales secciones informativas del producto, incluyendo Hero, precios, testimonios, formulario de contacto y explicación general del servicio. Además, se configuró el entorno de desarrollo, repositorio GitHub y flujo de trabajo colaborativo mediante ramas feature y develop. |
+| Sprint 1 Retrospective Summary | El equipo identificó mejoras necesarias en la organización de tareas y trazabilidad entre User Stories, Product Backlog y Sprint Backlog. Asimismo, se concluyó que el uso de ramas feature permitió reducir conflictos de integración y mejorar el trabajo colaborativo. Como oportunidad de mejora, se acordó optimizar la estimación de tareas y fortalecer la validación responsive antes del despliegue. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Nuestro enfoque es permitir que administradores, conductores y padres de familia experimenten las funcionalidades esenciales de gestión y monitoreo del transporte escolar de SafeRoute mediante flujos operativos básicos de la plataforma. Creemos que esto aporta una mejor organización, mayor visibilidad del servicio y una comunicación más eficiente entre los usuarios involucrados en el traslado escolar. Esto se validará cuando los usuarios puedan interactuar correctamente con las principales funcionalidades relacionadas con rutas, alumnos y monitoreo del servicio durante las pruebas de usabilidad. |
+| Sprint 2 Velocity | 25 Story Points |
+| Sum of Story Points | 24 Story Points |
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -3745,25 +3757,42 @@ _Nota. Evidencia del uso de ramas feature dentro del flujo de trabajo GitFlow, m
 
 ##### 5.2.2.3. Sprint Backlog 2
 
-| User Story ID | User Story Title         | Task ID | Task Title                        | Description                                                          | Estimation (Hours) | Assigned To | Status |
-| ------------- | ------------------------ | ------- | --------------------------------- | -------------------------------------------------------------------- | ------------------ | ----------- | ------ |
-| US02          | Registro de Conductores  | T01     | Implementar Driver Form           | Desarrollo del formulario de registro y visualización de conductores | 4                  | Renzo       | Done   |
-| US04          | Gestión de Alumnos       | T02     | Implementar Students Module       | Desarrollo de tabla y formulario de gestión de alumnos               | 6                  | Julio       | Done   |
-| US05          | Gestión de Rutas         | T03     | Implementar Routes Management     | Desarrollo de interfaz de gestión y visualización de rutas           | 8                  | Christofer  | Done   |
-| US10          | Inicio de Trayecto       | T04     | Implementar Trip Start Flow       | Desarrollo del flujo de inicio de trayecto y estado del recorrido    | 4                  | Mathias     | Done   |
-| US11          | Control de Abordaje      | T05     | Implementar Boarding Checklist    | Desarrollo de lista de abordaje y control de estudiantes             | 6                  | José        | Done   |
-| US14          | Finalización de Ruta     | T06     | Implementar Trip End Flow         | Desarrollo del flujo de finalización de trayecto                     | 4                  | Mathias     | Done   |
-| US18          | Rastreo en Tiempo Real   | T07     | Implementar Tracking Map          | Integración visual de mapa mock para seguimiento de unidades         | 8                  | Renzo       | Done   |
-| US20          | Confirmación de Llegada  | T08     | Implementar Arrival Notifications | Desarrollo de alertas y confirmación visual de llegada               | 4                  | Julio       | Done   |
-| US05          | Gestión de Rutas         | T09     | Implementar Sidebar Navigation    | Desarrollo de sidebar y navegación entre módulos del sistema         | 6                  | Christofer  | Done   |
-| US18          | Rastreo en Tiempo Real   | T10     | Implementar Dashboard Components  | Desarrollo visual de widgets y componentes del dashboard             | 5                  | Renzo       | Done   |
-| US04          | Gestión de Alumnos       | T11     | Implementar Form Validations      | Desarrollo de validaciones visuales y mensajes de error              | 4                  | Julio       | Done   |
-| US02          | Registro de Conductores  | T12     | Implementar Responsive Design     | Adaptación responsive de formularios y módulos principales           | 5                  | José        | Done   |
-| TRANSVERSAL   | Deployment & Integration | CT01    | Configurar Frontend Deployment    | Configuración y publicación del frontend en entorno público          | 6                  | Renzo       | Done   |
-| TRANSVERSAL   | Deployment & Integration | CT02    | Configurar JSON Server            | Configuración de mock API mediante JSON Server para pruebas frontend | 5                  | Christofer  | Done   |
-| TRANSVERSAL   | Deployment & Integration | CT03    | Validar navegación y rutas        | Validación de rutas, lazy loading y navegación entre módulos         | 4                  | Mathias     | Done   |
-| TRANSVERSAL   | Deployment & Integration | CT04    | Validar despliegue responsive     | Pruebas responsive del frontend en distintos dispositivos            | 4                  | José        | Done   |
-| TRANSVERSAL   | Deployment & Integration | CT05    | Validar compatibilidad frontend   | Validación de funcionamiento en navegadores modernos                 | 4                  | Julio       | Done   |
+| User Story ID | User Story Title         | Task ID | Task Title                              | Description                                                    | Estimation (Hours) | Assigned To | Status |
+| ------------- | ------------------------ | ------- | --------------------------------------- | -------------------------------------------------------------- | ------------------ | ----------- | ------ |
+| US02          | Registro de Conductores  | T01     | Diseñar formulario de conductores       | Diseño visual del formulario de registro de conductores        | 2                  | Renzo       | Done   |
+| US02          | Registro de Conductores  | T02     | Implementar Driver Form                 | Desarrollo funcional del formulario de registro de conductores | 4                  | Renzo       | Done   |
+| US02          | Registro de Conductores  | T03     | Implementar validaciones de conductores | Desarrollo de validaciones visuales y mensajes de error        | 2                  | José        | Done   |
+| US02          | Registro de Conductores  | T04     | Adaptar formulario responsive           | Optimización responsive del módulo de conductores              | 2                  | José        | Done   |
+| US04          | Alta de Alumnos          | T05     | Diseñar módulo de alumnos               | Diseño visual del módulo de gestión de alumnos                 | 2                  | Julio       | Done   |
+| US04          | Alta de Alumnos          | T06     | Implementar tabla de alumnos            | Desarrollo de tabla de visualización de estudiantes            | 3                  | Julio       | Done   |
+| US04          | Alta de Alumnos          | T07     | Implementar formulario de alumnos       | Desarrollo de formulario de registro de alumnos                | 3                  | Julio       | Done   |
+| US04          | Alta de Alumnos          | T08     | Implementar validaciones de alumnos     | Desarrollo de validaciones y mensajes de error                 | 2                  | Julio       | Done   |
+| US05          | Creación de Rutas        | T09     | Diseñar interfaz de rutas               | Diseño de interfaz de gestión y visualización de rutas         | 2                  | Christofer  | Done   |
+| US05          | Creación de Rutas        | T10     | Implementar gestión de rutas            | Desarrollo funcional del módulo de rutas                       | 4                  | Christofer  | Done   |
+| US05          | Creación de Rutas        | T11     | Implementar visualización de rutas      | Desarrollo visual de rutas y paradas en interfaz               | 3                  | Christofer  | Done   |
+| US05          | Creación de Rutas        | T12     | Implementar Sidebar Navigation          | Desarrollo de sidebar y navegación entre módulos               | 3                  | Christofer  | Done   |
+| US10          | Inicio de Trayecto       | T13     | Diseñar flujo de inicio de trayecto     | Diseño del flujo operativo de inicio de recorrido              | 1                  | Mathias     | Done   |
+| US10          | Inicio de Trayecto       | T14     | Implementar Trip Start Flow             | Desarrollo del flujo de inicio y cambio de estado del trayecto | 4                  | Mathias     | Done   |
+| US10          | Inicio de Trayecto       | T15     | Validar estados de recorrido            | Verificación visual y funcional de estados del trayecto        | 2                  | Mathias     | Done   |
+| US11          | Marcación de Abordaje    | T16     | Diseñar checklist de abordaje           | Diseño visual de lista de control de abordaje                  | 1                  | José        | Done   |
+| US11          | Marcación de Abordaje    | T17     | Implementar Boarding Checklist          | Desarrollo funcional de control de abordaje de estudiantes     | 4                  | José        | Done   |
+| US11          | Marcación de Abordaje    | T18     | Implementar validaciones de abordaje    | Desarrollo de validaciones de estudiantes y paradas            | 2                  | José        | Done   |
+| US14          | Finalización de Ruta     | T19     | Diseñar flujo de finalización           | Diseño del flujo de cierre de trayecto                         | 1                  | Mathias     | Done   |
+| US14          | Finalización de Ruta     | T20     | Implementar Trip End Flow               | Desarrollo funcional de finalización de recorrido              | 3                  | Mathias     | Done   |
+| US14          | Finalización de Ruta     | T21     | Validar cierre de trayecto              | Verificación funcional de estados de cierre de ruta            | 2                  | Mathias     | Done   |
+| US18          | Rastreo en Tiempo Real   | T22     | Diseñar interfaz de tracking            | Diseño visual del mapa y seguimiento de unidades               | 2                  | Renzo       | Done   |
+| US18          | Rastreo en Tiempo Real   | T23     | Implementar Tracking Map                | Desarrollo de integración visual de mapa mock                  | 4                  | Renzo       | Done   |
+| US18          | Rastreo en Tiempo Real   | T24     | Implementar Dashboard Components        | Desarrollo visual de widgets y dashboard de monitoreo          | 3                  | Renzo       | Done   |
+| US18          | Rastreo en Tiempo Real   | T25     | Validar experiencia de tracking         | Verificación visual y responsive del módulo de rastreo         | 2                  | Renzo       | Done   |
+| US20          | Confirmación de Llegada  | T26     | Diseñar alertas de llegada              | Diseño visual de alertas y confirmaciones                      | 1                  | Julio       | Done   |
+| US20          | Confirmación de Llegada  | T27     | Implementar Arrival Notifications       | Desarrollo funcional de notificaciones de llegada              | 3                  | Julio       | Done   |
+| US20          | Confirmación de Llegada  | T28     | Validar flujo de confirmación           | Verificación funcional de alertas y mensajes visuales          | 2                  | Julio       | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT01    | Configurar Frontend Deployment          | Configuración y publicación del frontend en entorno público    | 6                  | Renzo       | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT02    | Configurar JSON Server                  | Configuración de mock API mediante JSON Server                 | 5                  | Christofer  | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT03    | Validar navegación y rutas              | Verificación de navegación y rutas entre módulos               | 4                  | Mathias     | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT04    | Validar despliegue responsive           | Pruebas responsive en distintos dispositivos                   | 4                  | José        | Done   |
+| TRANSVERSAL   | Deployment & Integration | CT05    | Validar compatibilidad frontend         | Validación del frontend en navegadores modernos                | 4                  | Julio       | Done   |
+
 
 ![Sprint 2 Trello Board](./assets/images/web-app/trello.png)
 _Nota. Sprint Board del Sprint 2 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo del frontend web de SafeRoute mediante Trello. Elaboración propia._
@@ -3872,23 +3901,23 @@ Como resultado, el Landing Page se encuentra disponible para su acceso y validac
 
 A continuación, se presentan capturas del proceso y resultado del despliegue:
 
-![Pulse](./assets/images/web-app/pulse-webapp.png)
+![Pulse](./assets/images/pulse-webapp.png)
 
 _Nota. Panel de actividad y analíticos del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia._
 
-![Network Graph](./assets/images/web-app/network-webapp.png)
+![Network Graph](./assets/images/network-webapp.png)
 
 _Nota. Gráfico de red que evidencia el flujo de trabajo colaborativo basado en ramas feature integradas en develop para la Web Application. Elaboración propia._
 
-![Contributors](./assets/images/web-app/contributors-webapp.png)
+![Contributors](./assets/images/contributors-webapp.png)
 
 _Nota. Analíticos de contribución por integrante dentro del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia._
 
-![Commits](./assets/images/web-app/commits-webapp.png)
+![Commits](./assets/images/commits-webapp.png)
 
 _Nota. Historial de commits realizados por los integrantes del equipo durante el desarrollo del Sprint 2. Elaboración propia._
 
-![Feature Branches](./assets/images/web-app/branches-webapp.png)
+![Feature Branches](./assets/images/branches-webapp.png)
 
 _Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia._
 
@@ -3933,13 +3962,192 @@ _Nota. Historial de commits realizados por los integrantes del equipo durante el
 
 ![Feature Branches](./assets/images/web-app/branches-webapp.png)
 
-_Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia._
+*Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia.*
+
+#### 5.2.3. Sprint 3
+
+##### 5.2.3.1. Sprint Planning 3
+
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Date                            | 2026-06-14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Time                            | 11:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Location                        | Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Renzo Revilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting) | Todo el equipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Sprint 2 Review Summary         | Durante el Sprint 2 se logró desarrollar la primera versión funcional del frontend web de SafeRoute utilizando Angular y una arquitectura modular basada en bounded contexts. Se implementaron módulos de gestión de conductores, alumnos, rutas, monitoreo de trayectos y notificaciones, además de validar la navegación responsive e integración mediante mock APIs usando JSON Server.                                                                                                                                                              |
+| Sprint 2 Retrospective Summary  | El equipo concluyó que la modularización frontend y el uso de GitFlow facilitaron el trabajo colaborativo y redujeron conflictos de integración. Como mejora, se acordó fortalecer la integración real con backend y documentar adecuadamente los servicios REST para facilitar pruebas y despliegue.                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Goal                   | Nuestro enfoque es fortalecer la confianza de los padres de familia y mejorar el control operativo de los transportistas escolares mediante una experiencia que permita comunicar incidencias, confirmar estados del trayecto y mantener informados a los usuarios durante el servicio. Creemos que esto aporta valor al negocio porque reduce la incertidumbre de las familias, mejora la percepción de seguridad del transporte escolar y ayuda a que los administradores profesionalicen su operación. Esto se validará cuando los usuarios puedan reconocer que SafeRoute les brinda mayor tranquilidad, orden y visibilidad sobre el traslado escolar durante las pruebas de uso. |
+| Sprint 3 Velocity               | 28 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sum of Story Points             | 27 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Architecture Leader (L) / Collaborator (C) | API Documentation Leader (L) / Collaborator (C) | Database Design Leader (L) / Collaborator (C) | Integration Testing Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) |
+| - | - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | L | C | C | L | L |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | L | C | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | C | C | L | L | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | C | C | L | C | C |
+
+
+##### 5.2.3.3. Sprint Backlog 3
+
+| US ID | User Story | Task ID | Task Title | Description | Hrs | Assigned | Status |
+|---|---|---|---|---|---:|---|---|
+| US12 | Incidencias | T01 | Analizar flujo | Flujo de incidencias | 1 | Renzo | Done |
+| US12 | Incidencias | T02 | Diseñar Entity | Modelo Incident | 1 | Renzo | Done |
+| US12 | Incidencias | T03 | Crear Entity | Implementar entidad | 2 | Renzo | Done |
+| US12 | Incidencias | T04 | Repository | Persistencia incidentes | 2 | Renzo | Done |
+| US12 | Incidencias | T05 | Request DTO | DTO entrada | 2 | José | Done |
+| US12 | Incidencias | T06 | Response DTO | DTO salida | 2 | José | Done |
+| US12 | Incidencias | T07 | Service | Lógica negocio | 3 | Renzo | Done |
+| US12 | Incidencias | T08 | Controller | Endpoint REST | 3 | Renzo | Done |
+| US12 | Incidencias | T09 | Validaciones | Campos obligatorios | 2 | José | Done |
+| US12 | Incidencias | T10 | Exceptions | Manejo errores | 2 | José | Done |
+| US12 | Incidencias | T11 | Testing POST | Test endpoint | 2 | José | Done |
+| US12 | Incidencias | T12 | Frontend Sync | Integración Angular | 3 | Renzo | Done |
+| US18 | Tracking | T13 | Analizar flujo | Flujo GPS | 1 | Mathias | Done |
+| US18 | Tracking | T14 | Diseñar Model | Diseño tracking | 1 | Mathias | Done |
+| US18 | Tracking | T15 | Tracking Entity | Entidad GPS | 2 | Mathias | Done |
+| US18 | Tracking | T16 | Repository | Persistencia GPS | 2 | Mathias | Done |
+| US18 | Tracking | T17 | Tracking DTO | DTO tracking | 2 | José | Done |
+| US18 | Tracking | T18 | Service | Servicio GPS | 3 | Mathias | Done |
+| US18 | Tracking | T19 | Update Location | Actualizar coordenadas | 3 | Mathias | Done |
+| US18 | Tracking | T20 | Link Trip | Asociar con viaje | 2 | Mathias | Done |
+| US18 | Tracking | T21 | Controller | Endpoint GPS | 3 | Mathias | Done |
+| US18 | Tracking | T22 | Validaciones | Validar lat/lng | 2 | José | Done |
+| US18 | Tracking | T23 | Testing GPS | Test API | 2 | José | Done |
+| US18 | Tracking | T24 | Map Sync | Integrar mapa | 4 | Renzo | Done |
+| US18 | Tracking | T25 | Validar mapa | Render visual | 2 | Renzo | Done |
+| US19 | Proximidad | T26 | Analizar lógica | Reglas proximidad | 1 | Julio | Done |
+| US19 | Proximidad | T27 | Diseñar Entity | Modelo alertas | 1 | Julio | Done |
+| US19 | Proximidad | T28 | Notification Entity | Entidad alertas | 2 | Julio | Done |
+| US19 | Proximidad | T29 | Repository | Persistencia alertas | 2 | Julio | Done |
+| US19 | Proximidad | T30 | Service | Lógica alertas | 3 | Julio | Done |
+| US19 | Proximidad | T31 | Distance Calc | Calcular distancia | 4 | Julio | Done |
+| US19 | Proximidad | T32 | Threshold | Radio proximidad | 2 | Julio | Done |
+| US19 | Proximidad | T33 | Controller | Endpoint alertas | 3 | Julio | Done |
+| US19 | Proximidad | T34 | Anti Spam | Evitar duplicados | 2 | José | Done |
+| US19 | Proximidad | T35 | Testing | Test alertas | 2 | José | Done |
+| US19 | Proximidad | T36 | UI Alerts | Mostrar alertas | 3 | Renzo | Done |
+| US20 | Llegada | T37 | Analizar flujo | Flujo llegada | 1 | Julio | Done |
+| US20 | Llegada | T38 | Diseñar Model | Modelo llegada | 1 | Julio | Done |
+| US20 | Llegada | T39 | Service | Servicio llegada | 3 | Julio | Done |
+| US20 | Llegada | T40 | Controller | Endpoint llegada | 3 | Julio | Done |
+| US20 | Llegada | T41 | Delivered Status | Estado delivered | 2 | Mathias | Done |
+| US20 | Llegada | T42 | Update Trip | Actualizar viaje | 2 | Mathias | Done |
+| US20 | Llegada | T43 | Notify Parent | Avisar padres | 2 | Julio | Done |
+| US20 | Llegada | T44 | Testing | Test endpoint | 2 | José | Done |
+| US20 | Llegada | T45 | UI Arrival | Integración frontend | 3 | Renzo | Done |
+| TRANS | Backend | CT01 | Init Project | Setup inicial | 3 | Renzo | Done |
+| TRANS | Backend | CT02 | Packages | Arquitectura modular | 3 | Renzo | Done |
+| TRANS | Backend | CT03 | application.yml | Config base | 2 | Renzo | Done |
+| TRANS | Backend | CT04 | DB Connection | Conectar BD | 3 | José | Done |
+| TRANS | Backend | CT05 | JPA | ORM setup | 3 | José | Done |
+| TRANS | Backend | CT06 | CORS | Conexión frontend | 2 | Renzo | Done |
+| TRANS | Security | CT07 | Error Handler | Responses error | 2 | José | Done |
+| TRANS | Security | CT08 | HTTP Codes | Status correctos | 2 | José | Done |
+| TRANS | Docs | CT09 | Swagger | Config OpenAPI | 3 | Julio | Done |
+| TRANS | Docs | CT10 | Docs GET | Documentar GET | 2 | Julio | Done |
+| TRANS | Docs | CT11 | Docs POST | Documentar POST | 2 | Julio | Done |
+| TRANS | Docs | CT12 | Test Swagger | Validar docs | 2 | Julio | Done |
+| TRANS | Integration | CT13 | API Sync | Angular + API | 4 | Renzo | Done |
+| TRANS | Integration | CT14 | Test GET | Probar GET | 2 | Renzo | Done |
+| TRANS | Integration | CT15 | Test POST | Probar POST | 2 | Renzo | Done |
+| TRANS | Deploy | CT16 | Env Vars | Variables entorno | 2 | Renzo | Done |
+| TRANS | Deploy | CT17 | Cloud Deploy | Publicación backend | 4 | Renzo | Done |
+| TRANS | Deploy | CT18 | Health Check | Validación final | 2 | Renzo | Done |
+
+*Nota. Sprint Board del Sprint 3 utilizado para la gestión colaborativa del desarrollo de Web Services de SafeRoute mediante Trello. Elaboración propia.*
+
+**URL del Board:**
+
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo se enfocó en establecer la base inicial para el desarrollo de los Web Services de SafeRoute. En esta etapa se realizaron actividades relacionadas con la creación del repositorio backend, configuración inicial del proyecto, instalación de dependencias necesarias y actualización de diagramas arquitectónicos para alinear el diseño del sistema con la futura implementación de servicios REST.
+
+Asimismo, se trabajó en la preparación del entorno de desarrollo utilizando Spring Boot como framework principal para la construcción del backend, dejando configurada la estructura base del proyecto para el desarrollo progresivo de módulos funcionales en los siguientes sprints. Estos avances permitieron sentar las bases técnicas necesarias para la implementación de la lógica de negocio y la integración con la Web Application.
+
+A continuación, se presentan los principales commits relacionados con el desarrollo del Sprint 3.
+
+| Repository    | Branch | Commit Id | Commit Message                    | Commit Message Body                                          | Commited on (Date) |
+| ------------- | ------ | --------- | --------------------------------- | ------------------------------------------------------------ | ------------------ |
+| saferoute-api | main   | c4dff51   | Initial commit                    | Initial creation of backend repository                       | 2026-04-20         |
+| saferoute-api | main   | 698b2ef   | chore: initial commit             | Base project setup and initial structure                     | 2026-04-20         |
+| saferoute-api | main   | 6fee236   | change: Diagrams                  | Updated architecture diagrams for backend design             | 2026-04-21         |
+| saferoute-api | main   | d678966   | init repository                   | Repository initialization for backend services               | 2026-06-14         |
+| saferoute-api | main   | f542765   | init: add dependencies and config | Added dependencies and initial configuration for Spring Boot | 2026-06-14         |
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo logró implementar la capa backend del sistema SafeRoute, permitiendo la comunicación entre frontend y servicios REST desplegados. Se validó el flujo de consumo de endpoints desde la Web Application, asegurando operaciones de consulta, registro y actualización de información en tiempo real.
+
+Asimismo, se realizaron pruebas funcionales de endpoints relacionados con tracking, incidencias y notificaciones, validando respuestas HTTP correctas y persistencia de datos.
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo documentó formalmente los Web Services implementados mediante OpenAPI/Swagger. Esta documentación permitió validar el comportamiento de los endpoints REST, incluyendo parámetros, body requests, responses y códigos HTTP asociados.
+
+A continuación, se presentan algunos de los principales endpoints implementados durante el Sprint 3.
+
+| Endpoint                   | HTTP Method | Description                | Parameters        | Example Response     |
+| -------------------------- | ----------- | -------------------------- | ----------------- | -------------------- |
+| `/api/trips`               | GET         | Obtiene viajes registrados | No requiere       | Lista de trayectos   |
+| `/api/trips/{id}/tracking` | POST        | Registra coordenadas GPS   | tripId, lat, lng  | Tracking actualizado |
+| `/api/incidents`           | POST        | Registra incidencia        | Tipo, descripción | Incidencia creada    |
+| `/api/notifications`       | GET         | Obtiene notificaciones     | No requiere       | Lista de alertas     |
+| `/api/trips/{id}/arrival`  | PATCH       | Confirma llegada           | tripId            | Llegada confirmada   |
+
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el despliegue del backend de SafeRoute en un entorno cloud, configurando variables de entorno, base de datos y pipeline de publicación. Esto permitió que los Web Services estuvieran disponibles para consumo externo por parte del frontend.
+
+A continuación, se presentan evidencias del despliegue realizado:
+
+**Backend Deployment URL:**
+
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 3, el equipo mantuvo un flujo de trabajo colaborativo basado en GitFlow para organizar el desarrollo de los Web Services del proyecto SafeRoute. Este enfoque permitió trabajar de forma paralela sobre distintos bounded contexts del backend, minimizando conflictos y facilitando la integración continua.
+
+El proceso de colaboración se estructuró de la siguiente manera:
+
+* Cada integrante trabajó en ramas **feature** asociadas a módulos backend específicos.
+* Las implementaciones fueron integradas progresivamente en **develop**.
+* Las funcionalidades validadas fueron fusionadas hacia **main** para despliegue.
+
+Este flujo de trabajo permitió:
+
+* Mantener modularidad en backend
+* Facilitar integración continua
+* Reducir conflictos de merge
+* Mejorar trazabilidad de cambios
+
+A continuación, se presentan evidencias de la colaboración del equipo durante el Sprint 3:
+
+![Pulse](./assets/images/sprint3/pulse.png)
+
+*Nota. Analíticos de actividad del repositorio backend durante el Sprint 3. Elaboración propia.*
+
+![Network Graph](./assets/images/sprint3/network.png)
+
+*Nota. Flujo de ramas feature y merges hacia develop/main durante el Sprint 3. Elaboración propia.*
+
+![Contributors](./assets/images/sprint3/contributors.png)
+*Nota. Contribuciones por integrante durante el Sprint 3. Elaboración propia.*
+
 
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
 
-Durante el Sprint 2, el equipo logró avanzar en el desarrollo de la Web Application de SafeRoute, implementando módulos funcionales relacionados con autenticación, gestión de comunidad, rutas, monitoreo de viajes, suscripciones, alertas y perfil de usuario. Estos avances permitieron consolidar una arquitectura frontend organizada y una navegación modular orientada a mejorar la experiencia de uso del sistema. A partir de los Problem Statements y assumptions definidos previamente, se priorizó la construcción de interfaces intuitivas, navegación clara y visualización centralizada de información relevante para administradores y padres de familia. Asimismo, se aplicó el enfoque Lean UX mediante iteraciones progresivas, validación visual de funcionalidades y trabajo colaborativo utilizando GitFlow para la gestión de ramas y control de versiones.
+Durante el Sprint 3, el equipo logró avanzar en la preparación de la capa de Web Services de SafeRoute, estableciendo la base necesaria para el desarrollo del backend del sistema. Los principales avances estuvieron relacionados con la creación del repositorio backend, configuración inicial del proyecto, instalación de dependencias y definición de la estructura arquitectónica que soportará la implementación de los servicios REST en los siguientes sprints. Estos avances permitieron consolidar una base técnica organizada y escalable para la futura integración entre la Web Application y la lógica de negocio del sistema.
 
 ### Video About-the-Team
 
