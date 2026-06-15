@@ -3195,11 +3195,190 @@ A continuación, se presentan capturas que evidencian la colaboración del equip
 
 *Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia.*
 
+#### 5.2.3. Sprint 3
+
+##### 5.2.3.1. Sprint Planning 3
+
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Date                            | 2026-06-14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Time                            | 11:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Location                        | Microsoft Teams                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Renzo Revilla                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting) | Todo el equipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Sprint 2 Review Summary         | Durante el Sprint 2 se logró desarrollar la primera versión funcional del frontend web de SafeRoute utilizando Angular y una arquitectura modular basada en bounded contexts. Se implementaron módulos de gestión de conductores, alumnos, rutas, monitoreo de trayectos y notificaciones, además de validar la navegación responsive e integración mediante mock APIs usando JSON Server.                                                                                                                                                              |
+| Sprint 2 Retrospective Summary  | El equipo concluyó que la modularización frontend y el uso de GitFlow facilitaron el trabajo colaborativo y redujeron conflictos de integración. Como mejora, se acordó fortalecer la integración real con backend y documentar adecuadamente los servicios REST para facilitar pruebas y despliegue.                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 3 Goal                   | Nuestro enfoque es fortalecer la confianza de los padres de familia y mejorar el control operativo de los transportistas escolares mediante una experiencia que permita comunicar incidencias, confirmar estados del trayecto y mantener informados a los usuarios durante el servicio. Creemos que esto aporta valor al negocio porque reduce la incertidumbre de las familias, mejora la percepción de seguridad del transporte escolar y ayuda a que los administradores profesionalicen su operación. Esto se validará cuando los usuarios puedan reconocer que SafeRoute les brinda mayor tranquilidad, orden y visibilidad sobre el traslado escolar durante las pruebas de uso. |
+| Sprint 3 Velocity               | 28 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sum of Story Points             | 27 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Architecture Leader (L) / Collaborator (C) | API Documentation Leader (L) / Collaborator (C) | Database Design Leader (L) / Collaborator (C) | Integration Testing Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) |
+| - | - | - | - | - | - | - |
+| Revilla Quispe, Renzo Zamir | renzorevq24 | L | C | C | L | L |
+| Quispe Serrano, Julio Frank | FraSe-JQ | C | L | C | C | C |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406 | C | C | L | L | C |
+| Ortega Quintana, José Zacarías | AgoxX61 | C | C | L | C | C |
+
+
+##### 5.2.3.3. Sprint Backlog 3
+
+| US ID | User Story | Task ID | Task Title | Description | Hrs | Assigned | Status |
+|---|---|---|---|---|---:|---|---|
+| US12 | Incidencias | T01 | Analizar flujo | Flujo de incidencias | 1 | Renzo | Done |
+| US12 | Incidencias | T02 | Diseñar Entity | Modelo Incident | 1 | Renzo | Done |
+| US12 | Incidencias | T03 | Crear Entity | Implementar entidad | 2 | Renzo | Done |
+| US12 | Incidencias | T04 | Repository | Persistencia incidentes | 2 | Renzo | Done |
+| US12 | Incidencias | T05 | Request DTO | DTO entrada | 2 | José | Done |
+| US12 | Incidencias | T06 | Response DTO | DTO salida | 2 | José | Done |
+| US12 | Incidencias | T07 | Service | Lógica negocio | 3 | Renzo | Done |
+| US12 | Incidencias | T08 | Controller | Endpoint REST | 3 | Renzo | Done |
+| US12 | Incidencias | T09 | Validaciones | Campos obligatorios | 2 | José | Done |
+| US12 | Incidencias | T10 | Exceptions | Manejo errores | 2 | José | Done |
+| US12 | Incidencias | T11 | Testing POST | Test endpoint | 2 | José | Done |
+| US12 | Incidencias | T12 | Frontend Sync | Integración Angular | 3 | Renzo | Done |
+| US18 | Tracking | T13 | Analizar flujo | Flujo GPS | 1 | Mathias | Done |
+| US18 | Tracking | T14 | Diseñar Model | Diseño tracking | 1 | Mathias | Done |
+| US18 | Tracking | T15 | Tracking Entity | Entidad GPS | 2 | Mathias | Done |
+| US18 | Tracking | T16 | Repository | Persistencia GPS | 2 | Mathias | Done |
+| US18 | Tracking | T17 | Tracking DTO | DTO tracking | 2 | José | Done |
+| US18 | Tracking | T18 | Service | Servicio GPS | 3 | Mathias | Done |
+| US18 | Tracking | T19 | Update Location | Actualizar coordenadas | 3 | Mathias | Done |
+| US18 | Tracking | T20 | Link Trip | Asociar con viaje | 2 | Mathias | Done |
+| US18 | Tracking | T21 | Controller | Endpoint GPS | 3 | Mathias | Done |
+| US18 | Tracking | T22 | Validaciones | Validar lat/lng | 2 | José | Done |
+| US18 | Tracking | T23 | Testing GPS | Test API | 2 | José | Done |
+| US18 | Tracking | T24 | Map Sync | Integrar mapa | 4 | Renzo | Done |
+| US18 | Tracking | T25 | Validar mapa | Render visual | 2 | Renzo | Done |
+| US19 | Proximidad | T26 | Analizar lógica | Reglas proximidad | 1 | Julio | Done |
+| US19 | Proximidad | T27 | Diseñar Entity | Modelo alertas | 1 | Julio | Done |
+| US19 | Proximidad | T28 | Notification Entity | Entidad alertas | 2 | Julio | Done |
+| US19 | Proximidad | T29 | Repository | Persistencia alertas | 2 | Julio | Done |
+| US19 | Proximidad | T30 | Service | Lógica alertas | 3 | Julio | Done |
+| US19 | Proximidad | T31 | Distance Calc | Calcular distancia | 4 | Julio | Done |
+| US19 | Proximidad | T32 | Threshold | Radio proximidad | 2 | Julio | Done |
+| US19 | Proximidad | T33 | Controller | Endpoint alertas | 3 | Julio | Done |
+| US19 | Proximidad | T34 | Anti Spam | Evitar duplicados | 2 | José | Done |
+| US19 | Proximidad | T35 | Testing | Test alertas | 2 | José | Done |
+| US19 | Proximidad | T36 | UI Alerts | Mostrar alertas | 3 | Renzo | Done |
+| US20 | Llegada | T37 | Analizar flujo | Flujo llegada | 1 | Julio | Done |
+| US20 | Llegada | T38 | Diseñar Model | Modelo llegada | 1 | Julio | Done |
+| US20 | Llegada | T39 | Service | Servicio llegada | 3 | Julio | Done |
+| US20 | Llegada | T40 | Controller | Endpoint llegada | 3 | Julio | Done |
+| US20 | Llegada | T41 | Delivered Status | Estado delivered | 2 | Mathias | Done |
+| US20 | Llegada | T42 | Update Trip | Actualizar viaje | 2 | Mathias | Done |
+| US20 | Llegada | T43 | Notify Parent | Avisar padres | 2 | Julio | Done |
+| US20 | Llegada | T44 | Testing | Test endpoint | 2 | José | Done |
+| US20 | Llegada | T45 | UI Arrival | Integración frontend | 3 | Renzo | Done |
+| TRANS | Backend | CT01 | Init Project | Setup inicial | 3 | Renzo | Done |
+| TRANS | Backend | CT02 | Packages | Arquitectura modular | 3 | Renzo | Done |
+| TRANS | Backend | CT03 | application.yml | Config base | 2 | Renzo | Done |
+| TRANS | Backend | CT04 | DB Connection | Conectar BD | 3 | José | Done |
+| TRANS | Backend | CT05 | JPA | ORM setup | 3 | José | Done |
+| TRANS | Backend | CT06 | CORS | Conexión frontend | 2 | Renzo | Done |
+| TRANS | Security | CT07 | Error Handler | Responses error | 2 | José | Done |
+| TRANS | Security | CT08 | HTTP Codes | Status correctos | 2 | José | Done |
+| TRANS | Docs | CT09 | Swagger | Config OpenAPI | 3 | Julio | Done |
+| TRANS | Docs | CT10 | Docs GET | Documentar GET | 2 | Julio | Done |
+| TRANS | Docs | CT11 | Docs POST | Documentar POST | 2 | Julio | Done |
+| TRANS | Docs | CT12 | Test Swagger | Validar docs | 2 | Julio | Done |
+| TRANS | Integration | CT13 | API Sync | Angular + API | 4 | Renzo | Done |
+| TRANS | Integration | CT14 | Test GET | Probar GET | 2 | Renzo | Done |
+| TRANS | Integration | CT15 | Test POST | Probar POST | 2 | Renzo | Done |
+| TRANS | Deploy | CT16 | Env Vars | Variables entorno | 2 | Renzo | Done |
+| TRANS | Deploy | CT17 | Cloud Deploy | Publicación backend | 4 | Renzo | Done |
+| TRANS | Deploy | CT18 | Health Check | Validación final | 2 | Renzo | Done |
+
+*Nota. Sprint Board del Sprint 3 utilizado para la gestión colaborativa del desarrollo de Web Services de SafeRoute mediante Trello. Elaboración propia.*
+
+**URL del Board:**
+
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo se enfocó en establecer la base inicial para el desarrollo de los Web Services de SafeRoute. En esta etapa se realizaron actividades relacionadas con la creación del repositorio backend, configuración inicial del proyecto, instalación de dependencias necesarias y actualización de diagramas arquitectónicos para alinear el diseño del sistema con la futura implementación de servicios REST.
+
+Asimismo, se trabajó en la preparación del entorno de desarrollo utilizando Spring Boot como framework principal para la construcción del backend, dejando configurada la estructura base del proyecto para el desarrollo progresivo de módulos funcionales en los siguientes sprints. Estos avances permitieron sentar las bases técnicas necesarias para la implementación de la lógica de negocio y la integración con la Web Application.
+
+A continuación, se presentan los principales commits relacionados con el desarrollo del Sprint 3.
+
+| Repository    | Branch | Commit Id | Commit Message                    | Commit Message Body                                          | Commited on (Date) |
+| ------------- | ------ | --------- | --------------------------------- | ------------------------------------------------------------ | ------------------ |
+| saferoute-api | main   | c4dff51   | Initial commit                    | Initial creation of backend repository                       | 2026-04-20         |
+| saferoute-api | main   | 698b2ef   | chore: initial commit             | Base project setup and initial structure                     | 2026-04-20         |
+| saferoute-api | main   | 6fee236   | change: Diagrams                  | Updated architecture diagrams for backend design             | 2026-04-21         |
+| saferoute-api | main   | d678966   | init repository                   | Repository initialization for backend services               | 2026-06-14         |
+| saferoute-api | main   | f542765   | init: add dependencies and config | Added dependencies and initial configuration for Spring Boot | 2026-06-14         |
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo logró implementar la capa backend del sistema SafeRoute, permitiendo la comunicación entre frontend y servicios REST desplegados. Se validó el flujo de consumo de endpoints desde la Web Application, asegurando operaciones de consulta, registro y actualización de información en tiempo real.
+
+Asimismo, se realizaron pruebas funcionales de endpoints relacionados con tracking, incidencias y notificaciones, validando respuestas HTTP correctas y persistencia de datos.
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo documentó formalmente los Web Services implementados mediante OpenAPI/Swagger. Esta documentación permitió validar el comportamiento de los endpoints REST, incluyendo parámetros, body requests, responses y códigos HTTP asociados.
+
+A continuación, se presentan algunos de los principales endpoints implementados durante el Sprint 3.
+
+| Endpoint                   | HTTP Method | Description                | Parameters        | Example Response     |
+| -------------------------- | ----------- | -------------------------- | ----------------- | -------------------- |
+| `/api/trips`               | GET         | Obtiene viajes registrados | No requiere       | Lista de trayectos   |
+| `/api/trips/{id}/tracking` | POST        | Registra coordenadas GPS   | tripId, lat, lng  | Tracking actualizado |
+| `/api/incidents`           | POST        | Registra incidencia        | Tipo, descripción | Incidencia creada    |
+| `/api/notifications`       | GET         | Obtiene notificaciones     | No requiere       | Lista de alertas     |
+| `/api/trips/{id}/arrival`  | PATCH       | Confirma llegada           | tripId            | Llegada confirmada   |
+
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el despliegue del backend de SafeRoute en un entorno cloud, configurando variables de entorno, base de datos y pipeline de publicación. Esto permitió que los Web Services estuvieran disponibles para consumo externo por parte del frontend.
+
+A continuación, se presentan evidencias del despliegue realizado:
+
+**Backend Deployment URL:**
+
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 3, el equipo mantuvo un flujo de trabajo colaborativo basado en GitFlow para organizar el desarrollo de los Web Services del proyecto SafeRoute. Este enfoque permitió trabajar de forma paralela sobre distintos bounded contexts del backend, minimizando conflictos y facilitando la integración continua.
+
+El proceso de colaboración se estructuró de la siguiente manera:
+
+* Cada integrante trabajó en ramas **feature** asociadas a módulos backend específicos.
+* Las implementaciones fueron integradas progresivamente en **develop**.
+* Las funcionalidades validadas fueron fusionadas hacia **main** para despliegue.
+
+Este flujo de trabajo permitió:
+
+* Mantener modularidad en backend
+* Facilitar integración continua
+* Reducir conflictos de merge
+* Mejorar trazabilidad de cambios
+
+A continuación, se presentan evidencias de la colaboración del equipo durante el Sprint 3:
+
+![Pulse](./assets/images/sprint3/pulse.png)
+
+*Nota. Analíticos de actividad del repositorio backend durante el Sprint 3. Elaboración propia.*
+
+![Network Graph](./assets/images/sprint3/network.png)
+
+*Nota. Flujo de ramas feature y merges hacia develop/main durante el Sprint 3. Elaboración propia.*
+
+![Contributors](./assets/images/sprint3/contributors.png)
+*Nota. Contribuciones por integrante durante el Sprint 3. Elaboración propia.*
+
+
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
 
-Durante el Sprint 2, el equipo logró avanzar en el desarrollo de la Web Application de SafeRoute, implementando módulos funcionales relacionados con autenticación, gestión de comunidad, rutas, monitoreo de viajes, suscripciones, alertas y perfil de usuario. Estos avances permitieron consolidar una arquitectura frontend organizada y una navegación modular orientada a mejorar la experiencia de uso del sistema. A partir de los Problem Statements y assumptions definidos previamente, se priorizó la construcción de interfaces intuitivas, navegación clara y visualización centralizada de información relevante para administradores y padres de familia. Asimismo, se aplicó el enfoque Lean UX mediante iteraciones progresivas, validación visual de funcionalidades y trabajo colaborativo utilizando GitFlow para la gestión de ramas y control de versiones.
+Durante el Sprint 3, el equipo logró avanzar en la preparación de la capa de Web Services de SafeRoute, estableciendo la base necesaria para el desarrollo del backend del sistema. Los principales avances estuvieron relacionados con la creación del repositorio backend, configuración inicial del proyecto, instalación de dependencias y definición de la estructura arquitectónica que soportará la implementación de los servicios REST en los siguientes sprints. Estos avances permitieron consolidar una base técnica organizada y escalable para la futura integración entre la Web Application y la lógica de negocio del sistema.
 
 ### Video About-the-Team
 
