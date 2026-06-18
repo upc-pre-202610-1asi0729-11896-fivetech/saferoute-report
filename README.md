@@ -3374,6 +3374,234 @@ A continuación, se presentan evidencias de la colaboración del equipo durante 
 *Nota. Contribuciones por integrante durante el Sprint 3. Elaboración propia.*
 
 
+### 5.3. Validation Interviews
+
+Se presentan las entrevistas de validación realizadas para evaluar la experiencia propuesta en SafeRoute. A diferencia de las entrevistas iniciales de descubrimiento, estas sesiones no buscan identificar el problema desde cero, sino validar si la solución desarrollada responde adecuadamente a las necesidades de los segmentos objetivo.
+
+El proceso de validación considera la interacción de los usuarios con el Landing Page y la Web Application. Durante las sesiones se observará si los participantes comprenden la propuesta de valor, si pueden completar tareas principales y si la experiencia resulta clara, confiable y fácil de usar.
+
+
+#### 5.3.1. Diseño de Entrevistas
+
+El diseño de entrevistas de validación define la estructura de las sesiones, los segmentos objetivo considerados, los artefactos a evaluar, los user flows utilizados y las preguntas que guiarán la interacción con los participantes entrevistados.
+
+Para esta etapa, se considera como segmentos objetivo principales a los conductores de transporte escolar y padres de familia. Ambos representan los usuarios más críticos del servicio, ya que el conductor ejecuta el trayecto escolar y el padre monitorea la seguridad del estudiante durante el recorrido.
+
+Aunque la solución también incluye roles como Visitor y Administrator, estos serán considerados dentro del flujo general de validación, principalmente para evaluar la comprensión del Landing Page, la navegación inicial y la lógica general de acceso a la plataforma.
+
+##### Objetivo de la validación
+
+El objetivo principal de las entrevistas de validación es comprobar si los usuarios pueden comprender y utilizar correctamente las funcionalidades principales de SafeRoute mediante la interacción con el Landing Page y la Web Application.
+
+Durante las sesiones se busca validar:
+
+* Si el Landing Page comunica claramente la propuesta de valor de SafeRoute.
+* Si los usuarios entienden los beneficios principales del servicio.
+* Si los conductores pueden identificar su ruta, iniciar un viaje, registrar abordajes y finalizar el trayecto.
+* Si los padres de familia pueden visualizar el viaje activo, revisar la ubicación del vehículo, revisar el estado de sus hijos y comprender las notificaciones.
+* Si la navegación, los textos, botones e información mostrada resultan claros y útiles.
+* Si la solución transmite seguridad, confianza y utilidad para un contexto real de transporte escolar.
+
+##### Segmentos objetivo considerados
+
+| Segmento objetivo | Descripción                                                                                                                                     | Propósito de validación                                                                                                 |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Driver            | Conductor responsable de ejecutar el trayecto escolar, iniciar viajes, registrar abordajes, reportar incidencias y finalizar rutas.             | Validar si el flujo operativo del conductor es claro, rápido y fácil de usar durante una jornada de transporte escolar normal. |
+| Parent            | Padre de familia que necesita monitorear el traslado escolar de su hijo y recibir información sobre ubicación, abordaje, llegada y posibles incidencias. | Validar si la plataforma reduce la incertidumbre y transmite confianza durante el viaje escolar.                        |
+---
+
+##### Roles complementarios considerados en el flujo general(LucidChart)
+
+| Rol complementario | Motivo de inclusión                                                                                                                                                             |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Visitor            | Permite validar si una persona interesada comprende la propuesta de valor desde el Landing Page, revisa beneficios, planes y llamadas a la acción.                              |
+| Administrator      | Permite representar la gestión general del servicio, como registro de usuarios, creación de rutas y asignaciones. |
+
+
+##### Artefactos a validar
+
+| Artefacto       | Descripción                                                  | Elementos evaluados                                                                             |
+| --------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Landing Page    | Página pública de presentación de SafeRoute.                 | Propuesta de valor, beneficios, roles, funcionamiento, planes y llamadas a la acción.           |
+| Web Application | Aplicación web utilizada por los usuarios según su rol.      | Login, dashboards, rutas, viaje activo, abordaje, monitoreo, notificaciones e historial.        |
+| User Flows      | Diagramas elaborados en LucidChart para guiar la validación. | Secuencia de pantallas, acciones del usuario, decisiones, errores y confirmaciones del sistema. |
+
+##### Metodología (Esto servira para la Heuristica asi que luego se puede borrrar xd)
+
+Cada entrevista seguirá una dinámica guiada en la que el participante interactuará con el Landing Page y con el flujo correspondiente a su segmento objetivo.
+
+La sesión se desarrollará de la siguiente manera:
+
+1. Presentación breve del proyecto SafeRoute.
+2. Explicación del objetivo de la entrevista.
+3. Aclaración de que se evalúa la solución y no al participante.
+4. Interacción inicial con el Landing Page.
+5. Ejecución de tareas según el segmento objetivo.
+6. Preguntas durante la navegación para identificar dudas o problemas.
+7. Preguntas finales sobre facilidad de uso, confianza y mejoras.
+8. Registro de observaciones para la evaluación heurística posterior.
+
+##### User Flows utilizados para la validación
+
+Para guiar las entrevistas se diseñaron user flows en LucidChart. Estos flujos representan las rutas principales que los participantes seguirán durante las sesiones de validación.
+
+Se consideró un flujo general de validación y dos flujos específicos asociados a los segmentos objetivo principales: Driver y Parent.
+
+###### General Validation User Flow
+
+El General Validation User Flow resume las rutas principales de interacción dentro de SafeRoute. Este flujo permite observar cómo los distintos tipos de usuario acceden a la plataforma y ejecutan acciones relevantes según su rol.
+
+![General Validation User Flow](./assets/images/ChapterV/ValidationInterviews/general-validation-user-flow.png)
+
+Flujo considerado:
+
+Start → Access SafeRoute → Select user type → Visitor / Driver / Parent / Administrator → Complete main task according to role → System feedback → End
+
+**Tareas principales incluidas:**
+
+| Rol           | Tarea principal                                                                                                     |
+| ------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Visitor       | Explorar el Landing Page, revisar beneficios, consultar planes y completar el formulario de contacto o demo.        |
+| Driver        | Iniciar sesión, seleccionar ruta asignada, iniciar viaje, registrar abordaje y finalizar trayecto.                  |
+| Parent        | Iniciar sesión, seleccionar viaje activo del hijo, revisar ubicación, estado de abordaje y notificación de llegada. |
+| Administrator | Iniciar sesión, revisar panel administrativo, registrar usuarios, crear ruta y asignar conductor/vehículo.          |
+
+Criterios de observación:
+
+* El usuario identifica correctamente su rol.
+* La navegación inicial es clara.
+* Las acciones principales son fáciles de ubicar.
+* El sistema muestra retroalimentación comprensible.
+* El usuario entiende el propósito general de SafeRoute.
+
+###### Driver Trip Execution User Flow
+
+Este flujo valida la experiencia del conductor durante la ejecución de un trayecto escolar. Es uno de los flujos más importantes del sistema porque representa el inicio operativo del viaje y se relaciona con el evento de dominio **TripStarted**.
+
+![Driver Trip Execution User Flow](./assets/images/ChapterV/ValidationInterviews/driver-trip-execution-user-flow.png)
+
+Flujo considerado:
+
+Start → Sign in as Driver → View Driver Dashboard → Select assigned route → Review students and stops → Start Trip → TripStarted event generated → Active Trip Screen → Register student boarding → Report incident if needed → Complete Trip → End
+
+**Tareas asignadas al participante conductor:**
+
+| N° | Tarea                                   | Resultado esperado                                             |
+| -- | --------------------------------------- | -------------------------------------------------------------- |
+| 1  | Iniciar sesión como conductor.          | El usuario accede correctamente al dashboard del conductor.    |
+| 2  | Identificar la ruta asignada.           | El conductor reconoce qué ruta debe ejecutar.                  |
+| 3  | Revisar estudiantes y paradas.          | El conductor entiende la lista de alumnos y puntos de recojo.  |
+| 4  | Iniciar el viaje.                       | El sistema cambia el estado del viaje a activo.                |
+| 5  | Registrar el abordaje de un estudiante. | El sistema actualiza el estado del alumno.                     |
+| 6  | Reportar una incidencia o retraso.      | El sistema registra el incidente y permite continuar el flujo. |
+| 7  | Finalizar el trayecto.                  | El sistema muestra confirmación de viaje completado.           |
+
+Criterios de observación:
+
+* El conductor encuentra rápidamente su ruta asignada.
+* El botón para iniciar viaje es claro.
+* El estado activo del viaje es visible.
+* El registro de abordaje es fácil de comprender.
+* El reporte de incidencias no genera confusión.
+* El flujo evita sobrecarga visual para un usuario operativo.
+* El sistema brinda confirmaciones claras después de cada acción crítica.
+
+
+###### Parent Trip Monitoring User Flow
+
+Este flujo valida la experiencia del padre de familia al monitorear el traslado escolar de su hijo. El objetivo es comprobar si la plataforma transmite tranquilidad, visibilidad y confianza durante el recorrido.
+
+![Parent Trip Monitoring User Flow](./assets/images/ChapterV/ValidationInterviews/parent-trip-monitoring-user-flow.png)
+
+Flujo considerado:
+
+Start → Sign in as Parent → View Family Dashboard → Select child → Check active trip → View vehicle location on map → Check boarding status → Receive arrival notification → Review trip history → End
+
+**Tareas asignadas al participante padre de familia:**
+
+| N° | Tarea                                    | Resultado esperado                                             |
+| -- | ---------------------------------------- | -------------------------------------------------------------- |
+| 1  | Iniciar sesión como padre de familia.    | El usuario accede correctamente al dashboard familiar.         |
+| 2  | Seleccionar al hijo o viaje activo.      | El usuario identifica el viaje correspondiente.                |
+| 3  | Visualizar la ubicación del vehículo.    | El usuario comprende dónde se encuentra la movilidad.          |
+| 4  | Revisar el estado de abordaje.           | El usuario identifica si el estudiante abordó correctamente.   |
+| 5  | Verificar la notificación de llegada.    | El usuario reconoce la confirmación de llegada del estudiante. |
+| 6  | Revisar el historial o estado del viaje. | El usuario accede a información complementaria del trayecto.   |
+
+Criterios de observación:
+
+* El padre encuentra fácilmente el viaje activo.
+* La ubicación del vehículo es comprensible.
+* El estado de abordaje transmite seguridad.
+* Las notificaciones son claras y oportunas.
+* La información mostrada reduce incertidumbre.
+* El usuario percibe confianza en el servicio.
+* La navegación no requiere explicaciones adicionales.
+
+##### Guion general de preguntas
+
+Estas preguntas se utilizarán para iniciar y cerrar la sesión de validación, independientemente del segmento objetivo.
+
+**Preguntas iniciales:**
+
+1. ¿Has utilizado antes alguna aplicación para monitorear rutas, transporte o servicios escolares?
+2. ¿Qué información esperarías encontrar primero en una plataforma de transporte escolar?
+3. ¿Qué te generaría confianza al usar una solución como SafeRoute?
+
+**Preguntas durante la interacción:**
+
+1. ¿Qué crees que puedes hacer en esta pantalla?
+2. ¿El botón o sección que buscas es fácil de identificar?
+3. ¿Hay algún texto, icono o pantalla que te genere confusión?
+4. ¿La información mostrada es suficiente para completar la tarea?
+
+**Preguntas finales:**
+
+1. ¿La plataforma te pareció fácil de usar?
+2. ¿Qué parte te generó más dudas o dificultad?
+3. ¿Qué mejorarías del Landing Page o de la Web Application?
+4. ¿Usarías una plataforma como SafeRoute en un contexto real? ¿Por qué?
+
+##### Preguntas específicas para el segmento Driver
+
+Estas preguntas están orientadas a validar la experiencia del conductor durante el flujo de inicio y ejecución de viaje.
+
+| Momento             | Pregunta                                                                     |
+| ------------------- | ---------------------------------------------------------------------------- |
+| Antes de la tarea   | ¿Qué información necesitarías ver antes de iniciar una ruta escolar?         |
+| Durante la tarea    | ¿El botón o acción para iniciar el viaje te parece fácil de encontrar?       |
+| Durante la tarea    | ¿El sistema te deja claro cuándo el viaje ya está activo?                    |
+| Durante la tarea    | ¿El registro de abordaje te parece rápido y entendible?                      |
+| Después de la tarea | ¿Qué cambiarías para que el flujo sea más rápido o seguro para un conductor? |
+
+##### Preguntas específicas para el segmento Parent
+
+Estas preguntas están orientadas a validar la experiencia del padre de familia durante el monitoreo del trayecto escolar.
+
+| Momento             | Pregunta                                                                        |
+| ------------------- | ------------------------------------------------------------------------------- |
+| Antes de la tarea   | ¿Qué información te daría más tranquilidad durante el traslado de tu hijo?      |
+| Durante la tarea    | ¿Te resulta fácil encontrar el viaje activo de tu hijo?                         |
+| Durante la tarea    | ¿La ubicación del vehículo y el estado de abordaje son claros para ti?          |
+| Durante la tarea    | ¿La notificación de llegada es suficientemente clara?                           |
+| Después de la tarea | ¿La información mostrada reduce tu necesidad de llamar o escribir al conductor? |
+
+##### Métricas de observación (tambien para la parte de heuristica, servira para la escala de severidad)
+
+Durante las entrevistas se registrarán observaciones cualitativas y operativas para analizar la experiencia de usuario.
+
+| Métrica                 | Descripción                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Éxito de tarea          | Indica si el participante logró completar la tarea asignada.                                                       |
+| Dificultad percibida    | Nivel de dificultad expresado o evidenciado durante la interacción.                                                |
+| Errores de navegación   | Acciones incorrectas, retrocesos o momentos de confusión.                                                          |
+| Tiempo aproximado       | Tiempo estimado para completar una tarea principal.                                                                |
+| Comentarios espontáneos | Opiniones, dudas o sugerencias expresadas por el usuario.                                                          |
+| Nivel de confianza      | Percepción del usuario sobre seguridad, claridad y utilidad del sistema.                                           |
+| Claridad del lenguaje   | Evalúa si los textos, etiquetas y botones son comprensibles.                                                       |
+| Visibilidad del estado  | Evalúa si el sistema comunica adecuadamente cambios como viaje iniciado, abordaje registrado o llegada confirmada. |
+
+
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
