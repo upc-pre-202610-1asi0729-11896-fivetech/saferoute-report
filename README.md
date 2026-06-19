@@ -3368,7 +3368,7 @@ A continuación, se presentan evidencias del despliegue realizado:
 *Nota. Evidencia del backend SafeRoute desplegado en Azure App Service con estado operativo saludable. Elaboración propia.*
 
 **Backend Deployment URL:**
-https://saferoute-os.azurewebsites.net
+https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
