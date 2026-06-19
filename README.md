@@ -4099,174 +4099,249 @@ A continuación, se presentan evidencias de la colaboración del equipo durante 
 ![Contributors](./assets/images/sprint3/contributors.png)
 *Nota. Contribuciones por integrante durante el Sprint 3. Elaboración propia.*
 
-
 ### 5.3. Validation Interviews
 
 Se presentan las entrevistas de validación realizadas para evaluar la experiencia propuesta en SafeRoute. A diferencia de las entrevistas iniciales de descubrimiento, estas sesiones no buscan identificar el problema desde cero, sino validar si la solución desarrollada responde adecuadamente a las necesidades de los segmentos objetivo.
 
 El proceso de validación considera la interacción de los usuarios con el Landing Page y la Web Application. Durante las sesiones se observará si los participantes comprenden la propuesta de valor, si pueden completar tareas principales y si la experiencia resulta clara, confiable y fácil de usar.
 
-
 #### 5.3.1. Diseño de Entrevistas
 
-El diseño de entrevistas de validación define la estructura de las sesiones, los segmentos objetivo considerados, los artefactos a evaluar, los user flows utilizados y las preguntas que guiarán la interacción con los participantes entrevistados.
+El diseño de entrevistas de validación define la estructura que seguirá el equipo para evaluar la experiencia de uso de SafeRoute con representantes de los segmentos objetivo. A diferencia de las entrevistas iniciales de descubrimiento, estas sesiones tienen como propósito validar la solución propuesta mediante la interacción directa de los usuarios con el Landing Page y la Web Application.
 
-Para esta etapa, se considera como segmentos objetivo principales a los conductores de transporte escolar y padres de familia. Ambos representan los usuarios más críticos del servicio, ya que el conductor ejecuta el trayecto escolar y el padre monitorea la seguridad del estudiante durante el recorrido.
+Para esta etapa, se consideran como segmentos objetivo principales a los conductores de transporte escolar y padres de familia, debido a que ambos representan los usuarios más críticos del servicio. El conductor ejecuta el trayecto escolar y registra los eventos operativos, mientras que el padre de familia monitorea la seguridad y estado del traslado de su hijo.
 
-Aunque la solución también incluye roles como Visitor y Administrator, estos serán considerados dentro del flujo general de validación, principalmente para evaluar la comprensión del Landing Page, la navegación inicial y la lógica general de acceso a la plataforma.
 
 ##### Objetivo de la validación
 
-El objetivo principal de las entrevistas de validación es comprobar si los usuarios pueden comprender y utilizar correctamente las funcionalidades principales de SafeRoute mediante la interacción con el Landing Page y la Web Application.
+El objetivo principal de las entrevistas de validación es comprobar si los usuarios pueden comprender y utilizar correctamente las funcionalidades principales de SafeRoute, evaluando la claridad, utilidad, facilidad de uso y confianza generada por la solución.
 
 Durante las sesiones se busca validar:
 
 * Si el Landing Page comunica claramente la propuesta de valor de SafeRoute.
-* Si los usuarios entienden los beneficios principales del servicio.
-* Si los conductores pueden identificar su ruta, iniciar un viaje, registrar abordajes y finalizar el trayecto.
-* Si los padres de familia pueden visualizar el viaje activo, revisar la ubicación del vehículo, revisar el estado de sus hijos y comprender las notificaciones.
-* Si la navegación, los textos, botones e información mostrada resultan claros y útiles.
-* Si la solución transmite seguridad, confianza y utilidad para un contexto real de transporte escolar.
+* Si los usuarios comprenden los beneficios principales del servicio.
+* Si los conductores pueden ejecutar tareas críticas como iniciar viaje, controlar alumnos, reportar incidencias y actuar ante emergencias.
+* Si los padres de familia pueden monitorear el viaje, recibir información relevante y confirmar el estado del traslado escolar.
+* Si los textos, botones, pantallas y flujos resultan claros para los usuarios.
+* Si la experiencia propuesta transmite seguridad, confianza y utilidad en un contexto real de transporte escolar.
 
 ##### Segmentos objetivo considerados
 
 | Segmento objetivo | Descripción                                                                                                                                     | Propósito de validación                                                                                                 |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Driver            | Conductor responsable de ejecutar el trayecto escolar, iniciar viajes, registrar abordajes, reportar incidencias y finalizar rutas.             | Validar si el flujo operativo del conductor es claro, rápido y fácil de usar durante una jornada de transporte escolar normal. |
-| Parent            | Padre de familia que necesita monitorear el traslado escolar de su hijo y recibir información sobre ubicación, abordaje, llegada y posibles incidencias. | Validar si la plataforma reduce la incertidumbre y transmite confianza durante el viaje escolar.                        |
----
-
-##### Roles complementarios considerados en el flujo general(LucidChart)
-
-| Rol complementario | Motivo de inclusión                                                                                                                                                             |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Visitor            | Permite validar si una persona interesada comprende la propuesta de valor desde el Landing Page, revisa beneficios, planes y llamadas a la acción.                              |
-| Administrator      | Permite representar la gestión general del servicio, como registro de usuarios, creación de rutas y asignaciones. |
-
+| **Driver**        | Conductor responsable de ejecutar trayectos escolares, iniciar rutas, registrar abordajes, reportar incidencias y finalizar viajes.             | Validar si el flujo operativo del conductor es claro, rápido y fácil de usar durante una jornada de transporte escolar. |
+| **Parent**        | Padre de familia que necesita monitorear el traslado escolar de su hijo y recibir información sobre ubicación, abordaje, llegada e incidencias. | Validar si la plataforma reduce la incertidumbre y transmite confianza durante el viaje escolar.                        |
 
 ##### Artefactos a validar
 
-| Artefacto       | Descripción                                                  | Elementos evaluados                                                                             |
-| --------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| Landing Page    | Página pública de presentación de SafeRoute.                 | Propuesta de valor, beneficios, roles, funcionamiento, planes y llamadas a la acción.           |
-| Web Application | Aplicación web utilizada por los usuarios según su rol.      | Login, dashboards, rutas, viaje activo, abordaje, monitoreo, notificaciones e historial.        |
-| User Flows      | Diagramas elaborados en LucidChart para guiar la validación. | Secuencia de pantallas, acciones del usuario, decisiones, errores y confirmaciones del sistema. |
+Durante las entrevistas se validarán los siguientes artefactos del producto:
 
-##### Metodología (Esto servira para la Heuristica asi que luego se puede borrrar xd)
+| Artefacto           | Descripción                                                                           | Elementos evaluados                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Landing Page**    | Página pública de presentación de SafeRoute.                                          | Propuesta de valor, beneficios, funcionamiento general, planes y llamadas a la acción.                      |
+| **Web Application** | Aplicación web utilizada por los usuarios según su rol.                               | Login, dashboards, rutas, viaje activo, abordaje, monitoreo, notificaciones, incidencias e historial.       |
+| **User Flows**      | Diagramas previamente definidos en la sección de Web Applications User Flow Diagrams. | Acciones del usuario, happy path, unhappy paths y validación de tareas principales. |
 
-Cada entrevista seguirá una dinámica guiada en la que el participante interactuará con el Landing Page y con el flujo correspondiente a su segmento objetivo.
 
-La sesión se desarrollará de la siguiente manera:
+##### Metodología de la sesión
 
-1. Presentación breve del proyecto SafeRoute.
+Cada entrevista seguirá una dinámica guiada en la que el participante interactuará primero con el Landing Page y luego con los flujos correspondientes de la Web Application, según su segmento objetivo.
+
+La sesión seguirá la siguiente estructura:
+
+1. Presentación breve de SafeRoute.
 2. Explicación del objetivo de la entrevista.
-3. Aclaración de que se evalúa la solución y no al participante.
-4. Interacción inicial con el Landing Page.
+3. Aclaración de que se evalúa la solución, no al participante.
+4. Exploración inicial del Landing Page.
 5. Ejecución de tareas según el segmento objetivo.
-6. Preguntas durante la navegación para identificar dudas o problemas.
-7. Preguntas finales sobre facilidad de uso, confianza y mejoras.
-8. Registro de observaciones para la evaluación heurística posterior.
+6. Observación de dudas, errores, comentarios espontáneos y dificultades.
+7. Aplicación de preguntas generales y específicas.
+8. Registro de hallazgos para el posterior análisis y evaluación heurística.
 
-##### User Flows utilizados para la validación
+##### User Flows considerados para la validación
 
-Para guiar las entrevistas se diseñaron user flows en LucidChart. Estos flujos representan las rutas principales que los participantes seguirán durante las sesiones de validación.
+Para las entrevistas de validación se seleccionaron seis User Flows previamente definidos en la sección 4.4.3. Web Applications User Flow Diagrams. Estos flujos fueron elegidos porque representan funcionalidades core de SafeRoute y permiten evaluar las tareas más importantes de los segmentos objetivo principales.
 
-Se consideró un flujo general de validación y dos flujos específicos asociados a los segmentos objetivo principales: Driver y Parent.
+Durante cada sesión, el participante interactuará primero con el Landing Page para validar la comprensión general del producto. Posteriormente, realizará tareas dentro de la Web Application siguiendo los User Flows correspondientes a su segmento.
 
-###### General Validation User Flow
+###### User Flows seleccionados para el segmento Driver
 
-El General Validation User Flow resume las rutas principales de interacción dentro de SafeRoute. Este flujo permite observar cómo los distintos tipos de usuario acceden a la plataforma y ejecutan acciones relevantes según su rol.
+Los User Flows seleccionados para el segmento Driver cubren el ciclo operativo principal del conductor dentro de SafeRoute: inicio de viaje, control de alumnos, reporte de incidencias y respuesta ante situaciones críticas.
 
-![General Validation User Flow](./assets/images/ChapterV/ValidationInterviews/general-validation-user-flow.png)
+Se considerarán los siguientes User Flows:
 
-Flujo considerado:
+* **User Flow 6:** Control claro de alumnos durante la ruta.
+* **User Flow 8:** Comunicación de incidencia o avance durante el viaje.
+* **User Flow 9:** Botón de pánico ante emergencia.
 
-Start → Access SafeRoute → Select user type → Visitor / Driver / Parent / Administrator → Complete main task according to role → System feedback → End
+Estos flujos permiten validar si el conductor puede realizar acciones críticas de forma clara, rápida y segura.
 
-**Tareas principales incluidas:**
+###### User Flow 6: Control claro de alumnos durante la ruta
 
-| Rol           | Tarea principal                                                                                                     |
-| ------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Visitor       | Explorar el Landing Page, revisar beneficios, consultar planes y completar el formulario de contacto o demo.        |
-| Driver        | Iniciar sesión, seleccionar ruta asignada, iniciar viaje, registrar abordaje y finalizar trayecto.                  |
-| Parent        | Iniciar sesión, seleccionar viaje activo del hijo, revisar ubicación, estado de abordaje y notificación de llegada. |
-| Administrator | Iniciar sesión, revisar panel administrativo, registrar usuarios, crear ruta y asignar conductor/vehículo.          |
+* **User goal:**
+  Como conductor, quiero tener un control claro de los alumnos durante la ruta.
 
-Criterios de observación:
+* **User Story asociada:**
+  US11 - Como conductor, quiero registrar el abordaje de estudiantes, para confirmar asistencia durante la ruta.
+  US14 - Como conductor, quiero finalizar la ruta, para concluir el servicio correctamente.
 
-* El usuario identifica correctamente su rol.
-* La navegación inicial es clara.
-* Las acciones principales son fáciles de ubicar.
-* El sistema muestra retroalimentación comprensible.
-* El usuario entiende el propósito general de SafeRoute.
+* **Web:**
 
-###### Driver Trip Execution User Flow
+<p align="center">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow6.png" alt="Driver User Flow 6" width="900"/>
+</p>
 
-Este flujo valida la experiencia del conductor durante la ejecución de un trayecto escolar. Es uno de los flujos más importantes del sistema porque representa el inicio operativo del viaje y se relaciona con el evento de dominio **TripStarted**.
+* **Descripción del flujo:**
 
-![Driver Trip Execution User Flow](./assets/images/ChapterV/ValidationInterviews/driver-trip-execution-user-flow.png)
+**Happy path:**
+El conductor inicia sesión en la plataforma y accede a su dashboard. Desde allí selecciona la ruta asignada para el día y revisa la lista de estudiantes y paradas correspondientes. Luego inicia el trayecto, activando el viaje dentro del sistema. Durante la ruta, registra el abordaje de los estudiantes y visualiza el estado actualizado de cada alumno. Finalmente, al completar el recorrido, selecciona la opción de finalización de ruta y el sistema confirma el cierre del trayecto.
 
-Flujo considerado:
-
-Start → Sign in as Driver → View Driver Dashboard → Select assigned route → Review students and stops → Start Trip → TripStarted event generated → Active Trip Screen → Register student boarding → Report incident if needed → Complete Trip → End
-
-**Tareas asignadas al participante conductor:**
-
-| N° | Tarea                                   | Resultado esperado                                             |
-| -- | --------------------------------------- | -------------------------------------------------------------- |
-| 1  | Iniciar sesión como conductor.          | El usuario accede correctamente al dashboard del conductor.    |
-| 2  | Identificar la ruta asignada.           | El conductor reconoce qué ruta debe ejecutar.                  |
-| 3  | Revisar estudiantes y paradas.          | El conductor entiende la lista de alumnos y puntos de recojo.  |
-| 4  | Iniciar el viaje.                       | El sistema cambia el estado del viaje a activo.                |
-| 5  | Registrar el abordaje de un estudiante. | El sistema actualiza el estado del alumno.                     |
-| 6  | Reportar una incidencia o retraso.      | El sistema registra el incidente y permite continuar el flujo. |
-| 7  | Finalizar el trayecto.                  | El sistema muestra confirmación de viaje completado.           |
-
-Criterios de observación:
-
-* El conductor encuentra rápidamente su ruta asignada.
-* El botón para iniciar viaje es claro.
-* El estado activo del viaje es visible.
-* El registro de abordaje es fácil de comprender.
-* El reporte de incidencias no genera confusión.
-* El flujo evita sobrecarga visual para un usuario operativo.
-* El sistema brinda confirmaciones claras después de cada acción crítica.
+**Unhappy path:**
+Si el conductor intenta iniciar el trayecto sin tener una ruta asignada o sin información completa de estudiantes y paradas, el sistema muestra un mensaje de advertencia indicando que no es posible iniciar la ruta. Si intenta finalizar el trayecto con acciones pendientes, el sistema advierte que aún existen registros incompletos antes de cerrar el viaje.
 
 
-###### Parent Trip Monitoring User Flow
+###### User Flow 8: Comunicación de incidencia o avance durante el viaje
 
-Este flujo valida la experiencia del padre de familia al monitorear el traslado escolar de su hijo. El objetivo es comprobar si la plataforma transmite tranquilidad, visibilidad y confianza durante el recorrido.
+* **User goal:**
+  Como conductor, quiero comunicar una incidencia o avance de la ruta durante el viaje.
 
-![Parent Trip Monitoring User Flow](./assets/images/ChapterV/ValidationInterviews/parent-trip-monitoring-user-flow.png)
+* **User Story asociada:**
+  US12 - Como conductor, quiero reportar incidencias, para informar retrasos o problemas durante la ruta.
 
-Flujo considerado:
+* **Web:**
 
-Start → Sign in as Parent → View Family Dashboard → Select child → Check active trip → View vehicle location on map → Check boarding status → Receive arrival notification → Review trip history → End
+<p align="center">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow8.png" alt="Driver User Flow 8" width="900"/>
+</p>
 
-**Tareas asignadas al participante padre de familia:**
+* **Descripción del flujo:**
 
-| N° | Tarea                                    | Resultado esperado                                             |
-| -- | ---------------------------------------- | -------------------------------------------------------------- |
-| 1  | Iniciar sesión como padre de familia.    | El usuario accede correctamente al dashboard familiar.         |
-| 2  | Seleccionar al hijo o viaje activo.      | El usuario identifica el viaje correspondiente.                |
-| 3  | Visualizar la ubicación del vehículo.    | El usuario comprende dónde se encuentra la movilidad.          |
-| 4  | Revisar el estado de abordaje.           | El usuario identifica si el estudiante abordó correctamente.   |
-| 5  | Verificar la notificación de llegada.    | El usuario reconoce la confirmación de llegada del estudiante. |
-| 6  | Revisar el historial o estado del viaje. | El usuario accede a información complementaria del trayecto.   |
+**Happy path:**
+Durante una ruta activa, el conductor identifica un retraso, desvío, obstáculo u otro imprevisto. Desde la pantalla correspondiente accede al reporte de incidencias, selecciona una categoría y registra la información necesaria. Al enviar el reporte, el sistema confirma el registro de la incidencia y permite que la información sea comunicada a los usuarios correspondientes.
 
-Criterios de observación:
+**Unhappy path:**
+Si el conductor intenta enviar una incidencia sin completar los datos mínimos, el sistema resalta los campos faltantes y evita el envío hasta que la información sea corregida. Si ocurre un problema de conexión, el sistema debe mostrar un mensaje comprensible o conservar temporalmente la información para evitar pérdida de datos.
 
-* El padre encuentra fácilmente el viaje activo.
-* La ubicación del vehículo es comprensible.
-* El estado de abordaje transmite seguridad.
-* Las notificaciones son claras y oportunas.
-* La información mostrada reduce incertidumbre.
-* El usuario percibe confianza en el servicio.
-* La navegación no requiere explicaciones adicionales.
+
+###### User Flow 9: Botón de pánico ante emergencia
+
+* **User goal:**
+  Como conductor, quiero una manera inmediata de informar una emergencia.
+
+* **User Story asociada:**
+  US13 - Como conductor, quiero activar un botón de pánico, para alertar situaciones críticas durante la ruta.
+
+* **Web:**
+
+<p align="center">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow9.png" alt="Driver User Flow 9" width="900"/>
+</p>
+
+* **Descripción del flujo:**
+
+**Happy path:**
+Durante una ruta activa, el conductor identifica una situación de emergencia y activa el botón de pánico. El sistema solicita o ejecuta la confirmación de alerta crítica y registra el evento dentro del viaje. La alerta queda disponible para notificar a los usuarios correspondientes y para su posterior revisión.
+
+**Unhappy path:**
+Si el botón de pánico se activa accidentalmente o no se confirma correctamente, el sistema evita generar una alerta falsa y muestra una indicación clara para confirmar o cancelar la acción. Si existe un fallo de conexión, el sistema debe informar el estado del envío de la alerta para evitar incertidumbre durante una situación crítica.
+
+
+
+###### User Flows seleccionados para el segmento Parent
+
+Los User Flows seleccionados para el segmento Parent cubren las acciones principales de monitoreo y seguimiento del traslado escolar: visualización del viaje, recepción de alertas y confirmación del estado del estudiante.
+
+Se considerarán los siguientes User Flows:
+
+* **User Flow 10:** Rastreo en tiempo real del vehículo.
+* **User Flow 11:** Recepción de notificaciones automáticas.
+* **User Flow 12:** Confirmación de llegada e historial de asistencia.
+
+Estos flujos permiten validar si el padre de familia puede obtener información suficiente sobre el traslado de su hijo sin depender de llamadas o mensajes constantes al conductor.
+
+###### User Flow 10: Rastreo en tiempo real del vehículo
+
+* **User goal:**
+  Como padre de familia, quiero estar informado de la ubicación y situación en tiempo real del vehículo.
+
+* **User Story asociada:**
+  US18 - Como padre, quiero ver el vehículo en el mapa, para calcular la hora de llegada.
+
+* **Web:**
+
+<p align="center">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/userflow10.png" alt="Parent User Flow 10" width="900"/>
+</p>
+
+Descripción del flujo:
+
+**Happy path:**
+El padre inicia sesión en SafeRoute y accede al módulo de monitoreo del viaje activo de su hijo. El sistema muestra el mapa con la ubicación del vehículo y la información relevante del trayecto. El usuario puede revisar el estado del viaje y comprender la situación actual sin necesidad de contactar directamente al conductor.
+
+**Unhappy path:**
+Si no existe un viaje activo, el sistema muestra un mensaje indicando que no hay trayectos disponibles en ese momento. Si la ubicación del vehículo no puede cargarse por problemas de conexión o señal GPS, el sistema muestra un estado de error comprensible, evitando que el padre interprete la falta de información como una situación de riesgo.
+
+
+###### User Flow 11: Recepción de notificaciones automáticas
+
+* **User goal:**
+  Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+
+* **User Story asociada:**
+  US19 - Como padre, quiero recibir una alerta de proximidad, para prepararme antes de la llegada del vehículo.
+  US20 - Como padre, quiero recibir confirmación de llegada, para estar tranquilo.
+
+* **Web:**
+
+<p align="center">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="ug11">
+</p>
+
+* **Descripción del flujo:**
+
+**Happy path:**
+El padre recibe notificaciones automáticas durante momentos importantes del trayecto, como inicio de ruta, aproximación del vehículo, abordaje del estudiante, llegada al destino o reporte de incidencia. Estas alertas mantienen informado al usuario sin necesidad de comunicarse constantemente con el conductor.
+
+**Unhappy path:**
+Si las notificaciones están desactivadas o el dispositivo no permite recibir alertas, el sistema mantiene los eventos visibles dentro de la plataforma para que el padre pueda consultarlos manualmente. Si una notificación no puede enviarse, la información debe permanecer disponible en el panel del viaje o historial correspondiente.
+
+
+###### User Flow 12: Confirmación de llegada e historial de asistencia
+
+* **User goal:**
+  Como padre de familia, quiero saber si mi hijo abordó el transporte y llegó correctamente.
+
+* **User Story asociada:**
+  US20 - Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo.
+  US22 - Como padre, quiero ver los días que mi hijo abordó, para control mensual.
+
+* **Web:**
+
+<p align="center">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/user flow12.png" width="1500px" alt="ug12">
+</p>
+
+* **Descripción del flujo:**
+
+**Happy path:**
+Cuando el conductor registra el abordaje del estudiante, el sistema actualiza el estado del alumno y permite que el padre visualice la confirmación correspondiente. Posteriormente, cuando el estudiante llega al destino, el sistema muestra la confirmación de llegada. Estos eventos quedan registrados en el historial de asistencia, donde el padre puede revisar fechas, horarios y estados del servicio.
+
+**Unhappy path:**
+Si el estudiante aún no ha abordado o el conductor no ha registrado la acción, el sistema muestra un estado pendiente de forma clara. Si el padre intenta revisar un periodo sin registros disponibles, el sistema muestra un estado vacío indicando que no existe historial para el rango seleccionado, sin generar errores ni información incompleta.
+
+
+##### Justificación de selección de User Flows
+
+Los seis User Flows seleccionados corresponden a funcionalidades críticas de SafeRoute y representan las tareas principales que serán evaluadas durante las entrevistas de validación.
+
+En el caso del segmento Driver, los flujos seleccionados cubren la ejecución operativa del servicio: control de estudiantes, comunicación de incidencias y respuesta ante emergencias. En el caso del segmento Parent, los flujos seleccionados cubren la necesidad principal del usuario: monitorear el traslado, recibir alertas y confirmar que el estudiante llegó correctamente.
+
+De esta manera, el proceso de validación se enfoca en los flujos más relevantes para comprobar si la solución responde a las necesidades identificadas en los segmentos objetivo.
+
 
 ##### Guion general de preguntas
 
-Estas preguntas se utilizarán para iniciar y cerrar la sesión de validación, independientemente del segmento objetivo.
+Estas preguntas se utilizarán como guía base para las entrevistas de validación. El objetivo es mantener una sesión breve, clara y enfocada en la interacción del usuario con el Landing Page y la Web Application.
 
 **Preguntas iniciales:**
 
@@ -4288,17 +4363,19 @@ Estas preguntas se utilizarán para iniciar y cerrar la sesión de validación, 
 3. ¿Qué mejorarías del Landing Page o de la Web Application?
 4. ¿Usarías una plataforma como SafeRoute en un contexto real? ¿Por qué?
 
+
 ##### Preguntas específicas para el segmento Driver
 
-Estas preguntas están orientadas a validar la experiencia del conductor durante el flujo de inicio y ejecución de viaje.
+Estas preguntas están orientadas a validar la experiencia del conductor durante los flujos de operación del trayecto escolar.
 
-| Momento             | Pregunta                                                                     |
-| ------------------- | ---------------------------------------------------------------------------- |
-| Antes de la tarea   | ¿Qué información necesitarías ver antes de iniciar una ruta escolar?         |
-| Durante la tarea    | ¿El botón o acción para iniciar el viaje te parece fácil de encontrar?       |
-| Durante la tarea    | ¿El sistema te deja claro cuándo el viaje ya está activo?                    |
-| Durante la tarea    | ¿El registro de abordaje te parece rápido y entendible?                      |
-| Después de la tarea | ¿Qué cambiarías para que el flujo sea más rápido o seguro para un conductor? |
+| Momento             | Pregunta                                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| Antes de la tarea   | ¿Qué información necesitarías ver antes de iniciar una ruta escolar?                                   |
+| Durante la tarea    | ¿El flujo para controlar alumnos durante la ruta te parece fácil de seguir?                            |
+| Durante la tarea    | ¿El sistema te deja claro cuándo una acción, como abordaje o incidencia, fue registrada correctamente? |
+| Durante la tarea    | ¿El reporte de incidencias o emergencia te parece suficientemente rápido y entendible?                 |
+| Después de la tarea | ¿Qué cambiarías para que el flujo sea más seguro o práctico para un conductor?                         |
+
 
 ##### Preguntas específicas para el segmento Parent
 
@@ -4309,23 +4386,222 @@ Estas preguntas están orientadas a validar la experiencia del padre de familia 
 | Antes de la tarea   | ¿Qué información te daría más tranquilidad durante el traslado de tu hijo?      |
 | Durante la tarea    | ¿Te resulta fácil encontrar el viaje activo de tu hijo?                         |
 | Durante la tarea    | ¿La ubicación del vehículo y el estado de abordaje son claros para ti?          |
-| Durante la tarea    | ¿La notificación de llegada es suficientemente clara?                           |
+| Durante la tarea    | ¿Las notificaciones y confirmaciones de llegada son suficientemente claras?     |
 | Después de la tarea | ¿La información mostrada reduce tu necesidad de llamar o escribir al conductor? |
 
-##### Métricas de observación (tambien para la parte de heuristica, servira para la escala de severidad)
+##### Métricas de observación
 
 Durante las entrevistas se registrarán observaciones cualitativas y operativas para analizar la experiencia de usuario.
 
-| Métrica                 | Descripción                                                                                                        |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Éxito de tarea          | Indica si el participante logró completar la tarea asignada.                                                       |
-| Dificultad percibida    | Nivel de dificultad expresado o evidenciado durante la interacción.                                                |
-| Errores de navegación   | Acciones incorrectas, retrocesos o momentos de confusión.                                                          |
-| Tiempo aproximado       | Tiempo estimado para completar una tarea principal.                                                                |
-| Comentarios espontáneos | Opiniones, dudas o sugerencias expresadas por el usuario.                                                          |
-| Nivel de confianza      | Percepción del usuario sobre seguridad, claridad y utilidad del sistema.                                           |
-| Claridad del lenguaje   | Evalúa si los textos, etiquetas y botones son comprensibles.                                                       |
-| Visibilidad del estado  | Evalúa si el sistema comunica adecuadamente cambios como viaje iniciado, abordaje registrado o llegada confirmada. |
+| Métrica                 | Descripción                                                                                                            |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Éxito de tarea          | Indica si el participante logró completar la tarea asignada.                                                           |
+| Dificultad percibida    | Nivel de dificultad expresado o evidenciado durante la interacción.                                                    |
+| Errores de navegación   | Acciones incorrectas, retrocesos o momentos de confusión.                                                              |
+| Tiempo aproximado       | Tiempo estimado para completar una tarea principal.                                                                    |
+| Comentarios espontáneos | Opiniones, dudas o sugerencias expresadas por el usuario.                                                              |
+| Nivel de confianza      | Percepción del usuario sobre seguridad, claridad y utilidad del sistema.                                               |
+| Claridad del lenguaje   | Evalúa si los textos, etiquetas y botones son comprensibles.                                                           |
+| Visibilidad del estado  | Evalúa si el sistema comunica adecuadamente cambios como abordaje registrado, incidencia enviada o llegada confirmada. |
+
+
+#### 5.3.2. Registro de Entrevistas
+
+Cada entrevista incluye los datos del participante, evidencia visual de la sesión, URL del video publicado en Microsoft Stream, timing de inicio, duración y un resumen descriptivo de las principales apreciaciones del entrevistado respecto a las tareas asignadas.
+
+
+##### Primer segmento: Conductores de transporte escolar
+
+Para el segmento Driver, las entrevistas se enfocan en validar la experiencia del conductor al interactuar con los flujos operativos principales de SafeRoute.
+
+**User Flows evaluados:**
+
+* **User Flow 6:** Control claro de alumnos durante la ruta.
+* **User Flow 8:** Comunicación de incidencia o avance durante el viaje.
+* **User Flow 9:** Botón de pánico ante emergencia.
+
+**Tareas asignadas al entrevistado:**
+
+* Explorar el Landing Page de SafeRoute.
+* Identificar la propuesta de valor del servicio.
+* Iniciar sesión como conductor.
+* Revisar la ruta asignada.
+* Controlar el estado de los estudiantes durante la ruta.
+* Reportar una incidencia o avance del viaje.
+* Identificar el uso del botón de pánico ante una emergencia.
+* Comentar dudas, dificultades y sugerencias de mejora.
+
+###### Entrevista de validación 1 - Driver
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Driver
+* **URL del video:** [Pegar URL de Microsoft Stream]
+* **Timing de inicio:** [mm:ss]
+* **Timing de fin:** [mm:ss]
+* **Duración:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-1.png" alt="Driver Validation Interview 1" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+[Redactar aquí el resumen de la entrevista. Debe explicar cómo el entrevistado interactuó con el Landing Page y con los flujos asignados de la Web Application. Incluir si comprendió la propuesta de valor, si pudo completar las tareas, qué partes le resultaron claras, qué dificultades encontró y qué sugerencias brindó. También mencionar sus apreciaciones sobre el control de alumnos, reporte de incidencias, botón de pánico, claridad de botones, mensajes del sistema y confianza generada por la plataforma.]
+
+
+###### Entrevista de validación 2 - Driver
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Driver
+* **URL del video:** [Pegar URL de Microsoft Stream]
+* **Timing de inicio:** [mm:ss]
+**Timing de fin:** [mm:ss]
+* **Duración:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-2.png" alt="Driver Validation Interview 2" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+[Redactar aquí el resumen de la entrevista. Debe explicar las principales apreciaciones del conductor respecto al Landing Page y los User Flows evaluados. Indicar si logró comprender el flujo de control de alumnos, reporte de incidencias y botón de emergencia. Incluir comentarios sobre facilidad de uso, claridad visual, rapidez del flujo, confianza y recomendaciones de mejora.]
+
+
+###### Entrevista de validación 3 - Driver
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Driver
+* **URL del video:** [Pegar URL de Microsoft Stream]
+* **Timing de inicio:** [mm:ss]
+* **Duración:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-3.png" alt="Driver Validation Interview 3" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+[Redactar aquí el resumen de la entrevista. Explicar cómo el entrevistado realizó las tareas asignadas, qué elementos entendió con facilidad, qué problemas o dudas presentó y qué mejoras propuso para el flujo del conductor. Mencionar especialmente la percepción sobre seguridad, rapidez del uso durante una ruta y claridad de los mensajes del sistema.]
+
+
+##### Segundo segmento: Padres de familia
+
+Para el segmento **Parent**, las entrevistas se enfocan en validar la experiencia del padre de familia al monitorear el viaje escolar de su hijo y recibir información relevante durante el trayecto.
+
+**User Flows evaluados:**
+
+* **User Flow 10:** Rastreo en tiempo real del vehículo.
+* **User Flow 11:** Recepción de notificaciones automáticas.
+* **User Flow 12:** Confirmación de llegada e historial de asistencia.
+
+**Tareas asignadas al entrevistado:**
+
+* Explorar el Landing Page de SafeRoute.
+* Identificar la propuesta de valor del servicio.
+* Iniciar sesión como padre de familia.
+* Revisar el dashboard familiar.
+* Ubicar el viaje activo del estudiante.
+* Visualizar la ubicación del vehículo.
+* Revisar el estado de abordaje o llegada.
+* Interpretar las notificaciones automáticas.
+* Revisar historial o confirmación del servicio.
+* Comentar dudas, dificultades y sugerencias de mejora.
+
+###### Entrevista de validación 1 - Parent
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Parent
+* **URL del video:** [Pegar URL de Microsoft Stream]
+* **Timing de inicio:** [mm:ss]
+* **Duración:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-1.png" alt="Parent Validation Interview 1" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+[Redactar aquí el resumen de la entrevista. Debe explicar cómo el entrevistado interactuó con el Landing Page y con los User Flows asignados para el segmento Parent. Incluir si comprendió la propuesta de valor, si pudo ubicar el viaje activo, interpretar la ubicación del vehículo, entender las notificaciones y confirmar la llegada o historial del estudiante. Mencionar qué partes le generaron confianza, qué dudas tuvo y qué mejoras sugirió.]
+
+
+
+###### Entrevista de validación 2 - Parent
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Parent
+* **URL del video:** [Pegar URL de Microsoft Stream]
+* **Timing de inicio:** [mm:ss]
+* **Duración:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-2.png" alt="Parent Validation Interview 2" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+[Redactar aquí el resumen de la entrevista. Explicar las principales apreciaciones del padre de familia respecto a la navegación, monitoreo del viaje, claridad del mapa, estado de abordaje, notificaciones y confirmación de llegada. Incluir comentarios sobre confianza, reducción de incertidumbre y utilidad de la plataforma en un caso real.]
+
+
+###### Entrevista de validación 3 - Parent
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Parent
+* **URL del video:** [Pegar URL de Microsoft Stream]
+* **Timing de inicio:** [mm:ss]
+* **Duración:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-3.png" alt="Parent Validation Interview 3" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+[Redactar aquí el resumen de la entrevista. Indicar cómo el entrevistado completó las tareas asignadas, qué entendió del Landing Page, cómo percibió el monitoreo en tiempo real y si la información mostrada fue suficiente para sentirse tranquilo. Mencionar dificultades, sugerencias y apreciaciones sobre seguridad, confianza y facilidad de uso.]
+
+---
+
 
 
 ## Conclusiones
