@@ -46,6 +46,9 @@ El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTe
 
 ![Contributors](./assets/images/web-app/contributors-webapp.png)
 
+### Sprint 3
+
+![Contributors](./assets/images/sprint3/contributors.png)
 ---
 
 ## Contenido
