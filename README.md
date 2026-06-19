@@ -2847,6 +2847,13 @@ URL desplegada: Pendiente
 | TRANSVERSAL   | Deployment & Publication  | CT04    | Configurar acceso público                    | Verificación de disponibilidad pública del Landing Page            | 4                  | Julio       | Done   |
 | TRANSVERSAL   | Deployment & Publication  | CT05    | Validar compatibilidad de navegadores        | Validación del funcionamiento en navegadores modernos              | 4                  | José        | Done   |
 
+![Sprint 1 Trello Board](./assets/images/trello.png)
+
+*Nota. Sprint Board del Sprint 1 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo del Landing Page de SafeRoute mediante Trello. Elaboración propia.*
+
+**URL del Board:**
+https://trello.com/b/NcRCOOzt/saferoute-sprint1
+
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -3130,28 +3137,6 @@ El proceso de despliegue consistió en la configuración del repositorio en GitH
 
 Como resultado, el Landing Page se encuentra disponible para su acceso y validación por parte de los usuarios, cumpliendo con el objetivo de presentar la propuesta de valor del producto en un entorno real.
 
-A continuación, se presentan capturas del proceso y resultado del despliegue:
-
-![Pulse](./assets/images/pulse-webapp.png)
-
-*Nota. Panel de actividad y analíticos del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
-
-![Network Graph](./assets/images/network-webapp.png)
-
-*Nota. Gráfico de red que evidencia el flujo de trabajo colaborativo basado en ramas feature integradas en develop para la Web Application. Elaboración propia.*
-
-![Contributors](./assets/images/contributors-webapp.png)
-
-*Nota. Analíticos de contribución por integrante dentro del repositorio SafeRoute WebApp durante el Sprint 2. Elaboración propia.*
-
-![Commits](./assets/images/commits-webapp.png)
-
-*Nota. Historial de commits realizados por los integrantes del equipo durante el desarrollo del Sprint 2. Elaboración propia.*
-
-![Feature Branches](./assets/images/branches-webapp.png)
-
-*Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funcionalidades dentro de la Web Application. Elaboración propia.*
-
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
 https://fivetech-nrc11896.github.io/saferoute-landing-page/
@@ -3228,96 +3213,122 @@ A continuación, se presentan capturas que evidencian la colaboración del equip
 
 | US ID | User Story | Task ID | Task Title | Description | Hrs | Assigned | Status |
 |---|---|---|---|---|---:|---|---|
-| US12 | Incidencias | T01 | Analizar flujo | Flujo de incidencias | 1 | Renzo | Done |
-| US12 | Incidencias | T02 | Diseñar Entity | Modelo Incident | 1 | Renzo | Done |
-| US12 | Incidencias | T03 | Crear Entity | Implementar entidad | 2 | Renzo | Done |
-| US12 | Incidencias | T04 | Repository | Persistencia incidentes | 2 | Renzo | Done |
-| US12 | Incidencias | T05 | Request DTO | DTO entrada | 2 | José | Done |
-| US12 | Incidencias | T06 | Response DTO | DTO salida | 2 | José | Done |
-| US12 | Incidencias | T07 | Service | Lógica negocio | 3 | Renzo | Done |
-| US12 | Incidencias | T08 | Controller | Endpoint REST | 3 | Renzo | Done |
-| US12 | Incidencias | T09 | Validaciones | Campos obligatorios | 2 | José | Done |
-| US12 | Incidencias | T10 | Exceptions | Manejo errores | 2 | José | Done |
-| US12 | Incidencias | T11 | Testing POST | Test endpoint | 2 | José | Done |
-| US12 | Incidencias | T12 | Frontend Sync | Integración Angular | 3 | Renzo | Done |
-| US18 | Tracking | T13 | Analizar flujo | Flujo GPS | 1 | Mathias | Done |
-| US18 | Tracking | T14 | Diseñar Model | Diseño tracking | 1 | Mathias | Done |
-| US18 | Tracking | T15 | Tracking Entity | Entidad GPS | 2 | Mathias | Done |
+| US12  | Incidencias | T01     | Analizar flujo | Flujo de incidencias                  |   1 | Renzo    | Done   |
+| US12  | Incidencias | T02     | Aggregate      | Modelado del aggregate de incidencias |   2 | Renzo    | Done   |
+| US12  | Incidencias | T03     | Commands       | Comandos para incidencias             |   2 | Renzo    | Done   |
+| US12  | Incidencias | T04     | Events         | Eventos de dominio                    |   2 | Renzo    | Done   |
+| US12  | Incidencias | T05     | Repository     | Persistencia de incidencias           |   2 | José     | Done   |
+| US12  | Incidencias | T06     | Persistence    | Configuración persistence layer       |   2 | José     | Done   |
+| US12  | Incidencias | T07     | Service        | Lógica de negocio                     |   3 | Renzo    | Done   |
+| US12  | Incidencias | T08     | Controller     | Endpoint REST                         |   3 | Renzo    | Done   |
+| US12  | Incidencias | T09     | Validaciones   | Campos obligatorios                   |   2 | José     | Done   |
+| US12  | Incidencias | T10     | Exceptions     | Manejo de errores                     |   2 | José     | Done   |
+| US12  | Incidencias | T11     | Testing POST   | Prueba endpoint POST                  |   2 | José     | Done   |
+| US18 | Tracking | T12 | Analizar flujo | Flujo GPS | 1 | Mathias | Done |
+| US18 | Tracking | T13 | Aggregate | Aggregate tracking | 2 | Mathias | Done |
+| US18 | Tracking | T14 | Commands | Comandos tracking | 2 | Mathias | Done |
+| US18 | Tracking | T15 | Events | Eventos tracking | 2 | Mathias | Done |
 | US18 | Tracking | T16 | Repository | Persistencia GPS | 2 | Mathias | Done |
-| US18 | Tracking | T17 | Tracking DTO | DTO tracking | 2 | José | Done |
+| US18 | Tracking | T17 | Persistence | Guardado de coordenadas | 2 | José | Done |
 | US18 | Tracking | T18 | Service | Servicio GPS | 3 | Mathias | Done |
 | US18 | Tracking | T19 | Update Location | Actualizar coordenadas | 3 | Mathias | Done |
 | US18 | Tracking | T20 | Link Trip | Asociar con viaje | 2 | Mathias | Done |
 | US18 | Tracking | T21 | Controller | Endpoint GPS | 3 | Mathias | Done |
 | US18 | Tracking | T22 | Validaciones | Validar lat/lng | 2 | José | Done |
 | US18 | Tracking | T23 | Testing GPS | Test API | 2 | José | Done |
-| US18 | Tracking | T24 | Map Sync | Integrar mapa | 4 | Renzo | Done |
-| US18 | Tracking | T25 | Validar mapa | Render visual | 2 | Renzo | Done |
-| US19 | Proximidad | T26 | Analizar lógica | Reglas proximidad | 1 | Julio | Done |
-| US19 | Proximidad | T27 | Diseñar Entity | Modelo alertas | 1 | Julio | Done |
-| US19 | Proximidad | T28 | Notification Entity | Entidad alertas | 2 | Julio | Done |
-| US19 | Proximidad | T29 | Repository | Persistencia alertas | 2 | Julio | Done |
+| US19 | Proximidad | T24 | Analizar lógica | Reglas de proximidad | 1 | Julio | Done |
+| US19 | Proximidad | T25 | Aggregate | Aggregate alertas | 2 | Julio | Done |
+| US19 | Proximidad | T26 | Commands | Comandos alertas | 2 | Julio | Done |
+| US19 | Proximidad | T27 | Events | Eventos alertas | 2 | Julio | Done |
+| US19 | Proximidad | T28 | Repository | Persistencia alertas | 2 | Julio | Done |
+| US19 | Proximidad | T29 | Persistence | Guardado de alertas | 2 | Julio | Done |
 | US19 | Proximidad | T30 | Service | Lógica alertas | 3 | Julio | Done |
 | US19 | Proximidad | T31 | Distance Calc | Calcular distancia | 4 | Julio | Done |
-| US19 | Proximidad | T32 | Threshold | Radio proximidad | 2 | Julio | Done |
+| US19 | Proximidad | T32 | Threshold | Radio de proximidad | 2 | Julio | Done |
 | US19 | Proximidad | T33 | Controller | Endpoint alertas | 3 | Julio | Done |
 | US19 | Proximidad | T34 | Anti Spam | Evitar duplicados | 2 | José | Done |
 | US19 | Proximidad | T35 | Testing | Test alertas | 2 | José | Done |
-| US19 | Proximidad | T36 | UI Alerts | Mostrar alertas | 3 | Renzo | Done |
-| US20 | Llegada | T37 | Analizar flujo | Flujo llegada | 1 | Julio | Done |
-| US20 | Llegada | T38 | Diseñar Model | Modelo llegada | 1 | Julio | Done |
+| US20 | Llegada | T36 | Analizar flujo | Flujo de llegada | 1 | Julio | Done |
+| US20 | Llegada | T37 | Aggregate | Aggregate llegada | 2 | Julio | Done |
+| US20 | Llegada | T38 | Commands | Comandos llegada | 2 | Julio | Done |
 | US20 | Llegada | T39 | Service | Servicio llegada | 3 | Julio | Done |
 | US20 | Llegada | T40 | Controller | Endpoint llegada | 3 | Julio | Done |
 | US20 | Llegada | T41 | Delivered Status | Estado delivered | 2 | Mathias | Done |
 | US20 | Llegada | T42 | Update Trip | Actualizar viaje | 2 | Mathias | Done |
 | US20 | Llegada | T43 | Notify Parent | Avisar padres | 2 | Julio | Done |
 | US20 | Llegada | T44 | Testing | Test endpoint | 2 | José | Done |
-| US20 | Llegada | T45 | UI Arrival | Integración frontend | 3 | Renzo | Done |
 | TRANS | Backend | CT01 | Init Project | Setup inicial | 3 | Renzo | Done |
 | TRANS | Backend | CT02 | Packages | Arquitectura modular | 3 | Renzo | Done |
-| TRANS | Backend | CT03 | application.yml | Config base | 2 | Renzo | Done |
-| TRANS | Backend | CT04 | DB Connection | Conectar BD | 3 | José | Done |
-| TRANS | Backend | CT05 | JPA | ORM setup | 3 | José | Done |
-| TRANS | Backend | CT06 | CORS | Conexión frontend | 2 | Renzo | Done |
-| TRANS | Security | CT07 | Error Handler | Responses error | 2 | José | Done |
+| TRANS | Backend | CT03 | application.yml | Configuración base | 2 | Renzo | Done |
+| TRANS | Backend | CT04 | DB Connection | Conectar base de datos | 3 | José | Done |
+| TRANS | Backend | CT05 | JPA | Configuración ORM | 3 | José | Done |
+| TRANS | Backend | CT06 | CORS | Configuración CORS | 2 | Renzo | Done |
+| TRANS | Security | CT07 | Error Handler | Responses de error | 2 | José | Done |
 | TRANS | Security | CT08 | HTTP Codes | Status correctos | 2 | José | Done |
-| TRANS | Docs | CT09 | Swagger | Config OpenAPI | 3 | Julio | Done |
-| TRANS | Docs | CT10 | Docs GET | Documentar GET | 2 | Julio | Done |
-| TRANS | Docs | CT11 | Docs POST | Documentar POST | 2 | Julio | Done |
-| TRANS | Docs | CT12 | Test Swagger | Validar docs | 2 | Julio | Done |
-| TRANS | Integration | CT13 | API Sync | Angular + API | 4 | Renzo | Done |
-| TRANS | Integration | CT14 | Test GET | Probar GET | 2 | Renzo | Done |
-| TRANS | Integration | CT15 | Test POST | Probar POST | 2 | Renzo | Done |
-| TRANS | Deploy | CT16 | Env Vars | Variables entorno | 2 | Renzo | Done |
-| TRANS | Deploy | CT17 | Cloud Deploy | Publicación backend | 4 | Renzo | Done |
-| TRANS | Deploy | CT18 | Health Check | Validación final | 2 | Renzo | Done |
+| TRANS | Docs | CT09 | Swagger | Configuración OpenAPI | 3 | Julio | Done |
+| TRANS | Docs | CT10 | Docs GET | Documentar endpoints GET | 2 | Julio | Done |
+| TRANS | Docs | CT11 | Docs POST | Documentar endpoints POST | 2 | Julio | Done |
+| TRANS | Docs | CT12 | Test Swagger | Validar documentación | 2 | Julio | Done |
+| TRANS | Deploy | CT13 | Env Vars | Variables de entorno | 2 | Renzo | Done |
+| TRANS | Deploy | CT14 | Cloud Deploy | Publicación backend | 4 | Renzo | Done |
+| TRANS | Deploy | CT15 | Health Check | Validación final | 2 | Renzo | Done |
 
-*Nota. Sprint Board del Sprint 3 utilizado para la gestión colaborativa del desarrollo de Web Services de SafeRoute mediante Trello. Elaboración propia.*
+![Sprint 3 Trello Board](./assets/images/sprint3/trello.png)
+
+*Nota. Sprint Board del Sprint 3 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo de los Web Services de SafeRoute mediante Trello. Elaboración propia.*
 
 **URL del Board:**
+https://trello.com/b/RjHbTl9e
 
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 
-Durante el Sprint 3, el equipo se enfocó en establecer la base inicial para el desarrollo de los Web Services de SafeRoute. En esta etapa se realizaron actividades relacionadas con la creación del repositorio backend, configuración inicial del proyecto, instalación de dependencias necesarias y actualización de diagramas arquitectónicos para alinear el diseño del sistema con la futura implementación de servicios REST.
+Durante el Sprint 3, el equipo avanzó significativamente en la implementación de los Web Services de SafeRoute, desarrollando componentes fundamentales de la capa backend para soportar la lógica de negocio del sistema. El desarrollo se enfocó en la construcción de módulos relacionados con la gestión de flota (*fleet management*), asignación de vehículos y administración de viajes (*trip management*), permitiendo consolidar la arquitectura base de servicios del producto.
 
-Asimismo, se trabajó en la preparación del entorno de desarrollo utilizando Spring Boot como framework principal para la construcción del backend, dejando configurada la estructura base del proyecto para el desarrollo progresivo de módulos funcionales en los siguientes sprints. Estos avances permitieron sentar las bases técnicas necesarias para la implementación de la lógica de negocio y la integración con la Web Application.
+Asimismo, se trabajó en la configuración del entorno backend utilizando **Spring Boot** como framework principal, junto con una arquitectura modular inspirada en principios de **Domain-Driven Design (DDD)** y **RESTful Services**. Durante este Sprint se implementaron aggregates, commands, repositories, capas de persistencia, servicios de aplicación y controladores REST, permitiendo estructurar adecuadamente el dominio del sistema y preparar la futura integración con la Web Application desarrollada en el Sprint anterior.
+
+Estos avances permitieron consolidar una base backend escalable, mantenible y alineada con los objetivos del negocio, especialmente en funcionalidades relacionadas con el control de unidades de transporte, asignación operativa y monitoreo de trayectos escolares.
 
 A continuación, se presentan los principales commits relacionados con el desarrollo del Sprint 3.
 
-| Repository    | Branch | Commit Id | Commit Message                    | Commit Message Body                                          | Commited on (Date) |
-| ------------- | ------ | --------- | --------------------------------- | ------------------------------------------------------------ | ------------------ |
-| saferoute-api | main   | c4dff51   | Initial commit                    | Initial creation of backend repository                       | 2026-04-20         |
-| saferoute-api | main   | 698b2ef   | chore: initial commit             | Base project setup and initial structure                     | 2026-04-20         |
-| saferoute-api | main   | 6fee236   | change: Diagrams                  | Updated architecture diagrams for backend design             | 2026-04-21         |
-| saferoute-api | main   | d678966   | init repository                   | Repository initialization for backend services               | 2026-06-14         |
-| saferoute-api | main   | f542765   | init: add dependencies and config | Added dependencies and initial configuration for Spring Boot | 2026-06-14         |
+| Repository         | Branch  | Commit Id | Commit Message                                     | Commit Message Body                                              | Commited on (Date) |
+| ------------------ | ------- | --------- | -------------------------------------------------- | ---------------------------------------------------------------- | ------------------ |
+| saferoute-platform | develop | f542765   | init: add dependencies and config                  | Added backend dependencies and initial Spring Boot configuration | 2026-06-14         |
+| saferoute-platform | develop | 8195b6e   | feat(fleet): add vehicle status enum               | Added vehicle status enumeration for fleet domain                | 2026-06-16         |
+| saferoute-platform | develop | d006de0   | feat(fleet): add vehicle repository contract       | Added repository contract for vehicle persistence                | 2026-06-16         |
+| saferoute-platform | develop | 54fbc4b   | feat(fleet): add vehicle repository implementation | Implemented persistence layer for vehicle management             | 2026-06-16         |
+| saferoute-platform | develop | b297a6b   | feat(fleet): add vehicles controller               | Added REST controller for vehicle endpoints                      | 2026-06-16         |
+| saferoute-platform | develop | 7762369   | feat(fleet): add assignment aggregate              | Added aggregate root for assignment domain                       | 2026-06-17         |
+| saferoute-platform | develop | bf28a67   | feat(fleet): add assignment commands               | Added command definitions for assignment operations              | 2026-06-17         |
+| saferoute-platform | develop | 5233376   | feat(fleet): add assignment services               | Added service layer for assignment management                    | 2026-06-17         |
+| saferoute-platform | develop | 3190884   | feat(fleet): add assignment rest handling          | Added REST request handling for assignments                      | 2026-06-17         |
+| saferoute-platform | develop | dea7fab   | Add Trip aggregate                                 | Added aggregate root for trip management                         | 2026-06-18         |
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 
-Durante el Sprint 3, el equipo logró implementar la capa backend del sistema SafeRoute, permitiendo la comunicación entre frontend y servicios REST desplegados. Se validó el flujo de consumo de endpoints desde la Web Application, asegurando operaciones de consulta, registro y actualización de información en tiempo real.
+Durante el Sprint 3, el equipo logró implementar los principales componentes funcionales del backend de SafeRoute utilizando Spring Boot y una arquitectura modular basada en Domain-Driven Design. Se desarrollaron funcionalidades relacionadas con la gestión de flota, vehículos, asignación de unidades y modelado de viajes, permitiendo validar la lógica de negocio y la comunicación entre las distintas capas del sistema mediante pruebas funcionales de los servicios REST.
 
-Asimismo, se realizaron pruebas funcionales de endpoints relacionados con tracking, incidencias y notificaciones, validando respuestas HTTP correctas y persistencia de datos.
+A continuación, se presentan evidencias de las principales funcionalidades implementadas durante el Sprint 3:
+
+![Swagger Documentation](./assets/images/sprint3/swagger-ui.png)
+
+*Nota. Interfaz de Swagger UI utilizada para visualizar y probar los endpoints REST implementados durante el Sprint 3. Elaboración propia.*
+
+![Vehicle Endpoints](./assets/images/sprint3/vehicle-endpoints.png)
+
+*Nota. Evidencia de los endpoints implementados para la gestión de vehículos dentro del módulo Fleet de SafeRoute. Elaboración propia.*
+
+![Assignment Endpoints](./assets/images/sprint3/assignment-endpoints.png)
+
+*Nota. Evidencia de los endpoints implementados para la asignación de unidades de transporte dentro del sistema. Elaboración propia.*
+
+![Trip Aggregate Execution](./assets/images/sprint3/trip-module.png)
+
+*Nota. Evidencia del modelado y ejecución inicial del módulo Trip para la gestión de viajes escolares. Elaboración propia.*
+
+
+Link de video:  
+https://drive.google.com/
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -3336,12 +3347,28 @@ A continuación, se presentan algunos de los principales endpoints implementados
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se realizó el despliegue del backend de SafeRoute en un entorno cloud, configurando variables de entorno, base de datos y pipeline de publicación. Esto permitió que los Web Services estuvieran disponibles para consumo externo por parte del frontend.
+Durante el Sprint 3 se realizó el despliegue del backend de SafeRoute en un entorno cloud, configurando variables de entorno, base de datos, containerización con Docker y publicación mediante Microsoft Azure. Este proceso permitió que los Web Services estuvieran disponibles en un entorno externo para su posterior consumo por parte de la Web Application.
 
 A continuación, se presentan evidencias del despliegue realizado:
 
-**Backend Deployment URL:**
+![Production Configuration](./assets/images/sprint3/application-prod.png)
 
+*Nota. Configuración del perfil de producción del backend SafeRoute mediante variables de entorno. Elaboración propia.*
+
+![Docker Container Execution](./assets/images/sprint3/docker-running.png)
+
+*Nota. Ejecución local del contenedor Docker del backend SafeRoute antes del despliegue en cloud. Elaboración propia.*
+
+![Azure Web App Creation](./assets/images/sprint3/azure-webapp-creation.png)
+
+*Nota. Configuración inicial del Azure App Service utilizando contenedores Linux. Elaboración propia.*
+
+![Azure Deployment Result](./assets/images/sprint3/azure-deployment-result.png)
+
+*Nota. Evidencia del backend SafeRoute desplegado en Azure App Service con estado operativo saludable. Elaboración propia.*
+
+**Backend Deployment URL:**
+https://saferoute-os.azurewebsites.net
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
