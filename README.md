@@ -4431,79 +4431,6 @@ Para el segmento Driver, las entrevistas se enfocan en validar la experiencia de
 * Identificar el uso del botón de pánico ante una emergencia.
 * Comentar dudas, dificultades y sugerencias de mejora.
 
-###### Entrevista de validación 1 - Driver
-
-**Entrevistador:**
-[Nombre y apellido del entrevistador]
-
-**Datos del entrevistado**
-
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
-* **Segmento:** Driver
-* **URL del video:** [Pegar URL de Microsoft Stream]
-* **Timing de inicio:** [mm:ss]
-* **Timing de fin:** [mm:ss]
-* **Duración:** [mm:ss]
-
-<p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-1.png" alt="Driver Validation Interview 1" width="500"/>
-</p>
-
-**Resumen descriptivo:**
-[Redactar aquí el resumen de la entrevista. Debe explicar cómo el entrevistado interactuó con el Landing Page y con los flujos asignados de la Web Application. Incluir si comprendió la propuesta de valor, si pudo completar las tareas, qué partes le resultaron claras, qué dificultades encontró y qué sugerencias brindó. También mencionar sus apreciaciones sobre el control de alumnos, reporte de incidencias, botón de pánico, claridad de botones, mensajes del sistema y confianza generada por la plataforma.]
-
-
-###### Entrevista de validación 2 - Driver
-
-**Entrevistador:**
-[Nombre y apellido del entrevistador]
-
-**Datos del entrevistado**
-
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
-* **Segmento:** Driver
-* **URL del video:** [Pegar URL de Microsoft Stream]
-* **Timing de inicio:** [mm:ss]
-**Timing de fin:** [mm:ss]
-* **Duración:** [mm:ss]
-
-<p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-2.png" alt="Driver Validation Interview 2" width="500"/>
-</p>
-
-**Resumen descriptivo:**
-[Redactar aquí el resumen de la entrevista. Debe explicar las principales apreciaciones del conductor respecto al Landing Page y los User Flows evaluados. Indicar si logró comprender el flujo de control de alumnos, reporte de incidencias y botón de emergencia. Incluir comentarios sobre facilidad de uso, claridad visual, rapidez del flujo, confianza y recomendaciones de mejora.]
-
-
-###### Entrevista de validación 3 - Driver
-
-**Entrevistador:**
-[Nombre y apellido del entrevistador]
-
-**Datos del entrevistado**
-
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
-* **Segmento:** Driver
-* **URL del video:** [Pegar URL de Microsoft Stream]
-* **Timing de inicio:** [mm:ss]
-* **Duración:** [mm:ss]
-
-<p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-3.png" alt="Driver Validation Interview 3" width="500"/>
-</p>
-
-**Resumen descriptivo:**
-[Redactar aquí el resumen de la entrevista. Explicar cómo el entrevistado realizó las tareas asignadas, qué elementos entendió con facilidad, qué problemas o dudas presentó y qué mejoras propuso para el flujo del conductor. Mencionar especialmente la percepción sobre seguridad, rapidez del uso durante una ruta y claridad de los mensajes del sistema.]
-
 
 ##### Segundo segmento: Padres de familia
 
@@ -4531,76 +4458,221 @@ Para el segmento **Parent**, las entrevistas se enfocan en validar la experienci
 ###### Entrevista de validación 1 - Parent
 
 **Entrevistador:**
-[Nombre y apellido del entrevistador]
+Mathias Marcelo De la Cruz De los Santos
 
 **Datos del entrevistado**
 
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
+* **Nombre:** Carla 
+* **Apellidos:** Pelaez
+* **Edad:** 38 años
+* **Distrito:** Santiago de Surco, Lima
 * **Segmento:** Parent
-* **URL del video:** [Pegar URL de Microsoft Stream]
-* **Timing de inicio:** [mm:ss]
-* **Duración:** [mm:ss]
+* **URL del video:** https://upcedupe-my.sharepoint.com/personal/u202424059_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202424059%5Fupc%5Fedu%5Fpe%2FDocuments%2Fopen%2DEntevista%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebd0ca91a%2D3ad9%2D4c81%2Dad85%2D824a2b5a4941
+* 
+* **Timing de inicio:** [00:00]
+* **Duración:** [06:31]
 
 <p align="center">
 <img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-1.png" alt="Parent Validation Interview 1" width="500"/>
 </p>
 
 **Resumen descriptivo:**
-[Redactar aquí el resumen de la entrevista. Debe explicar cómo el entrevistado interactuó con el Landing Page y con los User Flows asignados para el segmento Parent. Incluir si comprendió la propuesta de valor, si pudo ubicar el viaje activo, interpretar la ubicación del vehículo, entender las notificaciones y confirmar la llegada o historial del estudiante. Mencionar qué partes le generaron confianza, qué dudas tuvo y qué mejoras sugirió.]
+Durante la sesión de validación, Carla Peláez interactuó con la Web Application de SafeRoute desde el rol de padre de familia. Primero accedió a la pantalla de inicio de sesión, donde se validó el flujo de autenticación y la identificación del tipo de usuario. Posteriormente, ingresó al dashboard familiar, donde pudo visualizar las opciones principales relacionadas con el monitoreo del transporte escolar.
+
+Durante la navegación, la entrevistada revisó el módulo de seguimiento del bus, donde se mostró la ubicación del vehículo en un mapa y una lista de estados asociados al recorrido. Este flujo permitió validar si el padre de familia puede identificar la ubicación del transporte y comprender el estado del trayecto sin necesidad de contactar directamente al conductor.
+
+Asimismo, se revisó la sección de historial de asistencia, donde la participante pudo observar registros asociados a los viajes del estudiante. También se mostró el centro de alertas, orientado a la revisión de notificaciones o incidencias, y finalmente la sección de perfil, donde se visualizan datos personales, opciones de notificación y configuración de seguridad.
+
+En general, la entrevista permitió validar que el flujo del segmento Parent cubre tareas importantes como iniciar sesión, revisar el estado del viaje, monitorear el bus, consultar asistencia, revisar alertas y acceder a la configuración del perfil. Las observaciones obtenidas servirán como insumo para identificar oportunidades de mejora en claridad de navegación, visibilidad del estado del sistema y confianza percibida durante el monitoreo del transporte escolar.
+
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+En esta sección se presenta la evaluación de User Experience según heurísticas aplicada a SafeRoute, considerando criterios de usabilidad, arquitectura de información e inclusive design. Esta evaluación toma como referencia las sesiones de validación realizadas con usuarios de los segmentos objetivo.
+
+Debido a que en esta primera versión se cuenta con una entrevista registrada del segmento Parent los hallazgos presentados corresponden a una evaluación preliminar de la experiencia del padre de familia dentro de la Web Application.
 
 
 
-###### Entrevista de validación 2 - Parent
+### UX Heuristics & Principles Evaluation
 
-**Entrevistador:**
-[Nombre y apellido del entrevistador]
+**Usability – Inclusive Design – Information Architecture**
 
-**Datos del entrevistado**
+| Campo                    | Detalle                   |
+| ------------------------ | ------------------------- |
+| **Carrera**              | Ingeniería de Software    |
+| **Curso**                | Desarrollo de Aplicaciones Open Source         |
+| **Sección**              | 11896    |
+| **Profesores**           | Efraín Ricardo Bautiste Úbillus    |
+| **Auditor**              | FiveTech                  |
+| **Cliente(s)**           | Carla Peláez              |
 
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
-* **Segmento:** Parent
-* **URL del video:** [Pegar URL de Microsoft Stream]
-* **Timing de inicio:** [mm:ss]
-* **Duración:** [mm:ss]
-
-<p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-2.png" alt="Parent Validation Interview 2" width="500"/>
-</p>
-
-**Resumen descriptivo:**
-[Redactar aquí el resumen de la entrevista. Explicar las principales apreciaciones del padre de familia respecto a la navegación, monitoreo del viaje, claridad del mapa, estado de abordaje, notificaciones y confirmación de llegada. Incluir comentarios sobre confianza, reducción de incertidumbre y utilidad de la plataforma en un caso real.]
+**Site o App a evaluar**
+SafeRoute Web Application 
 
 
-###### Entrevista de validación 3 - Parent
 
-**Entrevistador:**
-[Nombre y apellido del entrevistador]
+### Tareas a evaluar
 
-**Datos del entrevistado**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas realizadas por el segmento Parent:
 
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
-* **Segmento:** Parent
-* **URL del video:** [Pegar URL de Microsoft Stream]
-* **Timing de inicio:** [mm:ss]
-* **Duración:** [mm:ss]
+1. Acceder a la plataforma mediante la pantalla de inicio de sesión.
+2. Ingresar a la Web Application con rol de padre de familia.
+3. Visualizar el dashboard familiar.
+4. Consultar el seguimiento del bus escolar.
+5. Revisar el historial de asistencia del estudiante.
+6. Revisar alertas o notificaciones relacionadas al viaje.
+7. Acceder a la sección de perfil y configuración del usuario.
 
-<p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-3.png" alt="Parent Validation Interview 3" width="500"/>
-</p>
+No están incluidas en esta versión preliminar de la evaluación las siguientes tareas:
 
-**Resumen descriptivo:**
-[Redactar aquí el resumen de la entrevista. Indicar cómo el entrevistado completó las tareas asignadas, qué entendió del Landing Page, cómo percibió el monitoreo en tiempo real y si la información mostrada fue suficiente para sentirse tranquilo. Mencionar dificultades, sugerencias y apreciaciones sobre seguridad, confianza y facilidad de uso.]
+1. Inicio y ejecución de ruta desde el rol Driver.
+2. Registro de abordaje por parte del conductor.
+3. Reporte de incidencias desde el rol Driver.
+4. Activación del botón de pánico.
+5. Gestión administrativa de rutas, usuarios y vehículos.
+6. Proceso de contratación o pago de planes.
 
----
+
+### Escala de severidad
+
+Los problemas serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                                                                |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.                |
+| **2** | Problema menor: puede ocurrir con mayor frecuencia o ser un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en el siguiente release. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo y asignarle prioridad alta.                                                    |
+| **4** | Problema muy grave: error de alto impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                                    |
+
+
+
+### Tabla resumen
+
+| # | Problema                                                                                                                                                            | Escala de severidad | Heurística / Principio violado                                                                    |
+| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------: | ------------------------------------------------------------------------------------------------- |
+| 1 | La opción de acceso agrupa los roles **Parent / Driver** en una sola selección, lo que puede generar ambigüedad para usuarios nuevos.                               |                   2 | Information Architecture: Labeling System / Usability: Correspondencia entre sistema y mundo real |
+| 2 | El dashboard del padre podría priorizar con mayor claridad el estado del viaje activo del estudiante.                                                               |                   2 | Usability: Visibilidad del estado del sistema / Information Architecture: Is it findable?         |
+| 3 | Algunas secciones como alertas, historial o seguimiento podrían necesitar mayor jerarquía visual para diferenciar información crítica de información secundaria.    |                   2 | Information Architecture: Is it understandable? / Usability: Diseño estético y minimalista        |
+| 4 | Las notificaciones o alertas podrían mostrar con mayor claridad su nivel de prioridad o estado de lectura.                                                          |                   2 | Usability: Visibilidad del estado del sistema                                                     |
+| 5 | El historial de asistencia podría requerir filtros o indicadores más visibles para facilitar la búsqueda de registros específicos.                                  |                   2 | Information Architecture: Is it findable? / Usability: Flexibilidad y eficiencia de uso           |
+| 6 | Algunos elementos visuales podrían complementarse con textos más descriptivos para mejorar la comprensión de usuarios con distintos niveles de experiencia digital. |                   1 | Inclusive Design: Proporciona experiencias comparables                                            |
+
+
+### Descripción de problemas
+
+#### Problema #1: La opción de acceso agrupa los roles Parent / Driver
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture - Labeling System / Usability - Correspondencia entre sistema y mundo real
+
+**Problema:**
+En la pantalla de inicio de sesión, la opción **Parent / Driver** aparece agrupada en una misma selección. Aunque esto puede simplificar la interfaz, también puede generar ambigüedad para usuarios nuevos, ya que un padre de familia podría no comprender inmediatamente si debe ingresar por esa opción o si existe una opción exclusiva para su rol.
+
+Esta situación no impide el uso del sistema, pero puede generar una pequeña duda inicial durante el acceso, especialmente en usuarios con menor experiencia digital.
+
+**Recomendación:**
+Separar visualmente los accesos por rol o mejorar la etiqueta. Por ejemplo:
+
+* Parent
+* Driver
+* Administrator
+
+Otra alternativa sería mantener la agrupación, pero agregar un texto auxiliar como:
+“Selecciona esta opción si eres padre de familia o conductor registrado”.
+
+#### Problema #2: El dashboard del padre podría priorizar mejor el viaje activo
+
+**Severidad:** 2
+**Heurística violada:** Usability - Visibilidad del estado del sistema / Information Architecture - Is it findable?
+
+**Problema:**
+Durante la validación del flujo Parent, el dashboard familiar permite acceder a distintas secciones como seguimiento del bus, historial, alertas y perfil. Sin embargo, considerando que la necesidad principal del padre es conocer el estado actual del traslado de su hijo, el viaje activo debería destacarse de forma más evidente desde la pantalla principal.
+
+Si esta información no se muestra con suficiente prioridad, el usuario podría tener que explorar más de una opción antes de encontrar el estado actual del viaje.
+
+**Recomendación:**
+Agregar una tarjeta principal en el dashboard que muestre de forma inmediata:
+
+* Estado del viaje actual.
+* Nombre del estudiante.
+* Ubicación o última actualización del vehículo.
+* Próxima acción relevante.
+* Botón directo a “Track Bus” o “View Active Trip”.
+
+#### Problema #3: Algunas secciones requieren mayor jerarquía visual
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture - Is it understandable? / Usability - Diseño estético y minimalista
+
+**Problema:**
+Las secciones del flujo Parent presentan información útil, pero algunas pantallas podrían beneficiarse de una jerarquía visual más marcada para diferenciar información crítica de información secundaria. En un contexto de transporte escolar, datos como ubicación, estado de abordaje, llegada o alerta deberían resaltar más que opciones de consulta general.
+
+Este problema no bloquea la navegación, pero puede afectar la rapidez con la que el usuario interpreta la información.
+
+**Recomendación:**
+Aplicar mayor jerarquía visual en los elementos críticos mediante:
+
+* Tarjetas destacadas para estado actual del viaje.
+* Etiquetas de estado visibles.
+* Separación clara entre información principal y secundaria.
+* Uso consistente de títulos, subtítulos e indicadores.
+
+#### Problema #4: Las alertas podrían indicar mejor prioridad o estado de lectura
+
+**Severidad:** 2
+**Heurística violada:** Usability - Visibilidad del estado del sistema
+
+**Problema:**
+En la sección de alertas, el usuario puede revisar información relacionada con notificaciones del viaje. Sin embargo, sería conveniente que el sistema diferencie con mayor claridad el estado de cada alerta, por ejemplo, si es nueva, leída, informativa, importante o crítica.
+
+Para un padre de familia, no todas las alertas tienen el mismo nivel de urgencia. Una alerta de llegada no tiene el mismo impacto que una incidencia o retraso.
+
+**Recomendación:**
+Agregar indicadores visuales y textuales para diferenciar tipos de alerta:
+
+* Nueva
+* Leída
+* Informativa
+* Importante
+* Crítica
+
+Además, se recomienda ordenar las alertas por prioridad y fecha, mostrando primero las más recientes o relevantes.
+
+
+#### Problema #5: El historial de asistencia podría requerir filtros más visibles
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture - Is it findable? / Usability - Flexibilidad y eficiencia de uso
+
+**Problema:**
+El historial de asistencia permite al padre revisar registros asociados al servicio de transporte escolar. Sin embargo, conforme aumente la cantidad de registros, el usuario podría necesitar mecanismos más claros para encontrar información específica.
+
+Si no existen filtros visibles por fecha, estudiante, estado o tipo de evento, el usuario podría tardar más en encontrar el registro deseado.
+
+**Recomendación:**
+Incorporar filtros o controles de búsqueda como:
+
+* Filtrar por estudiante.
+* Filtrar por fecha o rango de fechas.
+* Filtrar por estado: abordó, ausente, llegó, pendiente.
+* Ordenar por fecha reciente.
+* Mostrar resumen mensual de asistencia.
+
+#### Problema #6: Algunos elementos visuales podrían complementarse con textos descriptivos
+
+**Severidad:** 1
+**Heurística violada:** Inclusive Design - Proporciona experiencias comparables
+
+**Problema:**
+Algunos elementos visuales de la interfaz, como íconos, estados o accesos rápidos, podrían requerir textos complementarios para asegurar que todos los usuarios comprendan su función. Esto es especialmente importante para padres de familia con menor experiencia digital o usuarios que dependen más de texto que de íconos.
+
+El problema es superficial, pero mejorar esta claridad ayudaría a que la experiencia sea más inclusiva.
+
+**Recomendación:**
+Acompañar íconos o indicadores visuales con etiquetas textuales claras. También se recomienda asegurar que los botones y estados tengan nombres comprensibles, evitando depender únicamente de color o íconos.
+
+
 
 
 
