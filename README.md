@@ -25,7 +25,7 @@ Docente
 <br>
 Equipo
 <br>
-**PowerTech**
+**FiveTech**
 
 <br>
 
@@ -47,10 +47,6 @@ Proyecto
     <td style="border: none; text-align: left; padding: 5px 15px;">Quispe Serrano, Julio Frank</td>
   </tr>
   <tr style="border: none;">
-    <td style="border: none; text-align: center; padding: 5px 15px;">U202424059</td>
-    <td style="border: none; text-align: left; padding: 5px 15px;">De la Cruz De los Santos, Mathias Marcelo</td>
-  </tr>
-  <tr style="border: none;">
     <td style="border: none; text-align: center; padding: 5px 15px;">U202316852</td>
     <td style="border: none; text-align: left; padding: 5px 15px;">Ortega Quintana, José Zacarias</td>
   </tr>
@@ -58,12 +54,13 @@ Proyecto
 
 <br><br><br><br><br><br><br><br><br><br>
 
-**Ciclo 2026-10**
-**Junio, 2026**
+**Período 202610**
+<br>
+
+**Julio, 2026**
 <br><br>
+
 </div>
-
-
 
 ## Tabla de contenidos
 
