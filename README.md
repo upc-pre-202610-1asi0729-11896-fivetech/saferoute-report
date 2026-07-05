@@ -2755,7 +2755,7 @@ Aquí se detallan las unidades de despliegue principales del sistema. El diagram
 - Single Page
 
 ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
-La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
+La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (resources del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
 
 - Trip Execution & Monitoring:
   Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
@@ -2789,7 +2789,7 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   ![WebServices](<./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Notification-dark%20(1).png>)
 
 - Shared Kernel:
-  Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los DTOs e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
+  Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los resources e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
   ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
 
   Presentation shared:
@@ -2817,9 +2817,11 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   ![WebServices](./assets/images/ChapterIV/C4/WebServiceComponents-dark.png)
   Este diagrama ofrece la visión macro del backend. Demuestra cómo el monolito de Spring Boot está organizado lógicamente en seis Bounded Contexts independientes y un Shared Kernel (núcleo compartido de Value Objects), asegurando una separación clara de responsabilidades a nivel de dominio.
 
+
 - Trip Execution & Monitoring:
   Ilustra el núcleo operativo del sistema en sus 4 capas. Muestra cómo se procesa la lógica en tiempo real durante la ejecución del viaje, gestionando el registro de abordajes por estudiante, el log de incidentes y la emisión de eventos de dominio internos que activan el contexto de Notificaciones.
   ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Trip-dark.png)
+
 
 - Route Planning & Execution:
   Detalla la arquitectura modular (Controller, Service, Domain, Repository) encargada de la logística previa al viaje. Maneja la definición de paraderos con coordenadas GPS de alta precisión, la asignación de vehículos y conductores, y la configuración de horarios y días de servicio por ruta.
@@ -2834,8 +2836,9 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
 
 - Shared Kernel:
-  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
-  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
+  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y resources base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
+  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark%20(1).png)
+  
   - Identity & Access Management:
     Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la asignación de roles de forma aislada, con Spring Security gestionando la emisión de tokens JWT en la capa de infraestructura.
     ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
@@ -2845,67 +2848,6 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Subscription-dark.png)
 
 #### 4.7.1. Class Diagrams
-
-**BackEnd**
-
-- Identity and Access Management:
-
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-iam-ddd.puml)
-
-Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
-Organization (AggregateRoot): Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
-User (AggregateRoot): Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
-Role (Entity): Define los niveles de acceso dentro del sistema usando el Value Object
-
-- Subscription & Plan Management:
-
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-subscription-ddd.puml)
-
-Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
-Subscription (AggregateRoot): Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
-Plan (AggregateRoot): Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
-
-- Stakeholder & Asset Management:
-
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-stakeholder-ddd.puml)
-
-Modela a los actores humanos y sus agrupaciones dentro del sistema.
-Parent (AggregateRoot): Representa a los apoderados e incluye una lista de entidades Child, gestionando la adición o remoción de hijos.
-Driver (Entity): Define a los conductores, agregando atributos específicos de su labor como el Value Object LicenseNumber.
-Child (Entity): Representa a los estudiantes, gestionando su estado de inscripción mediante el Value Object ChildEnrollmentState.
-StudentGroup (Entity): Permite agrupar referencias a múltiples niños (ChildId) para facilitar su asignación.
-
-- Fleet & Route Planning:
-
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-fleet-ddd.puml)
-
-Encargado de la planificación logística y operativa del transporte.
-Route (AggregateRoot): Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop) y se asocia a un vehículo y a una asignación específica.
-Stop, Vehicle y Assignment (Entities): Stop maneja las coordenadas exactas y el orden de recojo. Vehicle controla la capacidad y disponibilidad de la unidad. Assignment vincula operativamente a un conductor con un grupo específico de niños para esa ruta.
-
-- Trip Execution & Monitoring:
-
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-trip-ddd.puml)
-
-Trip (AggregateRoot): Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización.
-Attendance (Entity): Registra individualmente si un niño abordó o no, utilizando el Value Object BoardingState (boarded, missing, omitted).
-Incident (Entity): Permite reportar cualquier problema durante el viaje, encapsulando los detalles en el Value Object IncidentDescription.
-
-- Notifications & Communication:
-
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-notifications-ddd.puml)
-
-Centraliza el envío de información y alertas hacia los padres de familia.
-Notification (AggregateRoot): Organiza el envío de mensajes, gestionando la categoría y el estado de entrega (NotificationDeliveryState) hacia un apoderado en el contexto de un viaje específico.
-Alert y Announcement (Entities): Alert se enfoca en notificaciones inmediatas o de pánico basadas en el tiempo de disparo (triggeredAt). Announcement maneja comunicados generales asociados a una ruta específica.
-
-- Shared:
-
-![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-shared-ddd.puml)
-
-Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
-
-Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales (ej. OrganizationId, RouteId, ChildId) y conceptos comunes como FullName y Coordinates. Esto asegura la consistencia de los tipos de datos en la comunicación entre los distintos Bounded Contexts.
 
 **FrontEnd**
 
@@ -2976,6 +2918,96 @@ Centraliza la visualización y envío de notificaciones y alertas.
 Presentation & Domain: App compone NotificationList (para filtrar y marcar notificaciones como leídas), AlertPanel (gestiona alertas activas y pánico) y AnnouncementForm (creación de comunicados). Las vistas dependen exclusivamente de los modelos de dominio (Notification, Alert, Announcement) para renderizar los mensajes y alertas operativas a los usuarios finales.
 
 Application & Infrastructure: NotificationsStore maneja el estado de notificaciones, alertas y anuncios. NotificationsApi realiza las peticiones (ej. dispatchNotification(), triggerAlert()) y los Assemblers transforman los recursos recibidos en modelos limpios del dominio.
+
+**BackEnd**
+
+- Identity and Access Management (IAM):
+
+Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
+
+* Organization Aggregate
+Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
+![saferoute-iam-organization](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-iam-organization-ddd.puml)
+
+* User Aggregate
+Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
+![saferoute-iam-user](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-iam-user-ddd.puml)
+
+- Subscription & Plan Management:
+
+Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
+
+* Plan Aggregate
+Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
+![saferoute-subscription-plan](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-plan-ddd.puml)
+
+* Subscription Aggregate
+Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
+![saferoute-subscription-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-subscription-ddd.puml)
+
+* Payment Aggregate
+Gestiona los pagos realizados para las suscripciones.
+![saferoute-subscription-payment](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-payment-ddd.puml)
+
+- Stakeholder & Asset Management:
+
+Modela a los actores humanos y sus agrupaciones dentro del sistema.
+
+* Parent Aggregate
+Representa a los apoderados e incluye a los estudiantes a su cargo, gestionando la adición o remoción de hijos.
+![saferoute-stakeholder-parent](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-parent-ddd.puml)
+
+* Driver Aggregate
+Define a los conductores y atributos de su labor como la licencia.
+![saferoute-stakeholder-driver](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-driver-ddd.puml)
+
+* StudentGroup Aggregate
+Permite agrupar referencias a múltiples niños para facilitar su asignación.
+![saferoute-stakeholder-studentgroup](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-studentgroup-ddd.puml)
+
+- Fleet & Route Planning:
+
+Encargado de la planificación logística y operativa del transporte.
+
+* Route Aggregate
+Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop).
+![saferoute-fleet-route](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-route-ddd.puml)
+
+* Vehicle Aggregate
+Controla la capacidad y disponibilidad de la unidad.
+![saferoute-fleet-vehicle](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-vehicle-ddd.puml)
+
+* Assignment Aggregate
+Vincula operativamente a un conductor con un grupo específico de niños y una ruta para un viaje determinado.
+![saferoute-fleet-assignment](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-assignment-ddd.puml)
+
+- Trip Execution & Monitoring:
+
+Ejecución y seguimiento de viajes.
+
+* Trip Aggregate
+Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización, y además las asistencias (Attendance) e incidentes (Incident).
+![saferoute-trip-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-trip-trip-ddd.puml)
+
+* TripLocation Aggregate
+Rastrea y maneja la ubicación en tiempo real del vehículo durante el recorrido.
+![saferoute-trip-triplocation](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-trip-triplocation-ddd.puml)
+
+- Notifications & Communication:
+
+Centraliza el envío de información y alertas hacia los padres de familia.
+
+* Notification Aggregate
+Organiza el envío de mensajes, gestionando la categoría y el estado de entrega hacia un apoderado, incluyendo alertas y comunicados.
+![saferoute-notifications-notification](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-notifications-notification-ddd.puml)
+
+- Shared:
+
+Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
+
+* Shared Bounded Context
+Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales y conceptos comunes (ej. OrganizationId, RouteId, ChildId, FullName, Coordinates). Esto asegura la consistencia de tipos en la comunicación entre los distintos contextos.
+![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-shared-ddd.puml)
 
 ### 4.8. Database Design
 
@@ -3281,7 +3313,7 @@ Este bounded context modela los actores operativos y recursos asociados al servi
 **Métodos (API REST)**
 | Método | Descripción |
 |----------------|------------------------------------------------------|
-| AddChildToAssignment() | Asocia un estudiante a una asignación de ruta. |
+| AddChilresourceAssignment() | Asocia un estudiante a una asignación de ruta. |
 | RemoveChildFromAssignment() | Desvincula un estudiante de una asignación. |
 
 ---
