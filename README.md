@@ -5135,25 +5135,6 @@ Si el padre de familia no encuentra fácilmente la sección de perfil, puede nec
 
 ###### User Flow 11 - Gestión del perfil y configuración del padre
 
-**Entrevistador:**
-[Nombre y apellido del entrevistador]
-
-**Datos del entrevistado**
-
-* **Nombre:** [Nombre]
-* **Apellidos:** [Apellidos]
-* **Edad:** [Edad]
-* **Distrito:** [Distrito]
-* **Segmento:** Parent
-* **URL del video:** [Pegar URL del video]
-* **Timing de inicio:** [mm:ss]
-* **Duración:** [mm:ss]
-* **Fin de entrevista:** [mm:ss]
-
-<p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/[nombre].png" alt="Parent Validation Interview" width="500"/>
-</p>
-
 **Resumen descriptivo:**
 Durante la sesión de validación, el/la entrevistado(a) interactuó con la Web Application de SafeRoute desde el rol de padre de familia. Primero accedió a la pantalla de inicio de sesión, donde se validó el ingreso a la plataforma y la identificación del usuario según su rol. Posteriormente, ingresó al dashboard familiar, desde donde pudo visualizar las opciones principales disponibles para el monitoreo y gestión de su cuenta.
 
