@@ -2926,10 +2926,12 @@ Application & Infrastructure: NotificationsStore maneja el estado de notificacio
 Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
 
 * Organization Aggregate
+
 Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
 ![saferoute-iam-organization](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-iam-organization-ddd.puml)
 
 * User Aggregate
+
 Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
 ![saferoute-iam-user](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-iam-user-ddd.puml)
 
@@ -2938,14 +2940,17 @@ Gestiona la autenticación y la asignación de roles de los usuarios (métodos r
 Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
 
 * Plan Aggregate
+
 Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
 ![saferoute-subscription-plan](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-plan-ddd.puml)
 
 * Subscription Aggregate
+
 Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
 ![saferoute-subscription-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-subscription-ddd.puml)
 
 * Payment Aggregate
+
 Gestiona los pagos realizados para las suscripciones.
 ![saferoute-subscription-payment](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-payment-ddd.puml)
 
@@ -2954,14 +2959,17 @@ Gestiona los pagos realizados para las suscripciones.
 Modela a los actores humanos y sus agrupaciones dentro del sistema.
 
 * Parent Aggregate
+
 Representa a los apoderados e incluye a los estudiantes a su cargo, gestionando la adición o remoción de hijos.
 ![saferoute-stakeholder-parent](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-parent-ddd.puml)
 
 * Driver Aggregate
+
 Define a los conductores y atributos de su labor como la licencia.
 ![saferoute-stakeholder-driver](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-driver-ddd.puml)
 
 * StudentGroup Aggregate
+
 Permite agrupar referencias a múltiples niños para facilitar su asignación.
 ![saferoute-stakeholder-studentgroup](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-studentgroup-ddd.puml)
 
@@ -2970,14 +2978,17 @@ Permite agrupar referencias a múltiples niños para facilitar su asignación.
 Encargado de la planificación logística y operativa del transporte.
 
 * Route Aggregate
+
 Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop).
 ![saferoute-fleet-route](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-route-ddd.puml)
 
 * Vehicle Aggregate
+
 Controla la capacidad y disponibilidad de la unidad.
 ![saferoute-fleet-vehicle](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-vehicle-ddd.puml)
 
 * Assignment Aggregate
+
 Vincula operativamente a un conductor con un grupo específico de niños y una ruta para un viaje determinado.
 ![saferoute-fleet-assignment](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-assignment-ddd.puml)
 
@@ -2986,10 +2997,12 @@ Vincula operativamente a un conductor con un grupo específico de niños y una r
 Ejecución y seguimiento de viajes.
 
 * Trip Aggregate
+
 Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización, y además las asistencias (Attendance) e incidentes (Incident).
 ![saferoute-trip-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-trip-trip-ddd.puml)
 
 * TripLocation Aggregate
+
 Rastrea y maneja la ubicación en tiempo real del vehículo durante el recorrido.
 ![saferoute-trip-triplocation](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-trip-triplocation-ddd.puml)
 
@@ -2998,6 +3011,7 @@ Rastrea y maneja la ubicación en tiempo real del vehículo durante el recorrido
 Centraliza el envío de información y alertas hacia los padres de familia.
 
 * Notification Aggregate
+
 Organiza el envío de mensajes, gestionando la categoría y el estado de entrega hacia un apoderado, incluyendo alertas y comunicados.
 ![saferoute-notifications-notification](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-notifications-notification-ddd.puml)
 
@@ -3006,6 +3020,7 @@ Organiza el envío de mensajes, gestionando la categoría y el estado de entrega
 Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
 
 * Shared Bounded Context
+
 Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales y conceptos comunes (ej. OrganizationId, RouteId, ChildId, FullName, Coordinates). Esto asegura la consistencia de tipos en la comunicación entre los distintos contextos.
 ![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-shared-ddd.puml)
 
