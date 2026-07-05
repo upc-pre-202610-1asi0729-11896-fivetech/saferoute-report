@@ -202,6 +202,7 @@ El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTe
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
+- [Service Terms & Conditions and Privacy Protection](#Service Terms & Conditions and Privacy Protection)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -5483,6 +5484,190 @@ El video también resume la evolución del proyecto desde la identificación de 
 | 00:04:06         | Resumen general del proyecto SafeRoute        | Descripción del proceso completo de desarrollo: investigación, modelado de negocio, requisitos, arquitectura, diseño UX/UI, implementación y despliegue.               |
 | 00:05:27         | Logros y competencias alcanzadas              | Reflexión final sobre el fortalecimiento de habilidades de comunicación, documentación técnica, trabajo colaborativo y desarrollo profesional.                         |
 | 00:06:00         | Cierre                                        | Conclusiones finales sobre SafeRoute y la experiencia adquirida por el equipo FiveTech.                                                                                |
+
+## Service Terms & Conditions and Privacy Protection
+
+SafeRoute es una plataforma web orientada a la gestión y monitoreo del transporte escolar, por lo que el tratamiento responsable de la información de los usuarios es un aspecto fundamental de la propuesta. Debido a que la solución involucra datos de padres de familia, conductores, estudiantes, rutas, asistencia y ubicación del vehículo, el equipo considera necesario comunicar los principales términos de uso del servicio y las medidas de protección de privacidad contempladas para el producto.
+
+Esta sección presenta los lineamientos generales de **Service Terms & Conditions** y **Privacy Protection** definidos para SafeRoute. Su propósito es informar de manera clara cómo se espera que los usuarios utilicen la plataforma, qué responsabilidades asume cada rol y qué tipo de información debe ser protegida durante el uso del sistema.
+
+### Service Terms & Conditions
+
+Los términos y condiciones de SafeRoute establecen las reglas generales para el uso de la plataforma por parte de los usuarios registrados. El acceso a la Web Application implica que el usuario comprende el propósito del servicio y acepta utilizar la plataforma únicamente para fines relacionados con la gestión y monitoreo del transporte escolar.
+
+SafeRoute está diseñada para apoyar la digitalización del servicio de movilidad escolar, permitiendo centralizar información de rutas, alumnos, conductores, asistencia, viajes y monitoreo. La plataforma no reemplaza las obligaciones legales, operativas o de seguridad que corresponden a los responsables reales del servicio de transporte escolar.
+
+### User Roles and Responsibilities
+
+SafeRoute considera tres roles principales dentro de la experiencia del usuario: **Administrator**, **Driver** y **Parent**. Cada rol tiene responsabilidades específicas para garantizar el uso correcto de la plataforma.
+
+| Rol               | Responsabilidades principales                                                                                                                                                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Administrator** | Registrar y mantener actualizada la información de usuarios, conductores, estudiantes, vehículos y rutas. También es responsable de gestionar la suscripción del servicio y asegurar que los usuarios registrados correspondan a personas autorizadas.                            |
+| **Driver**        | Utilizar la plataforma durante la operación del servicio escolar para revisar rutas asignadas, controlar alumnos, registrar abordajes y consultar información operativa del viaje. Debe usar la herramienta de forma responsable, evitando acciones que distraigan la conducción. |
+| **Parent**        | Consultar la información del traslado escolar de su hijo, revisar el estado del viaje, historial de asistencia y datos de perfil. Debe mantener sus credenciales seguras y utilizar la información únicamente para fines relacionados con el servicio escolar.                    |
+
+### Acceptable Use of the Platform
+
+Los usuarios de SafeRoute deben utilizar la plataforma de forma ética, responsable y vinculada al propósito del servicio. No se permite el uso de la información para fines ajenos al monitoreo, gestión o coordinación del transporte escolar.
+
+El usuario se compromete a:
+
+* Usar la plataforma únicamente con credenciales autorizadas.
+* No compartir información de estudiantes, padres o conductores con terceros no autorizados.
+* No manipular, alterar o registrar información falsa dentro del sistema.
+* No intentar acceder a cuentas, rutas o datos que no le corresponden.
+* No usar la información de ubicación para fines distintos al monitoreo del servicio escolar.
+* Cerrar sesión cuando utilice dispositivos compartidos.
+* Reportar al administrador cualquier error, acceso indebido o comportamiento sospechoso dentro de la plataforma.
+
+### Subscription and Service Access
+
+SafeRoute contempla un modelo de servicio basado en planes de suscripción. La gestión de planes corresponde principalmente al rol **Administrator**, quien puede revisar el estado de la suscripción y acceder a las opciones disponibles según el alcance contratado.
+
+El acceso a determinadas funcionalidades puede depender del plan activo. En caso una función no esté disponible para el usuario, la plataforma debe comunicarlo de forma clara, evitando generar confusión o expectativas incorrectas.
+
+### Privacy Protection
+
+La protección de la privacidad es un componente esencial de SafeRoute debido a que la plataforma gestiona información sensible relacionada con menores de edad, padres de familia, conductores y rutas escolares.
+
+SafeRoute considera como principio general la recolección mínima de datos necesarios para cumplir con el propósito del servicio. La información registrada debe utilizarse exclusivamente para facilitar la gestión, monitoreo y trazabilidad del transporte escolar.
+
+
+### Personal Data Collected
+
+SafeRoute puede manejar los siguientes tipos de datos dentro de la plataforma:
+
+| Tipo de dato             | Ejemplos                                                                                      | Finalidad                                                                              |
+| ------------------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Datos de cuenta**      | Nombre, correo electrónico, rol de usuario, credenciales de acceso.                           | Permitir autenticación, identificación del usuario y control de acceso según rol.      |
+| **Datos de estudiantes** | Nombre del estudiante, relación con el padre, estado de asistencia o abordaje.                | Permitir el monitoreo del traslado escolar y el control de asistencia durante la ruta. |
+| **Datos de conductor**   | Nombre, rol, rutas asignadas, información operativa del viaje.                                | Gestionar la ejecución del servicio de transporte escolar.                             |
+| **Datos de ruta**        | Paradas, horarios, estado del viaje, recorrido asignado.                                      | Facilitar la organización y seguimiento del trayecto escolar.                          |
+| **Datos de ubicación**   | Posición del vehículo o referencia de seguimiento en mapa.                                    | Permitir que padres y administradores visualicen el estado del traslado escolar.       |
+| **Datos técnicos**       | Información básica de sesión, navegador, idioma seleccionado o interacción con la plataforma. | Mejorar la seguridad, trazabilidad y funcionamiento del sistema.                       |
+
+
+
+### Protection of Minors’ Data
+
+SafeRoute reconoce que la información relacionada con estudiantes requiere un tratamiento especialmente cuidadoso. Por ello, la plataforma debe limitar la visualización de datos de menores únicamente a usuarios autorizados, como padres vinculados, conductores asignados y administradores responsables del servicio.
+
+La información de estudiantes no debe mostrarse públicamente ni compartirse con usuarios que no formen parte del servicio autorizado. Asimismo, cualquier visualización de asistencia, abordaje, llegada o historial debe estar protegida mediante autenticación y control de acceso por rol.
+
+
+### Location and GPS Data
+
+El uso de información de ubicación tiene como finalidad principal brindar visibilidad sobre el estado del traslado escolar. Esta información permite que el padre de familia conozca el avance del viaje, la ubicación del vehículo o el estado general del recorrido.
+
+SafeRoute debe utilizar los datos de ubicación únicamente dentro del contexto del servicio escolar. La ubicación no debe emplearse para fines comerciales externos, vigilancia no autorizada o seguimiento fuera del propósito de la ruta escolar.
+
+Para proteger esta información, la plataforma debe considerar:
+
+* Acceso restringido según rol.
+* Visualización de ubicación solo durante viajes o rutas autorizadas.
+* Uso de datos de ubicación con fines de monitoreo escolar.
+* Comunicación clara al usuario sobre el propósito del seguimiento.
+* Evitar exposición pública de rutas, paradas o ubicación del vehículo.
+
+
+### Informed Consent
+
+Debido a que SafeRoute involucra datos relacionados con estudiantes menores de edad, el uso de la plataforma debe considerar el consentimiento informado del padre, madre, apoderado o responsable autorizado.
+
+El consentimiento informado implica que el usuario comprende:
+
+* Qué información será registrada.
+* Para qué será utilizada.
+* Quiénes podrán visualizarla.
+* Qué beneficios ofrece la plataforma.
+* Qué limitaciones tiene el servicio.
+* Cómo puede solicitar corrección o actualización de sus datos.
+
+
+### Cookies and Local Storage Policy
+
+SafeRoute utiliza cookies, almacenamiento local (**Local Storage**) y tecnologías similares en el Landing Page y la Web Application para mejorar la experiencia del usuario, recordar preferencias básicas y permitir el funcionamiento técnico de la sesión.
+
+A diferencia de las cookies tradicionales, la plataforma utiliza principalmente el almacenamiento local del navegador del usuario para mantener la persistencia de la sesión de forma eficiente dentro de la Web Application.
+
+Estas tecnologías se utilizan específicamente para:
+
+* **Gestión de sesión:** almacenar de forma local el token de autenticación (`saferoute.token`) y los datos de perfil básicos del usuario (`saferoute.user`) tras iniciar sesión, permitiendo el acceso a los paneles correspondientes sin requerir credenciales en cada interacción.
+* **Preferencias del usuario:** recordar configuraciones personalizadas del sistema, como la selección de idioma (`saferoute-language`).
+* **Optimización de experiencia:** facilitar una navegación más fluida dentro del Landing Page y la Web Application, reduciendo la repetición de configuraciones básicas.
+* **Soporte técnico de seguridad:** apoyar el control de sesión y el acceso a secciones protegidas según el rol del usuario.
+
+Los datos almacenados localmente deben utilizarse únicamente para el funcionamiento de la plataforma. Al cerrar sesión, la aplicación debe eliminar o invalidar la información de sesión almacenada localmente para evitar accesos no autorizados desde dispositivos compartidos.
+
+En caso de integrar herramientas de análisis o servicios externos de terceros que utilicen cookies de seguimiento, SafeRoute lo comunicará claramente al usuario, permitiéndole conocer el propósito de dichas tecnologías y gestionar sus consentimientos según corresponda.
+
+
+### Third-Party Services
+
+SafeRoute puede integrarse con servicios externos necesarios para su funcionamiento, como servicios de mapas, servicios de despliegue en la nube, autenticación, almacenamiento, documentación de API o herramientas de video utilizadas para evidencias académicas.
+
+El uso de servicios de terceros debe estar alineado con el propósito de la solución. En caso estos servicios procesen información técnica o datos vinculados a la operación de la plataforma, se debe procurar que su uso respete criterios de seguridad, privacidad y confiabilidad.
+
+Ejemplos de servicios de terceros considerados en el proyecto:
+
+* Servicios de hosting o despliegue cloud para Landing Page, Web Application y Backend.
+* Servicios de mapas o visualización de rutas.
+* Herramientas de documentación de API como Swagger/OpenAPI.
+* Repositorios de control de versiones para trazabilidad del desarrollo.
+* Plataformas de video utilizadas para evidencias de validación o exposición académica.
+
+
+### Information Security Measures
+
+Para proteger la información gestionada por SafeRoute, se consideran las siguientes medidas de seguridad:
+
+* Autenticación de usuarios mediante credenciales.
+* Control de acceso basado en roles.
+* Separación de permisos para Administrator, Driver y Parent.
+* Uso de HTTPS en entornos desplegados.
+* Protección de endpoints del backend.
+* Validación de datos enviados por el usuario.
+* Gestión segura de credenciales y variables de entorno.
+* Eliminación o invalidación de datos de sesión al cerrar sesión.
+* Documentación de servicios mediante Swagger/OpenAPI.
+* Uso de repositorios versionados para mantener trazabilidad de cambios.
+* Restricción de acceso a información sensible según el rol del usuario.
+
+
+### User Rights and Data Management
+
+Los usuarios de SafeRoute deben poder solicitar la revisión, corrección o actualización de sus datos personales cuando detecten información incorrecta dentro de la plataforma. Asimismo, el administrador del servicio debe mantener actualizada la información de estudiantes, conductores, rutas y usuarios registrados.
+
+En futuras iteraciones, SafeRoute podrá incorporar mecanismos más avanzados para que los usuarios gestionen sus preferencias de privacidad, revisen permisos asociados a su cuenta o soliciten la eliminación de información que ya no sea necesaria para la prestación del servicio.
+
+### Privacy by Design Considerations
+
+SafeRoute aplica el principio de privacidad desde el diseño, considerando que la experiencia del usuario debe ser clara, segura y comprensible desde las primeras etapas del producto.
+
+Las decisiones de diseño deben procurar que:
+
+* El usuario comprenda qué información está visualizando.
+* La información sensible no se muestre fuera del contexto necesario.
+* Las pantallas eviten exponer datos innecesarios.
+* Las etiquetas y mensajes sean claros para usuarios con distintos niveles de experiencia digital.
+* La plataforma brinde confianza a padres, conductores y administradores.
+* La información de menores sea tratada con especial cuidado.
+* El almacenamiento local sea utilizado solo para datos necesarios de sesión y preferencias.
+
+### Communication of Privacy and Terms Information
+
+SafeRoute comunica los lineamientos de **Service Terms & Conditions**, **Privacy Protection** y **Cookies and Local Storage Policy** dentro del informe del proyecto como parte de la documentación formal de la propuesta.
+
+En la versión actual del producto, estos lineamientos se presentan a nivel documental para explicar el tratamiento de datos personales, datos de menores, ubicación, roles de usuario y almacenamiento local del navegador. Esta información permite evidenciar que la solución considera aspectos de privacidad y uso responsable de la plataforma.
+
+Como mejora futura, se recomienda incorporar accesos visibles a **Terms & Conditions**, **Privacy Policy** y **Cookies and Local Storage Policy** dentro del Landing Page, preferentemente en el footer o en una sección informativa cercana al llamado a la acción. Esto permitiría que visitantes, padres, conductores y administradores puedan revisar las condiciones generales del servicio antes de registrarse o iniciar sesión.
+### Summary
+
+La inclusión de Service Terms & Conditions y Privacy Protection fortalece la comunicación de SafeRoute como una plataforma web responsable, especialmente porque el producto trabaja con información relacionada con transporte escolar, menores de edad, ubicación del vehículo y datos de usuarios registrados.
+
+Estos lineamientos permiten comunicar de forma clara cómo se espera que los usuarios utilicen la plataforma, qué responsabilidades tiene cada rol, qué tecnologías se utilizan para la sesión del usuario y qué medidas se consideran para proteger la privacidad dentro del ecosistema digital de SafeRoute.
+
 
 ## Bibliografía
 
