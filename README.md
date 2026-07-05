@@ -188,6 +188,10 @@ El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTe
 
 ![Contributors](./assets/images/sprint3/contributors.png)
 
+### Sprint 4
+
+![Team Collaboration Insights Sprint 4 - Backend Repository](./assets/images/sprint4/collaboration-backend-repository.png)
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
@@ -4160,11 +4164,11 @@ A continuación, se presentan algunos de los principales endpoints implementados
 
 | Endpoint                   | HTTP Method | Description                | Parameters        | Example Response     |
 | -------------------------- | ----------- | -------------------------- | ----------------- | -------------------- |
-| `/api/trips`               | GET         | Obtiene viajes registrados | No requiere       | Lista de trayectos   |
-| `/api/trips/{id}/tracking` | POST        | Registra coordenadas GPS   | tripId, lat, lng  | Tracking actualizado |
-| `/api/incidents`           | POST        | Registra incidencia        | Tipo, descripción | Incidencia creada    |
-| `/api/notifications`       | GET         | Obtiene notificaciones     | No requiere       | Lista de alertas     |
-| `/api/trips/{id}/arrival`  | PATCH       | Confirma llegada           | tripId            | Llegada confirmada   |
+| `/api/v1/trips`               | GET         | Obtiene viajes registrados | No requiere       | Lista de trayectos   |
+| `/api/v1/trips/{id}/tracking` | POST        | Registra coordenadas GPS   | tripId, lat, lng  | Tracking actualizado |
+| `/api/v1/incidents`           | POST        | Registra incidencia        | Tipo, descripción | Incidencia creada    |
+| `/api/v1/notifications`       | GET         | Obtiene notificaciones     | No requiere       | Lista de alertas     |
+| `/api/v1/trips/{id}/arrival`  | PATCH       | Confirma llegada           | tripId            | Llegada confirmada   |
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -4304,11 +4308,12 @@ El objetivo principal de este sprint fue cerrar el ciclo de desarrollo del produ
 | TS11  | Corrección de observaciones AV2 | T45     | Actualizar videos finales                 | Actualizar el video de exposición y completar el contenido del About-the-Product Video.                                                            |   6 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
 | TS11  | Corrección de observaciones AV2 | T46     | Consolidar documentación Sprint 4         | Redactar las secciones de Sprint Planning, Sprint Backlog, evidencias de desarrollo, ejecución, servicios, despliegue y colaboración.              |   6 | Quispe Serrano, Julio Frank               | Done   |
 
-!(poner)[poner trello]
+![Sprint 4 Trello Board](./assets/images/sprint4/trello.png)
 
-Nota. Sprint Board del Sprint 4 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo de los Web Services de SafeRoute mediante Trello. Elaboración propia.
+_Nota. Sprint Board del Sprint 4 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo de los Web Services de SafeRoute mediante Trello. Elaboración propia._
 
-URL del Board: https://trello.com/b/RjHbTl9e
+
+URL del Board: https://trello.com/b/eVLKHZQ7/sprint4
 
 ##### 5.2.4.4. Development Evidence for Sprint Review
 
@@ -4322,48 +4327,35 @@ Estos avances permitieron consolidar una versión final funcional, desplegada y 
 
 A continuación, se presentan los principales commits relacionados con el desarrollo del Sprint 4.
 
-| Repository         | Branch  | Commit Id | Commit Message                                            | Commit Message Body                                                                        | Commited on (Date) |
-| ------------------ | ------- | --------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------ |
-| saferoute-platform | develop | pending   | feat(iam): add user aggregate                             | Added user aggregate and domain rules for identity and access management.                  | 2026-07-01         |
-| saferoute-platform | develop | pending   | feat(iam): add role management                            | Added role model, repository contract and role assignment logic.                           | 2026-07-01         |
-| saferoute-platform | develop | pending   | feat(iam): add authentication service                     | Added application service for user authentication and access validation.                   | 2026-07-01         |
-| saferoute-platform | develop | pending   | feat(iam): add auth controller                            | Added REST controller for authentication and user access endpoints.                        | 2026-07-01         |
-| saferoute-platform | develop | pending   | feat(subscription): add plan aggregate                    | Added plan aggregate for subscription and plan management context.                         | 2026-07-02         |
-| saferoute-platform | develop | pending   | feat(subscription): add subscription aggregate            | Added subscription aggregate and business rules for active plans.                          | 2026-07-02         |
-| saferoute-platform | develop | pending   | feat(subscription): add payment entity                    | Added payment entity and persistence mapping for subscription payments.                    | 2026-07-02         |
-| saferoute-platform | develop | pending   | feat(subscription): add subscription services             | Added application services for plans, subscriptions and payments.                          | 2026-07-02         |
-| saferoute-platform | develop | pending   | feat(subscription): add subscriptions controller          | Added REST controller for plans, subscriptions and payment endpoints.                      | 2026-07-02         |
-| saferoute-platform | develop | pending   | feat(stakeholder): add profile aggregate                  | Added profile aggregate for stakeholder management context.                                | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(stakeholder): add parent model                       | Added parent model with repository and persistence configuration.                          | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(stakeholder): add student model                      | Added student model and relationship with parent profile.                                  | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(stakeholder): add driver model                       | Added driver model and repository contract for stakeholder context.                        | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(stakeholder): add profile services                   | Added application services for profiles, parents, students and drivers.                    | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(stakeholder): add stakeholder controllers            | Added REST controllers for profile, parent, student and driver endpoints.                  | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(fleet): complete route aggregate                     | Completed route aggregate with stops and vehicle assignment behavior.                      | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(fleet): add stop management                          | Added stop model, commands, services and REST endpoints.                                   | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(fleet): add vehicle assignment integration           | Integrated vehicles, routes, drivers and assignments in fleet context.                     | 2026-07-03         |
-| saferoute-platform | develop | pending   | feat(trip): add attendance aggregate                      | Added attendance aggregate for student boarding records.                                   | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(trip): add incident aggregate                        | Added incident aggregate and commands for route incident reporting.                        | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(trip): add trip location tracking                    | Added trip location model and persistence for route tracking.                              | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(trip): add trip monitoring services                  | Added services for trip start, attendance, incident reporting and trip completion.         | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(trip): add trip rest controllers                     | Added REST controllers for trips, attendances, incidents and trip locations.               | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(notifications): add notification aggregate           | Added notification aggregate for system alerts and operational events.                     | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(notifications): add notification services            | Added application services for creating and listing notifications.                         | 2026-07-04         |
-| saferoute-platform | develop | pending   | feat(notifications): add notifications controller         | Added REST controller for notification endpoints.                                          | 2026-07-04         |
-| saferoute-platform | develop | pending   | docs(api): update swagger documentation                   | Updated Swagger documentation for final RESTful API endpoints.                             | 2026-07-04         |
-| saferoute-platform | develop | pending   | chore(deploy): configure azure app service deployment     | Added deployment configuration for backend publication in Azure App Service.               | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | refactor(api): remove mock api services                   | Removed JSON Server and mock API service dependencies from frontend.                       | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | feat(api): connect frontend with deployed backend         | Updated frontend HTTP services to consume deployed RESTful API.                            | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | chore(env): update production api base url                | Configured production environment with Azure backend base URL.                             | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | feat(stakeholder): integrate profiles with api            | Integrated stakeholder profiles view with backend REST endpoints.                          | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | feat(fleet): integrate routes with api                    | Integrated fleet and route management views with backend services.                         | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | feat(trip): integrate trip monitoring with api            | Integrated trip monitoring views with deployed RESTful API services.                       | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | feat(notifications): integrate notifications with api     | Connected notification views with backend notification endpoints.                          | 2026-07-05         |
-| saferoute-webapp   | develop | pending   | chore(deploy): configure azure static web apps deployment | Added final deployment configuration for frontend publication in Azure Static Web Apps.    | 2026-07-05         |
-| saferoute-report   | develop | pending   | docs(report): add sprint 4 planning                       | Added Sprint Planning 4 section with sprint goal, review and retrospective summary.        | 2026-07-05         |
-| saferoute-report   | develop | pending   | docs(report): add sprint 4 backlog                        | Added Sprint Backlog 4 with user stories, tasks, hours, assignees and status.              | 2026-07-05         |
-| saferoute-report   | develop | pending   | docs(report): add sprint 4 evidence                       | Added development, execution, services documentation and deployment evidence for Sprint 4. | 2026-07-05         |
-| saferoute-report   | develop | pending   | docs(report): update continuous improvement               | Added corrections applied from AV2 to Sprint 4.                                            | 2026-07-05         |
+| Repository         | Branch  | Commit Id | Commit Message                                         | Commit Message Body                                                                        | Commited on (Date) |
+| ------------------ | ------- | --------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------ |
+| saferoute-platform | develop | 3b08603   | feature: add subscription bounded context              | Added Subscription bounded context including domain and infrastructure components.         | 2026-07-04         |
+| saferoute-platform | develop | 0e5e12d   | feat(stakeholder): add StudentGroup aggregate          | Added aggregate root for StudentGroup entity.                                              | 2026-07-05         |
+| saferoute-platform | develop | 1cc520f   | feat(stakeholder): add Driver aggregate                | Added aggregate root for Driver entity.                                                    | 2026-07-05         |
+| saferoute-platform | develop | 26482fa   | feat(stakeholder): add Parent aggregate                | Added aggregate root for Parent entity.                                                    | 2026-07-05         |
+| saferoute-platform | develop | e9bb923   | Create AddChildToGroupCommand.java                     | Added command to associate children with student groups.                                   | 2026-07-05         |
+| saferoute-platform | develop | 18f8c7b   | Create CreateStudentGroupCommand.java                  | Added command for creating Student Groups.                                                 | 2026-07-05         |
+| saferoute-platform | develop | 6ec1c53   | Create AddChildToParentCommand.java                    | Added command for associating children with parents.                                       | 2026-07-05         |
+| saferoute-platform | develop | 768bd39   | Create CreateParentCommand.java                        | Added command for creating Parent entities.                                                | 2026-07-05         |
+| saferoute-platform | develop | 58777db   | Create CreateDriverCommand.java                        | Added command for creating Driver entities.                                                | 2026-07-05         |
+| saferoute-platform | develop | 74fb5d6   | Create Child.java                                      | Added Child domain entity.                                                                 | 2026-07-05         |
+| saferoute-platform | develop | da76ea3   | feat(iam): add hashingservice                          | Added password hashing service for user authentication.                                    | 2026-07-05         |
+| saferoute-platform | develop | 279eeeb   | feat(iam): add adapters                                | Added adapters for IAM bounded context integration.                                        | 2026-07-05         |
+| saferoute-platform | develop | 4142828   | feat(iam): add rolepersistenceassembler                | Added persistence assembler for Role entity.                                               | 2026-07-05         |
+| saferoute-platform | develop | 5786ce1   | feat(iam): add userpersistenceassembler                | Added persistence assembler for User entity.                                               | 2026-07-05         |
+| saferoute-platform | develop | 79bae46   | feat(iam): add rolepersistenceentity                   | Added Role persistence entity implementation.                                              | 2026-07-05         |
+| saferoute-platform | develop | 44dcb54   | feat(iam): add userpersistenceentity                   | Added User persistence entity implementation.                                              | 2026-07-05         |
+| saferoute-platform | develop | 92a125a   | feat(iam): add userpersistencerepository               | Added User persistence repository implementation.                                          | 2026-07-05         |
+| saferoute-platform | develop | f740370   | feat(iam): add rolepersistencerepository               | Added Role persistence repository implementation.                                          | 2026-07-05         |
+| saferoute-platform | develop | 32fca34   | feat(iam): add bearertokenservice                      | Added Bearer Token service for JWT authentication.                                         | 2026-07-05         |
+| saferoute-platform | develop | e74241d   | feat(iam): add tokenservice                            | Added token generation and validation service.                                             | 2026-07-05         |
+| saferoute-platform | develop | 1e95735   | feat(iam): add iamcontextfacade                        | Added IAM Context Facade to centralize authentication services.                            | 2026-07-05         |
+| saferoute-platform | develop | 5f77002   | feat(iam): add rest                                    | Added REST endpoints for IAM services.                                                     | 2026-07-05         |
+| saferoute-platform | develop | ccb9f14   | feat(iam): add resources                               | Added REST resources for IAM bounded context.                                              | 2026-07-05         |
+| saferoute-platform | develop | da1a84d   | feat(iam): add transform                               | Added DTO transformations between application and REST layers.                             | 2026-07-05         |
+| saferoute-platform | develop | e43da23   | Merge pull request #6 from feature/iam                 | Merged IAM bounded context implementation into the develop branch.                         | 2026-07-05         |
+| saferoute-platform | develop | 9114678   | chore: add uml diagrams                                | Added UML diagrams documenting the final backend architecture.                             | 2026-07-04         |
+| saferoute-platform | develop | 24f1b38   | Merge pull request #4 from feature/trip                | Merged Trip bounded context implementation into the develop branch.                        | 2026-07-04         |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
@@ -4392,10 +4384,6 @@ Desde esta versión desplegada se validaron los módulos principales de la aplic
 | IAM                  | Validación de flujos de autenticación, usuarios y roles.                                    |
 
 ![Execution Evidence Sprint 4 - Frontend Profiles View](./assets/images/sprint4/execution-frontend-profiles-view.png)
-
-_Nota._ Captura del frontend desplegado en Azure Static Web Apps mostrando la vista `/stakeholder/profiles` funcionando desde la URL pública `https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in
-
-![Execution Evidence Sprint 4 - Stakeholder Data Loaded](./assets/images/sprint4/execution-stakeholder-data-loaded.png)
 
 _Nota._ Captura del frontend mostrando una lista de perfiles, padres, alumnos o conductores cargados desde el backend real. Esta evidencia permite comprobar que la Web Application consume datos desde el RESTful API desplegado y ya no desde el Mock API.
 
@@ -4439,27 +4427,11 @@ Se validó la disponibilidad del backend mediante Swagger UI, comprobando que lo
 
 ![Execution Evidence Sprint 4 - Swagger Overview](./assets/images/sprint4/execution-swagger-overview.png)
 
-_Nota._ Captura de Swagger UI abierto desde la URL pública del backend desplegado: `https://saferoute-os.azurewebsites.net/swagger-ui/index.html Esta evidencia confirma que el RESTful API se encuentra disponible en Azure App Service.
-
-![Execution Evidence Sprint 4 - Swagger Controllers](./assets/images/sprint4/execution-swagger-controllers.png)
-
-_Nota._ Captura de Swagger UI mostrando los controladores o grupos de endpoints organizados por módulos funcionales o bounded contexts. Esta evidencia permite comprobar que el backend documenta los servicios principales de SafeRoute.
-
-![Execution Evidence Sprint 4 - Swagger Successful POST](./assets/images/sprint4/execution-swagger-successful-post.png)
-
-_Nota._ Captura de una prueba exitosa en Swagger UI con respuesta HTTP 200 o 201. Esta evidencia permite comprobar que el backend procesa correctamente solicitudes de creación, activación, registro o actualización según el endpoint probado.
+_Nota._ Captura de Swagger UI abierto desde la URL pública del backend desplegado: `https://saferoute-os.azurewebsites.net/swagger-ui/index.html`. Esta evidencia confirma que el RESTful API se encuentra disponible en Azure App Service.
 
 ![Execution Evidence Sprint 4 - Swagger Successful GET](./assets/images/sprint4/execution-swagger-successful-get.png)
 
 _Nota._ Captura de una petición GET ejecutada desde Swagger UI mostrando datos persistidos. Esta evidencia permite validar que el backend retorna información almacenada correctamente desde la base de datos.
-
-![Execution Evidence Sprint 4 - Swagger Trip Endpoint](./assets/images/sprint4/execution-swagger-trip-endpoint.png)
-
-_Nota._ Captura de un endpoint del módulo Trips ejecutado desde Swagger UI. Esta evidencia permite comprobar la disponibilidad de servicios para iniciar, consultar, activar, cancelar, finalizar o eliminar viajes.
-
-![Execution Evidence Sprint 4 - Swagger Notifications Endpoint](./assets/images/sprint4/execution-swagger-notifications-endpoint.png)
-
-_Nota._ Captura de un endpoint del módulo Notifications ejecutado desde Swagger UI. Esta evidencia permite comprobar la gestión de notificaciones, alertas, anuncios o estados de entrega.
 
 **End-to-End Execution Validation**
 
@@ -4476,10 +4448,6 @@ Además de validar frontend y backend por separado, se comprobó el comportamien
 | Consulta de notificaciones         | El frontend obtiene notificaciones desde el RESTful API.                 | Validated |
 | Consulta de planes o suscripciones | El frontend obtiene información del bounded context Subscription.        | Validated |
 | Eliminación de Mock API            | Las vistas principales ya no consumen JSON Server ni datos simulados.    | Validated |
-
-![Execution Evidence Sprint 4 - End to End Validation](./assets/images/sprint4/execution-end-to-end-validation.png)
-
-_Nota._ Captura de validación end-to-end donde se evidencia la interacción entre el frontend desplegado y el backend real. Esta evidencia permite confirmar que SafeRoute funciona como una solución integrada y no como una simulación basada en Mock API.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -4528,40 +4496,6 @@ contraseña: admin
 | Trip Locations            | `GET /api/v1/trips/{tripId}/location-updates`, `POST /api/v1/trips/{tripId}/location-updates`, `GET /api/v1/trips/{tripId}/location-updates/latest`                                                                                                                                                                                                     |
 | Notifications             | `GET /api/v1/notifications`, `POST /api/v1/notifications`, `POST /api/v1/notifications/{notificationId}/dispatch`, `POST /api/v1/notifications/{notificationId}/delivery`, `POST /api/v1/notifications/{notificationId}/failure`, `POST /api/v1/notifications/retries`, `POST /api/v1/notifications/announcements`, `POST /api/v1/notifications/alerts` |
 
-![Services Documentation Evidence Sprint 4](./assets/images/sprint4/services-documentation-swagger-overview.png)
-
-_Nota._ Captura general de Swagger UI mostrando la documentación del RESTful API desplegado en Azure App Service. En esta vista se evidencia que el backend se encuentra disponible públicamente mediante la URL `https://saferoute-os.azurewebsites.net/swagger-ui/index.html
-
-![Services Documentation Evidence Sprint 4 - Authentication and IAM](./assets/images/sprint4/services-documentation-authentication-iam.png)
-
-_Nota._ Captura de los endpoints correspondientes a Identity and Access Management, incluyendo servicios de autenticación, registro, usuarios y roles. Estos endpoints permiten validar el acceso de usuarios y la gestión básica de credenciales dentro de SafeRoute.
-
-![Services Documentation Evidence Sprint 4 - Stakeholder](./assets/images/sprint4/services-documentation-stakeholder.png)
-
-_Nota._ Captura de los endpoints correspondientes al bounded context Stakeholder Management, incluyendo perfiles, padres, hijos, conductores y grupos de estudiantes. Estos servicios permiten la gestión de los actores principales que participan en el servicio de transporte escolar.
-
-![Services Documentation Evidence Sprint 4 - Subscription](./assets/images/sprint4/services-documentation-subscription.png)
-
-_Nota._ Captura de los endpoints correspondientes a Subscription and Plan Management, incluyendo planes, suscripciones y pagos. Estos servicios soportan el modelo de negocio de SafeRoute mediante la gestión de planes y suscripciones activas.
-
-![Services Documentation Evidence Sprint 4 - Fleet](./assets/images/sprint4/services-documentation-fleet.png)
-
-_Nota._ Captura de los endpoints correspondientes a Fleet and Route Management, incluyendo vehículos, rutas, paradas y asignaciones. Estos servicios permiten administrar los recursos operativos necesarios para ejecutar los recorridos escolares.
-
-![Services Documentation Evidence Sprint 4 - Trips](./assets/images/sprint4/services-documentation-trips.png)
-
-_Nota._ Captura de los endpoints correspondientes a Trip Execution and Monitoring, incluyendo viajes, asistencias, incidencias y actualizaciones de ubicación. Estos servicios soportan la ejecución y monitoreo de los trayectos escolares.
-
-![Services Documentation Evidence Sprint 4 - Notifications](./assets/images/sprint4/services-documentation-notifications.png)
-
-_Nota._ Captura de los endpoints correspondientes a Notifications, incluyendo creación, despacho, entrega, fallos, reintentos, alertas y anuncios. Estos servicios permiten informar eventos relevantes a los usuarios del sistema.
-
-![Services Documentation Evidence Sprint 4 - Successful Request](./assets/images/sprint4/services-documentation-successful-request.png)
-
-_Nota._ Captura de una prueba ejecutada desde Swagger UI mostrando una respuesta exitosa del RESTful API. Esta evidencia permite comprobar que los endpoints documentados no solo están disponibles, sino que también responden correctamente ante solicitudes realizadas desde la documentación interactiva.
-
----
-
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 4 se realizó el despliegue final de los productos digitales de SafeRoute. El frontend fue publicado mediante Azure Static Web Apps y el backend mediante Azure App Service, permitiendo que ambos componentes funcionen de manera integrada en un entorno cloud.
@@ -4589,30 +4523,6 @@ La principal mejora técnica de este sprint fue la eliminación completa del Moc
 | Algunos bounded contexts estaban parcialmente integrados.             | Los bounded contexts principales fueron implementados e integrados en el flujo final.               |
 | Las evidencias de despliegue eran parciales.                          | Se incluyeron URLs finales y evidencias visuales de frontend, backend y Swagger.                    |
 | Algunas funcionalidades no contaban con evidencia completa.           | Se retiraron o ajustaron elementos no implementados para mantener coherencia con el producto final. |
-
-![Software Deployment Evidence Sprint 4 - Azure Static Web Apps](./assets/images/sprint4/deployment-azure-static-webapps.png)
-
-_Nota._ Captura del recurso Azure Static Web Apps utilizado para el despliegue final del frontend de SafeRoute. Esta evidencia muestra que la Web Application se encuentra publicada y accesible mediante una URL pública.
-
-![Software Deployment Evidence Sprint 4 - Azure App Service](./assets/images/sprint4/deployment-azure-app-service.png)
-
-_Nota._ Captura del recurso Azure App Service utilizado para el despliegue final del backend de SafeRoute. Esta evidencia permite comprobar que el RESTful API se encuentra publicado en un entorno cloud.
-
-![Software Deployment Evidence Sprint 4 - Frontend Running](./assets/images/sprint4/deployment-frontend-running.png)
-
-_Nota._ Captura de la Web Application ejecutándose desde la URL pública `https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in En esta vista se evidencia el acceso al frontend desplegado en Azure Static Web Apps.
-
-![Software Deployment Evidence Sprint 4 - Backend Swagger Running](./assets/images/sprint4/deployment-backend-swagger-running.png)
-
-_Nota._ Captura del backend ejecutándose desde Swagger UI mediante la URL pública `https://saferoute-os.azurewebsites.net/swagger-ui/index.html Esta evidencia confirma que la documentación interactiva del API se encuentra disponible.
-
-![Software Deployment Evidence Sprint 4 - Frontend API Configuration](./assets/images/sprint4/deployment-frontend-api-configuration.png)
-
-_Nota._ Captura de la configuración del frontend donde se evidencia que la base URL de producción apunta al backend real desplegado en Azure. Esta configuración reemplaza el uso anterior de Mock API / JSON Server.
-
-![Software Deployment Evidence Sprint 4 - Network Request](./assets/images/sprint4/deployment-network-request.png)
-
-_Nota._ Captura del navegador mostrando una petición exitosa desde la Web Application desplegada hacia el RESTful API real. Esta evidencia permite comprobar la comunicación efectiva entre frontend y backend en el entorno cloud.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -4645,20 +4555,6 @@ _Nota._ Captura de contributors, commits o insights del repositorio backend dura
 
 _Nota._ Captura de contributors, commits o insights del repositorio de la Landing Page durante el Sprint 4. Esta evidencia permite verificar la revisión de enlaces, CTA y coherencia con la Web Application desplegada.
 
-**Pull Requests and Branching Evidence**
-
-![Team Collaboration Insights Sprint 4 - Pull Requests](./assets/images/sprint4/collaboration-pull-requests.png)
-
-_Nota._ Captura de pull requests realizados durante el Sprint 4. Esta evidencia permite verificar que los cambios fueron trabajados en ramas independientes y posteriormente revisados antes de integrarse a las ramas principales del proyecto.
-
-![Team Collaboration Insights Sprint 4 - Merge Evidence](./assets/images/sprint4/collaboration-merge-evidence.png)
-
-_Nota._ Captura de merges realizados hacia `develop` o `main` durante el Sprint 4. Esta evidencia permite comprobar la aplicación del flujo GitFlow para integrar funcionalidades finales, correcciones y documentación.
-
-![Team Collaboration Insights Sprint 4 - Branches](./assets/images/sprint4/collaboration-branches.png)
-
-_Nota._ Captura de ramas feature utilizadas durante el Sprint 4. Esta evidencia permite observar la organización del trabajo por funcionalidades, correcciones o tareas técnicas antes de su integración a las ramas principales.
-
 **Conventional Commits Evidence**
 
 ![Team Collaboration Insights Sprint 4 - Conventional Commits](./assets/images/sprint4/collaboration-conventional-commits.png)
@@ -4681,10 +4577,10 @@ _Nota._ Captura del historial de commits donde se evidencia el uso de Convention
 
 | Repository                 | URL                                          |
 | -------------------------- | -------------------------------------------- |
-| SafeRoute Report           | [Completar URL del repositorio del informe]  |
-| SafeRoute Frontend Web App | [Completar URL del repositorio frontend]     |
-| SafeRoute Backend API      | [Completar URL del repositorio backend]      |
-| SafeRoute Landing Page     | [Completar URL del repositorio landing page] |
+| SafeRoute Report           | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-report  |
+| SafeRoute Frontend Web App | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp     |
+| SafeRoute Backend API      | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform    |
+| SafeRoute Landing Page     | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-website |
 
 **Final Collaboration Reflection**
 
