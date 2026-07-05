@@ -3728,7 +3728,7 @@ _Nota. Captura de la configuración de GitHub Pages en el repositorio del proyec
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
-https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-landing-page/
+https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -3919,7 +3919,7 @@ A continuación, se presentan algunos de los endpoints mock utilizados durante e
 | `/trips`         | GET         | Obtiene información de viajes activos o registrados                | No requiere parámetros | Lista de trayectos monitoreados               |
 
 **Endpoints:**  
-https://saferoute-db.azurewebsites.net/
+https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 **Herramienta utilizada para Mock APIs:**  
 JSON Server
@@ -3964,7 +3964,7 @@ _Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funci
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
-https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-landing-page/
+https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -4189,7 +4189,7 @@ _Nota. Configuración inicial del Azure App Service utilizando contenedores Linu
 _Nota. Evidencia del backend SafeRoute desplegado en Azure App Service con estado operativo saludable. Elaboración propia._
 
 **Backend Deployment URL:**
-https://saferoute-os.azurewebsites.net
+https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -4374,7 +4374,7 @@ Esta validación permitió confirmar que los principales módulos del sistema se
 **Frontend Web Application**
 
 **Deployment URL:**  
-https://polite-hill-08013890f.7.azurestaticapps.net/stakeholder/profiles
+https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in
 
 Desde esta versión desplegada se validaron los módulos principales de la aplicación:
 
@@ -4393,7 +4393,7 @@ Desde esta versión desplegada se validaron los módulos principales de la aplic
 
 ![Execution Evidence Sprint 4 - Frontend Profiles View](./assets/images/sprint4/execution-frontend-profiles-view.png)
 
-_Nota._ Captura del frontend desplegado en Azure Static Web Apps mostrando la vista `/stakeholder/profiles` funcionando desde la URL pública `https://polite-hill-08013890f.7.azurestaticapps.net/stakeholder/profiles`.
+_Nota._ Captura del frontend desplegado en Azure Static Web Apps mostrando la vista `/stakeholder/profiles` funcionando desde la URL pública `https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in
 
 ![Execution Evidence Sprint 4 - Stakeholder Data Loaded](./assets/images/sprint4/execution-stakeholder-data-loaded.png)
 
@@ -4439,7 +4439,7 @@ Se validó la disponibilidad del backend mediante Swagger UI, comprobando que lo
 
 ![Execution Evidence Sprint 4 - Swagger Overview](./assets/images/sprint4/execution-swagger-overview.png)
 
-_Nota._ Captura de Swagger UI abierto desde la URL pública del backend desplegado: `https://saferoute-os.azurewebsites.net/swagger-ui/index.html`. Esta evidencia confirma que el RESTful API se encuentra disponible en Azure App Service.
+_Nota._ Captura de Swagger UI abierto desde la URL pública del backend desplegado: `https://saferoute-os.azurewebsites.net/swagger-ui/index.html Esta evidencia confirma que el RESTful API se encuentra disponible en Azure App Service.
 
 ![Execution Evidence Sprint 4 - Swagger Controllers](./assets/images/sprint4/execution-swagger-controllers.png)
 
@@ -4530,7 +4530,7 @@ contraseña: admin
 
 ![Services Documentation Evidence Sprint 4](./assets/images/sprint4/services-documentation-swagger-overview.png)
 
-_Nota._ Captura general de Swagger UI mostrando la documentación del RESTful API desplegado en Azure App Service. En esta vista se evidencia que el backend se encuentra disponible públicamente mediante la URL `https://saferoute-os.azurewebsites.net/swagger-ui/index.html`.
+_Nota._ Captura general de Swagger UI mostrando la documentación del RESTful API desplegado en Azure App Service. En esta vista se evidencia que el backend se encuentra disponible públicamente mediante la URL `https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 ![Services Documentation Evidence Sprint 4 - Authentication and IAM](./assets/images/sprint4/services-documentation-authentication-iam.png)
 
@@ -4570,14 +4570,14 @@ La principal mejora técnica de este sprint fue la eliminación completa del Moc
 
 | Component                | Technology / Platform      | Deployment URL                                                           | Status    |
 | ------------------------ | -------------------------- | ------------------------------------------------------------------------ | --------- |
-| Frontend Web Application | Azure Static Web Apps      | https://polite-hill-08013890f.7.azurestaticapps.net/stakeholder/profiles | Deployed  |
+| Frontend Web Application | Azure Static Web Apps      | https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in | Deployed  |
 | Backend RESTful API      | Azure App Service          | https://saferoute-os.azurewebsites.net/swagger-ui/index.html             | Deployed  |
 | Mock API / JSON Server   | Removed from final release | Not applicable                                                           | Removed   |
 | API Documentation        | Swagger UI                 | https://saferoute-os.azurewebsites.net/swagger-ui/index.html             | Available |
 
 **Deployment URLs**
 
-- Frontend Web Application: https://polite-hill-08013890f.7.azurestaticapps.net/stakeholder/profiles
+- Frontend Web Application: https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in
 - Backend RESTful API / Swagger UI: https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 **Deployment Improvements**
@@ -4600,11 +4600,11 @@ _Nota._ Captura del recurso Azure App Service utilizado para el despliegue final
 
 ![Software Deployment Evidence Sprint 4 - Frontend Running](./assets/images/sprint4/deployment-frontend-running.png)
 
-_Nota._ Captura de la Web Application ejecutándose desde la URL pública `https://polite-hill-08013890f.7.azurestaticapps.net/stakeholder/profiles`. En esta vista se evidencia el acceso al frontend desplegado en Azure Static Web Apps.
+_Nota._ Captura de la Web Application ejecutándose desde la URL pública `https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in En esta vista se evidencia el acceso al frontend desplegado en Azure Static Web Apps.
 
 ![Software Deployment Evidence Sprint 4 - Backend Swagger Running](./assets/images/sprint4/deployment-backend-swagger-running.png)
 
-_Nota._ Captura del backend ejecutándose desde Swagger UI mediante la URL pública `https://saferoute-os.azurewebsites.net/swagger-ui/index.html`. Esta evidencia confirma que la documentación interactiva del API se encuentra disponible.
+_Nota._ Captura del backend ejecutándose desde Swagger UI mediante la URL pública `https://saferoute-os.azurewebsites.net/swagger-ui/index.html Esta evidencia confirma que la documentación interactiva del API se encuentra disponible.
 
 ![Software Deployment Evidence Sprint 4 - Frontend API Configuration](./assets/images/sprint4/deployment-frontend-api-configuration.png)
 
@@ -4861,15 +4861,15 @@ Si el botón de pánico se activa accidentalmente o no se confirma correctamente
 
 ###### User Flows seleccionados para el segmento Parent
 
-Los User Flows seleccionados para el segmento Parent cubren las acciones principales de monitoreo y seguimiento del traslado escolar: visualización del viaje, recepción de alertas y confirmación del estado del estudiante.
+Los User Flows seleccionados para el segmento Parent cubren las acciones principales de monitoreo y seguimiento del traslado escolar: visualización del viaje, gestión del perfil del usuario y confirmación del estado del estudiante.
 
 Se considerarán los siguientes User Flows:
 
 - **User Flow 10:** Rastreo en tiempo real del vehículo.
-- **User Flow 11:** Recepción de notificaciones automáticas.
+- **User Flow 11:** Gestión del perfil y configuración del padre.
 - **User Flow 12:** Confirmación de llegada e historial de asistencia.
 
-Estos flujos permiten validar si el padre de familia puede obtener información suficiente sobre el traslado de su hijo sin depender de llamadas o mensajes constantes al conductor.
+Estos flujos permiten validar si el padre de familia puede monitorear el traslado de su hijo, revisar información importante de su cuenta y confirmar el estado del servicio escolar sin depender de llamadas o mensajes constantes al conductor.
 
 ###### User Flow 10: Rastreo en tiempo real del vehículo
 
@@ -4893,28 +4893,30 @@ El padre inicia sesión en SafeRoute y accede al módulo de monitoreo del viaje 
 **Unhappy path:**
 Si no existe un viaje activo, el sistema muestra un mensaje indicando que no hay trayectos disponibles en ese momento. Si la ubicación del vehículo no puede cargarse por problemas de conexión o señal GPS, el sistema muestra un estado de error comprensible, evitando que el padre interprete la falta de información como una situación de riesgo.
 
-###### User Flow 11: Recepción de notificaciones automáticas
 
-- **User goal:**
-  Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+###### User Flow 11: Gestión del perfil y configuración del padre
 
-- **User Story asociada:**
-  US19 - Como padre, quiero recibir una alerta de proximidad, para prepararme antes de la llegada del vehículo.
-  US20 - Como padre, quiero recibir confirmación de llegada, para estar tranquilo.
+- **User goal:**  
+  Como padre de familia, quiero acceder a mi perfil, para revisar mi información personal y configuración de cuenta dentro de la plataforma.
+
+- **User Story asociada:**  
+  Como padre de familia, quiero revisar mi perfil de usuario, para asegurarme de que mis datos personales y preferencias estén correctamente configurados.
 
 - **Web:**
 
 <p align="center">
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="ug11">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="Parent User Flow 11">
 </p>
 
 - **Descripción del flujo:**
 
-**Happy path:**
-El padre recibe notificaciones automáticas durante momentos importantes del trayecto, como inicio de ruta, aproximación del vehículo, abordaje del estudiante, llegada al destino o reporte de incidencia. Estas alertas mantienen informado al usuario sin necesidad de comunicarse constantemente con el conductor.
+**Happy path:**  
+El padre de familia inicia sesión en SafeRoute y accede a su dashboard. Desde el menú principal, selecciona la opción de perfil o configuración. El sistema muestra la información asociada a su cuenta, como datos personales, información de contacto, preferencias de notificación o configuración general. El usuario revisa la información disponible y confirma que los datos mostrados corresponden correctamente a su cuenta.
 
-**Unhappy path:**
-Si las notificaciones están desactivadas o el dispositivo no permite recibir alertas, el sistema mantiene los eventos visibles dentro de la plataforma para que el padre pueda consultarlos manualmente. Si una notificación no puede enviarse, la información debe permanecer disponible en el panel del viaje o historial correspondiente.
+**Unhappy path:**  
+Si el padre de familia no encuentra fácilmente la sección de perfil, puede necesitar explorar otras opciones del menú, generando una pequeña demora en la navegación. Si la información del perfil no carga correctamente, el sistema debe mostrar un mensaje claro indicando el problema y permitir volver al dashboard sin perder la sesión.
+
+Este flujo permite validar que el usuario Parent pueda acceder a una sección personal dentro de la plataforma y revisar información asociada a su cuenta. Aunque no corresponde directamente al monitoreo del viaje, complementa la experiencia del padre de familia al darle control sobre su información y configuración dentro de SafeRoute.
 
 ###### User Flow 12: Confirmación de llegada e historial de asistencia
 
@@ -5035,6 +5037,84 @@ Para el segmento Driver, las entrevistas se enfocan en validar la experiencia de
 - Identificar el uso del botón de pánico ante una emergencia.
 - Comentar dudas, dificultades y sugerencias de mejora.
 
+###### Entrevista de validación 1 - Driver
+
+**Entrevistador:**
+Fabio Vallejo
+
+**Datos del entrevistado**
+
+- **Nombre:** Andy
+- **Apellidos:** Pillaca
+- **Edad:** 28
+- **Distrito:** San Miguel y Miraflores
+- **Segmento:** Driver
+- **URL del video:** https://1drv.ms/v/c/a3bda66c80e2095c/IQCkK7xkt2N7TbSCOXPbCJTqAXZRWtdYueZppMSIM3shK4c?e=usVO15
+- **Timing de inicio:** 0:18
+- **Timing de fin:** 6:55
+- **Duración:** 6:36
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-1.png" alt="Driver Validation Interview 1" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+Andy indicó que ha utilizado aplicaciones de mapas como Google Maps, pero no una plataforma especializada en movilidad escolar. Para él, una solución como SafeRoute debería mostrar desde el inicio la ruta asignada, lista de alumnos, horarios, puntos de recogida y estado del recorrido.
+
+Durante la evaluación, consideró que la plataforma es fácil de usar y que el flujo para controlar alumnos durante la ruta es claro. Destacó como puntos positivos las confirmaciones visuales, los mensajes de éxito y la posibilidad de reportar incidencias de forma rápida. Además, señaló que usaría SafeRoute en un contexto real porque mejora el control de la ruta, la comunicación con los padres y el seguimiento seguro de los alumnos.
+
+Como oportunidades de mejora, recomendó incluir botones más grandes para acciones críticas, acceso rápido a emergencias, menos pasos durante la operación y mayor información visual sobre los beneficios del sistema en el Landing Page.
+
+###### Entrevista de validación 2 - Driver
+
+###### User Flow 8: Comunicación de incidencia o avance durante el viaje
+
+- **User goal:**  
+  Como conductor, quiero comunicar una incidencia o avance de la ruta durante el viaje.
+
+- **User Story asociada:**  
+  US12 - Como conductor, quiero reportar incidencias, para informar retrasos o problemas durante la ruta.
+
+- **Validación durante entrevista:**  
+  Este flujo fue observado de forma complementaria durante la entrevista del segmento Driver, en la que el usuario navegó por pantallas relacionadas con viaje activo, alertas y acciones disponibles durante la ruta.
+
+- **Descripción del flujo:**
+
+**Happy path:**  
+El conductor se encuentra dentro de un viaje activo y accede a las acciones disponibles durante la ruta. Ante un retraso, desvío, obstáculo o situación relevante, selecciona la opción de alerta o reporte correspondiente. El sistema muestra la sección de alertas/incidencias, permitiendo registrar o visualizar eventos asociados al viaje. Esta información permite mantener informado al sistema y facilita que padres o administradores conozcan el estado de la ruta.
+
+**Unhappy path:**  
+Si el conductor intenta reportar una incidencia sin información suficiente, el sistema debería evitar el envío incompleto y solicitar los datos necesarios. Si existe un problema de conexión o el reporte no puede enviarse correctamente, la plataforma debería mostrar un mensaje claro indicando que la acción no fue completada, evitando que el conductor crea que la incidencia fue comunicada cuando aún no fue registrada.
+
+- **Observación para validación:**  
+  Durante la entrevista, el usuario logró identificar secciones relacionadas con alertas y acciones del viaje, lo que permite validar preliminarmente que el sistema contempla mecanismos para comunicar eventos durante la ruta. Sin embargo, se recomienda realizar una validación posterior más específica del formulario o flujo completo de reporte de incidencias.
+
+###### Entrevista de validación 3 - Driver
+
+###### User Flow 9: Botón de pánico ante emergencia
+
+- **User goal:**  
+  Como conductor, quiero una manera inmediata de informar una emergencia.
+
+- **User Story asociada:**  
+  US13 - Como conductor, quiero activar un botón de pánico, para alertar situaciones críticas durante la ruta.
+
+- **Validación durante entrevista:**  
+  Este flujo fue observado de forma complementaria durante la entrevista del segmento Driver, debido a que en la pantalla de viaje activo se evidenció la presencia de una acción SOS o botón de emergencia dentro de las opciones disponibles para el conductor.
+
+- **Descripción del flujo:**
+
+**Happy path:**  
+El conductor se encuentra ejecutando una ruta activa y visualiza el botón SOS dentro de las acciones principales del viaje. Ante una emergencia, selecciona dicha opción para activar una alerta crítica. El sistema debe registrar el evento de emergencia y comunicarlo a los usuarios correspondientes, como administradores o padres de familia, permitiendo una respuesta rápida ante una situación de riesgo.
+
+**Unhappy path:**  
+Si el conductor presiona el botón por error, el sistema debería solicitar una confirmación antes de enviar la alerta crítica. Si la alerta no puede enviarse por problemas de conexión, el sistema debería mostrar un estado claro del envío o intentar reenviar la alerta automáticamente. Esto es importante porque, en una emergencia, el usuario necesita saber si la alerta fue realmente registrada.
+
+- **Observación para validación:**  
+  Durante la entrevista, el botón SOS fue visible dentro del flujo de viaje activo, lo que permite validar que la funcionalidad está presente y ubicada en un contexto adecuado para el conductor. No obstante, se recomienda complementar esta validación con una prueba específica de activación, confirmación y visualización del estado de la alerta.
+
+---
+
 ##### Segundo segmento: Padres de familia
 
 Para el segmento **Parent**, las entrevistas se enfocan en validar la experiencia del padre de familia al monitorear el viaje escolar de su hijo y recibir información relevante durante el trayecto.
@@ -5042,7 +5122,7 @@ Para el segmento **Parent**, las entrevistas se enfocan en validar la experienci
 **User Flows evaluados:**
 
 - **User Flow 10:** Rastreo en tiempo real del vehículo.
-- **User Flow 11:** Recepción de notificaciones automáticas.
+- **User Flow 11:** Gestión de perfil y configración del padre
 - **User Flow 12:** Confirmación de llegada e historial de asistencia.
 
 **Tareas asignadas al entrevistado:**
@@ -5060,23 +5140,113 @@ Para el segmento **Parent**, las entrevistas se enfocan en validar la experienci
 
 ###### Entrevista de validación 1 - Parent
 
+- **User Flow 10:** Rastreo en tiempo real del vehículo.
+
 **Entrevistador:**
-Mathias Marcelo De la Cruz De los Santos
+Nickolas Ramirez Ruiz
+
+**Datos del entrevistado**
+
+- **Nombre:** Maximo
+- **Apellidos:** Quevedo Cordova
+- **Edad:** 25 años
+- **Distrito:** Callería, Pucallpa
+- **Segmento:** Parent
+- **URL del video:** https://1drv.ms/v/c/a3bda66c80e2095c/IQCkK7xkt2N7TbSCOXPbCJTqAXZRWtdYueZppMSIM3shK4c?e=usVO15
+- **Timing de inicio:** 7:06
+- **Duración:** 6:15
+- **Fin de entrevista:** 13:21
+
+<p align="center">
+
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-1.png" alt="Parent Validation Interview 1" width="500"/>
+
+</p>
+
+**Resumen descriptivo:**
+En esta sesión de validación, Nickolas Ramirez y Maximo Quevedo exploraron a fondo la plataforma Safe Route,
+concluyendo que su diseño intuitivo y sus funciones críticas como el monitoreo en tiempo real de unidades, la gestión multiactivo de estudiantes y
+la alerta temprana ante incidencias de tráfico mediante una clara señalética cromática no solo garantizan una experiencia de usuario sumamente cómoda,
+sino que establecen un estándar de seguridad y eficiencia que convenció plenamente al entrevistado para su adopción definitiva.
+
+- **User Flow principal evaluado:** User Flow 10 - Rastreo en tiempo real del vehículo.
+- **User Flows complementarios observados:** User Flow 11 - Recepción de notificaciones automáticas.
+
+###### Entrevista de validación 2 - Parent
+
+###### User Flow 11: Gestión del perfil y configuración del padre
+
+* **User goal:**
+  Como padre de familia, quiero acceder a mi perfil, para revisar mi información personal y configuración de cuenta dentro de la plataforma.
+
+* **User Story asociada:**
+  Como padre de familia, quiero revisar mi perfil de usuario, para asegurarme de que mis datos personales y preferencias estén correctamente configurados.
+
+* **Validación durante entrevista:**
+  Este flujo fue observado durante las entrevistas del segmento Parent, principalmente en la navegación donde se revisaron secciones como dashboard, seguimiento del bus, historial, alertas y perfil dentro de la Web Application. En este caso, el flujo permite validar que el padre de familia puede acceder a una sección personal y revisar información asociada a su cuenta.
+
+* **Descripción del flujo:**
+
+**Happy path:**
+El padre de familia inicia sesión en SafeRoute y accede a su dashboard familiar. Desde el menú principal, selecciona la opción de perfil o configuración. El sistema muestra la información asociada a su cuenta, como datos personales, información de contacto, configuración general y preferencias disponibles dentro de la plataforma. El usuario revisa la información presentada y confirma que los datos corresponden correctamente a su perfil.
+
+**Unhappy path:**
+Si el padre de familia no encuentra fácilmente la sección de perfil, puede necesitar explorar otras opciones del menú, generando una pequeña demora en la navegación. Si la información del perfil no carga correctamente, el sistema debe mostrar un mensaje claro indicando el problema y permitir volver al dashboard sin perder la sesión. Si alguna opción de configuración no está disponible, la plataforma debe comunicarlo de forma comprensible para evitar confusión.
+
+* **Observación para validación:**
+  Durante las entrevistas Parent, se evidenció que la sección de perfil complementa la experiencia del padre de familia dentro de SafeRoute. Aunque el flujo principal del segmento está relacionado con el monitoreo del traslado escolar, el acceso al perfil permite que el usuario revise información de su cuenta y mantenga mayor control sobre su experiencia dentro de la plataforma.
+
+* **Recomendación:**
+  Se recomienda mantener la sección de perfil accesible desde el menú principal del usuario Parent y reforzar la claridad de sus opciones mediante etiquetas simples. También sería conveniente mostrar de forma ordenada la información personal, configuración de cuenta y preferencias disponibles, evitando que el usuario tenga que buscar en varias secciones para encontrar sus datos.
+
+
+###### User Flow 11 - Gestión del perfil y configuración del padre
+
+**Entrevistador:**
+[Nombre y apellido del entrevistador]
+
+**Datos del entrevistado**
+
+* **Nombre:** [Nombre]
+* **Apellidos:** [Apellidos]
+* **Edad:** [Edad]
+* **Distrito:** [Distrito]
+* **Segmento:** Parent
+* **URL del video:** [Pegar URL del video]
+* **Timing de inicio:** [mm:ss]
+* **Duración:** [mm:ss]
+* **Fin de entrevista:** [mm:ss]
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/[nombre].png" alt="Parent Validation Interview" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+Durante la sesión de validación, el/la entrevistado(a) interactuó con la Web Application de SafeRoute desde el rol de padre de familia. Primero accedió a la pantalla de inicio de sesión, donde se validó el ingreso a la plataforma y la identificación del usuario según su rol. Posteriormente, ingresó al dashboard familiar, desde donde pudo visualizar las opciones principales disponibles para el monitoreo y gestión de su cuenta.
+
+Durante la navegación, el/la participante accedió a la sección de perfil, donde pudo revisar información asociada a su cuenta, datos personales y opciones de configuración disponibles dentro de la plataforma. Este flujo permitió validar el **User Flow 11: Gestión del perfil y configuración del padre**, ya que el usuario pudo identificar una sección personal dentro del sistema y revisar información relacionada con su cuenta.
+
+Asimismo, la interacción permitió observar que el perfil complementa la experiencia del usuario Parent, ya que no solo se enfoca en el monitoreo del transporte escolar, sino también en brindar al padre de familia un espacio para consultar y gestionar información propia dentro de SafeRoute.
+###### Entrevista de validación 3 - Parent
+
+- **User Flow 12**
+  **Entrevistador:**
+  Mathias De La Cruz
 
 **Datos del entrevistado**
 
 - **Nombre:** Carla
-- **Apellidos:** Pelaez
+- **Apellidos:** Peláez
 - **Edad:** 38 años
 - **Distrito:** Santiago de Surco, Lima
 - **Segmento:** Parent
-- **URL del video:** https://upcedupe-my.sharepoint.com/personal/u202424059_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202424059%5Fupc%5Fedu%5Fpe%2FDocuments%2Fopen%2DEntevista%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebd0ca91a%2D3ad9%2D4c81%2Dad85%2D824a2b5a4941
--
-- **Timing de inicio:** [00:00]
-- **Duración:** [06:31]
+- **URL del video:** [https://1drv.ms/v/c/a3bda66c80e2095c/IQCkK7xkt2N7TbSCOXPbCJTqAXZRWtdYueZppMSIM3shK4c?e=usVO15]
+- **Timing de inicio:** 13:27
+- **Duración:** 06:31
+- **Fin de entrevista:** 19:59
 
 <p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-1.png" alt="Parent Validation Interview 1" width="500"/>
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-3.png" alt="Parent Validation Interview 1" width="500"/>
 </p>
 
 **Resumen descriptivo:**
@@ -5088,6 +5258,7 @@ Asimismo, se revisó la sección de historial de asistencia, donde la participan
 
 En general, la entrevista permitió validar que el flujo del segmento Parent cubre tareas importantes como iniciar sesión, revisar el estado del viaje, monitorear el bus, consultar asistencia, revisar alertas y acceder a la configuración del perfil. Las observaciones obtenidas servirán como insumo para identificar oportunidades de mejora en claridad de navegación, visibilidad del estado del sistema y confianza percibida durante el monitoreo del transporte escolar.
 
+---
 #### 5.3.3. Evaluaciones según heurísticas
 
 En esta sección se presenta la evaluación de User Experience según heurísticas aplicada a SafeRoute, considerando criterios de usabilidad, arquitectura de información e inclusive design. Esta evaluación toma como referencia las sesiones de validación realizadas con usuarios de los segmentos objetivo.
@@ -5374,10 +5545,27 @@ El video también resume la evolución del proyecto desde la identificación de 
 
 #### A. Despliegues y Servicios API
 
-- **Web Application (Frontend):** [https://agreeable-moss-0a72b2c0f.7.azurestaticapps.net/routes-management/routes](https://agreeable-moss-0a72b2c0f.7.azurestaticapps.net/routes-management/routes)
+- **Web Application (Frontend):** [https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in](https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in)
+
+- Usuario Administrador:
+ usuario: admin@saferoute.pe
+ contraseña: admin123
+
+- Usuario Pariente:
+  usario: parent@saferoute.pe
+  contraseña: parent123
+
+- Usuario Conductor:
+  usuario: driver@saferoute.pe
+  contraseña: driver123
+
 - **Landing Page:** [https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/](https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/)
-- **JSON Server (Mock API):** [https://saferoute-mock-api.azurewebsites.net/](https://saferoute-mock-api.azurewebsites.net/)
-- **Backend Platform (Backend):** [https://saferoute-os.azurewebsites.net/](https://saferoute-os.azurewebsites.net/)
+
+- **Backend Platform (Backend):** [https://saferoute-os.azurewebsites.net/swagger-ui/index.html](https://saferoute-os.azurewebsites.net/swagger-ui/index.html)
+
+- Datos de acceso para el swagger
+  usuario: admin
+  contraseña: admin
 
 #### B. Repositorios de GitHub (Organización FiveTech)
 
