@@ -202,7 +202,7 @@ El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTe
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
-- [Service Terms & Conditions and Privacy Protection](#Service Terms & Conditions and Privacy Protection)
+- [Service Terms & Conditions and Privacy Protection](#Service-Terms-&-Conditions-and-Privacy-Protection)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
