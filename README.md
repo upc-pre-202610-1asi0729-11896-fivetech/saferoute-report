@@ -50,6 +50,11 @@ Proyecto
     <td style="border: none; text-align: center; padding: 5px 15px;">U202316852</td>
     <td style="border: none; text-align: left; padding: 5px 15px;">Ortega Quintana, José Zacarias</td>
   </tr>
+  <tr style="border: none;">
+    <td style="border: none; text-align: center; padding: 5px 15px;">U202424059</td>
+    <td style="border: none; text-align: left; padding: 5px 15px;">De la Cruz De los Santos, Mathias Marcelo</td>
+  </tr>
+
 </table>
 
 <br><br><br><br><br><br><br><br><br><br>
@@ -62,9 +67,48 @@ Proyecto
 
 </div>
 
+
+---
+
+## Registro de Versiones del Informe
+
+| Avance | Fecha | Autor | Descripción de Modificación |
+|---|---|---|---|
+| AV1 | 25/04/2026 | Revilla Quispe, Renzo Zamir; Quispe Serrano, Julio Frank; Ortega Quintana, José Zacarias; De La Cruz De Los Santos, Mathias Marcelo | Se desarrolló la primera versión del informe del proyecto SafeRoute, incorporando la carátula, tabla de contenidos, registro inicial de versiones, Project Report Collaboration Insights, Student Outcome y los capítulos correspondientes a introducción, Lean UX, segmentos objetivo, análisis de competidores, entrevistas, Needfinding, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, Big Picture Event Storming, Ubiquitous Language, User Stories, Impact Mapping, Product Backlog, diseño visual, arquitectura de software, diagramas C4, diagramas de clases, diseño de base de datos, configuración de desarrollo y evidencias iniciales de implementación. Asimismo, se desarrolló y desplegó la primera versión del Landing Page, presentando el modelo de negocio, propuesta de valor y Call-To-Action de SafeRoute. |
+| TB1 | 15/05/2026 | Revilla Quispe, Renzo Zamir; Quispe Serrano, Julio Frank; Ortega Quintana, José Zacarias; De La Cruz De Los Santos, Mathias Marcelo | Se levantaron observaciones recibidas en AV1. Se ajustó la redacción del Lean UX Problem Statement, Assumptions e Hypothesis Statements, evitando formulaciones condicionales y reforzando la relación entre usuarios, beneficios y resultados medibles. Se corrigió la nomenclatura de Technical Stories utilizando el prefijo TS, se mejoraron los artefactos de Needfinding y se reforzó la trazabilidad entre User Personas, User Stories, Product Backlog y alcance del producto. A nivel de arquitectura, se revisaron los modelos C4, bounded contexts, diagramas de clases, eventos del Event Storming en tiempo pasado y organización de dependencias. Asimismo, se documentó el Sprint 2, se integraron tareas transversales de despliegue y se fortalecieron las evidencias de colaboración mediante GitHub y herramientas de gestión ágil. |
+| AV2 | 20/06/2026 | Revilla Quispe, Renzo Zamir; Quispe Serrano, Julio Frank; Ortega Quintana, José Zacarias; De La Cruz De Los Santos, Mathias Marcelo | Se desarrolló el Sprint Review correspondiente al Sprint 3, incorporando la implementación de Web Services RESTful para SafeRoute. A nivel técnico, el equipo avanzó en la construcción del backend con Spring Boot, aplicando una arquitectura modular basada en principios de Domain-Driven Design. Se implementaron aggregates, commands, repositories, servicios de aplicación, controladores REST y configuraciones de persistencia para los bounded contexts principales. También se documentó el API mediante Swagger UI, se mantuvo desplegada la Web Application y se incorporaron evidencias de ejecución, desarrollo, servicios y despliegue. Además, se elaboraron entrevistas de validación, evaluaciones heurísticas, About-the-Product y About-the-Team. Finalmente, se recibieron observaciones relacionadas con la carátula, el video de exposición, las entrevistas de validación y la comunicación escrita, las cuales fueron consideradas para la siguiente iteración. |
+| TB2 | 05/07/2026 | Revilla Quispe, Renzo Zamir; Quispe Serrano, Julio Frank; Ortega Quintana, José Zacarias; De La Cruz De Los Santos, Mathias Marcelo | Se consolidó la versión final del informe y del producto SafeRoute. Se corrigieron las observaciones recibidas en AV2, incluyendo el nombre del equipo en la carátula, el uso correcto de “Período”, la actualización del video de exposición, la mejora del About-the-Product Video y el fortalecimiento de las evidencias de validación. A nivel técnico, se completó la implementación de los bounded contexts definidos para el sistema: Identity and Access Management, Subscription and Plan Management, Stakeholder Management, Fleet and Route Management, Trip Execution and Monitoring, Notifications y Organizations. Además, se eliminó por completo el uso de Mock API / JSON Server y se integró la Web Application con el RESTful API real desplegado en Azure. Se actualizó la documentación de servicios mediante Swagger UI, se registraron evidencias de despliegue del frontend en Azure Static Web Apps y del backend en Azure App Service, y se completaron las secciones de Sprint 4: Planning, Backlog, Development Evidence, Execution Evidence, Services Documentation Evidence, Software Deployment Evidence y Team Collaboration Insights. |
+
+---
+
+
+## Project Report Collaboration Insights
+
+El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTech-NRC11896/SafeRoute-report](https://github.com/FiveTech-NRC11896/SafeRoute-report)
+
+### Sprint 1
+
+![Contributors](./assets/images/contributors.png)
+
+### Sprint 2
+
+![Contributors](./assets/images/web-app/contributors-webapp.png)
+
+### Sprint 3
+
+![Contributors](./assets/images/sprint3/contributors.png)
+
+### Sprint 4
+
+![Contributors](./assets/images/sprint3/contributors.png)
+
+
+---
+
 ## Tabla de contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Student Outcome](#student-outcome)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Sprint 1](#sprint-1)
   - [Sprint 2](#sprint-2)
@@ -149,6 +193,7 @@ Proyecto
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
     - [5.2.3. Sprint 3](#523-sprint-3)
+    - [5.2.4. Sprint 4](#524-sprint-4)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -157,35 +202,27 @@ Proyecto
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
+- [Service Terms & Conditions and Privacy Protection](#Service-Terms-&-Conditions-and-Privacy-Protection)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 ---
 
-## Registro de Versiones del Informe
+## Student Outcome
 
-| Criterio específico                                                       | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**  | **Quispe Serrano, Julio Frank:**<br>**AV1:** Participé en el video de exposición explicando nuestro _Startup Profile_, los antecedentes y la arquitectura inicial de los diagramas C4, de objetos y de la base de datos, empleando un vocabulario técnico adecuado.<br>**TB1:** Expuse la arquitectura base (_Shared Kernel_) de la _Web Application_ y el flujo de comunicación de notificaciones e incidentes, justificando las decisiones de diseño a nivel de código.<br>**AV2:** Demostré la operatividad de los servicios desplegados (front, back y mock), explicando claramente cómo se levantó la infraestructura para asegurar que corran de manera correcta, además de sustentar la feature que desarrollé en el backend.<br><br>**Ortega Quintana, Jose Zacarias:**<br>**AV1:** Sustenté en el video grupal los hallazgos del _Needfinding_, el _Big Picture Event Storming_ y la priorización de nuestros _User Stories_.<br>**TB1:** Sustenté la interacción en el módulo de _Stakeholder_, explicando la gestión de perfiles (estudiantes, grupos y asignaciones de vehículos) y cómo impactan en la operativa general.<br>**AV2:** Sustenté la metodología, el propósito y los escenarios planteados en el diseño de las entrevistas de validación, además de explicar el funcionamiento de la funcionalidad de backend que programé.<br><br>**De La Cruz De Los Santos, Mathias Marcelo:**<br>**AV1:** Expuse de forma clara las decisiones de UI/UX, arquitectura de información y presenté los wireframes correspondientes al _Landing Page_.<br>**TB1:** Detallé el funcionamiento de los subdominios genéricos (_IAM_ y _Subscription_), explicando los flujos transversales de seguridad y monetización de PowerTech.<br>**AV2:** Conduje la entrevista de validación con el usuario final, comunicando de manera empática y clara los objetivos de la sesión, y presenté la feature del backend que desarrollé.<br><br>**Revilla Quispe, Renzo Zamir:**<br>**AV1:** Detallé la organización de nuestro trabajo colaborativo, la justificación del _Sprint Planning 1_ y cómo distribuimos las tareas en la sustentación grabada.<br>**TB1:** Demostré la ejecución operativa del sistema (_Trip_), exponiendo el monitor en vivo y el funcionamiento crítico del escáner de abordaje.<br>**AV2:** Expuse el progreso de nuestro trabajo, la gestión y las métricas de colaboración correspondientes al Sprint 3, además de sustentar la característica de backend que implementé.              | **AV1:** <br>Como equipo, logramos coordinar nuestras intervenciones individuales para consolidar un video de exposición coherente. Adaptamos nuestro lenguaje técnico al explicar la arquitectura y diseño de software, manteniendo un tono de negocio y comercial al describir el perfil de nuestra startup y la problemática a resolver.<br><br>**TB1:**<br>Como equipo, logramos unificar el discurso técnico para la presentación de la _Web Application_. Demostraron cohesión al explicar cómo interactúan los diferentes _Bounded Contexts_ y comunicamos con claridad las correcciones aplicadas a los artefactos previos (_Lean UX_, entrevistas unificadas y C4), adaptando el nivel técnico para una audiencia evaluadora.<br><br>**AV2:**<br>Demostramos gran fluidez al comunicar los aspectos técnicos del despliegue de infraestructura y el desarrollo en el backend. Asimismo, adaptamos nuestro discurso para interactuar efectivamente con usuarios reales durante las entrevistas de validación, demostrando empatía y capacidad para recopilar feedback valioso.                                  |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Quispe Serrano, Julio Frank:**<br>**AV1:** Redacté con claridad el Capítulo I (Introducción) y documenté los diagramas formales de arquitectura de software orientada a dominios y base de datos.<br>**TB1:** Documenté las interfaces y clases abstractas del _Shared Kernel_, asegurando que el equipo comprendiera las bases para implementar sus servicios, y corregí la nomenclatura de historias técnicas (_TS_) en el informe.<br>**AV2:** Fui responsable de configurar y documentar el levantamiento de la infraestructura para los servicios frontend, backend y mock. Además, aporté escribiendo código para una nueva feature del backend.<br><br>**Ortega Quintana, Jose Zacarias:**<br>**AV1:** Elaboré los documentos de análisis de requerimientos (Capítulos II y III), asegurando que el _Ubiquitous Language_ y nuestro _Product Backlog_ sean comprensibles para todo el equipo.<br>**TB1:** Redacté la especificación de los CRUDs complejos en el informe, asegurando que la gestión de actores mantenga el _Ubiquitous Language_ definido.<br>**AV2:** Fui el encargado de redactar el diseño, la estructura y el guion completo de las entrevistas de validación en el informe. También desarrollé código para una feature específica en el backend.<br><br>**De La Cruz De Los Santos, Mathias Marcelo:**<br>**AV1:** Documenté los _Style Guidelines_ y los sistemas de organización (_Information Architecture_) para el _Landing Page_, aplicando convenciones estándar de la industria.<br>**TB1:** Estructuré la documentación de los flujos de inicio de sesión y planes, corrigiendo errores gramaticales y de formato señalados en el TB1.<br>**AV2:** Registré, sistematicé y analicé los hallazgos de la entrevista de validación dentro del documento formal. Asimismo, participé en la programación de una feature del backend.<br><br>**Revilla Quispe, Renzo Zamir:**<br>**AV1:** Redacté la documentación del _Sprint 1_ (_Planning, Backlog, Evidence_) y nuestras conclusiones iniciales en el informe técnico usando sintaxis Markdown estructurada.<br>**TB1:** Documenté el _Sprint 2_ integrando las tareas transversales de despliegue en el _Sprint Backlog_, actualizando la organización de repositorios y mostrando las estadísticas reales de colaboración.<br>**AV2:** Me encargué de la redacción, formato y estructuración de toda la documentación correspondiente al Sprint 3 en el informe técnico. Adicionalmente, programé una feature para el backend. | **AV1:** <br>Durante la elaboración de este primer entregable, unificamos el estilo de redacción de cada integrante mediante el uso conjunto de convenciones en nuestro repositorio de GitHub. Logramos redactar un informe técnico inicial que es estructurado, formal y está completamente alineado a las rúbricas y requerimientos del proyecto.<br><br>**TB1:** Se mejoró notablemente la redacción técnica y la presentación del documento. Se estandarizó la nomenclatura de archivos, se corrigieron problemas de formato y visualización de diagramas, y se elaboró un registro detallado del _Sprint 2_ que cumple rigurosamente con las especificaciones de entrega, demostrando una comunicación escrita formal y profesional.<br><br>**AV2:**<br>Consolidamos con éxito la documentación del Sprint 3 y formalizamos el proceso cualitativo del diseño de entrevistas de validación. A nivel de desarrollo escrito, logramos un esfuerzo colaborativo destacable en la programación, donde absolutamente todos los miembros del equipo contribuyeron escribiendo y desplegando código útil para el backend. |
+**ABET - EAC - Student Outcome 3:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+| Criterio | Acciones realizadas | Conclusiones |
+|---|---|---|
+| **Criterio 1: Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Quispe Serrano, Julio Frank:**<br>**AV1:** Participé en el video de exposición explicando el Startup Profile, los antecedentes del problema y la arquitectura inicial del sistema, incluyendo diagramas C4, diagramas de clases y diseño de base de datos. Utilicé un vocabulario técnico adecuado para explicar las primeras decisiones de arquitectura del producto.<br>**TB1:** Sustenté la arquitectura base de la Web Application, explicando el rol del Shared Kernel y la forma en que los módulos del sistema se organizan mediante bounded contexts. Además, expliqué cómo la arquitectura permite mantener separación de responsabilidades entre las capas del proyecto.<br>**AV2:** Demostré la operatividad de los servicios desplegados, explicando la infraestructura utilizada para levantar frontend, backend y mock services. También sustenté la feature que desarrollé en el backend y participé en la explicación técnica de los Web Services.<br>**TB2:** Sustenté la integración final entre la Web Application y el RESTful API real desplegado en Azure. Expliqué la eliminación del Mock API, la validación de endpoints mediante Swagger UI y la consolidación de bounded contexts en la versión final del backend.<br><br>**Ortega Quintana, José Zacarias:**<br>**AV1:** Sustenté los hallazgos obtenidos durante el Needfinding, el análisis de entrevistas, el Big Picture Event Storming y la priorización inicial de User Stories. Expliqué cómo los hallazgos de investigación permitieron identificar necesidades reales de padres y transportistas.<br>**TB1:** Sustenté la interacción del módulo Stakeholder, explicando la gestión de perfiles, estudiantes, grupos y asignaciones, así como la relación entre estos elementos y la operación del servicio de transporte escolar.<br>**AV2:** Expliqué la metodología utilizada en las entrevistas de validación, el propósito de las sesiones y los escenarios planteados para evaluar la experiencia de usuario. Además, presenté la funcionalidad backend que desarrollé durante el sprint.<br>**TB2:** Participé en la sustentación de las correcciones aplicadas a las entrevistas de validación, explicando cómo se evitaron instrucciones demasiado guiadas y cómo los hallazgos fueron organizados mediante heurísticas, severidad y alternativas de solución.<br><br>**De La Cruz De Los Santos, Mathias Marcelo:**<br>**AV1:** Expuse las decisiones de UI/UX, arquitectura de información, style guidelines, wireframes y mockups del Landing Page, explicando cómo estas decisiones mantienen coherencia con la propuesta de valor de SafeRoute.<br>**TB1:** Presenté los flujos transversales relacionados con Identity and Access Management y Subscription and Plan Management, explicando su importancia para la seguridad, monetización y escalabilidad del producto.<br>**AV2:** Conduje una entrevista de validación con un usuario final, comunicando de forma clara el propósito de la sesión y registrando hallazgos relevantes para la mejora del producto. También presenté la feature backend que desarrollé.<br>**TB2:** Sustenté el video About-the-Product actualizado, explicando el propósito, beneficios, funcionalidades principales, demostración del producto y testimonios de usuarios. También apoyé en la presentación de las correcciones visuales y de comunicación solicitadas en AV2.<br><br>**Revilla Quispe, Renzo Zamir:**<br>**AV1:** Expliqué la organización del trabajo colaborativo, la planificación del Sprint 1 y la distribución de responsabilidades dentro del equipo. También sustenté las primeras evidencias de colaboración y gestión del proyecto.<br>**TB1:** Demostré la ejecución operativa del sistema, explicando flujos relacionados con Trip Execution and Monitoring, incluyendo monitoreo, asistencia y escáner de abordaje como parte de la propuesta funcional.<br>**AV2:** Expuse el progreso del Sprint 3, la gestión de actividades, métricas de colaboración y avances del backend. También participé en la sustentación de la feature desarrollada durante la implementación de Web Services.<br>**TB2:** Sustenté el cierre del Sprint 4, explicando la integración final del frontend desplegado con el backend real, el despliegue en Azure Static Web Apps, la validación de rutas públicas y las evidencias de colaboración del equipo durante la entrega final. | **AV1:** Durante la primera entrega, el equipo logró coordinar sus intervenciones para presentar la problemática, la propuesta de valor, el proceso Lean UX, los hallazgos de investigación y las primeras decisiones de diseño y arquitectura. La comunicación oral permitió explicar el proyecto tanto desde una perspectiva de negocio como desde una perspectiva técnica inicial.<br><br>**TB1:** En la segunda entrega, el equipo mejoró la claridad de la exposición técnica, unificando el discurso sobre los bounded contexts, la arquitectura de la Web Application, las correcciones aplicadas a Lean UX, Event Storming, User Stories y diagramas C4. Se evidenció una mejor capacidad para adaptar el nivel de detalle a una audiencia evaluadora con enfoque técnico y de producto.<br><br>**AV2:** Durante AV2, el equipo comunicó con mayor fluidez los avances de implementación backend, la documentación de servicios, la validación de la aplicación y el despliegue parcial de los componentes. También se fortaleció la interacción con usuarios durante entrevistas de validación, aunque se identificaron oportunidades de mejora en la forma de guiar las sesiones y registrar hallazgos.<br><br>**TB2:** En la entrega final, el equipo consolidó una comunicación oral más objetiva y completa, presentando el producto final desplegado, la integración real entre frontend y backend, la eliminación del Mock API, la documentación Swagger y las correcciones aplicadas a observaciones previas. La exposición final permitió demostrar tanto el proceso de ingeniería como el resultado funcional de SafeRoute en un entorno cloud. |
+| **Criterio 2: Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Quispe Serrano, Julio Frank:**<br>**AV1:** Redacté secciones relacionadas con la introducción del proyecto, el perfil de la startup y la documentación inicial de arquitectura, incluyendo diagramas C4, diseño de objetos y diseño de base de datos.<br>**TB1:** Documenté correcciones relacionadas con el Shared Kernel, las dependencias entre capas y la nomenclatura de historias técnicas. También apoyé en la revisión de diagramas y consistencia técnica del informe.<br>**AV2:** Documenté el levantamiento de infraestructura para los servicios frontend, backend y mock, además de aportar en la redacción de evidencias de desarrollo y despliegue del backend.<br>**TB2:** Redacté y consolidé secciones del Sprint 4, incluyendo Development Evidence, Services Documentation Evidence, Software Deployment Evidence, eliminación del Mock API e integración del frontend con el RESTful API real.<br><br>**Ortega Quintana, José Zacarias:**<br>**AV1:** Elaboré documentación relacionada con entrevistas, análisis de requerimientos, Needfinding, Ubiquitous Language y Product Backlog, asegurando que los hallazgos de investigación sean comprensibles para el equipo.<br>**TB1:** Redacté la especificación de los CRUDs complejos del módulo Stakeholder, manteniendo coherencia entre los actores del dominio, las User Stories y el Ubiquitous Language.<br>**AV2:** Redacté el diseño, estructura y guion de entrevistas de validación, además de documentar hallazgos obtenidos durante la evaluación con usuarios.<br>**TB2:** Actualicé la documentación de validación, organizando los hallazgos por sesión, heurística, nivel de severidad y alternativa de solución. También apoyé en la corrección de observaciones relacionadas con AV2.<br><br>**De La Cruz De Los Santos, Mathias Marcelo:**<br>**AV1:** Documenté los Style Guidelines, Information Architecture, wireframes, mockups y lineamientos visuales del Landing Page, aplicando criterios de diseño visual y responsive web design.<br>**TB1:** Estructuré documentación relacionada con autenticación, planes y suscripciones, corrigiendo problemas de redacción, formato y consistencia observados previamente.<br>**AV2:** Registré, sistematicé y analicé hallazgos de entrevistas de validación dentro del informe formal. También participé en la documentación de About-the-Product y evidencias de backend.<br>**TB2:** Actualicé la documentación del About-the-Product Video, incorporando propósito, beneficios, funcionalidades principales, demostraciones de interacción, branding y testimonios de usuarios. También apoyé en la revisión de redacción final del informe.<br><br>**Revilla Quispe, Renzo Zamir:**<br>**AV1:** Redacté la documentación del Sprint 1, incluyendo Sprint Planning, Sprint Backlog, evidencias de desarrollo, despliegue y conclusiones iniciales, utilizando estructura Markdown.<br>**TB1:** Documenté el Sprint 2, incorporando tareas transversales, evidencias de Web Application, GitHub Insights y mejoras aplicadas respecto a la evaluación anterior.<br>**AV2:** Me encargué de la redacción y estructuración de la documentación del Sprint 3, incluyendo planificación, backlog, development evidence, execution evidence, services documentation, deployment evidence y collaboration insights.<br>**TB2:** Redacté y organicé la documentación final del Sprint 4, incluyendo Sprint Planning, Sprint Backlog, Execution Evidence, Team Collaboration Insights y conclusiones del cierre del producto. También apoyé en la verificación de URLs finales y evidencias visuales. | **AV1:** Durante la elaboración del primer informe, el equipo logró estructurar un documento técnico inicial con secciones de negocio, investigación, diseño, arquitectura e implementación. La comunicación escrita permitió organizar la propuesta SafeRoute de manera formal, aunque se identificaron oportunidades de mejora en redacción, nomenclatura y visualización de diagramas.<br><br>**TB1:** En TB1, el equipo mejoró significativamente la redacción técnica y la consistencia documental. Se corrigieron observaciones de AV1, se fortaleció la trazabilidad entre artefactos y se mejoró la presentación de diagramas, Sprint Backlog y evidencias de colaboración. Esto permitió una comunicación escrita más clara y alineada a las especificaciones del curso.<br><br>**AV2:** Durante AV2, el informe incorporó documentación más completa sobre implementación backend, servicios RESTful, despliegue, validación y colaboración. Sin embargo, se identificaron observaciones formales en la carátula, videos y entrevistas de validación, lo cual sirvió como base para aplicar mejora continua en la entrega final.<br><br>**TB2:** En la entrega final, el equipo consolidó un informe más completo, coherente y alineado con el producto implementado. Se corrigieron observaciones de AV2, se actualizó la documentación del Sprint 4, se evidenció la integración real con el RESTful API, se completaron las evidencias de despliegue y se reforzó la claridad de la comunicación escrita para una audiencia académica y técnica. |
 
 ---
 
-## Project Report Collaboration Insights
 
-El equipo ha utilizado un flujo de trabajo en github: [https://github.com/FiveTech-NRC11896/SafeRoute-report](https://github.com/FiveTech-NRC11896/SafeRoute-report)
+### Sprint 4
 
-### Sprint 1
-
-![Contributors](./assets/images/contributors.png)
-
-### Sprint 2
-
-![Contributors](./assets/images/web-app/contributors-webapp.png)
-
-### Sprint 3
-
-![Contributors](./assets/images/sprint3/contributors.png)
+![Team Collaboration Insights Sprint 4 - Backend Repository](./assets/images/sprint4/collaboration-backend-repository.png)
 
 ## Capítulo I: Introducción
 
@@ -1037,11 +1074,9 @@ Las siguientes User Stories representan los requisitos detallados del sistema Sa
 | **TS3**   | Persistencia de Tracking GPS      | Como sistema, deseo almacenar coordenadas GPS para mantener historial de viajes.       | **S1:** Given viaje activo, When recibe coordenadas, Then almacena latitud y longitud. <br> **S2:** Given historial solicitado, When consulta viaje, Then retorna recorrido completo. <br> **S3:** Given coordenadas inválidas, When procesa request, Then rechaza registro.                  | E5              |
 | **TS4**   | Configuración Swagger/OpenAPI     | Como developer, deseo acceder a documentación interactiva para probar endpoints REST.  | **S1:** Given acceso a `/swagger`, When carga interfaz, Then muestra endpoints documentados. <br> **S2:** Given endpoint válido, When ejecuta prueba, Then retorna respuesta esperada. <br> **S3:** Given API offline, When abre Swagger, Then muestra error de conexión.                     | E5              |
 | **TS5**   | Soporte i18n Angular              | Como sistema, deseo soportar múltiples idiomas para internacionalizar la Landing Page. | **S1:** Given idioma inglés, When usuario cambia lenguaje, Then traduce componentes. <br> **S2:** Given idioma español, When recarga página, Then mantiene preferencia. <br> **S3:** Given traducción inexistente, When carga clave, Then usa fallback en español.                            | E5              |
-| **TS6**   | Sistema de Push Notifications     | Como sistema, deseo enviar notificaciones push automáticas para eventos críticos.      | **S1:** Given alumno abordado, When se registra boarding, Then envía push al padre. <br> **S2:** Given incidente crítico, When conductor reporta emergencia, Then dispara alerta prioritaria. <br> **S3:** Given dispositivo desconectado, When intenta enviar push, Then almacena reintento. | E5              |
-| **TS7**   | Implementación HTTPS/SSL          | Como sistema, deseo cifrar comunicaciones para proteger datos sensibles.               | **S1:** Given acceso web, When usuario navega, Then conexión usa HTTPS. <br> **S2:** Given envío de credenciales, When procesa request, Then información viaja cifrada. <br> **S3:** Given certificado expirado, When abre sitio, Then navegador alerta inseguridad.                          | E5              |
-| **TS8**   | Soporte Offline para Conductores  | Como sistema, deseo almacenar eventos temporalmente cuando no exista conexión.         | **S1:** Given sin internet, When conductor registra boarding, Then guarda localmente. <br> **S2:** Given conexión restaurada, When sincroniza, Then envía eventos pendientes. <br> **S3:** Given conflicto de sincronización, When procesa datos, Then muestra advertencia.                   | E5              |
-| **TS9**   | API: Obtener Alumnos              | Como developer, quiero listar alumnos por ruta, para integraciones externas.           | **S1:** Given GET `/students`, When token Admin, Then retorna JSON lista. <br> **S2:** Given filtro por ID, When consulta, Then retorna datos de 1 alumno. <br> **S3:** Given token expirado, When consulta, Then retorna 401 Unauthorized.                                                   | E5              |
-| **TS10**  | API: Registro GPS                 | Como developer, quiero enviar coordenadas, para actualizar la posición del bus.        | **S1:** Given alta frecuencia, When envía 10 req/seg, Then el sistema procesa sin delay. <br> **S2:** Given coordenadas inválidas, When envía null, Then retorna 400 Bad Request.                                                                                                             | E5              |
+| **TS6**   | Implementación HTTPS/SSL          | Como sistema, deseo cifrar comunicaciones para proteger datos sensibles.               | **S1:** Given acceso web, When usuario navega, Then conexión usa HTTPS. <br> **S2:** Given envío de credenciales, When procesa request, Then información viaja cifrada. <br> **S3:** Given certificado expirado, When abre sitio, Then navegador alerta inseguridad.                          | E5              |
+| **TS7**   | Soporte Offline para Conductores  | Como sistema, deseo almacenar eventos temporalmente cuando no exista conexión.         | **S1:** Given sin internet, When conductor registra boarding, Then guarda localmente. <br> **S2:** Given conexión restaurada, When sincroniza, Then envía eventos pendientes. <br> **S3:** Given conflicto de sincronización, When procesa datos, Then muestra advertencia.                   | E5              |
+| **TS8**   | API: Obtener Alumnos              | Como developer, quiero listar alumnos por ruta, para integraciones externas.           | **S1:** Given GET `/students`, When token Admin, Then retorna JSON lista. <br> **S2:** Given filtro por ID, When consulta, Then retorna datos de 1 alumno. <br> **S3:** Given token expirado, When consulta, Then retorna 401 Unauthorized.                                                   | E5              |
 
 | Epic / ID | Título                             | Descripción                                                                                          | Escenarios de Aceptación (Gherkin: 2 Positivos / 1 Negativo)                                                                                                                                                                                                                                          | Relacionado con |
 | :-------- | :--------------------------------- | :--------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
@@ -1062,35 +1097,30 @@ Las siguientes User Stories representan los requisitos detallados del sistema Sa
 | US13      | Botón de Pánico                    | Como conductor, quiero usar el SOS, para emergencias críticas.                                       | **S1:** Given peligro, When presiona 3 seg, Then envía alerta con ubicación GPS. <br> **S2:** Given alerta activa, When admin responde, Then abre canal de audio. <br> **S3:** Given presión accidental, When cancela en 2 seg, Then no envía la alerta.                                              | E2              |
 | US14      | Finalización de Ruta               | Como conductor, quiero cerrar la sesión, para concluir el turno.                                     | **S1:** Given fin de recorrido, When pulsa "Cerrar", Then detiene GPS. <br> **S2:** Given alumnos pendientes, When intenta cerrar, Then advierte "Hay alumnos a bordo". <br> **S3:** Given error de servidor, When cierra, Then guarda datos localmente.                                              | E2              |
 | US15      | Bitácora de Viajes                 | Como conductor, quiero ver mi historial, para revisar recorridos pasados.                            | **S1:** Given menú historial, When selecciona día, Then muestra mapa del recorrido. <br> **S2:** Given resumen semanal, When consulta, Then indica horas totales manejadas. <br> **S3:** Given sin historial previo, When abre pestaña, Then muestra "Sin viajes registrados".                        | E2              |
-| US16      | Navegación Integrada               | Como conductor, quiero usar mapas externos, para ver la mejor ruta.                                  | **S1:** Given viaje iniciado, When pulsa "Navegar", Then abre app externa. <br> **S2:** Given cambio de tráfico, When mapas sugiere desvío, Then el sistema actualiza el ETA. <br> **S3:** Given app de mapas no instalada, When intenta abrir, Then sugiere descarga.                                | E2              |
-| US17      | Check de Seguridad                 | Como conductor, quiero una lista de chequeo, para revisar la movilidad antes de salir.               | **S1:** Given inicio de día, When marca luces y frenos, Then habilita el inicio de ruta. <br> **S2:** Given falla detectada, When reporta en check, Then bloquea unidad por seguridad. <br> **S3:** Given check incompleto, When intenta iniciar viaje, Then recuerda "Revisión obligatoria".         | E2              |
-| **E3**    | **Monitoreo y Seguridad (Padres)** | Visibilidad y tranquilidad para la familia                                                           |                                                                                                                                                                                                                                                                                                       |                 |
-| US18      | Rastreo en Tiempo Real             | Como padre, quiero el vehículo en el mapa, para calcular la hora de llegada.                         | **S1:** Given viaje activo, When abre mapa, Then ve el icono moverse. <br> **S2:** Given parada propia, When toca icono, Then muestra distancia en KM. <br> **S3:** Given viaje finalizado, When abre mapa, Then muestra "Servicio concluido".                                                        | E3              |
-| US19      | Alerta de Proximidad               | Como padre, quiero recibir un aviso previo, para bajar a la parada a tiempo(como acompañante).       | **S1:** Given vehículo a 500m, When entra a geovalla, Then recibe notificación push. <br> **S2:** Given vehículo a 2min, When tiempo se cumple, Then vibra el teléfono. <br> **S3:** Given notificaciones desactivadas, When vehículo llega, Then solo registra el evento en log.                     | E3              |
-| US20      | Confirmación de Llegada            | Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo.                          | **S1:** Given vehículo en colegio, When conductor cierra viaje, Then recibe notificación de éxito. <br> **S2:** Given viaje de retorno, When llega a casa, Then recibe "Hijo entregado". <br> **S3:** Given retraso mayor a 20min, When tiempo pasa, Then recibe alerta de demora.                    | E3              |
-| US21      | Acceso a Cámara                    | Como padre, quiero ver el interior del vehículo, para verificar la seguridad.                        | **S1:** Given Plan Intermedio, When solicita video, Then carga cámara en vivo. <br> **S2:** Given modo nocturno, When poca luz, Then activa visión infrarroja. <br> **S3:** Given fallo de internet, When carga video, Then muestra "Señal débil".                                                    | E3              |
-| US22      | Historial de Asistencia            | Como padre, quiero ver los días que mi hijo abordó, para control mensual.                            | **S1:** Given pestaña asistencia, When elige mes, Then muestra calendario con checks. <br> **S2:** Given falta justificada, When marca día, Then el sistema cambia icono a "Justificado". <br> **S3:** Given mes futuro, When intenta ver, Then la opción aparece bloqueada.                          | E3              |
-| US23      | Perfil del Estudiante              | Como padre, quiero gestionar datos médicos, para informar alergias al conductor.                     | **S1:** Given editar perfil, When escribe "Alergia a maní", Then el conductor ve alerta en su panel. <br> **S2:** Given foto actualizada, When sube imagen, Then se actualiza en el panel del bus. <br> **S3:** Given campo vacío, When intenta guardar, Then mantiene datos anteriores.              | E3              |
-| US24      | Chat con Soporte                   | Como padre, quiero un chat interno, para reportar ausencias.                                         | **S1:** Given ausencia programada, When escribe al chat, Then el admin recibe el aviso. <br> **S2:** Given respuesta de soporte, When llega mensaje, Then se muestra notificación. <br> **S3:** Given mensaje fuera de hora, When envía, Then recibe respuesta automática.                            | E3              |
+| US16      | Navegación Integrada               | Como conductor, quiero usar mapas externos, para ver la mejor ruta.                                  | **S1:** Given viaje iniciado, When pulsa "Navegar", Then abre app externa. <br> **S2:** Given cambio de tráfico, When mapas sugiere desvío, Then el sistema actualiza el ETA. <br> **S3:** Given app de mapas no instalada, When intenta abrir, Then sugiere descarga.                                | E2              |                                                                                                                                                                                                                                                                                                |                 |
+| US17      | Rastreo en Tiempo Real             | Como padre, quiero el vehículo en el mapa, para calcular la hora de llegada.                         | **S1:** Given viaje activo, When abre mapa, Then ve el icono moverse. <br> **S2:** Given parada propia, When toca icono, Then muestra distancia en KM. <br> **S3:** Given viaje finalizado, When abre mapa, Then muestra "Servicio concluido".                                                        | E3              |
+| US18      | Alerta de Proximidad               | Como padre, quiero recibir un aviso previo, para bajar a la parada a tiempo(como acompañante).       | **S1:** Given vehículo a 500m, When entra a geovalla, Then recibe notificación push. <br> **S2:** Given vehículo a 2min, When tiempo se cumple, Then vibra el teléfono. <br> **S3:** Given notificaciones desactivadas, When vehículo llega, Then solo registra el evento en log.                     | E3              |
+| US19      | Confirmación de Llegada            | Como padre, quiero saber si mi hijo llegó al colegio, para estar tranquilo.                          | **S1:** Given vehículo en colegio, When conductor cierra viaje, Then recibe notificación de éxito. <br> **S2:** Given viaje de retorno, When llega a casa, Then recibe "Hijo entregado". <br> **S3:** Given retraso mayor a 20min, When tiempo pasa, Then recibe alerta de demora.                    | E3              |
+| US20      | Acceso a Cámara                    | Como padre, quiero ver el interior del vehículo, para verificar la seguridad.                        | **S1:** Given Plan Intermedio, When solicita video, Then carga cámara en vivo. <br> **S2:** Given modo nocturno, When poca luz, Then activa visión infrarroja. <br> **S3:** Given fallo de internet, When carga video, Then muestra "Señal débil".                                                    | E3              |
+| US21      | Historial de Asistencia            | Como padre, quiero ver los días que mi hijo abordó, para control mensual.                            | **S1:** Given pestaña asistencia, When elige mes, Then muestra calendario con checks. <br> **S2:** Given falta justificada, When marca día, Then el sistema cambia icono a "Justificado". <br> **S3:** Given mes futuro, When intenta ver, Then la opción aparece bloqueada.                          | E3              |
+| US22      | Perfil del Estudiante              | Como padre, quiero gestionar datos médicos, para informar alergias al conductor.                     | **S1:** Given editar perfil, When escribe "Alergia a maní", Then el conductor ve alerta en su panel. <br> **S2:** Given foto actualizada, When sube imagen, Then se actualiza en el panel del bus. <br> **S3:** Given campo vacío, When intenta guardar, Then mantiene datos anteriores.              | E3              |
 | **E4**    | **Landing Page (Visitantes)**      | Captación de clientes e Internacionalización (i18n)                                                  |                                                                                                                                                                                                                                                                                                       |                 |
-| US25      | Visualización de Hero              | Como visitante, quiero ver la propuesta de valor, para entender SafeRoute.                           | **S1:** Given carga de URL, When ve sección principal, Then lee "Seguridad en cada ruta". <br> **S2:** Given botón CTA, When hace clic, Then lo lleva a Registro. <br> **S3:** Given fallo de carga, When URL es errónea, Then muestra página 404 personalizada.                                      | E4              |
-| US26      | Navegación de Funciones            | Como visitante, quiero ver las funcionalidades, para conocer el alcance técnico.                     | **S1:** Given sección funciones, When hace scroll, Then ve iconos de monitoreo. <br> **S2:** Given tarjetas de info, When pasa el mouse, Then se expande la descripción. <br> **S3:** Given pantalla pequeña, When usa móvil, Then las funciones se apilan verticalmente.                             | E4              |
-| US27      | Detalle de Roles                   | Como visitante, quiero conocer las vistas por perfil, para ver los beneficios.                       | **S1:** Given sección roles, When elige "Padre", Then muestra capturas de la App de padres. <br> **S2:** Given rol "Conductor", When elige, Then muestra gestión de rutas. <br> **S3:** Given opción no seleccionada, When ve la sección, Then muestra el rol "Admin" por defecto.                    | E4              |
-| US28      | Consulta de Precios                | Como visitante, quiero ver los costos, para evaluar mi presupuesto.                                  | **S1:** Given tabla de precios, When elige "Anual", Then aplica 20% de descuento. <br> **S2:** Given moneda local, When cambia región, Then muestra precios en Soles (PEN). <br> **S3:** Given plan no disponible, When intenta ver, Then aparece etiqueta "Próximamente".                            | E4              |
-| US29      | Sección "¿Cómo funciona?"          | Como visitante, quiero ver los pasos iniciales, para saber cómo empezar.                             | **S1:** Given infografía, When sigue los pasos 1-5, Then entiende el flujo de contrato. <br> **S2:** Given video demo, When pulsa play, Then visualiza el funcionamiento real. <br> **S3:** Given navegador antiguo, When carga video, Then muestra imagen estática.                                  | E4              |
-| US30      | Implementación i18n                | Como visitante, quiero cambiar el idioma (ES/EN), para navegar cómodamente.                          | **S1:** Given selector de idioma, When marca "English", Then todo el texto cambia a inglés. <br> **S2:** Given navegador en inglés, When carga sitio, Then se muestra en inglés por defecto. <br> **S3:** Given idioma no soportado, When detecta región, Then carga español por defecto.             | E4              |
-| US31      | Testimonios Reales                 | Como visitante, quiero leer reseñas, para confiar en la marca.                                       | **S1:** Given sección testimonios, When desliza, Then ve fotos y opiniones de colegios. <br> **S2:** Given estrellas de calificación, When ve promedio, Then nota 4.8/5 de satisfacción. <br> **S3:** Given sin internet, When carga sección, Then muestra testimonios cacheados.                     | E4              |
-| US32      | Formulario de Contacto             | Como visitante, quiero enviar dudas, para recibir una cotización.                                    | **S1:** Given formulario completo, When envía, Then recibe mensaje "Enviado con éxito". <br> **S2:** Given campos obligatorios, When intenta enviar vacío, Then marca errores en rojo. <br> **S3:** Given bot detectado, When envía spam, Then el Captcha bloquea el envío.                           | E4              |
-| US33      | Suscripción al Newsletter          | Como visitante, quiero dejar mi correo, para recibir tips de seguridad.                              | **S1:** Given campo de email, When ingresa dato, Then recibe correo de bienvenida. <br> **S2:** Given checkbox de privacidad, When marca "Acepto", Then habilita botón Suscribir. <br> **S3:** Given correo duplicado, When intenta registrar, Then dice "Ya estás suscrito".                         | E4              |
-| US34      | Visualización de Partners          | Como visitante, quiero ver marcas aliadas o agentes externos, para validar la seriedad del servicio. | **S1:** Given sección agentes, When carga logos, Then se ven marcas de seguros y seguridad. <br> **S2:** Given enlace en logo, When hace clic, Then abre web del partner. <br> **S3:** Given logo roto, When no carga imagen, Then muestra el nombre en texto.                                        | E4              |
-| US35      | Preguntas Frecuentes (FAQ)         | Como visitante, quiero ver dudas comunes, para evitar llamadas de soporte.                           | **S1:** Given lista de FAQs, When toca una pregunta, Then se despliega la respuesta. <br> **S2:** Given buscador de FAQs, When escribe "precio", Then filtra preguntas relacionadas. <br> **S3:** Given duda no resuelta, When baja al final, Then ve botón de contacto directo.                      | E4              |
-| US36      | Responsive Design i18n             | Como visitante, quiero que el texto se ajuste en móvil, para evitar cortes por traducción.           | **S1:** Given idioma Ingles (texto largo), When ve en móvil, Then el contenedor se expande. <br> **S2:** Given modo horizontal, When gira teléfono, Then el menú se ajusta al idioma. <br> **S3:** Given fuente muy grande, When el texto desborda, Then aplica elipsis automáticamente.              | E4              |
-| US37      | Blog de Seguridad                  | Como visitante, quiero leer artículos, para aprender sobre movilidad escolar.                        | **S1:** Given lista de posts, When elige uno, Then abre lectura completa. <br> **S2:** Given botones sociales, When comparte post, Then abre ventana de RRSS. <br> **S3:** Given post sin imagen, When carga, Then usa una imagen corporativa por defecto.                                            | E4              |
-| US38      | Demo Interactiva                   | Como visitante, quiero probar un simulador de mapa, para ver la experiencia real.                    | **S1:** Given mapa demo, When pulsa "Play", Then ve un bus moviéndose ficticiamente. <br> **S2:** Given alertas demo, When bus llega a punto, Then suena un aviso de prueba. <br> **S3:** Given navegador sin JS, When intenta ver demo, Then pide activar JavaScript.                                | E4              |
-| US39      | SEO & Meta Tags i18n               | Como visitante, quiero encontrar la web en buscadores, según mi idioma local.                        | **S1:** Given búsqueda en Google (ES), When escribe "Transporte Seguro", Then aparece SafeRoute. <br> **S2:** Given búsqueda en Google (EN), When escribe "Safe School Bus", Then aparece SafeRoute. <br> **S3:** Given link compartido, When pega URL, Then muestra preview con título traducido.    | E4              |
-| US40      | Verificación de SSL                | Como visitante, quiero ver el candado de seguridad, para confiar mis datos.                          | **S1:** Given acceso a la web, When ve la barra de direcciones, Then aparece el prefijo HTTPS. <br> **S2:** Given envío de datos, When procesa formulario, Then viajan cifrados. <br> **S3:** Given certificado vencido, When entra, Then el navegador muestra aviso de "Sitio no seguro".            | E4              |
-| US41      | Política de Cookies i18n           | Como visitante, quiero aceptar cookies, para cumplir con normativas legales.                         | **S1:** Given primera visita, When aparece el banner, Then puede elegir "Aceptar todas". <br> **S2:** Given idioma inglés, When ve el banner, Then los términos están en inglés. <br> **S3:** Given rechazo de cookies, When navega, Then solo carga las técnicas esenciales.                         | E4              |
-| US42      | Soporte Multimoneda                | Como visitante, quiero ver precios en mi moneda, para facilitar la comparación.                      | **S1:** Given geolocalización Perú, When ve precios, Then muestra en Soles (PEN). <br> **S2:** Given cambio manual a USA, When selecciona, Then muestra precios en Dólares (USD). <br> **S3:** Given moneda desconocida, When carga sitio, Then muestra precios en USD por defecto.                   | E4              |
+| US23      | Visualización de Hero              | Como visitante, quiero ver la propuesta de valor, para entender SafeRoute.                           | **S1:** Given carga de URL, When ve sección principal, Then lee "Seguridad en cada ruta". <br> **S2:** Given botón CTA, When hace clic, Then lo lleva a Registro. <br> **S3:** Given fallo de carga, When URL es errónea, Then muestra página 404 personalizada.                                      | E4              |
+| US24      | Navegación de Funciones            | Como visitante, quiero ver las funcionalidades, para conocer el alcance técnico.                     | **S1:** Given sección funciones, When hace scroll, Then ve iconos de monitoreo. <br> **S2:** Given tarjetas de info, When pasa el mouse, Then se expande la descripción. <br> **S3:** Given pantalla pequeña, When usa móvil, Then las funciones se apilan verticalmente.                             | E4              |
+| US25      | Detalle de Roles                   | Como visitante, quiero conocer las vistas por perfil, para ver los beneficios.                       | **S1:** Given sección roles, When elige "Padre", Then muestra capturas de la App de padres. <br> **S2:** Given rol "Conductor", When elige, Then muestra gestión de rutas. <br> **S3:** Given opción no seleccionada, When ve la sección, Then muestra el rol "Admin" por defecto.                    | E4              |
+| US26      | Consulta de Precios                | Como visitante, quiero ver los costos, para evaluar mi presupuesto.                                  | **S1:** Given tabla de precios, When elige "Anual", Then aplica 20% de descuento. <br> **S2:** Given moneda local, When cambia región, Then muestra precios en Soles (PEN). <br> **S3:** Given plan no disponible, When intenta ver, Then aparece etiqueta "Próximamente".                            | E4              |
+| US27      | Implementación i18n                | Como visitante, quiero cambiar el idioma (ES/EN), para navegar cómodamente.                          | **S1:** Given selector de idioma, When marca "English", Then todo el texto cambia a inglés. <br> **S2:** Given navegador en inglés, When carga sitio, Then se muestra en inglés por defecto. <br> **S3:** Given idioma no soportado, When detecta región, Then carga español por defecto.             | E4              |
+| US28      | Testimonios Reales                 | Como visitante, quiero leer reseñas, para confiar en la marca.                                       | **S1:** Given sección testimonios, When desliza, Then ve fotos y opiniones de colegios. <br> **S2:** Given estrellas de calificación, When ve promedio, Then nota 4.8/5 de satisfacción. <br> **S3:** Given sin internet, When carga sección, Then muestra testimonios cacheados.                     | E4              |
+| US29      | Formulario de Contacto             | Como visitante, quiero enviar dudas, para recibir una cotización.                                    | **S1:** Given formulario completo, When envía, Then recibe mensaje "Enviado con éxito". <br> **S2:** Given campos obligatorios, When intenta enviar vacío, Then marca errores en rojo. <br> **S3:** Given bot detectado, When envía spam, Then el Captcha bloquea el envío.                           | E4              |
+| US30      | Suscripción al Newsletter          | Como visitante, quiero dejar mi correo, para recibir tips de seguridad.                              | **S1:** Given campo de email, When ingresa dato, Then recibe correo de bienvenida. <br> **S2:** Given checkbox de privacidad, When marca "Acepto", Then habilita botón Suscribir. <br> **S3:** Given correo duplicado, When intenta registrar, Then dice "Ya estás suscrito".                         | E4              |
+| US31      | Visualización de Partners          | Como visitante, quiero ver marcas aliadas o agentes externos, para validar la seriedad del servicio. | **S1:** Given sección agentes, When carga logos, Then se ven marcas de seguros y seguridad. <br> **S2:** Given enlace en logo, When hace clic, Then abre web del partner. <br> **S3:** Given logo roto, When no carga imagen, Then muestra el nombre en texto.                                        | E4              |
+| US32      | Preguntas Frecuentes (FAQ)         | Como visitante, quiero ver dudas comunes, para evitar llamadas de soporte.                           | **S1:** Given lista de FAQs, When toca una pregunta, Then se despliega la respuesta. <br> **S2:** Given buscador de FAQs, When escribe "precio", Then filtra preguntas relacionadas. <br> **S3:** Given duda no resuelta, When baja al final, Then ve botón de contacto directo.                      | E4              |
+| US33      | Responsive Design i18n             | Como visitante, quiero que el texto se ajuste en móvil, para evitar cortes por traducción.           | **S1:** Given idioma Ingles (texto largo), When ve en móvil, Then el contenedor se expande. <br> **S2:** Given modo horizontal, When gira teléfono, Then el menú se ajusta al idioma. <br> **S3:** Given fuente muy grande, When el texto desborda, Then aplica elipsis automáticamente.              | E4              |
+| US34      | SEO & Meta Tags i18n               | Como visitante, quiero encontrar la web en buscadores, según mi idioma local.                        | **S1:** Given búsqueda en Google (ES), When escribe "Transporte Seguro", Then aparece SafeRoute. <br> **S2:** Given búsqueda en Google (EN), When escribe "Safe School Bus", Then aparece SafeRoute. <br> **S3:** Given link compartido, When pega URL, Then muestra preview con título traducido.    | E4              |
+| US35      | Verificación de SSL                | Como visitante, quiero ver el candado de seguridad, para confiar mis datos.                          | **S1:** Given acceso a la web, When ve la barra de direcciones, Then aparece el prefijo HTTPS. <br> **S2:** Given envío de datos, When procesa formulario, Then viajan cifrados. <br> **S3:** Given certificado vencido, When entra, Then el navegador muestra aviso de "Sitio no seguro".            | E4              |
+| US36      | Política de Cookies i18n           | Como visitante, quiero aceptar cookies, para cumplir con normativas legales.                         | **S1:** Given primera visita, When aparece el banner, Then puede elegir "Aceptar todas". <br> **S2:** Given idioma inglés, When ve el banner, Then los términos están en inglés. <br> **S3:** Given rechazo de cookies, When navega, Then solo carga las técnicas esenciales.                         | E4              |
+
+
 
 ### 3.2. Impact Mapping
 
@@ -2755,7 +2785,7 @@ Aquí se detallan las unidades de despliegue principales del sistema. El diagram
 - Single Page
 
 ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_SPA-dark.png)
-La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (DTOs del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
+La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada en módulos por bounded context. Cada módulo sigue una estructura interna de cuatro capas: Model (resources del dominio), Assembler (transforma respuestas del API), API Service (consume el backend vía HttpClient), y Store (estado reactivo con Angular Signals). La navegación entre módulos es gestionada por la Navigation Bar del módulo Shared, mientras que el HTTP Service centraliza todas las llamadas REST y el Map Service gestiona la integración con Leaflet.
 
 - Trip Execution & Monitoring:
   Ilustra el núcleo operativo del frontend en sus 4 capas. Muestra cómo la Trip View procesa la ejecución del viaje en tiempo real, el Signal Store mantiene el estado de abordajes e incidentes activos, y el Trip Service registra cada evento hacia el Web Service, que a su vez dispara las notificaciones correspondientes.
@@ -2789,7 +2819,7 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   ![WebServices](<./assets/images/ChapterIV/C4/ComponentPresentation/ComponentDiagram_Notification-dark%20(1).png>)
 
 - Shared Kernel:
-  Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los DTOs e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
+  Detalla las 4 capas transversales del frontend que fundamentan todos los bounded context modules. Expone el Navigation Bar en la capa de presentación, el HTTP Service centralizado con interceptores JWT en la capa de aplicación, los resources e interfaces base en dominio, y el Map Service que integra Leaflet y OpenRouteService en la capa de infraestructura.
   ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark.png)
 
   Presentation shared:
@@ -2834,8 +2864,8 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
   ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_Notification-dark.png)
 
 - Shared Kernel:
-  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y DTOs base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
-  ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_SharedKernel-dark.png)
+  Este diagrama expone las 4 capas transversales (Building Blocks) que fundamentan la arquitectura limpia del monolito. Detalla cómo se proveen clases base y utilidades compartidas: Middlewares en la capa API, interfaces y resources base en Application, Value Objects globales (TripId, StudentId) en Domain, y repositorios genéricos en Infrastructure, evitando la duplicidad de código en el resto de los Bounded Contexts.
+  ![WebServices](<./assets/images/ChapterIV/C4/ComponentDiagram_Shared-dark%20(1).png>)
   - Identity & Access Management:
     Desglosa el módulo de identidad en su arquitectura interna de 4 capas (API, Application, Domain, Infrastructure). Ilustra cómo se maneja la autenticación de usuarios, la provisión de cuentas y la asignación de roles de forma aislada, con Spring Security gestionando la emisión de tokens JWT en la capa de infraestructura.
     ![WebServices](./assets/images/ChapterIV/C4/ComponentDiagram_IAM-dark.png)
@@ -2846,70 +2876,55 @@ La SPA está desarrollada con Angular, Angular Material y TypeScript, organizada
 
 #### 4.7.1. Class Diagrams
 
-**BackEnd**
-
-- Identity and Access Management:
-
-![saferoute-iam](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-iam-ddd.puml)
-
-Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
-Organization (AggregateRoot): Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
-User (AggregateRoot): Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
-Role (Entity): Define los niveles de acceso dentro del sistema usando el Value Object
-
-- Subscription & Plan Management:
-
-![saferoute-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-subscription-ddd.puml)
-
-Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
-Subscription (AggregateRoot): Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
-Plan (AggregateRoot): Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
-
-- Stakeholder & Asset Management:
-
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-stakeholder-ddd.puml)
-
-Modela a los actores humanos y sus agrupaciones dentro del sistema.
-Parent (AggregateRoot): Representa a los apoderados e incluye una lista de entidades Child, gestionando la adición o remoción de hijos.
-Driver (Entity): Define a los conductores, agregando atributos específicos de su labor como el Value Object LicenseNumber.
-Child (Entity): Representa a los estudiantes, gestionando su estado de inscripción mediante el Value Object ChildEnrollmentState.
-StudentGroup (Entity): Permite agrupar referencias a múltiples niños (ChildId) para facilitar su asignación.
-
-- Fleet & Route Planning:
-
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-fleet-ddd.puml)
-
-Encargado de la planificación logística y operativa del transporte.
-Route (AggregateRoot): Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop) y se asocia a un vehículo y a una asignación específica.
-Stop, Vehicle y Assignment (Entities): Stop maneja las coordenadas exactas y el orden de recojo. Vehicle controla la capacidad y disponibilidad de la unidad. Assignment vincula operativamente a un conductor con un grupo específico de niños para esa ruta.
-
-- Trip Execution & Monitoring:
-
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-trip-ddd.puml)
-
-Trip (AggregateRoot): Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización.
-Attendance (Entity): Registra individualmente si un niño abordó o no, utilizando el Value Object BoardingState (boarded, missing, omitted).
-Incident (Entity): Permite reportar cualquier problema durante el viaje, encapsulando los detalles en el Value Object IncidentDescription.
-
-- Notifications & Communication:
-
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-notifications-ddd.puml)
-
-Centraliza el envío de información y alertas hacia los padres de familia.
-Notification (AggregateRoot): Organiza el envío de mensajes, gestionando la categoría y el estado de entrega (NotificationDeliveryState) hacia un apoderado en el contexto de un viaje específico.
-Alert y Announcement (Entities): Alert se enfoca en notificaciones inmediatas o de pánico basadas en el tiempo de disparo (triggeredAt). Announcement maneja comunicados generales asociados a una ruta específica.
-
-- Shared:
-
-![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/main/saferoute-platform/docs/java-saferoute-shared-ddd.puml)
-
-Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
-
-Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales (ej. OrganizationId, RouteId, ChildId) y conceptos comunes como FullName y Coordinates. Esto asegura la consistencia de los tipos de datos en la comunicación entre los distintos Bounded Contexts.
-
 **FrontEnd**
 
 En todos los diagramas, el componente raíz App actúa como contenedor principal: tiene composición (composes) con los componentes de cada bounded context. El manejo del estado se realiza mediante clases *Store (usando Signal<T>), las cuales se comunican con clases *Api para las peticiones HTTP. Las clases *Assembler transforman los recursos (*Resource) de la API en modelos de dominio puro.
+
+
+- Trip Execution & Monitoring:
+
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-trip-domain.puml)
+![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-trip-infrastructure.puml)
+
+Pantallas operativas para el control en tiempo real de los viajes.
+
+Presentation & Domain: App compone TripDashboard (controla inicio y fin del viaje), AttendanceChecklist (gestiona el estado de abordaje de cada niño) e IncidentForm (permite reportar incidentes). Estos componentes consumen los modelos centrales del dominio (Trip, Attendance, Incident) para reflejar de forma fidedigna el estado real de la operación.
+
+Application & Infrastructure: TripStore centraliza el viaje actual, las asistencias y los incidentes. Delega las acciones a TripApi (ej. startTrip(), updateBoardingStatus()), apoyándose en TripAssembler, AttendanceAssembler e IncidentAssembler.
+
+- Fleet & Route Planning:
+
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-fleet-domain.puml)
+![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-fleet-infrastructure.puml)
+
+Interfaz para armar la logística de rutas, vehículos y asignaciones.
+
+Presentation & Domain: App compone RouteForm (creación de rutas), StopList (gestión de paradas), VehicleList (visualización de vehículos) y AssignmentForm (asignación de conductores y niños). La interfaz gráfica se alimenta estrictamente de las entidades del dominio (Route, Stop, Vehicle, Assignment) para garantizar que la vista esté alineada con las reglas del negocio logístico.
+
+Application & Infrastructure: FleetStore orquesta el estado de rutas, paradas, vehículos y asignaciones. FleetApi maneja las peticiones HTTP y usa Assemblers para convertir, por ejemplo, RouteResource en la entidad del dominio Route.
+
+
+- Notifications & Communication:
+
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-notifications-domain.puml)
+![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-notifications-infrastructure.puml)
+
+Centraliza la visualización y envío de notificaciones y alertas.
+
+Presentation & Domain: App compone NotificationList (para filtrar y marcar notificaciones como leídas), AlertPanel (gestiona alertas activas y pánico) y AnnouncementForm (creación de comunicados). Las vistas dependen exclusivamente de los modelos de dominio (Notification, Alert, Announcement) para renderizar los mensajes y alertas operativas a los usuarios finales.
+
+Application & Infrastructure: NotificationsStore maneja el estado de notificaciones, alertas y anuncios. NotificationsApi realiza las peticiones (ej. dispatchNotification(), triggerAlert()) y los Assemblers transforman los recursos recibidos en modelos limpios del dominio.
+
+- Stakeholder & Asset Management:
+
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-stakeholder-domain.puml)
+![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-stakeholder-infrastructure.puml)
+
+Controla las vistas de listado y gestión de los actores del sistema.
+
+Presentation & Domain: App compone componentes de lista (ParentList, DriverList, ChildList, StudentGroupList) que permiten filtrar (searchQuery), seleccionar y eliminar registros utilizando los modelos del dominio (Parent, Driver, Child, StudentGroup) como la fuente de verdad para la visualización unificada de los actores.
+
+Application & Infrastructure: StakeholderStore maneja el estado de estas listas mediante Signals. StakeholderApi ejecuta operaciones CRUD hacia el backend, y las respuestas (ej. ParentResource) son transformadas a modelos de dominio mediante clases como ParentAssembler.
 
 - Identity and Access Management:
 
@@ -2933,49 +2948,111 @@ Presentation & Domain: App compone PlanSelector (para elegir un plan) y Subscrip
 
 Application & Infrastructure: SubscriptionStore maneja subscriptionSignal y plansSignal. Se comunica con SubscriptionApi para cargar planes (getAllPlans()) o modificar la suscripción (upgradeSubscription(), cancelSubscription()), usando sus respectivos Assemblers.
 
-- Stakeholder & Asset Management:
 
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-stakeholder-domain.puml)
-![saferoute-stakeholder](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-stakeholder-infrastructure.puml)
-
-Controla las vistas de listado y gestión de los actores del sistema.
-
-Presentation & Domain: App compone componentes de lista (ParentList, DriverList, ChildList, StudentGroupList) que permiten filtrar (searchQuery), seleccionar y eliminar registros utilizando los modelos del dominio (Parent, Driver, Child, StudentGroup) como la fuente de verdad para la visualización unificada de los actores.
-
-Application & Infrastructure: StakeholderStore maneja el estado de estas listas mediante Signals. StakeholderApi ejecuta operaciones CRUD hacia el backend, y las respuestas (ej. ParentResource) son transformadas a modelos de dominio mediante clases como ParentAssembler.
+**BackEnd**
 
 - Fleet & Route Planning:
 
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-fleet-domain.puml)
-![saferoute-fleet](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-fleet-infrastructure.puml)
+Encargado de la planificación logística y operativa del transporte.
 
-Interfaz para armar la logística de rutas, vehículos y asignaciones.
+- Route Aggregate
 
-Presentation & Domain: App compone RouteForm (creación de rutas), StopList (gestión de paradas), VehicleList (visualización de vehículos) y AssignmentForm (asignación de conductores y niños). La interfaz gráfica se alimenta estrictamente de las entidades del dominio (Route, Stop, Vehicle, Assignment) para garantizar que la vista esté alineada con las reglas del negocio logístico.
+Define el recorrido y su programación utilizando Value Objects como DepartureTime y ServiceDays. Compone una secuencia de paradas (Stop).
+![saferoute-fleet-route](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-route-ddd.puml)
 
-Application & Infrastructure: FleetStore orquesta el estado de rutas, paradas, vehículos y asignaciones. FleetApi maneja las peticiones HTTP y usa Assemblers para convertir, por ejemplo, RouteResource en la entidad del dominio Route.
+- Vehicle Aggregate
+
+Controla la capacidad y disponibilidad de la unidad.
+![saferoute-fleet-vehicle](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-vehicle-ddd.puml)
+
+- Assignment Aggregate
+
+Vincula operativamente a un conductor con un grupo específico de niños y una ruta para un viaje determinado.
+![saferoute-fleet-assignment](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-fleet-assignment-ddd.puml)
 
 - Trip Execution & Monitoring:
 
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-trip-domain.puml)
-![saferoute-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-trip-infrastructure.puml)
+Ejecución y seguimiento de viajes.
 
-Pantallas operativas para el control en tiempo real de los viajes.
+- Trip Aggregate
 
-Presentation & Domain: App compone TripDashboard (controla inicio y fin del viaje), AttendanceChecklist (gestiona el estado de abordaje de cada niño) e IncidentForm (permite reportar incidentes). Estos componentes consumen los modelos centrales del dominio (Trip, Attendance, Incident) para reflejar de forma fidedigna el estado real de la operación.
+Controla el ciclo de vida del recorrido (métodos start(), complete()) vinculando una ruta, un conductor y una organización, y además las asistencias (Attendance) e incidentes (Incident).
+![saferoute-trip-trip](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-trip-trip-ddd.puml)
 
-Application & Infrastructure: TripStore centraliza el viaje actual, las asistencias y los incidentes. Delega las acciones a TripApi (ej. startTrip(), updateBoardingStatus()), apoyándose en TripAssembler, AttendanceAssembler e IncidentAssembler.
+- TripLocation Aggregate
+
+Rastrea y maneja la ubicación en tiempo real del vehículo durante el recorrido.
+![saferoute-trip-triplocation](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-trip-triplocation-ddd.puml)
 
 - Notifications & Communication:
 
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-notifications-domain.puml)
-![saferoute-notifications](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp/main/docs/angular-saferoute-notifications-infrastructure.puml)
+Centraliza el envío de información y alertas hacia los padres de familia.
 
-Centraliza la visualización y envío de notificaciones y alertas.
+- Notification Aggregate
 
-Presentation & Domain: App compone NotificationList (para filtrar y marcar notificaciones como leídas), AlertPanel (gestiona alertas activas y pánico) y AnnouncementForm (creación de comunicados). Las vistas dependen exclusivamente de los modelos de dominio (Notification, Alert, Announcement) para renderizar los mensajes y alertas operativas a los usuarios finales.
+Organiza el envío de mensajes, gestionando la categoría y el estado de entrega hacia un apoderado, incluyendo alertas y comunicados.
+![saferoute-notifications-notification](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-notifications-notification-ddd.puml)
 
-Application & Infrastructure: NotificationsStore maneja el estado de notificaciones, alertas y anuncios. NotificationsApi realiza las peticiones (ej. dispatchNotification(), triggerAlert()) y los Assemblers transforman los recursos recibidos en modelos limpios del dominio.
+- Stakeholder & Asset Management:
+
+Modela a los actores humanos y sus agrupaciones dentro del sistema.
+
+- Parent Aggregate
+
+Representa a los apoderados e incluye a los estudiantes a su cargo, gestionando la adición o remoción de hijos.
+![saferoute-stakeholder-parent](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-parent-ddd.puml)
+
+- Driver Aggregate
+
+Define a los conductores y atributos de su labor como la licencia.
+![saferoute-stakeholder-driver](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-driver-ddd.puml)
+
+- StudentGroup Aggregate
+
+Permite agrupar referencias a múltiples niños para facilitar su asignación.
+![saferoute-stakeholder-studentgroup](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-stakeholder-studentgroup-ddd.puml)
+
+- Identity and Access Management (IAM):
+
+Gestiona organizaciones, usuarios y roles en el entorno de la aplicación.
+
+- Organization Aggregate
+
+Maneja el ciclo de vida de la institución (métodos create(), suspend(), activate()). Se relaciona mediante Value Objects para su identificador, nombre y estado.
+![saferoute-iam-organization](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-iam-organization-ddd.puml)
+
+- User Aggregate
+
+Gestiona la autenticación y la asignación de roles de los usuarios (métodos register(), authenticate(), changeRole()). Pertenece a una organización a través del OrganizationId compartido y utiliza Value Objects de seguridad como PasswordHash.
+![saferoute-iam-user](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-iam-user-ddd.puml)
+
+- Subscription & Plan Management:
+
+Controla el modelo de negocio, definiendo los planes y suscripciones de cada organización.
+
+- Plan Aggregate
+
+Establece los límites operativos y económicos mediante los Value Objects RouteQuota y DriverQuota, los cuales validan que no se exceda la capacidad contratada de rutas y conductores.
+![saferoute-subscription-plan](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-plan-ddd.puml)
+
+- Subscription Aggregate
+
+Controla el estado y la vigencia de una suscripción (métodos activate(), upgrade(), cancel()). Se vincula directamente a una organización y a un plan específico mediante sus identificadores.
+![saferoute-subscription-subscription](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-subscription-ddd.puml)
+
+- Payment Aggregate
+
+Gestiona los pagos realizados para las suscripciones.
+![saferoute-subscription-payment](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-subscription-payment-ddd.puml)
+
+- Shared:
+
+Actúa como el Shared Kernel transversal de toda la solución en Spring Boot.
+
+- Shared Bounded Context
+
+Contiene exclusivamente Value Objects inmutables que sirven como identificadores globales y conceptos comunes (ej. OrganizationId, RouteId, ChildId, FullName, Coordinates). Esto asegura la consistencia de tipos en la comunicación entre los distintos contextos.
+![saferoute-shared](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform/refs/heads/develop/saferoute-platform/docs/java-saferoute-shared-ddd.puml)
 
 ### 4.8. Database Design
 
@@ -3281,7 +3358,7 @@ Este bounded context modela los actores operativos y recursos asociados al servi
 **Métodos (API REST)**
 | Método | Descripción |
 |----------------|------------------------------------------------------|
-| AddChildToAssignment() | Asocia un estudiante a una asignación de ruta. |
+| AddChilresourceAssignment() | Asocia un estudiante a una asignación de ruta. |
 | RemoveChildFromAssignment() | Desvincula un estudiante de una asignación. |
 
 ---
@@ -3354,8 +3431,7 @@ El diagrama de Notifications representa la comunicación generada por la platafo
 
 El diagrama de Stakeholder representa la gestión de recursos y asignaciones operativas. La tabla `vehicles` almacena los vehículos registrados por organización, incluyendo capacidad, placa, modelo y estado. La tabla `assignments` vincula una ruta con un conductor, permitiendo establecer responsabilidades operativas sobre una ruta específica. Finalmente, `assignment_children` permite asociar estudiantes a una asignación determinada, funcionando como tabla de relación entre asignaciones y niños transportados.
 
-![DataBase](./assets/images/ChapterIV/DataBase/DbStakeHolder.png)
----
+## ![DataBase](./assets/images/ChapterIV/DataBase/DbStakeHolder.png)
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
@@ -3403,7 +3479,7 @@ Lenguaje de programación que se utilizara en el desarrollo del backend de la ap
 
 Servicio utilizado para el despliegue de la landing page del proyecto.
 
-###### Vercel
+###### Azure
 
 Plataforma utilizada para el despliegue del frontend desarrollado en Angular, permitiendo una integración continua y despliegue automatizado.
 
@@ -3525,13 +3601,13 @@ URL desplegada: [Landing Page](https://upc-pre-202610-1asi0729-11896-fivetech.gi
 
 ##### Despliegue de Frontend Web Application
 
-El frontend de la aplicación, desarrollado con Angular.ts, será desplegado utilizando la plataforma Vercel, la cual permite integración continua y despliegue automatizado.
+El frontend de la aplicación, desarrollado con Angular.ts, será desplegado utilizando la plataforma Azure, la cual permite integración continua y despliegue automatizado.
 
 Pasos de despliegue
 Crear o seleccionar el repositorio del frontend en GitHub.
-Vincular el repositorio con la plataforma Vercel.
+Vincular el repositorio con la plataforma Azure.
 Configurar el entorno de despliegue (framework Angular.ts).
-Ejecutar el despliegue automático desde Vercel.
+Ejecutar el despliegue automático desde Azure.
 Obtener la URL pública generada para el acceso a la aplicación.
 URL desplegada: Pendiente
 
@@ -3684,7 +3760,7 @@ _Nota. Captura de la configuración de GitHub Pages en el repositorio del proyec
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
-https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-landing-page/
+https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -3875,7 +3951,7 @@ A continuación, se presentan algunos de los endpoints mock utilizados durante e
 | `/trips`         | GET         | Obtiene información de viajes activos o registrados                | No requiere parámetros | Lista de trayectos monitoreados               |
 
 **Endpoints:**  
-https://saferoute-db.azurewebsites.net/
+https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 **Herramienta utilizada para Mock APIs:**  
 JSON Server
@@ -3920,7 +3996,7 @@ _Nota. Evidencia de ramas feature utilizadas para el desarrollo modular de funci
 
 El Landing Page desplegado se encuentra disponible en el siguiente enlace:
 
-https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-landing-page/
+https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -4116,11 +4192,11 @@ A continuación, se presentan algunos de los principales endpoints implementados
 
 | Endpoint                   | HTTP Method | Description                | Parameters        | Example Response     |
 | -------------------------- | ----------- | -------------------------- | ----------------- | -------------------- |
-| `/api/trips`               | GET         | Obtiene viajes registrados | No requiere       | Lista de trayectos   |
-| `/api/trips/{id}/tracking` | POST        | Registra coordenadas GPS   | tripId, lat, lng  | Tracking actualizado |
-| `/api/incidents`           | POST        | Registra incidencia        | Tipo, descripción | Incidencia creada    |
-| `/api/notifications`       | GET         | Obtiene notificaciones     | No requiere       | Lista de alertas     |
-| `/api/trips/{id}/arrival`  | PATCH       | Confirma llegada           | tripId            | Llegada confirmada   |
+| `/api/v1/trips`               | GET         | Obtiene viajes registrados | No requiere       | Lista de trayectos   |
+| `/api/v1/trips/{id}/tracking` | POST        | Registra coordenadas GPS   | tripId, lat, lng  | Tracking actualizado |
+| `/api/v1/incidents`           | POST        | Registra incidencia        | Tipo, descripción | Incidencia creada    |
+| `/api/v1/notifications`       | GET         | Obtiene notificaciones     | No requiere       | Lista de alertas     |
+| `/api/v1/trips/{id}/arrival`  | PATCH       | Confirma llegada           | tripId            | Llegada confirmada   |
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -4145,7 +4221,7 @@ _Nota. Configuración inicial del Azure App Service utilizando contenedores Linu
 _Nota. Evidencia del backend SafeRoute desplegado en Azure App Service con estado operativo saludable. Elaboración propia._
 
 **Backend Deployment URL:**
-https://saferoute-os.azurewebsites.net
+https://saferoute-os.azurewebsites.net/swagger-ui/index.html
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -4176,6 +4252,397 @@ _Nota. Flujo de ramas feature y merges hacia develop/main durante el Sprint 3. E
 
 ![Contributors](./assets/images/sprint3/contributors.png)
 _Nota. Contribuciones por integrante durante el Sprint 3. Elaboración propia._
+
+### 5.2.4. Sprint 4
+
+Durante el Sprint 4, el equipo FiveTech concentró sus esfuerzos en consolidar la versión final de SafeRoute, completando la implementación de los bounded contexts definidos para el sistema y eliminando por completo la dependencia del Mock API utilizado en entregas anteriores. A diferencia de los sprints previos, en esta etapa la Web Application fue integrada directamente con el RESTful API desplegado en Azure, asegurando que las funcionalidades principales consuman servicios reales del backend.
+
+El objetivo principal de este sprint fue cerrar el ciclo de desarrollo del producto, asegurar la integración entre frontend y backend, completar los módulos pendientes de los bounded contexts **Identity and Access Management**, **Subscription and Plan Management**, **Stakeholder Management**, **Fleet and Route Management**, **Trip Execution and Monitoring** y **Notifications**, además de corregir las observaciones realizadas en AV2 relacionadas con documentación, carátula, videos, validación, despliegue e integración técnica.
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Date                            | 2026-07-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                            | 07:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Location                        | Reunión virtual mediante Discord y coordinación complementaria por WhatsApp.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Prepared By                     | Quispe Serrano, Julio Frank                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Revilla Quispe, Renzo Zamir / Quispe Serrano, Julio Frank / Ortega Quintana, José Zacarias / De La Cruz De Los Santos, Mathias Marcelo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 3 Review Summary         | Durante el Sprint 3 se logró desplegar una primera versión funcional de los Web Services desarrollados para SafeRoute y se documentaron sus endpoints mediante Swagger UI. También se mantuvo desplegada la Web Application y se avanzó en la integración parcial de funcionalidades principales. Sin embargo, aún existía dependencia del Mock API para ciertos flujos del frontend, por lo que el producto todavía no operaba completamente con el RESTful API real. Además, se recibieron observaciones relacionadas con la actualización del video de exposición, la corrección de la carátula, la mejora de las entrevistas de validación y la consolidación de evidencias del producto. |
+| Sprint 3 Retrospective Summary  | El equipo identificó como principales oportunidades de mejora la necesidad de asegurar una integración completa entre frontend y backend, evitar dependencias de datos simulados, corregir observaciones formales del informe y reforzar las evidencias de despliegue. Asimismo, se concluyó que para el cierre del proyecto era necesario priorizar la estabilidad de los flujos principales, completar los bounded contexts implementados y retirar funcionalidades que no tuvieran evidencia suficiente o que no formaran parte del alcance final validado.                                                                                                                                |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 4 Goal                   | Completar la versión final de SafeRoute integrando todos los bounded contexts con el RESTful API real, eliminando por completo el uso del Mock API y dejando desplegados los productos digitales finales. La meta de cumplimiento del sprint es que el frontend desplegado consuma únicamente el backend real, que el backend se encuentre documentado en Swagger UI y que las observaciones de AV2 se encuentren corregidas en el informe final.                                                                                                                                                                                                                                             |
+| Sprint 4 Velocity               | 34 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sum of Story Points             | 34 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name)       | GitHub Username | Backend Final Integration Leader (L) / Collaborator (C) | Frontend API Consumption Leader (L) / Collaborator (C) | Bounded Context Completion Leader (L) / Collaborator (C) | Deployment Leader (L) / Collaborator (C) | Documentation & Continuous Improvement Leader (L) / Collaborator (C) |
+| ----------------------------------------- | --------------- | ------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------- |
+| Revilla Quispe, Renzo Zamir               | renzorevq24     | C                                                       | L                                                      | L                                                        | L                                        | C                                                                    |
+| Quispe Serrano, Julio Frank               | FraSe-JQ        | L                                                       | C                                                      | C                                                        | C                                        | L                                                                    |
+| De La Cruz De Los Santos, Mathias Marcelo | Dela050406      | C                                                       | C                                                      | L                                                        | C                                        | C                                                                    |
+| Ortega Quintana, José Zacarías            | AgoxX61         | C                                                       | C                                                      | L                                                        | C                                        | C                                                                    |
+
+##### 5.2.4.3. Sprint Backlog 4
+
+| US ID | User Story                      | Task ID | Task Title                                | Description                                                                                                                                        | Hrs | Assigned                                  | Status |
+| ----- | ------------------------------- | ------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --: | ----------------------------------------- | ------ |
+| TS1   | JWT Authentication              | T01     | Validar autenticación final               | Revisar que el flujo de autenticación funcione correctamente con el backend desplegado y permita proteger las vistas principales de la aplicación. |   6 | Quispe Serrano, Julio Frank               | Done   |
+| TS1   | JWT Authentication              | T02     | Integrar token en frontend                | Configurar el consumo del token de autenticación en los servicios HTTP del frontend para enviar credenciales válidas al RESTful API.               |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US6   | Asignación de Roles             | T03     | Validar roles de usuario                  | Verificar que los roles de administrador, conductor y padre se encuentren correctamente gestionados desde el backend.                              |   5 | Quispe Serrano, Julio Frank               | Done   |
+| US6   | Asignación de Roles             | T04     | Ajustar navegación por rol                | Asegurar que cada usuario acceda únicamente a las vistas correspondientes según su rol dentro de la Web Application.                               |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US1   | Contratar Plan                  | T05     | Integrar planes con API                   | Conectar la vista de planes con los servicios reales del bounded context Subscription and Plan Management.                                         |   6 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
+| US1   | Contratar Plan                  | T06     | Validar flujo de suscripción              | Comprobar que los planes disponibles puedan consultarse desde el backend y visualizarse correctamente en el frontend.                              |   5 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
+| US2   | Registro de Conductores         | T07     | Conectar registro de conductores          | Integrar el formulario de registro de conductores con los endpoints reales del backend.                                                            |   6 | Ortega Quintana, José Zacarias            | Done   |
+| US2   | Registro de Conductores         | T08     | Validar listado de conductores            | Verificar que los conductores registrados se muestren correctamente desde los datos obtenidos del RESTful API.                                     |   5 | Ortega Quintana, José Zacarias            | Done   |
+| US3   | Registro de Padres              | T09     | Conectar registro de padres               | Integrar el formulario de padres o apoderados con los servicios reales del bounded context Stakeholder Management.                                 |   5 | Ortega Quintana, José Zacarias            | Done   |
+| US3   | Registro de Padres              | T10     | Validar consulta de padres                | Comprobar que los padres registrados puedan consultarse y visualizarse correctamente desde el frontend desplegado.                                 |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US4   | Alta y Gestión de Alumnos       | T11     | Integrar gestión de alumnos               | Conectar la creación, visualización y edición de alumnos con el RESTful API desplegado.                                                            |   6 | Ortega Quintana, José Zacarias            | Done   |
+| US4   | Alta y Gestión de Alumnos       | T12     | Validar asignación de alumnos             | Verificar que los alumnos puedan asociarse correctamente a padres, rutas o asignaciones según el flujo definido.                                   |   6 | Quispe Serrano, Julio Frank               | Done   |
+| US5   | Creación de Rutas               | T13     | Integrar rutas con API                    | Conectar la creación y consulta de rutas con los endpoints reales del bounded context Fleet and Route Management.                                  |   7 | Revilla Quispe, Renzo Zamir               | Done   |
+| US5   | Creación de Rutas               | T14     | Integrar paradas de ruta                  | Validar que las paradas puedan registrarse y visualizarse correctamente dentro de una ruta.                                                        |   6 | Revilla Quispe, Renzo Zamir               | Done   |
+| US5   | Creación de Rutas               | T15     | Validar asignaciones operativas           | Comprobar que las rutas puedan vincularse con conductores, vehículos y alumnos según el alcance final.                                             |   6 | Ortega Quintana, José Zacarias            | Done   |
+| TS2   | Integración Leaflet Maps        | T16     | Validar mapa con datos reales             | Verificar que las vistas de rutas y monitoreo utilicen datos provenientes del backend real y no de datos simulados.                                |   6 | Revilla Quispe, Renzo Zamir               | Done   |
+| TS2   | Integración Leaflet Maps        | T17     | Ajustar visualización de rutas            | Revisar la visualización de rutas, ubicaciones y puntos de parada en el mapa de la Web Application.                                                |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US10  | Inicio de Trayecto              | T18     | Integrar inicio de viaje                  | Conectar la acción de iniciar viaje con los endpoints reales del bounded context Trip Execution and Monitoring.                                    |   5 | Quispe Serrano, Julio Frank               | Done   |
+| US10  | Inicio de Trayecto              | T19     | Validar estado inicial del viaje          | Comprobar que el viaje cambie correctamente de estado al iniciarse desde la aplicación.                                                            |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US11  | Marcación de Abordaje           | T20     | Conectar asistencia de alumnos            | Integrar el checklist de abordaje con los servicios reales de asistencia del backend.                                                              |   6 | Revilla Quispe, Renzo Zamir               | Done   |
+| US11  | Marcación de Abordaje           | T21     | Validar registro de abordaje              | Verificar que la marcación de alumnos abordados quede registrada correctamente en el sistema.                                                      |   5 | Quispe Serrano, Julio Frank               | Done   |
+| US12  | Reporte de Incidencias          | T22     | Integrar reporte de incidencias           | Conectar el formulario de incidencias con el backend para registrar eventos ocurridos durante la ruta.                                             |   6 | Quispe Serrano, Julio Frank               | Done   |
+| US12  | Reporte de Incidencias          | T23     | Vincular incidencias con notificaciones   | Validar que una incidencia registrada genere o se relacione con una notificación para los usuarios correspondientes.                               |   6 | Quispe Serrano, Julio Frank               | Done   |
+| US13  | Botón de Pánico                 | T24     | Integrar alerta de emergencia             | Conectar la alerta de emergencia con los módulos de incidencias y notificaciones del sistema.                                                      |   5 | Quispe Serrano, Julio Frank               | Done   |
+| US13  | Botón de Pánico                 | T25     | Validar respuesta del backend             | Comprobar que el backend registre correctamente la alerta y retorne una respuesta exitosa.                                                         |   4 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
+| US14  | Finalización de Ruta            | T26     | Integrar cierre de viaje                  | Conectar la finalización de ruta con la actualización de estado del viaje en el backend.                                                           |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US14  | Finalización de Ruta            | T27     | Validar cierre del trayecto               | Verificar que el trayecto finalizado no permanezca activo y pueda consultarse como parte del historial.                                            |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US15  | Bitácora de Viajes Histórica    | T28     | Consumir historial de viajes              | Mostrar el historial de viajes utilizando datos reales obtenidos desde el RESTful API.                                                             |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| US15  | Bitácora de Viajes Histórica    | T29     | Validar filtros o consulta histórica      | Comprobar que la bitácora permita revisar viajes realizados de forma clara y ordenada.                                                             |   5 | Ortega Quintana, José Zacarias            | Done   |
+| US18  | Rastreo en Tiempo Real          | T30     | Integrar vista de tracking                | Conectar la vista de rastreo con datos reales del bounded context Trip Execution and Monitoring.                                                   |   7 | Revilla Quispe, Renzo Zamir               | Done   |
+| US18  | Rastreo en Tiempo Real          | T31     | Validar actualización de ubicación        | Verificar que las ubicaciones registradas puedan consultarse desde el frontend y representarse en el flujo de monitoreo.                           |   6 | Quispe Serrano, Julio Frank               | Done   |
+| US16  | Confirmación de Llegada         | T32     | Integrar confirmación de llegada          | Conectar la confirmación de llegada con los endpoints de viaje y notificaciones.                                                                   |   5 | Quispe Serrano, Julio Frank               | Done   |
+| US16  | Confirmación de Llegada         | T33     | Validar notificación de llegada           | Comprobar que la llegada del estudiante pueda registrarse y comunicarse correctamente dentro del sistema.                                          |   5 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
+| TS7   | Implementación HTTPS/SSL        | T34     | Validar despliegues seguros               | Verificar acceso HTTPS al frontend y backend desplegados en Azure.                                                                                 |   4 | Revilla Quispe, Renzo Zamir               | Done   |
+| TS8   | Eliminación de Mock API         | T35     | Retirar JSON Server                       | Eliminar configuración, rutas y dependencias relacionadas con Mock API / JSON Server.                                                              |   6 | Revilla Quispe, Renzo Zamir               | Done   |
+| TS8   | Eliminación de Mock API         | T36     | Actualizar environments                   | Configurar las variables de entorno del frontend para apuntar al RESTful API desplegado en Azure.                                                  |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| TS8   | Eliminación de Mock API         | T37     | Validar consumo exclusivo del RESTful API | Comprobar que las vistas principales ya no dependan de datos simulados y consuman únicamente servicios reales.                                     |   6 | Quispe Serrano, Julio Frank               | Done   |
+| TS9   | Swagger API Documentation       | T38     | Validar documentación Swagger             | Revisar la documentación final de endpoints del backend mediante Swagger UI.                                                                       |   4 | Quispe Serrano, Julio Frank               | Done   |
+| TS9   | Swagger API Documentation       | T39     | Probar endpoints documentados             | Ejecutar pruebas manuales desde Swagger UI para validar respuestas exitosas de los endpoints principales.                                          |   5 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
+| TS10  | Azure Final Deployment          | T40     | Desplegar frontend final                  | Publicar la versión final de la Web Application en Azure Static Web Apps.                                                                          |   6 | Revilla Quispe, Renzo Zamir               | Done   |
+| TS10  | Azure Final Deployment          | T41     | Desplegar backend final                   | Publicar la versión final del RESTful API en Azure App Service.                                                                                    |   6 | Quispe Serrano, Julio Frank               | Done   |
+| TS10  | Azure Final Deployment          | T42     | Validar comunicación frontend-backend     | Verificar desde el navegador que el frontend desplegado realice peticiones exitosas al backend desplegado.                                         |   5 | Revilla Quispe, Renzo Zamir               | Done   |
+| TS11  | Corrección de observaciones AV2 | T43     | Corregir carátula del informe             | Actualizar nombre del equipo, período académico y datos formales observados en AV2.                                                                |   4 | Quispe Serrano, Julio Frank               | Done   |
+| TS11  | Corrección de observaciones AV2 | T44     | Actualizar evidencias de validación       | Mejorar la documentación de entrevistas, hallazgos, heurísticas, severidad y alternativas de solución.                                             |   6 | Ortega Quintana, José Zacarias            | Done   |
+| TS11  | Corrección de observaciones AV2 | T45     | Actualizar videos finales                 | Actualizar el video de exposición y completar el contenido del About-the-Product Video.                                                            |   6 | De La Cruz De Los Santos, Mathias Marcelo | Done   |
+| TS11  | Corrección de observaciones AV2 | T46     | Consolidar documentación Sprint 4         | Redactar las secciones de Sprint Planning, Sprint Backlog, evidencias de desarrollo, ejecución, servicios, despliegue y colaboración.              |   6 | Quispe Serrano, Julio Frank               | Done   |
+
+<<<<<<< HEAD
+=======
+![Sprint 4 Trello Board](./assets/images/sprint4/trello.png)
+>>>>>>> 8958c72cd2a4c6ba5be425688f36bfaff82fef29
+
+_Nota. Sprint Board del Sprint 4 utilizado para la gestión colaborativa de tareas y seguimiento del desarrollo de los Web Services de SafeRoute mediante Trello. Elaboración propia._
+
+
+URL del Board: https://trello.com/b/eVLKHZQ7/sprint4
+
+##### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo completó la implementación de los bounded contexts restantes de SafeRoute, consolidando la versión final del backend y asegurando que la Web Application consuma únicamente el RESTful API desplegado. A diferencia de los sprints anteriores, en esta etapa se eliminó por completo el uso del Mock API / JSON Server, reemplazándolo por servicios reales desarrollados en Spring Boot y desplegados en Azure App Service.
+
+El desarrollo se enfocó en completar los módulos pendientes relacionados con **Identity and Access Management**, **Subscription and Plan Management**, **Stakeholder Management**, **Fleet and Route Management**, **Trip Execution and Monitoring** y **Notifications**. Para ello, se implementaron aggregates, value objects, commands, queries, repositories, services, controllers REST y configuraciones de persistencia necesarias para soportar los principales flujos del producto.
+
+Asimismo, se realizaron ajustes en el frontend para reemplazar los servicios simulados por clientes HTTP conectados al backend real. Esto permitió validar el funcionamiento de los módulos principales desde la Web Application desplegada, incluyendo gestión de perfiles, usuarios, conductores, padres, estudiantes, rutas, vehículos, viajes, asistencias, incidencias, notificaciones y suscripciones.
+
+Estos avances permitieron consolidar una versión final funcional, desplegada y alineada con la arquitectura definida para SafeRoute, asegurando coherencia entre los bounded contexts modelados, los endpoints documentados en Swagger UI y las funcionalidades disponibles en la Web Application.
+
+A continuación, se presentan los principales commits relacionados con el desarrollo del Sprint 4.
+
+| Repository         | Branch  | Commit Id | Commit Message                                         | Commit Message Body                                                                        | Commited on (Date) |
+| ------------------ | ------- | --------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------ |
+| saferoute-platform | develop | 3b08603   | feature: add subscription bounded context              | Added Subscription bounded context including domain and infrastructure components.         | 2026-07-04         |
+| saferoute-platform | develop | 0e5e12d   | feat(stakeholder): add StudentGroup aggregate          | Added aggregate root for StudentGroup entity.                                              | 2026-07-05         |
+| saferoute-platform | develop | 1cc520f   | feat(stakeholder): add Driver aggregate                | Added aggregate root for Driver entity.                                                    | 2026-07-05         |
+| saferoute-platform | develop | 26482fa   | feat(stakeholder): add Parent aggregate                | Added aggregate root for Parent entity.                                                    | 2026-07-05         |
+| saferoute-platform | develop | e9bb923   | Create AddChildToGroupCommand.java                     | Added command to associate children with student groups.                                   | 2026-07-05         |
+| saferoute-platform | develop | 18f8c7b   | Create CreateStudentGroupCommand.java                  | Added command for creating Student Groups.                                                 | 2026-07-05         |
+| saferoute-platform | develop | 6ec1c53   | Create AddChildToParentCommand.java                    | Added command for associating children with parents.                                       | 2026-07-05         |
+| saferoute-platform | develop | 768bd39   | Create CreateParentCommand.java                        | Added command for creating Parent entities.                                                | 2026-07-05         |
+| saferoute-platform | develop | 58777db   | Create CreateDriverCommand.java                        | Added command for creating Driver entities.                                                | 2026-07-05         |
+| saferoute-platform | develop | 74fb5d6   | Create Child.java                                      | Added Child domain entity.                                                                 | 2026-07-05         |
+| saferoute-platform | develop | da76ea3   | feat(iam): add hashingservice                          | Added password hashing service for user authentication.                                    | 2026-07-05         |
+| saferoute-platform | develop | 279eeeb   | feat(iam): add adapters                                | Added adapters for IAM bounded context integration.                                        | 2026-07-05         |
+| saferoute-platform | develop | 4142828   | feat(iam): add rolepersistenceassembler                | Added persistence assembler for Role entity.                                               | 2026-07-05         |
+| saferoute-platform | develop | 5786ce1   | feat(iam): add userpersistenceassembler                | Added persistence assembler for User entity.                                               | 2026-07-05         |
+| saferoute-platform | develop | 79bae46   | feat(iam): add rolepersistenceentity                   | Added Role persistence entity implementation.                                              | 2026-07-05         |
+| saferoute-platform | develop | 44dcb54   | feat(iam): add userpersistenceentity                   | Added User persistence entity implementation.                                              | 2026-07-05         |
+| saferoute-platform | develop | 92a125a   | feat(iam): add userpersistencerepository               | Added User persistence repository implementation.                                          | 2026-07-05         |
+| saferoute-platform | develop | f740370   | feat(iam): add rolepersistencerepository               | Added Role persistence repository implementation.                                          | 2026-07-05         |
+| saferoute-platform | develop | 32fca34   | feat(iam): add bearertokenservice                      | Added Bearer Token service for JWT authentication.                                         | 2026-07-05         |
+| saferoute-platform | develop | e74241d   | feat(iam): add tokenservice                            | Added token generation and validation service.                                             | 2026-07-05         |
+| saferoute-platform | develop | 1e95735   | feat(iam): add iamcontextfacade                        | Added IAM Context Facade to centralize authentication services.                            | 2026-07-05         |
+| saferoute-platform | develop | 5f77002   | feat(iam): add rest                                    | Added REST endpoints for IAM services.                                                     | 2026-07-05         |
+| saferoute-platform | develop | ccb9f14   | feat(iam): add resources                               | Added REST resources for IAM bounded context.                                              | 2026-07-05         |
+| saferoute-platform | develop | da1a84d   | feat(iam): add transform                               | Added DTO transformations between application and REST layers.                             | 2026-07-05         |
+| saferoute-platform | develop | e43da23   | Merge pull request #6 from feature/iam                 | Merged IAM bounded context implementation into the develop branch.                         | 2026-07-05         |
+| saferoute-platform | develop | 9114678   | chore: add uml diagrams                                | Added UML diagrams documenting the final backend architecture.                             | 2026-07-04         |
+| saferoute-platform | develop | 24f1b38   | Merge pull request #4 from feature/trip                | Merged Trip bounded context implementation into the develop branch.                        | 2026-07-04         |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante la ejecución del Sprint 4, el equipo validó los principales flujos funcionales de SafeRoute en un entorno desplegado. La Web Application dejó de consumir datos simulados y pasó a utilizar directamente el backend real, permitiendo comprobar el comportamiento del sistema de extremo a extremo.
+
+Esta validación permitió confirmar que los principales módulos del sistema se encuentran conectados con el RESTful API desplegado en Azure, eliminando la dependencia del Mock API / JSON Server utilizada en entregas anteriores.
+
+**Frontend Web Application**
+
+**Deployment URL:**  
+https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in
+
+Desde esta versión desplegada se validaron los módulos principales de la aplicación:
+
+| Module               | Validated Flow                                                                              |
+| -------------------- | ------------------------------------------------------------------------------------------- |
+| Stakeholder Profiles | Visualización y gestión de perfiles de usuarios vinculados al servicio.                     |
+| Driver Management    | Registro y consulta de conductores.                                                         |
+| Parent Management    | Registro y consulta de padres o apoderados.                                                 |
+| Student Management   | Registro y gestión de alumnos.                                                              |
+| Student Groups       | Gestión de grupos de estudiantes y asignación de hijos a grupos.                            |
+| Fleet / Routes       | Gestión de rutas, paradas, vehículos y asignaciones operativas.                             |
+| Trip Monitoring      | Seguimiento de viajes, asistencia, incidencias, ubicación y estados de trayecto.            |
+| Notifications        | Consulta y gestión de alertas, anuncios y notificaciones generadas por eventos del sistema. |
+| Subscription         | Visualización y gestión de planes, suscripciones y pagos asociados al servicio.             |
+| IAM                  | Validación de flujos de autenticación, usuarios y roles.                                    |
+
+![Execution Evidence Sprint 4 - Frontend Profiles View](./assets/images/sprint4/execution-frontend-profiles-view.png)
+
+_Nota._ Captura del frontend mostrando una lista de perfiles, padres, alumnos o conductores cargados desde el backend real. Esta evidencia permite comprobar que la Web Application consume datos desde el RESTful API desplegado y ya no desde el Mock API.
+
+![Execution Evidence Sprint 4 - Routes Module](./assets/images/sprint4/execution-routes-module.png)
+
+_Nota._ Captura del frontend mostrando el módulo de rutas, paradas, vehículos o asignaciones operativas. Esta evidencia permite validar el consumo de datos del bounded context Fleet and Route Management desde el RESTful API.
+
+![Execution Evidence Sprint 4 - Trip Monitoring Module](./assets/images/sprint4/execution-trip-monitoring-module.png)
+
+_Nota._ Captura del frontend mostrando el módulo de viajes o monitoreo de trayectos. Esta vista evidencia la integración con los servicios de Trip Execution and Monitoring para consultar viajes, asistencias, incidencias o actualizaciones de ubicación.
+
+![Execution Evidence Sprint 4 - Notifications Module](./assets/images/sprint4/execution-notifications-module.png)
+
+_Nota._ Captura del frontend mostrando el módulo de notificaciones, alertas o anuncios. Esta evidencia permite comprobar la integración con los endpoints del bounded context Notifications.
+
+![Execution Evidence Sprint 4 - Subscription Module](./assets/images/sprint4/execution-subscription-module.png)
+
+_Nota._ Captura del frontend mostrando el módulo de planes, suscripciones o pagos. Esta evidencia permite validar la integración con los servicios de Subscription and Plan Management.
+
+![Execution Evidence Sprint 4 - Browser Network Request](./assets/images/sprint4/execution-browser-network-request.png)
+
+_Nota._ Captura del navegador mostrando la pestaña Network con una petición exitosa desde el frontend desplegado hacia el backend real. Esta evidencia permite comprobar la comunicación efectiva entre la Web Application y el RESTful API desplegado en Azure.
+
+**Backend RESTful API**
+
+**Deployment URL:**  
+https://saferoute-os.azurewebsites.net/swagger-ui/index.html
+
+Se validó la disponibilidad del backend mediante Swagger UI, comprobando que los endpoints principales se encuentren documentados y disponibles para pruebas manuales. Esta validación permitió verificar la existencia de servicios REST para los bounded contexts de SafeRoute, incluyendo autenticación, usuarios, roles, planes, suscripciones, pagos, perfiles, padres, conductores, grupos de estudiantes, rutas, vehículos, asignaciones, viajes, asistencias, incidencias, ubicaciones y notificaciones.
+
+| Backend Module                | Validated Evidence                                                                                                         |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Authentication                | Disponibilidad de endpoints para registro e inicio de sesión.                                                              |
+| Users and Roles               | Disponibilidad de endpoints para consulta de usuarios, credenciales iniciales, actualización de contraseña y roles.        |
+| Plans and Subscriptions       | Disponibilidad de endpoints para gestión de planes, suscripciones, activación, upgrade, cancelación y pagos.               |
+| Stakeholder Management        | Disponibilidad de endpoints para perfiles, padres, hijos, conductores y grupos de estudiantes.                             |
+| Fleet and Route Management    | Disponibilidad de endpoints para vehículos, rutas, paradas y asignaciones.                                                 |
+| Trip Execution and Monitoring | Disponibilidad de endpoints para viajes, asistencias, incidencias, finalización, cancelación y actualización de ubicación. |
+| Notifications                 | Disponibilidad de endpoints para notificaciones, alertas, anuncios, despacho, entrega, fallos y reintentos.                |
+| Organizations                 | Disponibilidad de endpoints para creación, consulta y actualización de organizaciones.                                     |
+
+![Execution Evidence Sprint 4 - Swagger Overview](./assets/images/sprint4/execution-swagger-overview.png)
+
+_Nota._ Captura de Swagger UI abierto desde la URL pública del backend desplegado: `https://saferoute-os.azurewebsites.net/swagger-ui/index.html`. Esta evidencia confirma que el RESTful API se encuentra disponible en Azure App Service.
+
+![Execution Evidence Sprint 4 - Swagger Successful GET](./assets/images/sprint4/execution-swagger-successful-get.png)
+
+_Nota._ Captura de una petición GET ejecutada desde Swagger UI mostrando datos persistidos. Esta evidencia permite validar que el backend retorna información almacenada correctamente desde la base de datos.
+
+**End-to-End Execution Validation**
+
+Además de validar frontend y backend por separado, se comprobó el comportamiento integrado del sistema. Para ello, el equipo verificó que las acciones realizadas desde la Web Application generen solicitudes HTTP hacia el RESTful API real y que las respuestas del backend sean reflejadas correctamente en las vistas del frontend.
+
+| Validation Scenario                | Expected Result                                                          | Status    |
+| ---------------------------------- | ------------------------------------------------------------------------ | --------- |
+| Acceso al frontend desplegado      | La Web Application carga correctamente desde Azure Static Web Apps.      | Validated |
+| Acceso al backend desplegado       | Swagger UI carga correctamente desde Azure App Service.                  | Validated |
+| Consulta de perfiles               | El frontend obtiene perfiles desde el RESTful API real.                  | Validated |
+| Consulta de rutas                  | El frontend obtiene rutas y paradas desde el backend real.               | Validated |
+| Consulta de vehículos              | El frontend obtiene vehículos desde los endpoints del backend.           | Validated |
+| Consulta de viajes                 | El frontend obtiene información de viajes desde el bounded context Trip. | Validated |
+| Consulta de notificaciones         | El frontend obtiene notificaciones desde el RESTful API.                 | Validated |
+| Consulta de planes o suscripciones | El frontend obtiene información del bounded context Subscription.        | Validated |
+| Eliminación de Mock API            | Las vistas principales ya no consumen JSON Server ni datos simulados.    | Validated |
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 se actualizó y validó la documentación de los servicios REST mediante Swagger UI. Esta documentación permitió comprobar los endpoints utilizados por la Web Application y verificar las operaciones principales del backend desplegado en Azure.
+
+A diferencia de entregas anteriores, en este sprint la documentación de servicios corresponde al RESTful API real de SafeRoute y ya no al Mock API / JSON Server. Esto permitió validar los bounded contexts implementados, sus endpoints disponibles y los principales métodos HTTP requeridos para cubrir el alcance final del producto.
+
+| Bounded Context                  | Endpoint Group                                                                                                                       | HTTP Methods             | Purpose                                                                                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Identity and Access Management   | `/api/v1/authentication`, `/api/v1/users`, `/api/v1/roles`                                                                           | GET, POST, PATCH         | Gestionar autenticación, registro, usuarios, credenciales iniciales, actualización de contraseña y roles.                |
+| Subscription and Plan Management | `/api/v1/plans`, `/api/v1/subscriptions`, `/api/v1/payments`                                                                         | GET, POST, PUT, DELETE   | Gestionar planes, suscripciones, activación, upgrade, cancelación y pagos asociados.                                     |
+| Stakeholder Management           | `/api/v1/profiles`, `/api/v1/parents`, `/api/v1/children`, `/api/v1/drivers`, `/api/v1/student-groups`                               | GET, POST, DELETE        | Gestionar perfiles, padres, hijos, conductores, grupos de estudiantes y relaciones padre-hijo o grupo-hijo.              |
+| Fleet and Route Management       | `/api/v1/vehicles`, `/api/v1/routes`, `/api/v1/routes/{routeId}/stops`, `/api/v1/assignments`                                        | GET, POST, PUT, DELETE   | Gestionar vehículos, rutas, paradas y asignaciones operativas de conductores y estudiantes.                              |
+| Trip Execution and Monitoring    | `/api/v1/trips`, `/api/v1/trips/{tripId}/attendances`, `/api/v1/trips/{tripId}/incidents`, `/api/v1/trips/{tripId}/location-updates` | GET, POST, PATCH, DELETE | Gestionar viajes, inicio, activación, cancelación, finalización, asistencia, incidencias y actualizaciones de ubicación. |
+| Notifications                    | `/api/v1/notifications`, `/api/v1/notifications/alerts`, `/api/v1/notifications/announcements`, `/api/v1/notifications/retries`      | GET, POST                | Gestionar notificaciones, alertas, anuncios, despacho, entrega, fallos y reintentos.                                     |
+| Organizations                    | `/api/v1/organizations`                                                                                                              | GET, POST, PUT           | Gestionar organizaciones relacionadas con la operación del servicio.                                                     |
+
+**API Documentation URL**
+
+- Swagger UI: https://saferoute-os.azurewebsites.net/swagger-ui/index.html
+
+usuario: admin
+contraseña: admin
+
+**Main Endpoint Groups Available in Swagger UI**
+
+| Module                    | Available Endpoints                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authentication            | `POST /api/v1/authentication/sign-up`, `POST /api/v1/authentication/sign-in`                                                                                                                                                                                                                                                                            |
+| Users                     | `GET /api/v1/users`, `GET /api/v1/users/{userId}`, `POST /api/v1/users/{username}/initial-credentials`, `PATCH /api/v1/users/password`                                                                                                                                                                                                                  |
+| Roles                     | `GET /api/v1/roles`                                                                                                                                                                                                                                                                                                                                     |
+| Plans                     | `GET /api/v1/plans`, `POST /api/v1/plans`                                                                                                                                                                                                                                                                                                               |
+| Subscriptions             | `GET /api/v1/subscriptions`, `POST /api/v1/subscriptions`, `PUT /api/v1/subscriptions/{subscriptionId}/plan`, `POST /api/v1/subscriptions/{subscriptionId}/activation`, `DELETE /api/v1/subscriptions/{subscriptionId}`                                                                                                                                 |
+| Payments                  | `GET /api/v1/subscriptions/{subscriptionId}/payments`, `POST /api/v1/subscriptions/{subscriptionId}/payments`, `GET /api/v1/payments/{paymentId}`, `POST /api/v1/payments/{paymentId}/confirm`                                                                                                                                                          |
+| Stakeholder Compatibility | `GET /api/v1/profiles`, `GET /api/v1/children`                                                                                                                                                                                                                                                                                                          |
+| Parents                   | `GET /api/v1/parents`, `POST /api/v1/parents`, `POST /api/v1/parents/{parentId}/children`, `DELETE /api/v1/parents/{parentId}`, `DELETE /api/v1/parents/{parentId}/children/{childId}`                                                                                                                                                                  |
+| Drivers                   | `GET /api/v1/drivers`, `POST /api/v1/drivers`, `DELETE /api/v1/drivers/{driverId}`                                                                                                                                                                                                                                                                      |
+| Student Groups            | `GET /api/v1/student-groups`, `POST /api/v1/student-groups`, `POST /api/v1/student-groups/{groupId}/children`                                                                                                                                                                                                                                           |
+| Organizations             | `GET /api/v1/organizations`, `POST /api/v1/organizations`, `GET /api/v1/organizations/{organizationId}`, `PUT /api/v1/organizations/{organizationId}`                                                                                                                                                                                                   |
+| Vehicles                  | `GET /api/v1/vehicles`, `POST /api/v1/vehicles`, `GET /api/v1/vehicles/{vehicleId}`, `PUT /api/v1/vehicles/{vehicleId}`, `DELETE /api/v1/vehicles/{vehicleId}`                                                                                                                                                                                          |
+| Routes                    | `GET /api/v1/routes`, `POST /api/v1/routes`, `GET /api/v1/routes/{id}`, `PUT /api/v1/routes/{id}`, `DELETE /api/v1/routes/{id}`, `GET /api/v1/routes/{routeId}/stops`, `POST /api/v1/routes/{routeId}/stops`, `PUT /api/v1/routes/{routeId}/stops`                                                                                                      |
+| Assignments               | `GET /api/v1/assignments`, `POST /api/v1/assignments`                                                                                                                                                                                                                                                                                                   |
+| Trips                     | `GET /api/v1/trips`, `POST /api/v1/trips`, `GET /api/v1/trips/{tripId}`, `DELETE /api/v1/trips/{tripId}`, `POST /api/v1/trips/{tripId}/activation`, `POST /api/v1/trips/{tripId}/cancellation`, `POST /api/v1/trips/{tripId}/completion`                                                                                                                |
+| Attendances               | `GET /api/v1/trips/{tripId}/attendances`, `PATCH /api/v1/trips/{tripId}/attendances`                                                                                                                                                                                                                                                                    |
+| Incidents                 | `GET /api/v1/trips/{tripId}/incidents`, `POST /api/v1/trips/{tripId}/incidents`                                                                                                                                                                                                                                                                         |
+| Trip Locations            | `GET /api/v1/trips/{tripId}/location-updates`, `POST /api/v1/trips/{tripId}/location-updates`, `GET /api/v1/trips/{tripId}/location-updates/latest`                                                                                                                                                                                                     |
+| Notifications             | `GET /api/v1/notifications`, `POST /api/v1/notifications`, `POST /api/v1/notifications/{notificationId}/dispatch`, `POST /api/v1/notifications/{notificationId}/delivery`, `POST /api/v1/notifications/{notificationId}/failure`, `POST /api/v1/notifications/retries`, `POST /api/v1/notifications/announcements`, `POST /api/v1/notifications/alerts` |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 4 se realizó el despliegue final de los productos digitales de SafeRoute. El frontend fue publicado mediante Azure Static Web Apps y el backend mediante Azure App Service, permitiendo que ambos componentes funcionen de manera integrada en un entorno cloud.
+
+La principal mejora técnica de este sprint fue la eliminación completa del Mock API / JSON Server. A partir de esta versión, la Web Application consume directamente los endpoints del RESTful API real desplegado en Azure, asegurando una integración más cercana al entorno final de operación.
+
+| Component                | Technology / Platform      | Deployment URL                                                           | Status    |
+| ------------------------ | -------------------------- | ------------------------------------------------------------------------ | --------- |
+| Frontend Web Application | Azure Static Web Apps      | https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in | Deployed  |
+| Backend RESTful API      | Azure App Service          | https://saferoute-os.azurewebsites.net/swagger-ui/index.html             | Deployed  |
+| Mock API / JSON Server   | Removed from final release | Not applicable                                                           | Removed   |
+| API Documentation        | Swagger UI                 | https://saferoute-os.azurewebsites.net/swagger-ui/index.html             | Available |
+
+**Deployment URLs**
+
+- Frontend Web Application: https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in
+- Backend RESTful API / Swagger UI: https://saferoute-os.azurewebsites.net/swagger-ui/index.html
+
+**Deployment Improvements**
+
+| Previous Situation                                                    | Sprint 4 Final Situation                                                                            |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| El frontend consumía datos desde Mock API / JSON Server.              | El frontend consume datos desde el RESTful API real desplegado en Azure.                            |
+| El backend estaba en una etapa inicial de despliegue y documentación. | El backend final se encuentra publicado y documentado mediante Swagger UI.                          |
+| Algunos bounded contexts estaban parcialmente integrados.             | Los bounded contexts principales fueron implementados e integrados en el flujo final.               |
+| Las evidencias de despliegue eran parciales.                          | Se incluyeron URLs finales y evidencias visuales de frontend, backend y Swagger.                    |
+| Algunas funcionalidades no contaban con evidencia completa.           | Se retiraron o ajustaron elementos no implementados para mantener coherencia con el producto final. |
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, el equipo mantuvo un flujo de trabajo colaborativo orientado al cierre del producto. Las actividades se organizaron considerando la integración final de módulos, revisión de despliegues, corrección de observaciones previas y documentación de evidencias.
+
+El equipo aplicó GitFlow y Conventional Commits para mantener trazabilidad en el desarrollo. Las ramas feature fueron utilizadas para implementar o corregir funcionalidades específicas y posteriormente integrar los cambios en las ramas principales del proyecto. Asimismo, se actualizaron los repositorios correspondientes al informe, frontend, backend y landing page, asegurando que cada componente del producto final cuente con evidencia de colaboración y evolución.
+
+| Repository                 | Collaboration Evidence                                                                                                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| SafeRoute Report           | Actualización del informe final, corrección de observaciones AV2, inclusión de Sprint 4, evidencias finales, mejora continua y consolidación de documentación para la entrega final. |
+| SafeRoute Frontend Web App | Integración con el RESTful API real, eliminación de servicios mock, ajuste de environments, validación de vistas desplegadas y conexión de módulos principales con backend.          |
+| SafeRoute Backend API      | Consolidación de bounded contexts, implementación de endpoints RESTful, documentación Swagger y despliegue final en Azure App Service.                                               |
+| Landing Page               | Validación de enlaces, revisión de CTA, corrección de URLs y verificación de coherencia visual y funcional con la Web Application desplegada.                                        |
+
+**Repository Collaboration Evidence**
+
+![Team Collaboration Insights Sprint 4 - Report Repository](./assets/images/sprint4/collaboration-report-repository.png)
+
+_Nota._ Captura de contributors o insights del repositorio del informe durante el Sprint 4. Esta evidencia muestra la participación del equipo en la actualización del documento final, incluyendo la corrección de observaciones AV2, la incorporación de Sprint 4 y la documentación de evidencias finales.
+
+![Team Collaboration Insights Sprint 4 - Frontend Repository](./assets/images/sprint4/collaboration-frontend-repository.png)
+
+_Nota._ Captura de contributors, commits o insights del repositorio frontend durante el Sprint 4. Esta evidencia permite verificar la participación del equipo en la integración de la Web Application con el RESTful API real, la eliminación del Mock API y la validación de vistas desplegadas.
+
+![Team Collaboration Insights Sprint 4 - Backend Repository](./assets/images/sprint4/collaboration-backend-repository.png)
+
+_Nota._ Captura de contributors, commits o insights del repositorio backend durante el Sprint 4. Esta evidencia permite comprobar el trabajo realizado en la consolidación de bounded contexts, controladores REST, documentación Swagger y despliegue final del backend.
+
+![Team Collaboration Insights Sprint 4 - Landing Page Repository](./assets/images/sprint4/collaboration-landing-page-repository.png)
+
+_Nota._ Captura de contributors, commits o insights del repositorio de la Landing Page durante el Sprint 4. Esta evidencia permite verificar la revisión de enlaces, CTA y coherencia con la Web Application desplegada.
+
+**Conventional Commits Evidence**
+
+![Team Collaboration Insights Sprint 4 - Conventional Commits](./assets/images/sprint4/collaboration-conventional-commits.png)
+
+_Nota._ Captura del historial de commits donde se evidencia el uso de Conventional Commits, incluyendo prefijos como `feat`, `fix`, `docs`, `refactor` y `chore`. Esta evidencia permite demostrar trazabilidad y consistencia en el registro de cambios del proyecto.
+
+**Sprint 4 Collaboration Summary**
+
+| Collaboration Aspect     | Evidence Summary                                                                                                                                       |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| GitFlow                  | Se utilizaron ramas feature para desarrollar, corregir e integrar funcionalidades antes de unirlas a las ramas principales.                            |
+| Conventional Commits     | Se mantuvo una convención de mensajes de commit para diferenciar nuevas funcionalidades, correcciones, documentación, refactorización y configuración. |
+| Report Collaboration     | Se actualizó el informe final con las secciones de Sprint 4, evidencias de despliegue, mejora continua y correcciones de AV2.                          |
+| Frontend Collaboration   | Se integró el frontend con el backend real, se retiró el Mock API y se validaron las vistas desplegadas.                                               |
+| Backend Collaboration    | Se completaron bounded contexts, endpoints RESTful y documentación Swagger.                                                                            |
+| Deployment Collaboration | Se validaron los despliegues finales en Azure Static Web Apps y Azure App Service.                                                                     |
+| Continuous Improvement   | Se corrigieron observaciones recibidas en AV2 y se alineó el informe con el producto final implementado.                                               |
+
+**Repository URLs**
+
+| Repository                 | URL                                          |
+| -------------------------- | -------------------------------------------- |
+| SafeRoute Report           | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-report  |
+| SafeRoute Frontend Web App | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-webapp     |
+| SafeRoute Backend API      | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-platform    |
+| SafeRoute Landing Page     | https://github.com/upc-pre-202610-1asi0729-11896-fivetech/saferoute-website |
+
+**Final Collaboration Reflection**
+
+Durante este sprint, la colaboración del equipo se enfocó en cerrar el producto de forma integral. Cada integrante participó en la revisión de funcionalidades, integración técnica, corrección de observaciones y documentación de evidencias finales. La aplicación de GitFlow permitió mantener un flujo ordenado de trabajo, mientras que el uso de Conventional Commits facilitó la trazabilidad de los cambios realizados.
+
+**Como resultado, el equipo logró consolidar una versión final de SafeRoute desplegada en Azure, integrada con un RESTful API real y documentada con evidencias suficientes para sustentar el cierre del proyecto.**
+
+**Continuous Improvement from AV2 to Sprint 4**
+
+Durante el Sprint 4 se corrigieron las observaciones recibidas en AV2 y se consolidó una versión final más coherente entre documentación, producto desplegado y evidencias de desarrollo. Las mejoras aplicadas se enfocaron en corregir aspectos formales del informe, fortalecer las evidencias de validación, actualizar los videos solicitados y completar la integración real entre frontend y backend.
+
+| Observation from AV2                                                     | Improvement Applied in Sprint 4                                                                                                                                                        |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Corregir nombre de equipo en la carátula.                                | Se actualizó la carátula del informe usando el nombre correcto del equipo: **FiveTech**.                                                                                               |
+| Debe indicar “Período” y no “Ciclo” en la carátula.                      | Se reemplazó la etiqueta incorrecta por **Período 202610**.                                                                                                                            |
+| Video de exposición debe ser actualizado.                                | Se actualizó el video de exposición para presentar la versión final del producto, el frontend desplegado, el backend desplegado y la eliminación del Mock API.                         |
+| Las entrevistas de validación fueron guiadas en exceso.                  | Se reformuló la ejecución de validaciones para explicar el propósito de la sesión sin dirigir los clics ni condicionar las respuestas del usuario.                                     |
+| Los hallazgos de validación necesitaban mayor detalle.                   | Se organizaron los hallazgos indicando sesión, descripción, heurística, severidad y alternativa de solución.                                                                           |
+| About-the-Product Video estaba incompleto.                               | Se completó el video About-the-Product incorporando explicación del propósito, beneficios, principales funcionalidades, demostración del producto, branding y testimonios de usuarios. |
+| Persistían errores de entregas anteriores.                               | Se revisaron y corrigieron observaciones relacionadas con nomenclatura, carátula, enlaces, despliegue, documentación y consistencia del informe.                                       |
+| El frontend aún dependía parcialmente de servicios simulados.            | Se eliminó por completo el uso de Mock API / JSON Server y se integró el frontend con el RESTful API real desplegado.                                                                  |
+| Se requería mayor evidencia de implementación backend.                   | Se documentó el backend mediante Swagger UI y se incluyeron evidencias de endpoints reales desplegados en Azure.                                                                       |
+| Algunas funcionalidades planteadas no contaban con evidencia suficiente. | Se retiraron o ajustaron funcionalidades no implementadas para mantener coherencia entre Product Backlog, Sprint Backlog, producto final e informe.                                    |
+
+**Final Sprint 4 Conclusion**
+
+El Sprint 4 permitió completar la versión final de SafeRoute como una solución web desplegada e integrada con servicios RESTful reales. A nivel técnico, el equipo logró implementar e integrar los bounded contexts definidos para la arquitectura del sistema, reemplazando el uso del Mock API por una comunicación directa entre la Web Application y el backend desplegado.
+
+A nivel de producto, se consolidaron los flujos principales para administradores, conductores y padres de familia, cubriendo la gestión de usuarios, perfiles, rutas, vehículos, alumnos, viajes, asistencias, incidencias, notificaciones y suscripciones. Además, se corrigieron las observaciones recibidas en AV2, fortaleciendo la documentación, las evidencias de validación, la presentación del producto y la comunicación oral y escrita del equipo.
+
+Con este sprint, SafeRoute alcanza una versión final funcional y desplegada, alineada con el alcance del Product Backlog, los objetivos del curso y el ciclo de vida de desarrollo documentado en el informe.
 
 ### 5.3. Validation Interviews
 
@@ -4321,15 +4788,15 @@ Si el botón de pánico se activa accidentalmente o no se confirma correctamente
 
 ###### User Flows seleccionados para el segmento Parent
 
-Los User Flows seleccionados para el segmento Parent cubren las acciones principales de monitoreo y seguimiento del traslado escolar: visualización del viaje, recepción de alertas y confirmación del estado del estudiante.
+Los User Flows seleccionados para el segmento Parent cubren las acciones principales de monitoreo y seguimiento del traslado escolar: visualización del viaje, gestión del perfil del usuario y confirmación del estado del estudiante.
 
 Se considerarán los siguientes User Flows:
 
 - **User Flow 10:** Rastreo en tiempo real del vehículo.
-- **User Flow 11:** Recepción de notificaciones automáticas.
+- **User Flow 11:** Gestión del perfil y configuración del padre.
 - **User Flow 12:** Confirmación de llegada e historial de asistencia.
 
-Estos flujos permiten validar si el padre de familia puede obtener información suficiente sobre el traslado de su hijo sin depender de llamadas o mensajes constantes al conductor.
+Estos flujos permiten validar si el padre de familia puede monitorear el traslado de su hijo, revisar información importante de su cuenta y confirmar el estado del servicio escolar sin depender de llamadas o mensajes constantes al conductor.
 
 ###### User Flow 10: Rastreo en tiempo real del vehículo
 
@@ -4353,28 +4820,30 @@ El padre inicia sesión en SafeRoute y accede al módulo de monitoreo del viaje 
 **Unhappy path:**
 Si no existe un viaje activo, el sistema muestra un mensaje indicando que no hay trayectos disponibles en ese momento. Si la ubicación del vehículo no puede cargarse por problemas de conexión o señal GPS, el sistema muestra un estado de error comprensible, evitando que el padre interprete la falta de información como una situación de riesgo.
 
-###### User Flow 11: Recepción de notificaciones automáticas
 
-- **User goal:**
-  Como padre de familia, quiero recibir notificaciones sin tener que preguntar.
+###### User Flow 11: Gestión del perfil y configuración del padre
 
-- **User Story asociada:**
-  US19 - Como padre, quiero recibir una alerta de proximidad, para prepararme antes de la llegada del vehículo.
-  US20 - Como padre, quiero recibir confirmación de llegada, para estar tranquilo.
+- **User goal:**  
+  Como padre de familia, quiero acceder a mi perfil, para revisar mi información personal y configuración de cuenta dentro de la plataforma.
+
+- **User Story asociada:**  
+  Como padre de familia, quiero revisar mi perfil de usuario, para asegurarme de que mis datos personales y preferencias estén correctamente configurados.
 
 - **Web:**
 
 <p align="center">
-<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="ug11">
+<img src="assets/images/ChapterIV/WebApp/UserFlow/Desktop/UserFlow11.png" width="1500px" alt="Parent User Flow 11">
 </p>
 
 - **Descripción del flujo:**
 
-**Happy path:**
-El padre recibe notificaciones automáticas durante momentos importantes del trayecto, como inicio de ruta, aproximación del vehículo, abordaje del estudiante, llegada al destino o reporte de incidencia. Estas alertas mantienen informado al usuario sin necesidad de comunicarse constantemente con el conductor.
+**Happy path:**  
+El padre de familia inicia sesión en SafeRoute y accede a su dashboard. Desde el menú principal, selecciona la opción de perfil o configuración. El sistema muestra la información asociada a su cuenta, como datos personales, información de contacto, preferencias de notificación o configuración general. El usuario revisa la información disponible y confirma que los datos mostrados corresponden correctamente a su cuenta.
 
-**Unhappy path:**
-Si las notificaciones están desactivadas o el dispositivo no permite recibir alertas, el sistema mantiene los eventos visibles dentro de la plataforma para que el padre pueda consultarlos manualmente. Si una notificación no puede enviarse, la información debe permanecer disponible en el panel del viaje o historial correspondiente.
+**Unhappy path:**  
+Si el padre de familia no encuentra fácilmente la sección de perfil, puede necesitar explorar otras opciones del menú, generando una pequeña demora en la navegación. Si la información del perfil no carga correctamente, el sistema debe mostrar un mensaje claro indicando el problema y permitir volver al dashboard sin perder la sesión.
+
+Este flujo permite validar que el usuario Parent pueda acceder a una sección personal dentro de la plataforma y revisar información asociada a su cuenta. Aunque no corresponde directamente al monitoreo del viaje, complementa la experiencia del padre de familia al darle control sobre su información y configuración dentro de SafeRoute.
 
 ###### User Flow 12: Confirmación de llegada e historial de asistencia
 
@@ -4495,6 +4964,84 @@ Para el segmento Driver, las entrevistas se enfocan en validar la experiencia de
 - Identificar el uso del botón de pánico ante una emergencia.
 - Comentar dudas, dificultades y sugerencias de mejora.
 
+###### Entrevista de validación 1 - Driver
+
+**Entrevistador:**
+Fabio Vallejo
+
+**Datos del entrevistado**
+
+- **Nombre:** Andy
+- **Apellidos:** Pillaca
+- **Edad:** 28
+- **Distrito:** San Miguel y Miraflores
+- **Segmento:** Driver
+- **URL del video:** https://1drv.ms/v/c/a3bda66c80e2095c/IQCkK7xkt2N7TbSCOXPbCJTqAXZRWtdYueZppMSIM3shK4c?e=usVO15
+- **Timing de inicio:** 0:18
+- **Timing de fin:** 6:55
+- **Duración:** 6:36
+
+<p align="center">
+<img src="assets/images/ChapterV/ValidationInterviews/driver-validation-interview-1.png" alt="Driver Validation Interview 1" width="500"/>
+</p>
+
+**Resumen descriptivo:**
+Andy indicó que ha utilizado aplicaciones de mapas como Google Maps, pero no una plataforma especializada en movilidad escolar. Para él, una solución como SafeRoute debería mostrar desde el inicio la ruta asignada, lista de alumnos, horarios, puntos de recogida y estado del recorrido.
+
+Durante la evaluación, consideró que la plataforma es fácil de usar y que el flujo para controlar alumnos durante la ruta es claro. Destacó como puntos positivos las confirmaciones visuales, los mensajes de éxito y la posibilidad de reportar incidencias de forma rápida. Además, señaló que usaría SafeRoute en un contexto real porque mejora el control de la ruta, la comunicación con los padres y el seguimiento seguro de los alumnos.
+
+Como oportunidades de mejora, recomendó incluir botones más grandes para acciones críticas, acceso rápido a emergencias, menos pasos durante la operación y mayor información visual sobre los beneficios del sistema en el Landing Page.
+
+###### Entrevista de validación 2 - Driver
+
+###### User Flow 8: Comunicación de incidencia o avance durante el viaje
+
+- **User goal:**  
+  Como conductor, quiero comunicar una incidencia o avance de la ruta durante el viaje.
+
+- **User Story asociada:**  
+  US12 - Como conductor, quiero reportar incidencias, para informar retrasos o problemas durante la ruta.
+
+- **Validación durante entrevista:**  
+  Este flujo fue observado de forma complementaria durante la entrevista del segmento Driver, en la que el usuario navegó por pantallas relacionadas con viaje activo, alertas y acciones disponibles durante la ruta.
+
+- **Descripción del flujo:**
+
+**Happy path:**  
+El conductor se encuentra dentro de un viaje activo y accede a las acciones disponibles durante la ruta. Ante un retraso, desvío, obstáculo o situación relevante, selecciona la opción de alerta o reporte correspondiente. El sistema muestra la sección de alertas/incidencias, permitiendo registrar o visualizar eventos asociados al viaje. Esta información permite mantener informado al sistema y facilita que padres o administradores conozcan el estado de la ruta.
+
+**Unhappy path:**  
+Si el conductor intenta reportar una incidencia sin información suficiente, el sistema debería evitar el envío incompleto y solicitar los datos necesarios. Si existe un problema de conexión o el reporte no puede enviarse correctamente, la plataforma debería mostrar un mensaje claro indicando que la acción no fue completada, evitando que el conductor crea que la incidencia fue comunicada cuando aún no fue registrada.
+
+- **Observación para validación:**  
+  Durante la entrevista, el usuario logró identificar secciones relacionadas con alertas y acciones del viaje, lo que permite validar preliminarmente que el sistema contempla mecanismos para comunicar eventos durante la ruta. Sin embargo, se recomienda realizar una validación posterior más específica del formulario o flujo completo de reporte de incidencias.
+
+###### Entrevista de validación 3 - Driver
+
+###### User Flow 9: Botón de pánico ante emergencia
+
+- **User goal:**  
+  Como conductor, quiero una manera inmediata de informar una emergencia.
+
+- **User Story asociada:**  
+  US13 - Como conductor, quiero activar un botón de pánico, para alertar situaciones críticas durante la ruta.
+
+- **Validación durante entrevista:**  
+  Este flujo fue observado de forma complementaria durante la entrevista del segmento Driver, debido a que en la pantalla de viaje activo se evidenció la presencia de una acción SOS o botón de emergencia dentro de las opciones disponibles para el conductor.
+
+- **Descripción del flujo:**
+
+**Happy path:**  
+El conductor se encuentra ejecutando una ruta activa y visualiza el botón SOS dentro de las acciones principales del viaje. Ante una emergencia, selecciona dicha opción para activar una alerta crítica. El sistema debe registrar el evento de emergencia y comunicarlo a los usuarios correspondientes, como administradores o padres de familia, permitiendo una respuesta rápida ante una situación de riesgo.
+
+**Unhappy path:**  
+Si el conductor presiona el botón por error, el sistema debería solicitar una confirmación antes de enviar la alerta crítica. Si la alerta no puede enviarse por problemas de conexión, el sistema debería mostrar un estado claro del envío o intentar reenviar la alerta automáticamente. Esto es importante porque, en una emergencia, el usuario necesita saber si la alerta fue realmente registrada.
+
+- **Observación para validación:**  
+  Durante la entrevista, el botón SOS fue visible dentro del flujo de viaje activo, lo que permite validar que la funcionalidad está presente y ubicada en un contexto adecuado para el conductor. No obstante, se recomienda complementar esta validación con una prueba específica de activación, confirmación y visualización del estado de la alerta.
+
+---
+
 ##### Segundo segmento: Padres de familia
 
 Para el segmento **Parent**, las entrevistas se enfocan en validar la experiencia del padre de familia al monitorear el viaje escolar de su hijo y recibir información relevante durante el trayecto.
@@ -4502,7 +5049,7 @@ Para el segmento **Parent**, las entrevistas se enfocan en validar la experienci
 **User Flows evaluados:**
 
 - **User Flow 10:** Rastreo en tiempo real del vehículo.
-- **User Flow 11:** Recepción de notificaciones automáticas.
+- **User Flow 11:** Gestión de perfil y configración del padre
 - **User Flow 12:** Confirmación de llegada e historial de asistencia.
 
 **Tareas asignadas al entrevistado:**
@@ -4520,23 +5067,94 @@ Para el segmento **Parent**, las entrevistas se enfocan en validar la experienci
 
 ###### Entrevista de validación 1 - Parent
 
+- **User Flow 10:** Rastreo en tiempo real del vehículo.
+
 **Entrevistador:**
-Mathias Marcelo De la Cruz De los Santos
+Nickolas Ramirez Ruiz
+
+**Datos del entrevistado**
+
+- **Nombre:** Maximo
+- **Apellidos:** Quevedo Cordova
+- **Edad:** 25 años
+- **Distrito:** Callería, Pucallpa
+- **Segmento:** Parent
+- **URL del video:** https://1drv.ms/v/c/a3bda66c80e2095c/IQCkK7xkt2N7TbSCOXPbCJTqAXZRWtdYueZppMSIM3shK4c?e=usVO15
+- **Timing de inicio:** 7:06
+- **Duración:** 6:15
+- **Fin de entrevista:** 13:21
+
+<p align="center">
+
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-1.png" alt="Parent Validation Interview 1" width="500"/>
+
+</p>
+
+**Resumen descriptivo:**
+En esta sesión de validación, Nickolas Ramirez y Maximo Quevedo exploraron a fondo la plataforma Safe Route,
+concluyendo que su diseño intuitivo y sus funciones críticas como el monitoreo en tiempo real de unidades, la gestión multiactivo de estudiantes y
+la alerta temprana ante incidencias de tráfico mediante una clara señalética cromática no solo garantizan una experiencia de usuario sumamente cómoda,
+sino que establecen un estándar de seguridad y eficiencia que convenció plenamente al entrevistado para su adopción definitiva.
+
+- **User Flow principal evaluado:** User Flow 10 - Rastreo en tiempo real del vehículo.
+- **User Flows complementarios observados:** User Flow 11 - Recepción de notificaciones automáticas.
+
+###### Entrevista de validación 2 - Parent
+
+###### User Flow 11: Gestión del perfil y configuración del padre
+
+* **User goal:**
+  Como padre de familia, quiero acceder a mi perfil, para revisar mi información personal y configuración de cuenta dentro de la plataforma.
+
+* **User Story asociada:**
+  Como padre de familia, quiero revisar mi perfil de usuario, para asegurarme de que mis datos personales y preferencias estén correctamente configurados.
+
+* **Validación durante entrevista:**
+  Este flujo fue observado durante las entrevistas del segmento Parent, principalmente en la navegación donde se revisaron secciones como dashboard, seguimiento del bus, historial, alertas y perfil dentro de la Web Application. En este caso, el flujo permite validar que el padre de familia puede acceder a una sección personal y revisar información asociada a su cuenta.
+
+* **Descripción del flujo:**
+
+**Happy path:**
+El padre de familia inicia sesión en SafeRoute y accede a su dashboard familiar. Desde el menú principal, selecciona la opción de perfil o configuración. El sistema muestra la información asociada a su cuenta, como datos personales, información de contacto, configuración general y preferencias disponibles dentro de la plataforma. El usuario revisa la información presentada y confirma que los datos corresponden correctamente a su perfil.
+
+**Unhappy path:**
+Si el padre de familia no encuentra fácilmente la sección de perfil, puede necesitar explorar otras opciones del menú, generando una pequeña demora en la navegación. Si la información del perfil no carga correctamente, el sistema debe mostrar un mensaje claro indicando el problema y permitir volver al dashboard sin perder la sesión. Si alguna opción de configuración no está disponible, la plataforma debe comunicarlo de forma comprensible para evitar confusión.
+
+* **Observación para validación:**
+  Durante las entrevistas Parent, se evidenció que la sección de perfil complementa la experiencia del padre de familia dentro de SafeRoute. Aunque el flujo principal del segmento está relacionado con el monitoreo del traslado escolar, el acceso al perfil permite que el usuario revise información de su cuenta y mantenga mayor control sobre su experiencia dentro de la plataforma.
+
+* **Recomendación:**
+  Se recomienda mantener la sección de perfil accesible desde el menú principal del usuario Parent y reforzar la claridad de sus opciones mediante etiquetas simples. También sería conveniente mostrar de forma ordenada la información personal, configuración de cuenta y preferencias disponibles, evitando que el usuario tenga que buscar en varias secciones para encontrar sus datos.
+
+
+###### User Flow 11 - Gestión del perfil y configuración del padre
+
+**Resumen descriptivo:**
+Durante la sesión de validación, el/la entrevistado(a) interactuó con la Web Application de SafeRoute desde el rol de padre de familia. Primero accedió a la pantalla de inicio de sesión, donde se validó el ingreso a la plataforma y la identificación del usuario según su rol. Posteriormente, ingresó al dashboard familiar, desde donde pudo visualizar las opciones principales disponibles para el monitoreo y gestión de su cuenta.
+
+Durante la navegación, el/la participante accedió a la sección de perfil, donde pudo revisar información asociada a su cuenta, datos personales y opciones de configuración disponibles dentro de la plataforma. Este flujo permitió validar el **User Flow 11: Gestión del perfil y configuración del padre**, ya que el usuario pudo identificar una sección personal dentro del sistema y revisar información relacionada con su cuenta.
+
+Asimismo, la interacción permitió observar que el perfil complementa la experiencia del usuario Parent, ya que no solo se enfoca en el monitoreo del transporte escolar, sino también en brindar al padre de familia un espacio para consultar y gestionar información propia dentro de SafeRoute.
+###### Entrevista de validación 3 - Parent
+
+- **User Flow 12**
+  **Entrevistador:**
+  Mathias De La Cruz
 
 **Datos del entrevistado**
 
 - **Nombre:** Carla
-- **Apellidos:** Pelaez
+- **Apellidos:** Peláez
 - **Edad:** 38 años
 - **Distrito:** Santiago de Surco, Lima
 - **Segmento:** Parent
-- **URL del video:** https://upcedupe-my.sharepoint.com/personal/u202424059_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202424059%5Fupc%5Fedu%5Fpe%2FDocuments%2Fopen%2DEntevista%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ebd0ca91a%2D3ad9%2D4c81%2Dad85%2D824a2b5a4941
--
-- **Timing de inicio:** [00:00]
-- **Duración:** [06:31]
+- **URL del video:** [https://1drv.ms/v/c/a3bda66c80e2095c/IQCkK7xkt2N7TbSCOXPbCJTqAXZRWtdYueZppMSIM3shK4c?e=usVO15]
+- **Timing de inicio:** 13:27
+- **Duración:** 06:31
+- **Fin de entrevista:** 19:59
 
 <p align="center">
-<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-1.png" alt="Parent Validation Interview 1" width="500"/>
+<img src="assets/images/ChapterV/ValidationInterviews/parent-validation-interview-3.png" alt="Parent Validation Interview 1" width="500"/>
 </p>
 
 **Resumen descriptivo:**
@@ -4548,6 +5166,7 @@ Asimismo, se revisó la sección de historial de asistencia, donde la participan
 
 En general, la entrevista permitió validar que el flujo del segmento Parent cubre tareas importantes como iniciar sesión, revisar el estado del viaje, monitorear el bus, consultar asistencia, revisar alertas y acceder a la configuración del perfil. Las observaciones obtenidas servirán como insumo para identificar oportunidades de mejora en claridad de navegación, visibilidad del estado del sistema y confianza percibida durante el monitoreo del transporte escolar.
 
+---
 #### 5.3.3. Evaluaciones según heurísticas
 
 En esta sección se presenta la evaluación de User Experience según heurísticas aplicada a SafeRoute, considerando criterios de usabilidad, arquitectura de información e inclusive design. Esta evaluación toma como referencia las sesiones de validación realizadas con usuarios de los segmentos objetivo.
@@ -4780,11 +5399,48 @@ Como parte de la validación del producto, Carla Peláez, representante del segm
 
 Además, sugirió incorporar un período de prueba para que los nuevos usuarios puedan familiarizarse con la plataforma antes de adquirir el servicio, aportando una oportunidad de mejora para futuras iteraciones del producto.
 
-## Conclusiones
+### Conclusiones
 
-### Conclusiones y recomendaciones
+#### Conclusiones finales
 
-Durante el Sprint 3, el equipo logró avanzar en la preparación de la capa de Web Services de SafeRoute, estableciendo la base necesaria para el desarrollo del backend del sistema. Los principales avances estuvieron relacionados con la creación del repositorio backend, configuración inicial del proyecto, instalación de dependencias y definición de la estructura arquitectónica que soportará la implementación de los servicios REST en los siguientes sprints. Estos avances permitieron consolidar una base técnica organizada y escalable para la futura integración entre la Web Application y la lógica de negocio del sistema.
+Al finalizar el desarrollo de SafeRoute, el equipo pudo contrastar los elementos definidos durante el proceso Lean UX con los resultados obtenidos en las etapas de implementación y validación del producto. La comparación entre los **Problem Statements**, **Assumptions**, **Hypothesis Statements** y los hallazgos de validación permitió comprobar que la problemática identificada inicialmente se mantiene vigente y que la solución desarrollada responde de manera coherente a las necesidades de los segmentos objetivo.
+
+En el **Problem Statement**, se identificó que el transporte escolar privado en el Perú opera de forma tradicional, con una alta dependencia de llamadas telefónicas, mensajes de WhatsApp y registros manuales. Esta situación genera incertidumbre en los padres de familia y carga operativa en los transportistas, quienes no cuentan con herramientas digitales especializadas para gestionar rutas, alumnos, incidencias y comunicación. Los resultados obtenidos durante el desarrollo y validación confirmaron esta problemática, ya que los usuarios valoraron especialmente la posibilidad de contar con mayor visibilidad del trayecto, trazabilidad de eventos y una comunicación más ordenada.
+
+Respecto a los **Assumptions**, se planteó que los padres adoptarían la plataforma si esta les proporcionaba información clara y confiable sobre el traslado de sus hijos. Asimismo, se asumió que los transportistas utilizarían SafeRoute si la interfaz era sencilla y les permitía reducir la carga operativa durante el recorrido. Estas suposiciones fueron validadas durante las entrevistas y pruebas de uso, ya que los usuarios demostraron interés en funcionalidades como la visualización del estado del viaje, el registro de abordaje, las notificaciones y el reporte de incidencias. Sin embargo, también se identificó que la adopción dependerá de que la aplicación mantenga una experiencia simple, rápida y estable, especialmente para conductores que deben operar el sistema en contextos de alta presión.
+
+En relación con las **Hypothesis Statements**, se planteó que los padres reducirían su incertidumbre mediante una vista del estado del trayecto, que los conductores gestionarían mejor el servicio mediante herramientas digitales simples y que los administradores centralizarían su operación mediante un panel único. La versión final implementada de SafeRoute permitió comprobar la viabilidad técnica de estas hipótesis, ya que se desarrollaron e integraron funcionalidades asociadas a perfiles, rutas, vehículos, estudiantes, viajes, asistencias, incidencias, notificaciones, planes y suscripciones. Además, la eliminación del Mock API y la integración directa con el RESTful API real permitió validar el comportamiento del producto en un entorno más cercano al uso real.
+
+Los resultados de validación evidenciaron que SafeRoute aporta valor principalmente en tres aspectos: **visibilidad**, **organización** y **confianza**. Para los padres, la plataforma representa una forma de reducir la incertidumbre durante el traslado escolar. Para los conductores, permite ordenar la operación diaria mediante registros digitales y flujos estructurados. Para los administradores, facilita la centralización de información clave sobre usuarios, rutas, vehículos y servicios. Esto confirma que la propuesta de valor se encuentra alineada con los hallazgos del Needfinding y con las necesidades detectadas en los segmentos objetivo.
+
+A nivel técnico, el proyecto permitió consolidar una solución web distribuida compuesta por una Landing Page, una Web Application y un Backend RESTful API. La versión final fue desplegada en entornos cloud, integrando el frontend con el backend real y eliminando la dependencia de servicios simulados. Esta evolución permitió demostrar que SafeRoute no solo fue diseñado como una propuesta conceptual, sino también implementado como una solución funcional con servicios documentados mediante Swagger/OpenAPI.
+
+Finalmente, el proceso de mejora continua permitió corregir observaciones recibidas en entregas anteriores, especialmente en aspectos de documentación, despliegue, validación, comunicación oral y escrita, y coherencia entre artefactos. La versión final del informe y del producto refleja una mayor alineación entre el problema identificado, las hipótesis planteadas, el backlog desarrollado, la arquitectura implementada y los resultados obtenidos durante la validación.
+
+**Comparación entre Lean UX y resultados obtenidos**
+
+| Elemento Lean UX | Planteamiento inicial | Resultado obtenido | Conclusión |
+|---|---|---|---|
+| Problem Statement | Los padres no cuentan con visibilidad sobre el trayecto escolar y los transportistas gestionan su operación con herramientas informales. | La validación confirmó que la falta de información y trazabilidad genera preocupación en los padres y carga operativa en los conductores. | La problemática inicial fue validada y se mantiene como una necesidad real del mercado objetivo. |
+| Assumption 1 | Los padres adoptarán la plataforma si reciben información clara y confiable sobre el trayecto de sus hijos. | Los usuarios valoraron funcionalidades como monitoreo, confirmación de llegada, alertas e información del estado del viaje. | La suposición fue validada parcialmente, ya que existe interés siempre que la experiencia sea simple y confiable. |
+| Assumption 2 | Los transportistas adoptarán la plataforma si la interfaz operativa es rápida y no interfiere con la conducción. | Se priorizaron flujos como inicio de trayecto, marcación de abordaje, reporte de incidencias y finalización de ruta. | La suposición fue validada como criterio clave de diseño: la solución debe reducir carga operativa, no aumentarla. |
+| Assumption 3 | Los administradores centralizarán la operación si cuentan con un panel para gestionar usuarios, rutas y recursos. | Se implementaron módulos para perfiles, padres, estudiantes, conductores, vehículos, rutas, asignaciones y suscripciones. | La suposición fue respaldada por la implementación final, ya que el sistema permite centralizar la información operativa. |
+| Hypothesis 1 | Los padres reducirán su incertidumbre usando una vista del estado del trayecto. | Se implementaron funcionalidades de monitoreo, notificaciones y consulta del estado del servicio. | La hipótesis fue técnicamente viable y se validó como una funcionalidad de alto valor para el segmento padre. |
+| Hypothesis 2 | Los conductores gestionarán el trayecto con menos errores mediante una interfaz para abordajes, paradas e incidencias. | Se desarrollaron servicios y vistas relacionadas con viajes, asistencias, incidencias y actualización de estados. | La hipótesis fue respaldada por la implementación, aunque requiere futuras pruebas con mayor cantidad de conductores reales. |
+| Hypothesis 3 | Los administradores centralizarán la gestión mediante un panel único. | Se integraron bounded contexts relacionados con Stakeholder, Fleet, Trip, Subscription, IAM y Notifications. | La hipótesis fue validada desde el alcance funcional, ya que el sistema articula los módulos principales de la operación. |
+| Hypothesis 4 | Los administradores percibirán valor en planes superiores si las funcionalidades reducen el tiempo de coordinación. | Se implementó el bounded context de Subscription and Plan Management para soportar planes y suscripciones. | La hipótesis quedó preparada para validación futura con métricas reales de adopción, conversión y upgrade. |
+
+#### Recomendaciones
+
+Se recomienda continuar validando SafeRoute con una mayor cantidad de usuarios representantes de los segmentos objetivo, especialmente conductores y padres de familia que utilicen servicios de transporte escolar de forma recurrente. Esto permitiría obtener métricas más precisas sobre adopción, facilidad de uso, reducción de incertidumbre y percepción de valor.
+
+También se recomienda fortalecer las pruebas de uso en escenarios reales de operación, considerando condiciones como baja conectividad, tráfico, cambios de ruta, retrasos y necesidad de respuesta rápida ante incidencias. Estos escenarios son críticos para confirmar si la plataforma realmente reduce la carga operativa del conductor y mejora la experiencia del padre de familia.
+
+A nivel técnico, se recomienda continuar mejorando la integración entre frontend y backend, reforzando validaciones, manejo de errores, seguridad, control de roles y rendimiento de los endpoints. Asimismo, sería conveniente incorporar pruebas automatizadas para asegurar la estabilidad de los servicios RESTful y facilitar la evolución futura del sistema.
+
+Finalmente, se recomienda ampliar progresivamente las funcionalidades de monitoreo, analítica e historial operativo, ya que estos elementos pueden incrementar el valor percibido por administradores y transportistas. De esta manera, SafeRoute podría evolucionar hacia una solución más robusta para la digitalización del transporte escolar privado.
+
+
 
 ### Video About-the-Team
 
@@ -4822,6 +5478,190 @@ El video también resume la evolución del proyecto desde la identificación de 
 | 00:05:27         | Logros y competencias alcanzadas              | Reflexión final sobre el fortalecimiento de habilidades de comunicación, documentación técnica, trabajo colaborativo y desarrollo profesional.                         |
 | 00:06:00         | Cierre                                        | Conclusiones finales sobre SafeRoute y la experiencia adquirida por el equipo FiveTech.                                                                                |
 
+## Service Terms & Conditions and Privacy Protection
+
+SafeRoute es una plataforma web orientada a la gestión y monitoreo del transporte escolar, por lo que el tratamiento responsable de la información de los usuarios es un aspecto fundamental de la propuesta. Debido a que la solución involucra datos de padres de familia, conductores, estudiantes, rutas, asistencia y ubicación del vehículo, el equipo considera necesario comunicar los principales términos de uso del servicio y las medidas de protección de privacidad contempladas para el producto.
+
+Esta sección presenta los lineamientos generales de **Service Terms & Conditions** y **Privacy Protection** definidos para SafeRoute. Su propósito es informar de manera clara cómo se espera que los usuarios utilicen la plataforma, qué responsabilidades asume cada rol y qué tipo de información debe ser protegida durante el uso del sistema.
+
+### Service Terms & Conditions
+
+Los términos y condiciones de SafeRoute establecen las reglas generales para el uso de la plataforma por parte de los usuarios registrados. El acceso a la Web Application implica que el usuario comprende el propósito del servicio y acepta utilizar la plataforma únicamente para fines relacionados con la gestión y monitoreo del transporte escolar.
+
+SafeRoute está diseñada para apoyar la digitalización del servicio de movilidad escolar, permitiendo centralizar información de rutas, alumnos, conductores, asistencia, viajes y monitoreo. La plataforma no reemplaza las obligaciones legales, operativas o de seguridad que corresponden a los responsables reales del servicio de transporte escolar.
+
+### User Roles and Responsibilities
+
+SafeRoute considera tres roles principales dentro de la experiencia del usuario: **Administrator**, **Driver** y **Parent**. Cada rol tiene responsabilidades específicas para garantizar el uso correcto de la plataforma.
+
+| Rol               | Responsabilidades principales                                                                                                                                                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Administrator** | Registrar y mantener actualizada la información de usuarios, conductores, estudiantes, vehículos y rutas. También es responsable de gestionar la suscripción del servicio y asegurar que los usuarios registrados correspondan a personas autorizadas.                            |
+| **Driver**        | Utilizar la plataforma durante la operación del servicio escolar para revisar rutas asignadas, controlar alumnos, registrar abordajes y consultar información operativa del viaje. Debe usar la herramienta de forma responsable, evitando acciones que distraigan la conducción. |
+| **Parent**        | Consultar la información del traslado escolar de su hijo, revisar el estado del viaje, historial de asistencia y datos de perfil. Debe mantener sus credenciales seguras y utilizar la información únicamente para fines relacionados con el servicio escolar.                    |
+
+### Acceptable Use of the Platform
+
+Los usuarios de SafeRoute deben utilizar la plataforma de forma ética, responsable y vinculada al propósito del servicio. No se permite el uso de la información para fines ajenos al monitoreo, gestión o coordinación del transporte escolar.
+
+El usuario se compromete a:
+
+* Usar la plataforma únicamente con credenciales autorizadas.
+* No compartir información de estudiantes, padres o conductores con terceros no autorizados.
+* No manipular, alterar o registrar información falsa dentro del sistema.
+* No intentar acceder a cuentas, rutas o datos que no le corresponden.
+* No usar la información de ubicación para fines distintos al monitoreo del servicio escolar.
+* Cerrar sesión cuando utilice dispositivos compartidos.
+* Reportar al administrador cualquier error, acceso indebido o comportamiento sospechoso dentro de la plataforma.
+
+### Subscription and Service Access
+
+SafeRoute contempla un modelo de servicio basado en planes de suscripción. La gestión de planes corresponde principalmente al rol **Administrator**, quien puede revisar el estado de la suscripción y acceder a las opciones disponibles según el alcance contratado.
+
+El acceso a determinadas funcionalidades puede depender del plan activo. En caso una función no esté disponible para el usuario, la plataforma debe comunicarlo de forma clara, evitando generar confusión o expectativas incorrectas.
+
+### Privacy Protection
+
+La protección de la privacidad es un componente esencial de SafeRoute debido a que la plataforma gestiona información sensible relacionada con menores de edad, padres de familia, conductores y rutas escolares.
+
+SafeRoute considera como principio general la recolección mínima de datos necesarios para cumplir con el propósito del servicio. La información registrada debe utilizarse exclusivamente para facilitar la gestión, monitoreo y trazabilidad del transporte escolar.
+
+
+### Personal Data Collected
+
+SafeRoute puede manejar los siguientes tipos de datos dentro de la plataforma:
+
+| Tipo de dato             | Ejemplos                                                                                      | Finalidad                                                                              |
+| ------------------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Datos de cuenta**      | Nombre, correo electrónico, rol de usuario, credenciales de acceso.                           | Permitir autenticación, identificación del usuario y control de acceso según rol.      |
+| **Datos de estudiantes** | Nombre del estudiante, relación con el padre, estado de asistencia o abordaje.                | Permitir el monitoreo del traslado escolar y el control de asistencia durante la ruta. |
+| **Datos de conductor**   | Nombre, rol, rutas asignadas, información operativa del viaje.                                | Gestionar la ejecución del servicio de transporte escolar.                             |
+| **Datos de ruta**        | Paradas, horarios, estado del viaje, recorrido asignado.                                      | Facilitar la organización y seguimiento del trayecto escolar.                          |
+| **Datos de ubicación**   | Posición del vehículo o referencia de seguimiento en mapa.                                    | Permitir que padres y administradores visualicen el estado del traslado escolar.       |
+| **Datos técnicos**       | Información básica de sesión, navegador, idioma seleccionado o interacción con la plataforma. | Mejorar la seguridad, trazabilidad y funcionamiento del sistema.                       |
+
+
+
+### Protection of Minors’ Data
+
+SafeRoute reconoce que la información relacionada con estudiantes requiere un tratamiento especialmente cuidadoso. Por ello, la plataforma debe limitar la visualización de datos de menores únicamente a usuarios autorizados, como padres vinculados, conductores asignados y administradores responsables del servicio.
+
+La información de estudiantes no debe mostrarse públicamente ni compartirse con usuarios que no formen parte del servicio autorizado. Asimismo, cualquier visualización de asistencia, abordaje, llegada o historial debe estar protegida mediante autenticación y control de acceso por rol.
+
+
+### Location and GPS Data
+
+El uso de información de ubicación tiene como finalidad principal brindar visibilidad sobre el estado del traslado escolar. Esta información permite que el padre de familia conozca el avance del viaje, la ubicación del vehículo o el estado general del recorrido.
+
+SafeRoute debe utilizar los datos de ubicación únicamente dentro del contexto del servicio escolar. La ubicación no debe emplearse para fines comerciales externos, vigilancia no autorizada o seguimiento fuera del propósito de la ruta escolar.
+
+Para proteger esta información, la plataforma debe considerar:
+
+* Acceso restringido según rol.
+* Visualización de ubicación solo durante viajes o rutas autorizadas.
+* Uso de datos de ubicación con fines de monitoreo escolar.
+* Comunicación clara al usuario sobre el propósito del seguimiento.
+* Evitar exposición pública de rutas, paradas o ubicación del vehículo.
+
+
+### Informed Consent
+
+Debido a que SafeRoute involucra datos relacionados con estudiantes menores de edad, el uso de la plataforma debe considerar el consentimiento informado del padre, madre, apoderado o responsable autorizado.
+
+El consentimiento informado implica que el usuario comprende:
+
+* Qué información será registrada.
+* Para qué será utilizada.
+* Quiénes podrán visualizarla.
+* Qué beneficios ofrece la plataforma.
+* Qué limitaciones tiene el servicio.
+* Cómo puede solicitar corrección o actualización de sus datos.
+
+
+### Cookies and Local Storage Policy
+
+SafeRoute utiliza cookies, almacenamiento local (**Local Storage**) y tecnologías similares en el Landing Page y la Web Application para mejorar la experiencia del usuario, recordar preferencias básicas y permitir el funcionamiento técnico de la sesión.
+
+A diferencia de las cookies tradicionales, la plataforma utiliza principalmente el almacenamiento local del navegador del usuario para mantener la persistencia de la sesión de forma eficiente dentro de la Web Application.
+
+Estas tecnologías se utilizan específicamente para:
+
+* **Gestión de sesión:** almacenar de forma local el token de autenticación (`saferoute.token`) y los datos de perfil básicos del usuario (`saferoute.user`) tras iniciar sesión, permitiendo el acceso a los paneles correspondientes sin requerir credenciales en cada interacción.
+* **Preferencias del usuario:** recordar configuraciones personalizadas del sistema, como la selección de idioma (`saferoute-language`).
+* **Optimización de experiencia:** facilitar una navegación más fluida dentro del Landing Page y la Web Application, reduciendo la repetición de configuraciones básicas.
+* **Soporte técnico de seguridad:** apoyar el control de sesión y el acceso a secciones protegidas según el rol del usuario.
+
+Los datos almacenados localmente deben utilizarse únicamente para el funcionamiento de la plataforma. Al cerrar sesión, la aplicación debe eliminar o invalidar la información de sesión almacenada localmente para evitar accesos no autorizados desde dispositivos compartidos.
+
+En caso de integrar herramientas de análisis o servicios externos de terceros que utilicen cookies de seguimiento, SafeRoute lo comunicará claramente al usuario, permitiéndole conocer el propósito de dichas tecnologías y gestionar sus consentimientos según corresponda.
+
+
+### Third-Party Services
+
+SafeRoute puede integrarse con servicios externos necesarios para su funcionamiento, como servicios de mapas, servicios de despliegue en la nube, autenticación, almacenamiento, documentación de API o herramientas de video utilizadas para evidencias académicas.
+
+El uso de servicios de terceros debe estar alineado con el propósito de la solución. En caso estos servicios procesen información técnica o datos vinculados a la operación de la plataforma, se debe procurar que su uso respete criterios de seguridad, privacidad y confiabilidad.
+
+Ejemplos de servicios de terceros considerados en el proyecto:
+
+* Servicios de hosting o despliegue cloud para Landing Page, Web Application y Backend.
+* Servicios de mapas o visualización de rutas.
+* Herramientas de documentación de API como Swagger/OpenAPI.
+* Repositorios de control de versiones para trazabilidad del desarrollo.
+* Plataformas de video utilizadas para evidencias de validación o exposición académica.
+
+
+### Information Security Measures
+
+Para proteger la información gestionada por SafeRoute, se consideran las siguientes medidas de seguridad:
+
+* Autenticación de usuarios mediante credenciales.
+* Control de acceso basado en roles.
+* Separación de permisos para Administrator, Driver y Parent.
+* Uso de HTTPS en entornos desplegados.
+* Protección de endpoints del backend.
+* Validación de datos enviados por el usuario.
+* Gestión segura de credenciales y variables de entorno.
+* Eliminación o invalidación de datos de sesión al cerrar sesión.
+* Documentación de servicios mediante Swagger/OpenAPI.
+* Uso de repositorios versionados para mantener trazabilidad de cambios.
+* Restricción de acceso a información sensible según el rol del usuario.
+
+
+### User Rights and Data Management
+
+Los usuarios de SafeRoute deben poder solicitar la revisión, corrección o actualización de sus datos personales cuando detecten información incorrecta dentro de la plataforma. Asimismo, el administrador del servicio debe mantener actualizada la información de estudiantes, conductores, rutas y usuarios registrados.
+
+En futuras iteraciones, SafeRoute podrá incorporar mecanismos más avanzados para que los usuarios gestionen sus preferencias de privacidad, revisen permisos asociados a su cuenta o soliciten la eliminación de información que ya no sea necesaria para la prestación del servicio.
+
+### Privacy by Design Considerations
+
+SafeRoute aplica el principio de privacidad desde el diseño, considerando que la experiencia del usuario debe ser clara, segura y comprensible desde las primeras etapas del producto.
+
+Las decisiones de diseño deben procurar que:
+
+* El usuario comprenda qué información está visualizando.
+* La información sensible no se muestre fuera del contexto necesario.
+* Las pantallas eviten exponer datos innecesarios.
+* Las etiquetas y mensajes sean claros para usuarios con distintos niveles de experiencia digital.
+* La plataforma brinde confianza a padres, conductores y administradores.
+* La información de menores sea tratada con especial cuidado.
+* El almacenamiento local sea utilizado solo para datos necesarios de sesión y preferencias.
+
+### Communication of Privacy and Terms Information
+
+SafeRoute comunica los lineamientos de **Service Terms & Conditions**, **Privacy Protection** y **Cookies and Local Storage Policy** dentro del informe del proyecto como parte de la documentación formal de la propuesta.
+
+En la versión actual del producto, estos lineamientos se presentan a nivel documental para explicar el tratamiento de datos personales, datos de menores, ubicación, roles de usuario y almacenamiento local del navegador. Esta información permite evidenciar que la solución considera aspectos de privacidad y uso responsable de la plataforma.
+
+Como mejora futura, se recomienda incorporar accesos visibles a **Terms & Conditions**, **Privacy Policy** y **Cookies and Local Storage Policy** dentro del Landing Page, preferentemente en el footer o en una sección informativa cercana al llamado a la acción. Esto permitiría que visitantes, padres, conductores y administradores puedan revisar las condiciones generales del servicio antes de registrarse o iniciar sesión.
+### Summary
+
+La inclusión de Service Terms & Conditions y Privacy Protection fortalece la comunicación de SafeRoute como una plataforma web responsable, especialmente porque el producto trabaja con información relacionada con transporte escolar, menores de edad, ubicación del vehículo y datos de usuarios registrados.
+
+Estos lineamientos permiten comunicar de forma clara cómo se espera que los usuarios utilicen la plataforma, qué responsabilidades tiene cada rol, qué tecnologías se utilizan para la sesión del usuario y qué medidas se consideran para proteger la privacidad dentro del ecosistema digital de SafeRoute.
+
+
 ## Bibliografía
 
 - Autoridad de Transporte Urbano para Lima y Callao. (2024). _Cifra de movilidades escolares autorizadas disminuyó en 25% en un año_. El Comercio. Recuperado el 9 de abril de 2026, de https://elcomercio.pe/lima/cifra-de-movilidades-escolares-autorizadas-disminuyo-en-25-en-un-ano-a-que-se-debe-esta-reduccion-informe-movilidad-escolar-noticia/
@@ -4834,10 +5674,27 @@ El video también resume la evolución del proyecto desde la identificación de 
 
 #### A. Despliegues y Servicios API
 
-- **Web Application (Frontend):** [https://agreeable-moss-0a72b2c0f.7.azurestaticapps.net/routes-management/routes](https://agreeable-moss-0a72b2c0f.7.azurestaticapps.net/routes-management/routes)
+- **Web Application (Frontend):** [https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in](https://polite-hill-08013890f.7.azurestaticapps.net/iam/sign-in)
+
+- Usuario Administrador:
+ usuario: admin@saferoute.pe
+ contraseña: admin123
+
+- Usuario Pariente:
+  usario: parent@saferoute.pe
+  contraseña: parent123
+
+- Usuario Conductor:
+  usuario: driver@saferoute.pe
+  contraseña: driver123
+
 - **Landing Page:** [https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/](https://upc-pre-202610-1asi0729-11896-fivetech.github.io/saferoute-website/)
-- **JSON Server (Mock API):** [https://saferoute-mock-api.azurewebsites.net/](https://saferoute-mock-api.azurewebsites.net/)
-- **Backend Platform (Backend):** [https://saferoute-os.azurewebsites.net/](https://saferoute-os.azurewebsites.net/)
+
+- **Backend Platform (Backend):** [https://saferoute-os.azurewebsites.net/swagger-ui/index.html](https://saferoute-os.azurewebsites.net/swagger-ui/index.html)
+
+- Datos de acceso para el swagger
+  usuario: admin
+  contraseña: admin
 
 #### B. Repositorios de GitHub (Organización FiveTech)
 
